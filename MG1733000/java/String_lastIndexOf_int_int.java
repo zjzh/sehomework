@@ -10,6 +10,7 @@ public class String_lastIndexOf_int_int {
     /**
      * input: 2
      * class0 class0="hello"
+     * ch ch=101
      * fromIndex fromIndex=2
      * output: 1
      * ret0  ret0=1
