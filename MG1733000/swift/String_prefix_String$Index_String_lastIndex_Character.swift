@@ -1,4 +1,4 @@
-﻿/**类名$方法名(_形参类型)
+﻿/**类名_方法名(_形参类型)
  * @author: zhangzejun
  *  @className: String_prefix_String$Index__String_lastIndex_Character
  *  @apiSignature: String$func prefix(through position: String.Index) -> Substring;String$func lastIndex(of element: Character) -> String.Index?
@@ -16,7 +16,7 @@ class String_prefix_String$Index__String_lastIndex_Character{
      *ouput : 2
      *ret0 ret0="hel"
      *ret1 String.Index$ret1
-     *String.Index$through-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & String.Index=String$startIndex;offsetBy=2 & https://stackoverflow.com/questions/32967445/how-to-check-what-a-string-starts-with-prefix-or-ends-with-suffix-in-swift
+     *String.Index$through-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex;offsetBy=2 & https://stackoverflow.com/questions/32967445/how-to-check-what-a-string-starts-with-prefix-or-ends-with-suffix-in-swift
      */
     static func prefix_lastIndex0(){
         print(">>>>>>>>")
