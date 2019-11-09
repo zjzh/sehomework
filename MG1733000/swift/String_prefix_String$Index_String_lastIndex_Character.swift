@@ -3,7 +3,7 @@
  *  @className: String_prefix_String$Index__String_lastIndex_Character
  *  @apiSignature: String$func prefix(through position: String.Index) -> Substring;String$func lastIndex(of element: Character) -> String.Index?
  *  @description: Test swift api String$prefix(through position: String.Index);String$lastIndex(of element: Character)
- *  @Map: java.io.PrintStream$public void print(String s)
+ *  @Map: java.lang.String$public int lastIndexOf(int ch, int fromIndex)
  */
 
 import Foundation
@@ -12,7 +12,7 @@ class String_prefix_String$Index__String_lastIndex_Character{
      *input : 3
      *class0 class0="hello"
      *through String.Index$through
-     *element element="e"
+     *of of="e"
      *ouput : 2
      *ret0 ret0="hel"
      *ret1 String.Index$ret1
@@ -35,7 +35,7 @@ class String_prefix_String$Index__String_lastIndex_Character{
      *input : 3
      *class0 class0="hello"
      *through String.Index$through
-     *element element="o"
+     *of of="o"
      *ouput:2
      *ret0 ret0="hel"
      *ret1 String.Index$ret1=nil
