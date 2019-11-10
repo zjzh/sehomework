@@ -8,7 +8,7 @@
 import Foundation
 class OutputStream_write_UnsafePointer_Int{
      /**
-     * input: 2
+     * input: 3
      * class0 OutputStream$class0
      * buffer buffer="123"
      * maxLength maxLength=3
