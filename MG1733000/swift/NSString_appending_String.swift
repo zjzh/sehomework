@@ -11,7 +11,7 @@ class NSString_appending_String{
      /**
      * input: 2
      * class0 class0="hello"
-     * str aString="world"
+     * aString aString="world"
      * output: 1
      * ret0  ret0="helloworld"
      */
