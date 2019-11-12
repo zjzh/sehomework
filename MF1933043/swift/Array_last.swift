@@ -16,8 +16,8 @@ class Array_last{
      */
     static func last0(){
         let class0 = [0, 1, 2]
-		let ret0 = class0.last()
-		assert(ret0=="2")
+		let ret0 = class0.last
+		assert(ret0==2)
 		print(ret0)
     }
 	
@@ -27,13 +27,13 @@ class Array_last{
 	 * output: 1
 	 * ret0 ret0=nil	 
      */
+	
     static func last1(){
-        let class0 = []
-		let ret0 = class0.last()
+        var class0:[Int] = []
+		let ret0 = class0.last
 		assert(ret0==nil)
 		print(ret0)
     }
-   
 }
 
 Array_last.last0()
