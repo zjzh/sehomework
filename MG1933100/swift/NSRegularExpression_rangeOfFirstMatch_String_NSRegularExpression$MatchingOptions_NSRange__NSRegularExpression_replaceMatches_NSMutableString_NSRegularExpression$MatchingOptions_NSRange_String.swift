@@ -14,7 +14,7 @@ class NSRegularExpression_rangeOfFirstMatch_String_NSRegularExpression$MatchingO
     * class0 class0=NSRegularExpression$class0
     * in str="example"
     * replacement replacement="0"
-    * output: 2
+    * output: 1
     * ret0 ret0=1
     * NSRegularExpression$class0-try? NSRegularExpression(pattern: String, options: NSRegularExpression.MatchingOptions) & pattern="ex" & options=[] https://www.jianshu.com/p/d9291b8770a7
     */
