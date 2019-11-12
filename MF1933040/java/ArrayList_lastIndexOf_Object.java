@@ -1,0 +1,52 @@
+/**类名_方法名(_形参类型)*
+ * @author: MF1933040贾晓玉
+ *  @className: ArrayList_lastIndexOf_Object
+ *  @apiSignature: java.util.ArrayList$public int lastIndexOf(Object o)
+ *  @description: Test java api  java.util.ArrayList$public int lastIndexOf(Object o)
+ *  @Map: Array$func lastIndex(of element: Element) -> Int?
+ */
+import java.util.ArrayList;
+public class ArrayList_lastIndexOf_Object {
+    /**
+     * input: 2
+     * class0 class0=["hello", "world"]
+     * object object="hello"
+     * output: 1
+     * ret0  ret0=0
+     */
+    public  static void lastIndexOf0(){
+        System.out.println(">>>>>>>>>>>>");
+        ArrayList<String> class0= new ArrayList<String>();
+        class0.add("hello");
+        class0.add("world");
+        System.out.println(class0);
+        String object = "hello";
+        int ret0 = class0.lastIndexOf(object);
+        assert (ret0 == 1);
+        System.out.println(ret0);
+
+    }
+    /**
+     * input: 2
+     * class0 class0=["hello", "world"]
+     * object object="who"
+     * output: 1
+     * ret0 ret0=-1
+     */
+    public  static void lastIndexOf1(){
+    	System.out.println(">>>>>>>>>>>>");
+        ArrayList<String> class0= new ArrayList<String>();
+        class0.add("hello");
+        class0.add("world");
+        System.out.println(class0);
+        String object = "who";
+        int ret0 = class0.lastIndexOf(object);
+        assert (ret0 == -1);
+        System.out.println(ret0);
+    }
+    public static void main(String[] args) {
+        ArrayList_lastIndexOf_Object.lastIndexOf0();
+        ArrayList_lastIndexOf_Object.lastIndexOf1();
+
+    }
+}
