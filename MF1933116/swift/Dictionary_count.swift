@@ -6,7 +6,7 @@
  *  @Map: java.util.HashMap$public int size()
 */
 class Dictionary_count{
-	  /**
+    /**
      * input: 0
      * output: 1
      * ret0  ret0 = 3
@@ -17,19 +17,19 @@ class Dictionary_count{
         assert(ret0 == 3)
         print(ret0)
     }
-	  /**
+    /**
      * input: 0
      * output: 1
      * ret0  ret0 = 3
      */
     static func count1(){
         var someDict0:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
-		    someDict0.updateValue("Ones", forKey: 1)
+        someDict0.updateValue("Ones", forKey: 1)
         var ret0=someDict0.count
         assert(ret0 == 3)
         print(ret0)
     }
-	  /**
+    /**
      * input: 0
      * output: 1
      * ret0  ret0 = 0
