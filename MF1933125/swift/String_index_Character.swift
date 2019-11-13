@@ -1,0 +1,47 @@
+/**类名_方法名(_形参类型)
+ * @author: MF1933125 赵耀
+ *  @className: String_index_Character
+ *  @apiSignature: String$func index(of element: Character) -> String.Index?
+ *  @description: Test swift api String$func index(of element: Character)
+ *  @Map: java.lang.String$public int indexOf(int ch)
+ */
+import Foundation
+class String_index_Character{
+    /**
+	∗ input:1
+	∗ class0 cclass0 = "this is an example"
+    * of of = "i"
+    * output: 1
+    * ret0  ret0=Index(_rawBits: 65793)
+    */
+    static func index0(){
+		print(">>>>>>>>>>")
+		let class0 = "this is an example"
+		let _of: Character = "h"
+		let ret0 = class0.index(of: _of) 
+		assert(class0=="this is an example")
+		assert(_of==Character("h"))
+		print(ret0!)
+	}
+    
+    /**
+	∗ input:1
+	∗ class0 cclass0 = "this is an example"
+    * of of = "b"
+    * output: 1
+    * ret0  ret0=nil
+    */	
+    static func index1(){
+		print(">>>>>>>>>>")
+		let class0 = "this is an example"
+		let _of: Character = "b"
+		let ret0 = class0.index(of: _of)
+		assert(class0=="this is an example")
+		assert(_of==Character("b"))
+		print(ret0)
+	}	
+}
+
+
+String_index_Character.index0()
+String_index_Character.index1()
