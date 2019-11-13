@@ -15,7 +15,7 @@ public class Integer_signum_int {
     public  static void signum0(){
         System.out.println(">>>>>>>>>>>>");
         int i=2;
-	    int ret0=Integer.signum(i);
+	int ret0=Integer.signum(i);
         assert (ret0==1);
         System.out.println(ret0);
 
@@ -43,15 +43,15 @@ public class Integer_signum_int {
     public  static void signum2(){
         System.out.println(">>>>>>>>>>>>");
         int i=0;
-	    int ret0=Integer.signum(i);
+	int ret0=Integer.signum(i);
         assert (ret0==0);
         System.out.println(ret0);
 
     }
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         Integer_signum_int.signum0();
         Integer_signum_int.signum1();
-	    Integer_signum_int.signum2();
+	Integer_signum_int.signum2();
 
     }
 }
