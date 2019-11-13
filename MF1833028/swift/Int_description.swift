@@ -17,7 +17,7 @@ class Int_description{
     static func description0(){
         print(">>>>>>>>")
         var class0=123
-        var ret0=class0.description()
+        var ret0=class0.description
         assert (class0==123)
         assert (ret0=="123")
         print(ret0)

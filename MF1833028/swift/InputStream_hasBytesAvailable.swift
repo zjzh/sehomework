@@ -25,7 +25,7 @@ class InputStream_hasBytesAvailable{
         out!.close()
         var class0=InputStream(fileAtPath:toFileAtPath)
         class0!.open()
-        var ret0=class0!.hasBytesAvailable0
+        var ret0=class0!.hasBytesAvailable
         assert(ret0==true)
         print(ret0)
     }

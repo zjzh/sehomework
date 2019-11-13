@@ -8,10 +8,10 @@
 import Foundation
 
 class String_init_value_Int_Bool{
-     /**
+    /**
      * input: 4
      * class0 String$class0
-     * value value=1111011
+     * value value=123
      * radix radix=10
      * uppercase uppercase=false
      * output: 1
@@ -19,12 +19,12 @@ class String_init_value_Int_Bool{
      */
     static func init0(){
         print(">>>>>>>>")
-        var value=1111011
+        var value=123
         var radix=10
         var uppercase=false
         var class0:String
-        var ret0=class0.init(value,radix,uppercase)
-        assert (value==1111011)
+        var ret0=type(of:class0).init(value,radix:radix,uppercase:uppercase)
+        assert (value==123)
         assert (radix==10)
         assert (uppercase==false)
         assert (ret0=="123")

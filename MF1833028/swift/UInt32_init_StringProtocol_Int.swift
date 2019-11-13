@@ -21,8 +21,8 @@ class UInt32_init_StringProtocol_Int{
         var class0:UInt32=0
         var text="4294967295"
         var radix=10
-        var ret0=class0.init(text,radix:radix)
-        assert (class0==2)
+        var ret0=type(of: class0).init(text,radix:radix)!
+        assert (class0==0)
         assert (text=="4294967295")
         assert (radix==10)
         assert (ret0==4294967295)

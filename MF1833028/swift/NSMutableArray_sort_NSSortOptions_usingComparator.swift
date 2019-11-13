@@ -12,13 +12,13 @@ class NSMutableArray_sort_NSSortOptions_usingComparator{
      * input: 3
      * class0 class0=[3,1,2,4,5]
      * opts opts=[]
-     * cmptr cmptr={  (s1:AnyObject!,s2:AnyObject!)->NSComparisonResult in  
-            var str1=s1 as String  
-            var str2=s2 as String  
+     * cmptr cmptr={  (s1:Any,s2:Any)->ComparisonResult in
+            var str1=s1 as! Int
+            var str2=s2 as! Int
             if str1<str2{  
-                return NSComparisonResult.OrderedAscending  
+                return ComparisonResult.orderedAscending
             }else{  
-                return NSComparisonResult.OrderedDescending  
+                return ComparisonResult.orderedDescending
             }  
         } 
      * output: 1
@@ -28,14 +28,14 @@ class NSMutableArray_sort_NSSortOptions_usingComparator{
         print(">>>>>>>>")
         var class0:NSMutableArray=[3,1,2,4,5]
         var opts:NSSortOptions=[]
-        var cmptr={  (s1:AnyObject!,s2:AnyObject!)->NSComparisonResult in  
-            var str1=s1 as String  
-            var str2=s2 as String  
-            if str1<str2{  
-                return NSComparisonResult.OrderedAscending  
-            }else{  
-                return NSComparisonResult.OrderedDescending  
-            }  
+        var cmptr={  (s1:Any,s2:Any)->ComparisonResult in
+                                    var str1=s1 as! Int
+                                    var str2=s2 as! Int
+                                    if str1<str2{
+                                                return ComparisonResult.orderedAscending
+                                        }else{
+                                                return ComparisonResult.orderedDescending
+                                        }
         }
         assert (class0==[3,1,2,4,5])   
         class0.sort(opts:opts,cmptr:cmptr)

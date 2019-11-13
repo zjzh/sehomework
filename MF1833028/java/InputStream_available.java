@@ -27,6 +27,7 @@ import java.io.*;
             int ret0=in.available();
             assert (ret0==1);
             System.out.println(ret0);
+            in.close();
         } catch (IOException e) {
         }
     }

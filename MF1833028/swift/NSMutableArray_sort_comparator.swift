@@ -8,35 +8,35 @@
 import Foundation
 
 class NSMutableArray_sort_comparator{
-     /**
+    /**
      * input: 2
      * class0 class0=[3,1,2,4,5]
-     * cmptr cmptr={  (s1:AnyObject!,s2:AnyObject!)->NSComparisonResult in  
-            var str1=s1 as String  
-            var str2=s2 as String  
-            if str1<str2{  
-                return NSComparisonResult.OrderedAscending  
-            }else{  
-                return NSComparisonResult.OrderedDescending  
-            }  
-        } 
+     * comparator comparator={  (s1:Any,s2:Any)->ComparisonResult in
+                             var str1=s1 as! Int
+                             var str2=s2 as! Int
+                             if str1<str2{
+                                     return ComparisonResult.orderedAscending
+                             }else{
+                                     return ComparisonResult.orderedDescending
+                             }
+     }
      * output: 1
      * ret0 ret0=[1,2,3,4,5]
      */
     static func sort0(){
         print(">>>>>>>>")
         var class0:NSMutableArray=[3,1,2,4,5]
-        var cmptr={  (s1:AnyObject!,s2:AnyObject!)->NSComparisonResult in  
-            var str1=s1 as String  
-            var str2=s2 as String  
-            if str1<str2{  
-                return NSComparisonResult.OrderedAscending  
-            }else{  
-                return NSComparisonResult.OrderedDescending  
-            }  
+        var comparator={  (s1:Any,s2:Any)->ComparisonResult in
+                                    var str1=s1 as! Int
+                                    var str2=s2 as! Int
+                                    if str1<str2{
+                                                return ComparisonResult.orderedAscending
+                                        }else{
+                                                return ComparisonResult.orderedDescending
+                                        }
         }
-        assert (class0==[3,1,2,4,5])   
-        class0.sort(cmptr:cmptr)
+        assert (class0==[3,1,2,4,5])
+        class0.sort(comparator:comparator)
         var ret0=class0
         assert (ret0==[1,2,3,4,5])
         print(ret0)

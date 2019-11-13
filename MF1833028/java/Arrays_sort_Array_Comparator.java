@@ -1,3 +1,4 @@
+import java.util.*;
 /**类名_方法名(_形参类型)
  *  @author: MF1833028 胡语诚
  *  @className: Arrays_sort_Array_Comparator
@@ -18,11 +19,11 @@ public class Arrays_sort_Array_Comparator {
     public static void sort0(){
         System.out.println(">>>>>>>>>>>>");
         Integer[] a={9,5,6,1,3,2,4,7,8,0};
-        assert (Arrays.equals(a,new int[] {9,5,6,1,3,2,4,7,8,0}));
+        assert (Arrays.equals(a,new Integer[] {9,5,6,1,3,2,4,7,8,0}));
         Comparator c=new NewComparator();
         Arrays.sort(a,c);
         Integer[] ret0 = a;
-        assert (Arrays.equals(ret0,new int[] {0,1,2,3,4,5,6,7,8,9}));
+        assert (Arrays.equals(ret0,new Integer[] {0,1,2,3,4,5,6,7,8,9}));
         for(int i=0;i<ret0.length;i++) {
 			System.out.print(ret0[i]+" ");
 		}
@@ -39,10 +40,10 @@ class NewComparator implements Comparator<Integer>{
 
 	@Override
 	public int compare(Integer o1, Integer o2) {
-		if(o1<o2) {
+		if(o1>o2) {
 			return 1;
 		}
-		else if(o1>o2) {
+		else if(o1<o2) {
 			return -1;
 			
 		}else {

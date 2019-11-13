@@ -21,7 +21,7 @@ class UInt_init_StringProtocol_Int{
         var class0:UInt=0
         var text="1"
         var radix=10
-        var ret0=class0.init(text,radix:radix)
+        var ret0=type(of: class0).init(text,radix:radix)!
         assert (class0==0)
         assert (text=="1")
         assert (radix==10)
