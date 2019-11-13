@@ -5,7 +5,6 @@
  * @description: Test swift api SInt$func signum() -> Int
  * @Map: ava.lang.Integer$public static int signum (int i)
  */
- 
  class Int_signum {
  	/**
      * input: 1
