@@ -3,7 +3,7 @@
  *  @className: Integer_numberOfTrailingZeros_int
  *  @apiSignature: java.lang.Integer$public static int numberOfTrailingZeros(int i)
  *  @description: Test java api java.lang.Integer.numberOfTrailingZeros(int i)
- *  @Map: don't have mappings
+ *  @Map: don't have mappings$ https://blog.csdn.net/weixin_39935887/article/details/85267486 Swift没有对应的numberOfTrailingZeros函数的实现，可用上面的方法达到目的
  */
     public class Integer_numberOfTrailingZeros_int {
     /**
