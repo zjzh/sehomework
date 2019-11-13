@@ -17,7 +17,7 @@ class Arrays_prefix_int$Arrays_suffix_int{
      * ret0  a=[1,2,3]
      * ret1  b=[1,2,3]
      */
-     static func prefix_suffix_init0(){
+     static func prefix_suffix0(){
         var class0=[1,2,3,4,5];
         var x=3;
         var y=3;
@@ -37,7 +37,7 @@ class Arrays_prefix_int$Arrays_suffix_int{
      * ret0  a=[1,2,3]
      * ret1  b=[2,3]
      */
-     static func prefix_suffix_init0(){
+     static func prefix_suffix0(){
         var class0=[1,2,3,4,5];
         var x=3;
         var y=2;
@@ -50,5 +50,5 @@ class Arrays_prefix_int$Arrays_suffix_int{
            assert(b[i]==i+1;
            print(b[i]);}
 }
-Arrays_prefix_int$Arrays_suffix_int.prefix_suffix_init0()
-Arrays_prefix_int$Arrays_suffix_int.prefix_suffix_init1()
+Arrays_prefix_int$Arrays_suffix_int.prefix_suffix0()
+Arrays_prefix_int$Arrays_suffix_int.prefix_suffix1()
