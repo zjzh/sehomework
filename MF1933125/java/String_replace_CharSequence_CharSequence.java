@@ -8,12 +8,12 @@
  */
 public class String_replace_CharSequence_CharSequence {
     /**
-     * input: 2
+     * input: 3
      * class0 class0="this is an example"
      * target target="is"
      * replacement replacement="IS"
      * output: 1
-     * ret0  ret0="thIS IS an example"
+     * ret0 ret0="thIS IS an example"
      */
     public static void replace0(){
         System.out.println(">>>>>>>>>>>>");
@@ -29,12 +29,12 @@ public class String_replace_CharSequence_CharSequence {
     }
 
     /**
-     * input: 2
+     * input: 3
      * class0 class0="this is an example"
      * target target="are"
      * replacement replacement="ARE"
      * output: 1
-     * ret0  ret0="this is an example"
+     * ret0 ret0="this is an example"
      */
     public static void replace1(){
         System.out.println(">>>>>>>>>>>>");

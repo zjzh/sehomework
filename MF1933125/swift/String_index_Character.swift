@@ -8,28 +8,29 @@
 import Foundation
 class String_index_Character{
     /**
-	∗ input:1
-	∗ class0 cclass0 = "this is an example"
+	∗ input:2
+	∗ class0 class0 = "this is an example"
     * of of = "i"
     * output: 1
-    * ret0  ret0=Index(_rawBits: 65793)
+    * ret0 String.Index$ret0
     */
     static func index0(){
 		print(">>>>>>>>>>")
 		let class0 = "this is an example"
-		let _of: Character = "h"
+		let _of: Character = "i"
 		let ret0 = class0.index(of: _of) 
 		assert(class0=="this is an example")
-		assert(_of==Character("h"))
+		assert(_of==Character("i"))
+		assert(class0[ret0!]==Character("i"))
 		print(ret0!)
 	}
     
     /**
-	∗ input:1
-	∗ class0 cclass0 = "this is an example"
+	∗ input:2
+	∗ class0 class0 = "this is an example"
     * of of = "b"
     * output: 1
-    * ret0  ret0=nil
+    * ret0 String.Index$ret0=nil
     */	
     static func index1(){
 		print(">>>>>>>>>>")
@@ -38,6 +39,7 @@ class String_index_Character{
 		let ret0 = class0.index(of: _of)
 		assert(class0=="this is an example")
 		assert(_of==Character("b"))
+		assert(ret0==nil)
 		print(ret0)
 	}	
 }

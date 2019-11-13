@@ -8,7 +8,7 @@
 import Foundation
 class NSString_replacingOccurrences_String_String{
     /**
-    ∗ input:2
+    ∗ input:3
     ∗ class0 class0=NSString(string:"this is an example")
     ∗ of of="is"
     ∗ with with="IS"
@@ -28,7 +28,7 @@ class NSString_replacingOccurrences_String_String{
     }
     
     /**
-    ∗ input:2
+    ∗ input:3
     ∗ class0 class0=NSString(string:"this is an example")
     ∗ of of="is"
     ∗ with with="IS"

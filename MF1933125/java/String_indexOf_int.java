@@ -7,11 +7,11 @@
  */
 public class String_indexOf_int {
     /**
-     * input: 1
+     * input: 2
      * class0 class0="this is an example"
      * ch ch = 'i'
      * output: 1
-     * ret0  ret0=2
+     * ret0 ret0=2
      */
     public static void indexOf0(){
         System.out.println(">>>>>>>>>>>>");
@@ -25,11 +25,11 @@ public class String_indexOf_int {
     }
 
     /**
-     * input: 1
+     * input: 2
      * class0 class0="this is an example"
      * ch ch = 'b'
      * output: 1
-     * ret0  ret0=-1
+     * ret0 ret0=-1
      */
     public static void indexOf1(){
         System.out.println(">>>>>>>>>>>>");
