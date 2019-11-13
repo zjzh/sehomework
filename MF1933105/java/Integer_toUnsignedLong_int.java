@@ -3,7 +3,12 @@
  *  @className: Integer_toUnsignedLong_int
  *  @apiSignature: java.lang.Integer$public static long toUnsignedLong(int x)
  *  @description: Test java api java.lang.Integer.toUnsignedLong(int x)
- *  @Map: don't have mappings
+ *  @Map: don't have mappings$ 可以直接由下面方法实现:
+    // fullfilled toUnsignedLong
+    func toUnsignedLong(a:Int) -> Int {
+        if(a>=0)return a
+        else return a+2^32
+    }
  */
     public class Integer_toUnsignedLong_int {
     /**
