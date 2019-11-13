@@ -3,7 +3,7 @@
  *  @className: Integer_reverseBytes_int
  *  @apiSignature: java.lang.Integer$public static int reverseBytes(int i)
  *  @description: Test java api java.lang.Integer.reverseBytes(int i)
- *  @Map: don't have mappings
+ *  @Map: don't have mappings$ Swift没有对应的reverseBytes函数的方法，但我们可由下面的链接实现：https://stackoverflow.com/questions/10259813/reverse-bytes-order-of-long
  */
     public class Integer_reverseBytes_int {
     /**
