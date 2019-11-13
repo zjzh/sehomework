@@ -13,14 +13,14 @@ public class Integer_decode_String {
 	 * input:50
 	 * str str = "50"
 	 * output:50
-	 * result result = 50
+	 * ret0 ret0 = 50
 	 */
 	public static void main(String []args) {
 		System.out.println(">>>>>>>>>>");
 		Integer i = new Integer(10);
 		String str = "50";
-		int result = i.decode("50");
+		int ret0 = i.decode("50");
 		assert(i==50);
-		System.out.println("Number = "+result);
+		System.out.println("Number = "+ret0);
 	}
 }

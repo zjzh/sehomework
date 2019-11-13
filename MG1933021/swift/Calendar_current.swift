@@ -15,7 +15,9 @@ import Foundation
 */
 func Calendar_current(){
 print(">>>>>>>>>")
-let ret0 = Calendar.current
+let current = Calendar.current
+let ret0 = current.description
+assert(ret0=="gregorian (current)")
 print(ret0)
 }
 Calendar_current()

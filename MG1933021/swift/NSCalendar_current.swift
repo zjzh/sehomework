@@ -15,7 +15,9 @@ import Foundation
 */
 func NSCalendar_current(){
 print(">>>>>>>>>")
-let ret0 = NSCalendar.current
+let current = NSCalendar.current
+let ret0 = current.description
+assert(ret0=="gregorian (current)")
 print(ret0)
 }
 NSCalendar_current()
