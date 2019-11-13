@@ -15,7 +15,7 @@ public class String_substring_int_int{
    * output:1
    * ret0 ret0="llow"
    */
-  public staic void substring0(){
+  public static void substring0(){
     System.out.println(">>>>>>>>>>>>");
     String class0="helloworld";
     int a=2;
@@ -35,7 +35,7 @@ public class String_substring_int_int{
    * output:1
    * ret0 ret0="llowor"
    */
-  public staic void substring1(){
+  public static void substring1(){
     System.out.println(">>>>>>>>>>>>");
     string class0="helloworld";
     int a=2;
