@@ -1,6 +1,6 @@
 /*
  * @author: MF1933086 TongZhan
- * @className: PrintStream_println_Object
+ * @className: PrintStream_append_CharSequence
  * @apiSignature: java.io.PrintStream$public PrintStream append​(CharSequence csq)
  * @description: Test Java api java.io.PrintStream.append​(CharSequence csq)
  * @Map: TextOutputStream$mutating func write(_ string: String)
