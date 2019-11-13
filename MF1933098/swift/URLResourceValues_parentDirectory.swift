@@ -9,34 +9,34 @@
  import Foundation
  
  class URLResourceValues_parentDirectory {
-	/**
+    /**
      * input: 1
      * class0 URLResourceValues$class0
      * output: 1
      * ret0 URLResourceValues$ret0
-	 * URLResourceValues$class0-(fileURLWithPath: String) & fileURLWithPath="D:/Software/Notepad/test.txt" & https://developer.apple.com/documentation/foundation/url
-	 */
-	 static func parentDirectory0()
-	 {
-		print(">>>>>>>>>>>>")
-		let class0=URL(fileURLWithPath: "D:/Software/Notepad/test.txt")
-		let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey).parentDirectory
-		assert(ret0==true)
-	 }
-	/**
+     * URLResourceValues$class0-(fileURLWithPath: String) & fileURLWithPath="D:/Software/Notepad/test.txt" & https://developer.apple.com/documentation/foundation/url
+     */
+    static func parentDirectory0()
+    {
+	    print(">>>>>>>>>>>>")
+	    let class0=URL(fileURLWithPath: "D:/Software/Notepad/test.txt")
+	    let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey).parentDirectory
+	    assert(ret0==true)
+    }
+    /**
      * input: 1
      * class0 URLResourceValues$class0
      * output: 1
      * ret0 URLResourceValues$ret0
-	 * URLResourceValues$class0-(fileURLWithPath: String) & fileURLWithPath="**&&%%￥#" & https://developer.apple.com/documentation/foundation/url
-	 */
-	 static func parentDirectory1()
-	 {
-		print(">>>>>>>>>>>>")
-		let class0=URL(fileURLWithPath: "**&&%%￥#")
-		let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey).parentDirectory
-		assert(ret0==false)
-	 }
+     * URLResourceValues$class0-(fileURLWithPath: String) & fileURLWithPath="**&&%%￥#" & https://developer.apple.com/documentation/foundation/url
+     */
+    static func parentDirectory1()
+    {
+	    print(">>>>>>>>>>>>")
+	    let class0=URL(fileURLWithPath: "**&&%%￥#")
+	    let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey).parentDirectory
+	    assert(ret0==false)
+    }
  }
  URLResourceValues_parentDirectory.parentDirectory0()
  URLResourceValues_parentDirectory.parentDirectory1()
