@@ -14,11 +14,11 @@
      */
      static func signum0()
      {
-	     print(">>>>>>>>>>>>")
-	     let class0=2
-	     let ret0=class0.signum()
-	     assert(ret0==1)
-             print(ret0)
+	    print(">>>>>>>>>>>>")
+	    let class0=2
+	    let ret0=class0.signum()
+	    assert(ret0==1)
+            print(ret0)
      }
     /**
      * input: 1
@@ -28,11 +28,11 @@
      */
      static func signum1()
      {
-	     print(">>>>>>>>>>>>")
-	     let class0= -2
-	     let ret0=class0.signum()
-             assert(ret0== -1) 
-	     print(ret0)
+	    print(">>>>>>>>>>>>")
+	    let class0= -2
+	    let ret0=class0.signum()
+            assert(ret0== -1) 
+	    print(ret0)
      }
     /**
      * input: 1
@@ -42,11 +42,11 @@
      */
      static func signum2()
      {
-	     print(">>>>>>>>>>>>")
-	     let class0=0
-	     let ret0=class0.signum()
-	     assert(ret0==0)
-	     print(ret0)
+	    print(">>>>>>>>>>>>")
+	    let class0=0
+	    let ret0=class0.signum()
+	    assert(ret0==0)
+	    print(ret0)
       }
  }
  Int_signum.signum0()
