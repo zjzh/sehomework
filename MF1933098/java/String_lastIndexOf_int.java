@@ -7,7 +7,7 @@
  * @Map: String$func lastIndex(where predicate: (Character) throws -> Bool) rethrows -> String.Index?
  */
 public class String_lastIndexOf_int {
-	/**
+    /**
      * input: 2
      * class0 class0="hello"
      * ch ch=101
@@ -18,30 +18,30 @@ public class String_lastIndexOf_int {
         System.out.println(">>>>>>>>>>>>");
         String class0="hello";
         int ch=101;
-		int ret0=class0.lastIndexOf(ch);
+	int ret0=class0.lastIndexOf(ch);
         assert (ret0==1);
-		char e = class0.charAt(ret0);
+	char e = class0.charAt(ret0);
         System.out.println(ret0);
-		System.out.println(e);
+	System.out.println(e);
 
     }
-	/**
+    /**
      * input: 2
      * class0 class0="hello"
      * ch ch=97
      * output: 1
      * ret0  ret0=-1
      */
-	public  static void lastIndexOf1(){
+    public  static void lastIndexOf1(){
         System.out.println(">>>>>>>>>>>>");
         String class0="hello";
         int ch=97;
-		int ret0=class0.lastIndexOf(ch);
+	int ret0=class0.lastIndexOf(ch);
         assert (ret0==-1);
         System.out.println(ret0);
 
     }
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         String_lastIndexOf_int.lastIndexOf0();
         String_lastIndexOf_int.lastIndexOf1();
 
