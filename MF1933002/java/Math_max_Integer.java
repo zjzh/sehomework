@@ -11,7 +11,7 @@ public class Math_max_Integer {
      * output: 1
      * class0 class0=1
      * class1 class1=2
-     * ret0 ret0=123
+     * ret0 ret0=2
      */
     public static void max0(){
         System.out.println(">>>>>>>>>>>>");
