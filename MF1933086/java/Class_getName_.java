@@ -3,7 +3,7 @@
  * @className: Class_getName_
  * @apiSignature: java.lang.Class$public  public String getName()
  * @description: Test Java api java.lang.Class.getName()
- * @Map: 
+ * @Map: Objective-CRuntime$func object_getClassName(_ obj: Any?) -> UnsafePointer<Int8>
  */
 import java.lang.Class;
 public class Class_getName_ {
@@ -19,6 +19,7 @@ public class Class_getName_ {
         Class_getName_  class0 = new Class_getName_();
         String ret0 = class0.getClass().getName();
         assert(ret0 == "Class_getName_");
+        System.out.println(ret0);
     }
     
     public  static void main (String[] args){

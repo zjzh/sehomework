@@ -4,6 +4,7 @@
  * @apiSignature: java.io.PrintStream$public PrintStream append​(CharSequence csq)
  * @description: Test Java api java.io.PrintStream.append​(CharSequence csq)
  * @Map: TextOutputStream$mutating func write(_ string: String)
+ * @Map: String$func write(to target:inout Target) where Target:TextOutputStream
  */
 import java.io.PrintStream ;
 

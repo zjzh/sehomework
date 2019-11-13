@@ -8,7 +8,7 @@
 import Foundation
 
 class NSString_appending_String{
-     /**
+    /**
      * input: 2
      * class0 class0="hello"
      * aString aString="world"
