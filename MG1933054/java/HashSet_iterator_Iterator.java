@@ -13,7 +13,7 @@ public class HashSet_iterator_Iterator {
      * class0 class0=HashSet$class0
      * output: 1
      * ret0 ret0=iter
-     */
+     */ 
     public  static void iterator0(){
         System.out.println(">>>>>>>>>>>>");
         HashSet<int> class0 = new HashSet();
