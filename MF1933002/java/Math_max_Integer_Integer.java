@@ -1,11 +1,11 @@
 /**
  * @author: MF1933002 曹亦康
- * @className: Math_max_Integer
+ * @className: Math_max_Integer_Integer
  * @apiSignature: java.lang.Math$public static Integer max(Integer class0, Integer class1)
  * @description: Test java api java.lang.Math.max(Integer class0, Integer class1)
  * @Map: func max<T>(class0: T, class1: T) -> T where T : Comparable
  */
-public class Math_max_Integer {
+public class Math_max_Integer_Integer {
     /**
      * input: 2
      * output: 1
