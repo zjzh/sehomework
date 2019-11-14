@@ -9,7 +9,7 @@ import Foundation
 class MutableCollection_sort_Element{
      /**
      * input: 2
-     * class0 class0 = [1, 3, 5, 4, 2]
+     * class0 MutableCollection$class0 = [1, 3, 5, 4, 2]
      * element element=5
      * output: 0
      */

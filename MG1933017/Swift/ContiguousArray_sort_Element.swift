@@ -9,7 +9,7 @@ import Foundation
 class ContiguousArray_sort_Element{
      /**
      * input: 2
-     * class0 class0: ContiguousArray = [1, 3, 5, 4, 2]
+     * class0 ContiguousArray$class0 = [1, 3, 5, 4, 2]
      * element element=<
      * output: 0
      */

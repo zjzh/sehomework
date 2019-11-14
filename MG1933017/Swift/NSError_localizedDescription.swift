@@ -12,7 +12,7 @@ class NSError_localizedDescription{
      * class0 NSError$class0
      * output: 1
      * ret0 ret0=5
-     * class0 NSError$class0-class0 NSError$init(domain: String, code: Int, userInfo dict: [String : Any]? = nil)&class0 = NSNumber(1)&https://developer.apple.com/documentation/foundation/nserror/1417063-init
+     * class0 NSError$class0-class0 NSError$init(domain: String, code: Int, userInfo dict: [String : Any]? = nil)&class0 = NSError.init(domain: "success", code: 0001, userInfo: nil) as Error&https://developer.apple.com/documentation/foundation/nserror/1417063-init
      */
     static func localizedDescription0(){
         let class0 = NSError.init(domain: "success", code: 0001, userInfo: nil) as Error

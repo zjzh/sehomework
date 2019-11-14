@@ -9,7 +9,7 @@ import Foundation
 class ArraySlice_sort_Element{
      /**
      * input: 2
-     * class0 class0: ArraySlice = [1, 3, 5, 4, 2]
+     * class0 ArraySlice$class0 = [1, 3, 5, 4, 2]
      * element element=<
      * output: 0
      */

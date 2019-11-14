@@ -9,8 +9,8 @@ import Foundation
 class Array_sort_Element{
      /**
      * input: 2
-     * class0 class0=[1, 3, 5, 4, 2]
-     * element element=<
+     * class0 Array$class0=[1, 3, 5, 4, 2]
+     * element Function$element=<
      * output: 0
      */
     static func sort0(){

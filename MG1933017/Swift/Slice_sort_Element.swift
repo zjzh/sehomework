@@ -10,7 +10,7 @@ class Slice_sort_Element{
      /**
      * input: 2
      * class0 class0 = [1, 3, 5, 4, 2]
-     * element element=5
+     * element Function$element=<
      * output: 0
      */
     static func sort0(){
