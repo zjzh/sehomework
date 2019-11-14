@@ -38,7 +38,7 @@ class String_prefix_String$Index_String_suffix_String$Index{
      *ouput : 2
      *ret0 ret0=""
 	 *ret1 ret1=""
-	*String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex&offsetBy=0 & https://developer.apple.com/documentation/swift/string/1786175-index
+	*String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex ; offsetBy=0 & https://developer.apple.com/documentation/swift/string/1786175-index
      	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
      */
 	static func prefix_suffix1(){
