@@ -5,7 +5,7 @@
  *  @description: Test java api java.lang.String$startsWith (String prefix,int toffset)
  *  @Map: String$func suffix(from start: String.Index) -> Substring;String$func hasPrefix(_ prefix: String) -> Bool
  *  @Map: String$func suffix(from start: String.Index) -> Substring;String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix, by areEquivalent: (Character, PossiblePrefix.Element) throws -> Bool) rethrows -> Bool where PossiblePrefix : Sequence
- *  @Maps String$func suffix(from start: String.Index) -> Substring;String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix) -> Bool where PossiblePrefix : Sequence, Self.Element == PossiblePrefix.Element
+ *  @Map: String$func suffix(from start: String.Index) -> Substring;String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix) -> Bool where PossiblePrefix : Sequence, Self.Element == PossiblePrefix.Element
  */
 public class String_startsWith_String_int {
     /**
