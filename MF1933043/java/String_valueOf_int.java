@@ -9,7 +9,7 @@
 public class String_valueOf_int{
     /**
      * input: 1
-     * i int=123
+     * i i=123
      * output: 1
      * ret0 ret0="123"
      */

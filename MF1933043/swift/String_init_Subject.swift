@@ -10,7 +10,7 @@ import Foundation
 class String_init_Subject{
      /**
      * input: 1
-	 * instance Subject=123
+	 * instance Subject$instance=123
 	 * output: 1
 	 * ret0 ret0="123"
      */

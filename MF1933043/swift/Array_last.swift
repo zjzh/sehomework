@@ -10,7 +10,7 @@ import Foundation
 class Array_last{
      /**
      * input: 1
-	 * class0 Array=[0, 1, 2]
+	 * class0 class0=[0, 1, 2]
 	 * output: 1
 	 * ret0 ret0="2"	 
      */
