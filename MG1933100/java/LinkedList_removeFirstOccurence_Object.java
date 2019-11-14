@@ -13,10 +13,11 @@ public class LinkedList_removeFirstOccurence_Object {
     /**
      * input: 2
      * class0 class0=LinkedList$class0
-     * o o=new Integer(1)
+     * o Integer$o
      * output: 1
      * ret0 ret0=true
      * LinkedList$class0-LinkedList$LinkedList(Collection c) & c=Arrays.asList(new Integer[]{1, 2, 1}) & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * Integer$o-new Integer(1)
      */
     public static void removeFirstOccurence0() {
         System.out.println(">>>>>>>>>>>>");

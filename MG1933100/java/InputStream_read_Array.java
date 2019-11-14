@@ -13,11 +13,12 @@ public class InputStream_read_Array {
 
     /**
      * input: 2
-     * class0 class0=ByteArrayInputStream$class0
-     * b b=new byte[256]
+     * class0 ByteArrayInputStream$class0
+     * b Array$b
      * output: 1
      * ret0 ret0=7
      * ByteArrayInputStream$class0-ByteArrayInputStream$ByteArrayInputStream(byte[] bytes) & bytes="example".getBytes() & https://stackoverflow.com/questions/5720524/how-does-one-create-an-inputstream-from-a-string
+     * Array$b-new byte[256]
      */
     public static void read0() {
         System.out.println(">>>>>>>>>>>>");

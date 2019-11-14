@@ -11,7 +11,7 @@ class NSRegularExpression_firstMatch_String_NSRegularExpression$MatchingOptions_
 
     /**
     * input: 3
-    * class0 class0=NSRegularExpression$class0
+    * class0 NSRegularExpression$class0
     * in str="example"
     * replacement replacement="0"
     * output: 1

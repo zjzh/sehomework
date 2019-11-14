@@ -11,8 +11,8 @@ class InputStream_read_Pointer_Int {
 
     /**
     * input: 3
-    * class0 class0=InputStream$class0
-    * buffer buffer=UnsafeMutablePointer$buffer
+    * class0 InputStream$class0
+    * buffer UnsafeMutablePointer$buffer
     * maxLength maxLength=256
     * output: 1
     * ret0 ret0=7

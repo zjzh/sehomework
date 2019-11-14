@@ -13,7 +13,7 @@ class Array_firstIndex_Element__Array_remove_Int {
     * input: 2
     * class0 class0=[1, 1, 2]
     * of of=1
-    * output: 1
+    * output: 2
     * ret0 ret0=0
     * ret1 ret1=1
     */
