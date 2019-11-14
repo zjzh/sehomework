@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)
- * @author: MG1933098+³Â¼ÑÒ»
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)
+ * @author: MG1933098+é™ˆä½³ä¸€
  *  @className: String_prefix_String$Index_String_suffix_String$Index
  *  @apiSignature: String$func prefix(upTo end: String.Index) -> Substring;String$func suffix(from start: String.Index) -> Substring
  *  @description: Test swift api String$func prefix(upTo end: String.Index);String$func suffix(from start: String.Index)
@@ -15,7 +15,7 @@ class String_prefix_String$Index_String_suffix_String$Index{
      *ouput : 2
      *ret0 ret0="he"
 	 *ret1 ret1="he"
-	*String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance)&_=String$startIndex&offsetBy=2&https://developer.apple.com/documentation/swift/string/1786175-index
+	*String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex ; offsetBy=2 & https://developer.apple.com/documentation/swift/string/1786175-index
      	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
 	*/
 	static func prefix_suffix0(){
@@ -38,7 +38,7 @@ class String_prefix_String$Index_String_suffix_String$Index{
      *ouput : 2
      *ret0 ret0=""
 	 *ret1 ret1=""
-	*String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance)&_=String$startIndex&offsetBy=2&https://developer.apple.com/documentation/swift/string/1786175-index
+	*String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex&offsetBy=0 & https://developer.apple.com/documentation/swift/string/1786175-index
      	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
      */
 	static func prefix_suffix1(){
