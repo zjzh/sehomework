@@ -18,11 +18,11 @@ class Collection_makeIterator{
 
       print(">>>>>>>>")
 
-      var collection = "";
-      var itr = collection.makeIterator();
+      var class0 = "";
+      var ret0 = class0.makeIterator();
 
       var counter = 0;
-      while let element = itr.next() {
+      while let element = ret0.next() {
         counter+=1;
       }
 

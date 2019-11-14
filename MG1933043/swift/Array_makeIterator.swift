@@ -17,11 +17,11 @@ class Array_makeIterator{
 
       print(">>>>>>>>")
 
-      var arr = [String]();
-      var itr = arr.makeIterator();
+      var class0 = [String]();
+      var ret0 = class0.makeIterator();
 
       var counter = 0;
-      for element in itr{
+      for element in ret0{
         counter+=1;
       }
 

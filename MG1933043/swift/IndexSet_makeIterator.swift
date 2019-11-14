@@ -17,11 +17,11 @@ class IndexSet_makeIterator{
 
       print(">>>>>>>>")
 
-      var indexSet = IndexSet.init();
-      var itr = indexSet.makeIterator();
+      var class0 = IndexSet.init();
+      var ret0 = class0.makeIterator();
 
       var counter = 0;
-      for element in itr{
+      for element in ret0{
         counter+=1;
       }
 

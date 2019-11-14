@@ -43,12 +43,12 @@ class Sequence_makeIterator{
 
       print(">>>>>>>>")
 
-      var seq = UserSequence(elements: [])
+      var class0 = UserSequence(elements: [])
 
-      var itr = seq.makeIterator();
+      var ret0 = class0.makeIterator();
 
       var counter = 0;
-      while let element = itr.next() {
+      while let element = ret0.next() {
         counter+=1;
       }
 
