@@ -11,7 +11,7 @@ import java.io.PrintStream ;
 public class PrintStream_append_CharSequence{
     /**
      * input: 2
-     * class0 class0 = new PrintStream(System.out);
+     * class0 PrintStrea$class0 
      * CharSequence csq = "Hello World";
      * output: 
      */

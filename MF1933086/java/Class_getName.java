@@ -5,20 +5,20 @@
  * @description: Test Java api java.lang.Class.getName()
  * @Map: Objective-CRuntime$func object_getClassName(_ obj: Any?) -> UnsafePointer<Int8>
  */
-import java.lang.Class;
+import java.lang.*;
 public class Class_getName {
 
     /**
      * input: 1
-     * class0 class0 = new Class_getName_();
+     * class0 String$class0 
      * output: 1
-     * ret0 ret0 == "Class_getName_"
+     * ret0 ret0 == "java.lang.String"
      */
     public static void getName1() {
         System.out.println(">>>>>>>>>>");
-        Class_getName  class0 = new Class_getName();
+        String  class0 = new String();
         String ret0 = class0.getClass().getName();
-        assert(ret0 == "Class_getName");
+        assert(ret0 == "java.lang.String");
         System.out.println(ret0);
     }
     
