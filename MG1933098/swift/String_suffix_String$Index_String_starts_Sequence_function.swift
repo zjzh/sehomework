@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)
- * @author: MG1933098+³Â¼ÑÒ»
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)
+ * @author: MG1933098+é™ˆä½³ä¸€
  *  @className: String_suffix_String$Index_String_starts_Sequence_function
  *  @apiSignature: String$func suffix(from start: String.Index) -> Substring;String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix, by areEquivalent: (Character, PossiblePrefix.Element) throws -> Bool) rethrows -> Bool where PossiblePrefix : Sequence
  *  @description: Test swift api String$func suffix(from start: String.Index);String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix, by areEquivalent: (Character, PossiblePrefix.Element) throws -> Bool)
@@ -12,7 +12,7 @@ class String_suffix_String$Index_String_starts_Sequence_function{
 	*from String.Index$from
      	*prefix prefix="hel"
 	*class1 class1=ret0
-	*by by= {(s1: Character, s2: Character) -> Bool in return s1 == s2}
+	*by Function$by= {(s1: Character, s2: Character) -> Bool in return s1 == s2}
      	*ouput : 2
      	*ret0 ret0="hello"
      	*ret1 ret1=true
@@ -37,7 +37,7 @@ class String_suffix_String$Index_String_starts_Sequence_function{
 	*from String.Index$from
      	*prefix prefix="ell"
 	*class1 class1=ret0
-	*by by= {(s1: Character, s2: Character) -> Bool in return s1 == s2}
+	*by Function$by= {(s1: Character, s2: Character) -> Bool in return s1 == s2}
      	*ouput : 2
      	*ret0 ret0="hello"
      	*ret1 ret1=true
