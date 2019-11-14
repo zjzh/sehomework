@@ -10,7 +10,7 @@ class ArraySlice_lastIndex_Element{
      /**
      * input: 2
      * class0 ArraySlice$class0 = [1, 3, 5, 4, 2]
-     * element element=5
+     * of of=5
      * output: 1
      * ret0 ret0=2
      */

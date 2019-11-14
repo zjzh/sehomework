@@ -10,7 +10,7 @@ class ArraySlice_sort_Element{
      /**
      * input: 2
      * class0 ArraySlice$class0 = [1, 3, 5, 4, 2]
-     * element element=<
+     * by Function$by= {(s1: Character, s2: Character) -> Bool in return s1 < s2}
      * output: 0
      */
     static func sort0(){
