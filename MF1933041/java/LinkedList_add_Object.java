@@ -16,21 +16,22 @@ public class LinkedList_add_Object {
 
     /**
      * input: 2
-     * class0 class0=new LinkedList<Object>()
+     * class0 LinkedList$class0
      * obj obj="jiangbiao"
      * output: 1
      * ret0  ret0=true(success to add) or false(fail to add)
+     * LinkedList$class0-LinkedList$LinkedList<Object>() & https://docs.oracle.com/javase/8/docs/api/
      */
     @Test
     public void add0() {
-        System.out.println("----------------------------------------");
+        System.out.println(">>>>>>>>>>>>");
         LinkedList<Object> linkedList = new LinkedList<Object>();
         if (linkedList.isEmpty()) {
             System.out.println("linkedList is empty!");
         }
         Object obj = "jiangbiao";
         boolean isAdd = linkedList.add(obj);
-        System.out.println(isAdd);
+        assert (isAdd == true);
         if (!linkedList.isEmpty()) {
             for (Object object : linkedList) {
                 System.out.println(object);
@@ -40,24 +41,22 @@ public class LinkedList_add_Object {
 
     /**
      * input: 2
-     * class0 class0=new LinkedList<Object>()
+     * class0 LinkedList$class0
      * obj obj=1
      * output: 1
      * ret0  ret0=true(success to add) or false(fail to add)
+     * LinkedList$class0-LinkedList$LinkedList<Object>() & https://docs.oracle.com/javase/8/docs/api/
      */
     @Test
     public void add1() {
-        System.out.println("----------------------------------------");
+        System.out.println(">>>>>>>>>>>>");
         LinkedList<Object> linkedList = new LinkedList<Object>();
         if (linkedList.isEmpty()) {
             System.out.println("linkedList is empty!");
         }
         Object obj = 1;
         boolean isAdd = linkedList.add(obj);
-        System.out.println(obj + " add " + isAdd);
-        obj = 2;
-        boolean isAdd1 = linkedList.add(obj);
-        System.out.println(obj + " add " + isAdd1);
+        assert (isAdd == true);
         if (!linkedList.isEmpty()) {
             for (Object object : linkedList) {
                 System.out.print(object + " ");

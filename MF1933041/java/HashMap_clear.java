@@ -1,6 +1,5 @@
 package com.softwareMethodology.jiangbiao;
 
-import org.junit.Test;
 import java.util.HashMap;
 
 /**
@@ -10,16 +9,16 @@ import java.util.HashMap;
  * @description: Test java api java.util.HashMap<K,V>$clear()
  * @Map: ArraySlice$ func append(_ newElement: Element)
  */
-public class HashMap_clear_ {
+public class HashMap_clear {
 
     /**
      * input: 1
-     * class0 class0={"jiangbiao":1, "longkun":2, "huangzhiheng":3}
+     * class0 HashMap$class0
      * output: 0
+     * HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String str, Integer in) & String$string="key";Integer$in=1 & https://docs.oracle.com/javase/8/docs/api/
      */
-    @Test
-    public void clear0() {
-        System.out.println("----------------------------------------");
+    public static void clear0() {
+        System.out.println(">>>>>>>>>>>>");
         // initialization
         HashMap<String, Integer> class0 = new HashMap<String, Integer>() {
             {
@@ -30,12 +29,18 @@ public class HashMap_clear_ {
         };
         // 利用 keySet 进行遍历
         for (String key: class0.keySet()) {
-            System.out.println(key + ":" + class0.get(key));
+            System.out.print(key + ":" + class0.get(key) + "\t");
         }
+        System.out.println();
         // 清空
         class0.clear();
+        assert (class0.size() == 0);    // class0.size = 0
         if (class0.isEmpty()) {
             System.out.println("class0 has been cleared!");
         }
+    }
+
+    public static void main(String[] args) {
+        HashMap_clear.clear0();
     }
 }

@@ -1,6 +1,5 @@
 package com.softwareMethodology.jiangbiao;
 
-import org.junit.Test;
 import java.util.ArrayList;
 
 /**
@@ -16,13 +15,14 @@ public class ArrayList_addAll_int_ArrayList {
 
     /**
      * input: 2
-     * class0 class0=["I", "am", "from"]
-     * class1 class1=["南", "京", "大", "学"]
+     * class0 ArrayList$class0
+     * class1 ArrayList$class1
      * output: 0
+     * ArrayList$class0-ArrayList$ArrayList();ArrayList$add(String str) & String$str="str0" & https://docs.oracle.com/javase/8/docs/api/
+     * ArrayList$class1-ArrayList$ArrayList();ArrayList$add(String str) & String$str="str1" & https://docs.oracle.com/javase/8/docs/api/
      */
-    @Test
-    public void addAll0() {
-        System.out.println("----------------------------------------");
+    public static void addAll0() {
+        System.out.println(">>>>>>>>>>>>");
         ArrayList<String> class0 = new ArrayList<>();
         class0.add("I");
         class0.add("am");
@@ -34,15 +34,18 @@ public class ArrayList_addAll_int_ArrayList {
         ArrayList<String> class1 = new ArrayList<>();
         class1.add("南");
         class1.add("京");
-        class1.add("大");
-        class1.add("学");
         for (String sr: class1) {
             System.out.print(sr + " ");
         }
         System.out.println();
         class0.addAll(0, class1);
+        assert (class0.size() == 5);    // class0.size = 5
         for (String ar: class0) {
             System.out.print(ar + " ");
         }
+    }
+
+    public static void main(String[] args) {
+        ArrayList_addAll_int_ArrayList.addAll0();
     }
 }

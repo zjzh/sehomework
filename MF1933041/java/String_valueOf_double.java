@@ -14,13 +14,14 @@ public class String_valueOf_double {
 
     /**
      * input: 1
-     * class0 class0=123
+     * class0 Double$class0
      * output: 1
      * ret0  ret0="123"
+     * Double$class0-Double$Double(double value) & Double$double=123 & https://docs.oracle.com/javase/8/docs/api/
      */
     @Test
     public void valueOf0() {
-        System.out.println("----------------------------------------");
+        System.out.println(">>>>>>>>>>>>");
         Double class0 = new Double(123);
         System.out.println(class0 + " -> " + class0.getClass().toString());
         String string = valueOf(class0);
@@ -36,10 +37,11 @@ public class String_valueOf_double {
      * class0 class0=-0.2514
      * output: 1
      * ret0  ret0="-0.2514"
+     * Double$class0-Double$Double(double value) & Double$double=-0.2514 & https://docs.oracle.com/javase/8/docs/api/
      */
     @Test
     public void valueOf1() {
-        System.out.println("----------------------------------------");
+        System.out.println(">>>>>>>>>>>>");
         Double class0 = new Double(-0.2514);
         System.out.println(class0 + " -> " + class0.getClass().toString());
         String string = valueOf(class0);

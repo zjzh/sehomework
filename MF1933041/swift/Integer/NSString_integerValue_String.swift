@@ -16,10 +16,12 @@ class NSString_integerValue_String {
      * ret0 ret0=1357
      */
     static func integerValue0() {
-        print("-----------------------------")
-        let class0: NSString = "1357"
+        print(">>>>>>>>>>>>")
+        let class0: NSString = "  1357"
         print(class0, type(of:class0))
+        // skipping whitespace at the beginning of the string
         let ret0: Int = class0.integerValue
+		assert(ret0 == 1357)
         print(ret0, type(of: ret0))
     }
     
@@ -30,10 +32,12 @@ class NSString_integerValue_String {
 	 * ret0 ret0=1357
 	 */
     static func integerValue1() {
-        print("-----------------------------")
+        print(">>>>>>>>>>>>")
         let class0: NSString = "1357fff"
         print(class0, type(of:class0))
+        // 从索引 0 处开始，知道扫描到不符合要求的数据，就停止
         let ret0: Int  = class0.integerValue
+        assert(ret0 == 1357)
         print(ret0, type(of: ret0))
     }
     
@@ -44,10 +48,12 @@ class NSString_integerValue_String {
 	 * ret0 ret0=0
 	 */
     static func integerValue2() {
-        print("-----------------------------")
+        print(">>>>>>>>>>>>")
         let class0: NSString = "fff1357fff"
         print(class0, type(of:class0))
+        // This property is 0 if the string doesn’t begin with a valid decimal text representation of a number
         let ret0: Int  = class0.integerValue
+        assert(ret0 == 0)
         print(ret0, type(of: ret0))
     }
     

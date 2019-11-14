@@ -16,9 +16,11 @@ class String_init_double {
      * ret0 ret0="2.0"
      */
     static func init0(){
+        print(">>>>>>>>>>>>")
         let character = 2.0
         print(character, type(of:character))
         let ret0 = String.init(character)
+        assert(ret0 == "2.0")
         print(ret0, type(of:ret0))  
         // print:
         // 2.0 Double
@@ -32,9 +34,11 @@ class String_init_double {
      * ret0 ret0="-2.44"
      */
 	static func init1(){
+	    print(">>>>>>>>>>>>")
         let character = -2.44
         print(character, type(of:character))
         let ret0 = String.init(character)
+        assert(ret0 == "-2.44")
         print(ret0, type(of:ret0))  
         // print:
         // -2.44 Double

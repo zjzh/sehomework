@@ -16,9 +16,11 @@ class ContiguousArray_append_Element {
      * output: 0
      */
     static func append0(){
+        print(">>>>>>>>>>>>")
         var class0: ContiguousArray = ["Adam", "Lisa", "Bart", "Paul"]
         let element = "jiangbiao"
         class0.append(element)
+        assert(class0 == ["Adam", "Lisa", "Bart", "Paul", "jiangbiao"])
         print(class0)
         // Prints ["Adam", "Lisa", "Bart", "Paul", "jiangbiao"]
     }

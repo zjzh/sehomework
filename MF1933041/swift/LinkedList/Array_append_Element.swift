@@ -16,9 +16,11 @@ class Array_append_Element {
      * output: 0
      */
     static func append0(){
+		print(">>>>>>>>>>>>")
         var class0: Array = [1, 2, 3, 4, 5]
         let element = 100
         class0.append(element)
+        assert(class0 == [1, 2, 3, 4, 5, 100])
         print(class0)
         // Prints "[1, 2, 3, 4, 5, 100]"
     }
