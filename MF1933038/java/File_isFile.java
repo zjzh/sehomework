@@ -11,7 +11,7 @@
  public class File_isFile{
     /**
      * input: 1
-     * class0  class0 = new File("F:/")
+     * class0  File$class0
      * output: 1
      * ret  ret0 = false
      */
@@ -25,7 +25,7 @@
     }
     /**
      * input: 1
-     * class0  class0 = new File("F:/test.txt")
+     * class0  File$class0
      * output: 1
      * ret0  ret0 = true
      */
