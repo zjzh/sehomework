@@ -10,10 +10,12 @@ import Foundation
 class Set_isDisjoint_Sequence{
      /**
      * input: 2
-     * class0 class0= [6,7,8,9,10]
-     * sequence0  sequence0=[1,2,3,4,5]
+     * class0 Set$class0
+     * sequence0  sequence$sequence0
      * output: 1
      * ret0  ret0=true
+     * Set$class0-Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * sequence$sequence0-sequence(first: T){condition} & T=1,condition=$0 >= 5 ? nil : $0 + 1 & https://www.hangge.com/blog/cache/detail_1377.html
      */
     static func isDisjoint0(){
         let class0 : Set = [6,7,8,9,10];
@@ -23,13 +25,15 @@ class Set_isDisjoint_Sequence{
         print(ret0);
     }
     
-     /**
-     * input: 2
-     * class0 class0= [6,7,8,9,10]
-     * sequence0  sequence0=[1,2,3,4,5,6,7,8,9,10]
-     * output: 1
-     * ret0  ret0=false
-     */
+      /**
+         * input: 2
+         * class0 Set$class0
+         * sequence0  sequence$sequence0
+         * output: 1
+         * ret0  ret0=false
+         * Set$class0-Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+         * sequence$sequence0-sequence(first: T){condition} & T=1,condition=$0 >= 5 ? nil : $0 + 1 & https://www.hangge.com/blog/cache/detail_1377.html
+         */
     static func isDisjoint1(){
         let class0 : Set = [6,7,8,9,10];
         let sequence0 = sequence(first:1) {$0 >= 10 ? nil : $0 + 1}
@@ -38,5 +42,6 @@ class Set_isDisjoint_Sequence{
         print(ret0);
     }
 }
+
 Set_isDisjoint_Sequence.isDisjoint0()
 Set_isDisjoint_Sequence.isDisjoint1()

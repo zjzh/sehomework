@@ -8,23 +8,25 @@
  */
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
 
 public class Collection_disjoint_Collection_Collection {
 
     /**
      * input: 2
-     * collection0 collection0=<6,7,8,9,10>
-     * collection1 collection0=<1,2,3,4,5>
+     * collection0 Collection$collection0
+     * collection1 Collection$collection1
      * output: 1
      * ret0  ret0=true
+     * Collection$collection0-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$collection1-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
      */
 
     public  static void lastIndexOf0(){
         System.out.println(">>>>>>>>>>>>");
-        List<Integer> collection0 = new ArrayList<Integer>(5);
-        List<Integer> collection1 = new ArrayList<Integer>(5);
+        Collection collection0 = new ArrayList();
+        Collection collection1 = new ArrayList();
 
         collection0.add(6);
         collection0.add(7);
@@ -45,16 +47,18 @@ public class Collection_disjoint_Collection_Collection {
 
     /**
      * input: 2
-     * collection0 collection0=<6,7,8,9,10>
-     * collection1 collection0=<1,2,3,4,5,6,7,8,9,10>
+     * collection0 Collection$collection0
+     * collection1 Collection$collection1
      * output: 1
      * ret0  ret0=false
+     * Collection$collection0-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$collection1-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
      */
 
     public  static void lastIndexOf1(){
         System.out.println(">>>>>>>>>>>>");
-        List<Integer> collection0 = new ArrayList<Integer>(5);
-        List<Integer> collection1 = new ArrayList<Integer>(5);
+        Collection collection0 = new ArrayList();
+        Collection collection1 = new ArrayList();
 
         collection0.add(6);
         collection0.add(7);

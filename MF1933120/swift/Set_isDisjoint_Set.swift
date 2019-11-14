@@ -10,26 +10,30 @@ import Foundation
 class Set_isDisjoint_Set{
      /**
      * input: 2
-     * class0 class0=[6,7,8,9,10]
-     * set0 set0=[1,2,3,4,5]
+     * class0 Set$class0
+     * set0 Set$set0
      * output: 1
      * ret0  ret0=true
+     * Set$class0-Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * Set$set0-Set<Int>[data]& data=[1,2,3,4,5] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
      */
     static func isDisjoint0(){
-        let class0 : Set = [6,7,8,9,10];
-        let set0 : Set = [1,2,3,4,5];
+        let class0 : Set<Int> = [6,7,8,9,10];
+        let set0 : Set<Int> = [1,2,3,4,5];
         let ret0=class0.isDisjoint(with:set0);
         assert (ret0==true);
         print(ret0);
     }
     
      /**
-        * input: 2
-        * class0 class0=[6,7,8,9,10]
-        * set0 set0=[1,2,3,4,5,6,7,8,9,10]
-        * output: 1
-        * ret0  ret0=false
-        */
+     * input: 2
+     * class0 Set$class0
+     * set0 Set$set0
+     * output: 1
+     * ret0  ret0=false
+     * Set$class0-Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * Set$set0-Set<Int>[data]& data=[1,2,3,4,5,6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     */
     static func isDisjoint1(){
         let class0 : Set = [6,7,8,9,10];
         let set0 : Set = [1,2,3,4,5,6,7,8,9,10];
@@ -38,5 +42,6 @@ class Set_isDisjoint_Set{
         print(ret0);
     }
 }
+
 Set_isDisjoint_Set.isDisjoint0()
 Set_isDisjoint_Set.isDisjoint1()
