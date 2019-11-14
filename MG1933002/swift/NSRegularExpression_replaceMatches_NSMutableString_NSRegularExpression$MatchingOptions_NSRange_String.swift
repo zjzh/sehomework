@@ -12,10 +12,12 @@ class NSRegularExpression_replaceMatches_NSMutableString_NSRegularExpression$Mat
 
     /**
      * input: 2
-     * class0 class0=try? NSRegularExpression(pattern: "is")
-     * in in="this is an example" as! NSMutableString
+     * class0 NSRegularExpression$class0
+     * in NSMutableString$in
      * withTemplate withTemplate="IS"
      * output: 0
+     *  NSRegularExpression$class0-try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundatiNSMutableStringon/nsregularexpression/1410900-init
+     *  NSMutableString$in-"this is an example" as! NSMutableString
     */
     static func replaceMatches0(){
         print(">>>>>>>>>>")
@@ -30,10 +32,12 @@ class NSRegularExpression_replaceMatches_NSMutableString_NSRegularExpression$Mat
 
     /**
      * input: 2
-     * class0 class0=try? NSRegularExpression(pattern: "is")
-     * in in="these are some example" as! NSMutableString
+     * class0 NSRegularExpression$class0
+     * in NSMutableString$in
      * withTemplate withTemplate="IS"
      * output: 0
+     *  NSRegularExpression$class0-try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
+     *  NSMutableString$in-"these are some example" as! NSMutableString
     */
         static func replaceMatches1(){
         print(">>>>>>>>>>")

@@ -11,10 +11,12 @@ import java.io.File;
 public class File_equals_Object{
     /**
      * input: 1
-     * class0 class0=new File("file.txt")
-     * object object=new File("file.txt")
+     * class0 File$class0
+     * object File$object
      * output: 1
      * ret0  ret0=true
+     *  File$class0-File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
+     *  File$object-File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
     */
     public static void equals0(){
         File file1 = new File("file.txt");
@@ -26,10 +28,12 @@ public class File_equals_Object{
 
     /**
      * input: 1
-     * class0 class0=new File("file.txt")
-     * object object=new File("file.png")
+     * class0 File$class0
+     * object File$object
      * output: 1
      * ret0  ret0=false
+     *  File$class0-File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
+     *  File$object-File(String pathname) & pathname="file.png" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
     */
     public static void equals1(){
         File file1 = new File("file.txt");

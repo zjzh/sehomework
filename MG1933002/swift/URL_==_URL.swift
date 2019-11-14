@@ -12,10 +12,12 @@ class URL_equals_URL{
 
     /**
      * input: 2
-     * lhs lhs=URL(fileURLWithPath: "file.txt")
-     * rhs rhs=URL(fileURLWithPath: "file.txt")
+     * lhs URL$lhs
+     * rhs URL$rhs
      * output: 1
      * ret0 ret0=true
+     *  URL$lhs-URL(fileURLWithPath: String) & fileURLWithPath="file.txt" & https://developer.apple.com/documentation/foundation/url/2293156
+     *  URL$rhs-URL(fileURLWithPath: String) & fileURLWithPath="file.txt" & https://developer.apple.com/documentation/foundation/url/2293156
     */ 
     static func equals0(){
         var file1 = URL(fileURLWithPath: "file.txt")
@@ -27,11 +29,13 @@ class URL_equals_URL{
 
     /**
      * input: 2
-     * lhs lhs=URL(fileURLWithPath: "file.txt")
-     * rhs rhs=URL(fileURLWithPath: "file.png")
+     * lhs URL$lhs
+     * rhs URL$rhs
      * output: 1
      * ret0 ret0=false
-    */ 
+     *  URL$lhs-URL(fileURLWithPath: String) & fileURLWithPath="file.txt" & https://developer.apple.com/documentation/foundation/url/2293156
+     *  URL$rhs-URL(fileURLWithPath: String) & fileURLWithPath="file.png" & https://developer.apple.com/documentation/foundation/url/2293156
+    */  
     static func equals1(){
         var file1 = URL(fileURLWithPath: "file.txt")
         var file2 = URL(fileURLWithPath: "file.png")
