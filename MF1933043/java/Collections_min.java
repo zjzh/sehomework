@@ -15,7 +15,7 @@ import java.util.LinkedList;
 public class Collections_min{
     /**
      * input: 1
-     * coll LinkedList$coll
+     * coll LinkedList$coll=[1, 2, 3]
      * output: 1
      * ret0 ret0=1
      * LinkedList<Integer>$class0-LinkedList<Integer>$LinkedList<Integer>.add(x) & x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
