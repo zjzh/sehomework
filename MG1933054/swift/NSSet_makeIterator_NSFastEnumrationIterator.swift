@@ -5,16 +5,17 @@
  *  @description: Test Swift api func makeIterator() -> NSFastEnumerationIterator
  *  @Map: java.lang.HashSet$ public iterator<E> iterator()
  */
- 
+
 
 import Foundation
 
 class NSSet_makeIterator_NSFastEnumrationIterator {
-  /**
+   /**
    *input : 1
-   *class0 class0 = NSSe't(array: [4, 3, 2, 2])
+   *class0 NSSet$class0
    *output : 1
    *ret0 ret0 = NSFastEnumerationIterator$ret0
+   *NSSet$class0-NSSet$convenience init(array: [Any]) & array=[4, 3, 2, 2] & https://developer.apple.com/documentation/foundation/nsset/1415878-init
    */
   static func makeIterator0() {
     print(">>>>>>>")
@@ -27,7 +28,7 @@ class NSSet_makeIterator_NSFastEnumrationIterator {
     }
     assert(count == class0.count)
   }
-  
+
 }
 
 NSSet_makeIterator_NSFastEnumrationIterator.makeIterator0()

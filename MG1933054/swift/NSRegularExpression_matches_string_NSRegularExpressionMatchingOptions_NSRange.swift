@@ -8,14 +8,16 @@
 
 import Foundation
 
-class NSRegularExpression_matches_NSTextCheckingResult {
+class NSRegularExpression_matches_string_NSRegularExpressionMatchingOptions_NSRange {
   /**
    *input : 3
-   *class0 class0 = NSRegularExpression(pattern: "ta")
+   *class0 NSRegularExpression$class0
+   *range0 NSRange$range0
    *in in_string0 = "hatatatat"
-   *range range0 = NSRange(in_string0.startIndex..., in: in_string0)
    *output : 1
    *ret0 ret0 = NSTextCheckingResult$ret0
+   *NSRegularExpression$class0-NSRegularExpression$init(pattern: String, options: NSRegularExpression.Options = []) throws & pattern: "ta" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
+   *NSRange$range0-NSRegularExpression$init?(_ range: NSRange, in string: String) & string="hatatatat" & https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
    */
   static func matches0() {
     print(">>>>>>>")
@@ -38,11 +40,13 @@ class NSRegularExpression_matches_NSTextCheckingResult {
 
   /**
    *input : 3
-   *class0 class0 = NSRegularExpression(pattern: "b")
+   *class0 NSRegularExpression$class0
+   *range0 NSRange$range0
    *in in_string0 = "hatatatat"
-   *range range0 = NSRange(in_string0.startIndex..., in: in_string0)
    *output : 1
-   *ret0 ret0 = NSTextCheckingResult$results
+   *ret0 ret0 = NSTextCheckingResult$ret0
+   *NSRegularExpression$class0-NSRegularExpression$init(pattern: String, options: NSRegularExpression.Options = []) throws & pattern: "b" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
+   *NSRange$range0-NSRegularExpression$init?(_ range: NSRange, in string: String) & string="hatatatat" & https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
    */
   static func matches1() {
     print(">>>>>>>")
@@ -66,11 +70,13 @@ class NSRegularExpression_matches_NSTextCheckingResult {
 
   /**
    *input : 3
-   *class0 class0 = NSRegularExpression(pattern: "b")
-   *in in_string0 = "hatatatat"
-   *range range0 = NSRange(in_string0.startIndex..., in: in_string0)
+   *class0 NSRegularExpression$class0
+   *range0 NSRange$range0
+   *in in_string0 = "X+Y+2*3=Z+W"
    *output : 1
-   *ret0 ret0 = NSTextCheckingResult$results
+   *ret0 ret0 = NSTextCheckingResult$ret0
+   *NSRegularExpression$class0-NSRegularExpression$init(pattern: String, options: NSRegularExpression.Options = []) throws & pattern: "[a-zA-z0-9]" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
+   *NSRange$range0-NSRegularExpression$init?(_ range: NSRange, in string: String) & string="hatatatat" & https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
    */
   static func matches2() {
     print(">>>>>>>")
