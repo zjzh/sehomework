@@ -8,7 +8,7 @@
 import java.util.ArrayList;
 public class ArrayList_lastIndexOf_Object {
     /**
-     * input: 2
+     * input: 1
      * class0 class0=["hello", "world"]
      * object object="hello"
      * output: 1
@@ -27,7 +27,7 @@ public class ArrayList_lastIndexOf_Object {
 
     }
     /**
-     * input: 2
+     * input: 1
      * class0 class0=["hello", "world"]
      * object object="who"
      * output: 1
