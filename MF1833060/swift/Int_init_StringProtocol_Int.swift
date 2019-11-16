@@ -1,7 +1,7 @@
-/**Int_init(StringProtocol, Int)
+/**
  *@author: MF1833060_shameng
  * @className: Int_init_StringProtocol_Int
- * @apiSignature: Init$init?<S>(_ text: StringProtocol, radix: Int = 10)
+ * @apiSignature: Int$init?<S>(_ text: StringProtocol, radix: Int = 10)
  * @description: Creates a new integer value from the given string and radix
  * @Map: java.lang.Integer$public static int parseInt(String s, int radix)throws NumberFormatException
 */
