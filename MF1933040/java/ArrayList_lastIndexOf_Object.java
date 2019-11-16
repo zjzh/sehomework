@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 public class ArrayList_lastIndexOf_Object {
     /**
-     * input: 1
+     * input: 2
      * class0 class0 = ArrayList$class0
      * object object="hello"
      * output: 1
@@ -27,7 +27,7 @@ public class ArrayList_lastIndexOf_Object {
 
     }
     /**
-     * input: 1
+     * input: 2
      * class0 class0 = ArrayList$class0
      * object object="who"
      * output: 1
