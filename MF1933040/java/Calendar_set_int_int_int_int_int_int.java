@@ -1,4 +1,3 @@
-package test;
 /**类名_方法名(_形参类型)*
  * @author: MF1933040贾晓玉
  *  @className: Calendar_set_int_int_int_int_int_int
@@ -29,7 +28,7 @@ import java.util.Date;
 public class Calendar_set_int_int_int_int_int_int {
 	/**
      * input: 6
-     * class0 class0=Calendar
+     * class0 class0=Calendar$class0
      * int year = 2019
      * int month = 11
      * int date = 12
@@ -37,7 +36,8 @@ public class Calendar_set_int_int_int_int_int_int {
      * int minute = 52
      * int second = 43
      * output: 1
-     * Date ret0 
+     * ret0 = "Thu Dec 12 14:52:43 CST 2019"
+     * Calendar$class0-Calendar & Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      **/
 	public static void setting0() {
 		Calendar class0 = Calendar.getInstance();
@@ -49,16 +49,9 @@ public class Calendar_set_int_int_int_int_int_int {
 		int second = 43;
 		class0.clear();
 		class0.set(year, month, date, hourOfDay, minute, second);
-		Date ret0 = new Date();
-		ret0.setYear(year-1900);
-		ret0.setMonth(month);
-		ret0.setDate(date);
-		ret0.setHours(hourOfDay);
-		ret0.setMinutes(minute);
-		ret0.setSeconds(second);
+		String ret0 = (class0.getTime()).toString();
+		assert(ret0.equals("Thu Dec 12 14:52:43 CST 2019"));
 		System.out.println(ret0);
-		assert(ret0 == class0.getTime());
-		System.out.println(class0.getTime());
 	}
 	public static void main(String[] args) {
 		Calendar_set_int_int_int_int_int_int.setting0();
