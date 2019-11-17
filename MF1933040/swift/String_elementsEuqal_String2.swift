@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
  *  @author: MF1933040贾晓玉
  *  @className: String_elementsEuqal_String2
- *  @apiSignature:String$func elementsEqual<OtherSequence>(_ other: OtherSequence, by areEquivalent: (Character, OtherSequence.Element) throws -> Bool) rethrows -> Bool
- *  @description: Test swift api :String$func elementsEqual<OtherSequence>(_ other: OtherSequence, by areEquivalent: (Character, OtherSequence.Element) throws -> Bool) rethrows -> Bool
+ *  @apiSignature:String$func elementsEqual<OtherSequence>(_ other: OtherSequence, by Function$by = areEquivalent: (Character, OtherSequence.Element) throws -> Bool) rethrows -> Bool
+ *  @description: Test swift api :String$func elementsEqual<OtherSequence>(_ other: OtherSequence, by Function$by = areEquivalent: (Character, OtherSequence.Element) throws -> Bool) rethrows -> Bool
  *  @Map:java.lang.String$public boolean contentEquals(CharSequence cs)
  */
 import Foundation
