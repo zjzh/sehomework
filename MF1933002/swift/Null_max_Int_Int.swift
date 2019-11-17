@@ -1,13 +1,13 @@
 /**
  * @author: MF1933002 曹亦康
- * @className: Math_max_Int
- * @apiSignature: func max<T>(class0: T, class1: T) -> T where T : Comparable
- * @description: Test swift api func max<T>(class0: T, class1: T) -> T where T : Comparable
+ * @className: Null_max_Int_Int
+ * @apiSignature: Null$func max<T>(class0: T, class1: T) -> T where T : Comparable
+ * @description: return the max number between class0 and class1
  * @Map: java.lang.Math$public static Integer max(Integer class0, Integer class1)
  */
 import Foundation
 
-class Math_max_Int{
+class Null_max_Int_Int{
     /**
      * input: 2
      * class0 class0 = 1
