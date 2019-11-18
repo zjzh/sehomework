@@ -11,7 +11,7 @@ class NSMutableArray_sort_comparator{
     /**
      * input: 2
      * class0 class0=[3,1,2,4,5]
-     * comparator comparator={  (s1:Any,s2:Any)->ComparisonResult in
+     * comparator Function$comparator={  (s1:Any,s2:Any)->ComparisonResult in
                              var str1=s1 as! Int
                              var str2=s2 as! Int
                              if str1<str2{

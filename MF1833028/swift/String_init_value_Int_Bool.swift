@@ -9,8 +9,7 @@ import Foundation
 
 class String_init_value_Int_Bool{
     /**
-     * input: 4
-     * class0 String$class0
+     * input: 3
      * value value=123
      * radix radix=10
      * uppercase uppercase=false
@@ -31,8 +30,7 @@ class String_init_value_Int_Bool{
         print(ret0)
     }
     /**
-     * input: 4
-     * class0 String$class0
+     * input: 3
      * value value=-123
      * radix radix=10
      * uppercase uppercase=false

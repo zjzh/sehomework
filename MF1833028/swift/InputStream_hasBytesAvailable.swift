@@ -10,7 +10,7 @@ import Foundation
 class InputStream_hasBytesAvailable{
     /**
      * input: 1
-     * class0 InputStream$class0
+     * class0 InputStream$class0=InputStream("file.txt")
      * output: 1
      * ret0 ret0=true
      * InputStream$class0-InputStream$init?(toFileAtPath path: String) & String$toFileAtPath="file.txt" & https://developer.apple.com/documentation/foundation/inputstream/1408976-init
@@ -33,7 +33,7 @@ class InputStream_hasBytesAvailable{
     }
     /**
      * input: 1
-     * class0 InputStream$class0
+     * class0 InputStream$class0=InputStream("file.txt")
      * output: 1
      * ret0 ret0=false
      * InputStream$class0-InputStream$init?(toFileAtPath path: String) & String$toFileAtPath="file.txt" & https://developer.apple.com/documentation/foundation/inputstream/1408976-init

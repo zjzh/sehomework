@@ -9,8 +9,7 @@ import Foundation
 
 class UInt_init_StringProtocol_Int{
     /**
-     * input: 3
-     * class0 class0=0
+     * input: 2
      * text text="0"
      * radix radix=10
      * output: 0
@@ -18,19 +17,17 @@ class UInt_init_StringProtocol_Int{
      */
     static func init0(){
         print(">>>>>>>>")
-        var class0:UInt=0
+        var class0:UInt
         var text="0"
         var radix=10
         var ret0=type(of: class0).init(text,radix:radix)!
-        assert (class0==0)
         assert (text=="0")
         assert (radix==10)
         assert (ret0==0)
         print(ret0)
     }
     /**
-     * input: 3
-     * class0 class0=0
+     * input: 2
      * text text="214748367"
      * radix radix=10
      * output: 214748367
@@ -38,11 +35,10 @@ class UInt_init_StringProtocol_Int{
      */
     static func init1(){
         print(">>>>>>>>")
-        var class0:UInt=0
+        var class0:UInt
         var text="214748367"
         var radix=10
         var ret0=type(of: class0).init(text,radix:radix)!
-        assert (class0==0)
         assert (text=="214748367")
         assert (radix==10)
         assert (ret0==214748367)

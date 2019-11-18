@@ -12,7 +12,20 @@ public class Arrays_sort_Array_Comparator {
     /**
      * input: 2
      * a a={9,5,6,1,3,2,4,7,8,0}
-     * c c=new NewComparator()
+     * c Function$c=new class NewComparator implements Comparator<Integer>{
+        @Override
+	        public int compare(Integer o1, Integer o2) {
+		        if(o1>o2) {
+		        	return 1;
+		        }
+		        else if(o1<o2) {
+		        	return -1;
+                    
+		        }else {
+		        	return 0;
+		        }
+	        }
+        }
      * output: 1
      * ret0 ret0={0,1,2,3,4,5,6,7,8,9}
      */

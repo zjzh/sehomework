@@ -12,7 +12,7 @@ class NSMutableArray_sort_NSSortOptions_usingComparator{
      * input: 3
      * class0 class0=[3,1,2,4,5]
      * opts opts=[]
-     * cmptr cmptr={  (s1:Any,s2:Any)->ComparisonResult in
+     * cmptr Function$usingComparator={  (s1:Any,s2:Any)->ComparisonResult in
             var str1=s1 as! Int
             var str2=s2 as! Int
             if str1<str2{  
