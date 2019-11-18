@@ -11,13 +11,17 @@ import Foundation
 class NSRegularExpression_replaceMatches_NSMutableString_NSRegularExpression$MatchingOptions_NSRange_String{
 
     /**
-     * input: 2
+     * input: 4
      * class0 NSRegularExpression$class0
      * in NSMutableString$in
+     * options NSRegularExpression.MatchingOptions$options
+     * range NSRange$range
      * withTemplate withTemplate="IS"
      * output: 0
      *  NSRegularExpression$class0-try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundatiNSMutableStringon/nsregularexpression/1410900-init
      *  NSMutableString$in-"this is an example" as! NSMutableString
+     *  NSRegularExpression.MatchingOptions$options-.reportProgress
+     *  NSRange$range-NSRange(location: 0,length: value.length) & value="this is an example"
     */
     static func replaceMatches0(){
         print(">>>>>>>>>>")
@@ -31,13 +35,17 @@ class NSRegularExpression_replaceMatches_NSMutableString_NSRegularExpression$Mat
     }
 
     /**
-     * input: 2
+     * input: 4
      * class0 NSRegularExpression$class0
      * in NSMutableString$in
+     * options NSRegularExpression.MatchingOptions$options
+     * range NSRange$range
      * withTemplate withTemplate="IS"
      * output: 0
      *  NSRegularExpression$class0-try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
      *  NSMutableString$in-"these are some example" as! NSMutableString
+     *  NSRegularExpression.MatchingOptions$options-.reportProgress
+     *  NSRange$range-NSRange(location: 0,length: value.length) & value="these are some examples"
     */
         static func replaceMatches1(){
         print(">>>>>>>>>>")
