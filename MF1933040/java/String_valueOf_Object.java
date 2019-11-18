@@ -7,14 +7,17 @@
  */
 public class String_valueOf_Object {
 	/**
-     * input: 1
+     * input: 2
+     * class0 class0 = String$class0
      * Object obj = 123
      * output: 1
      * ret0 = "123"
+     * String$class0-String$new String()$https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
      **/
 	public static void valueOf0() {
+		String class0 = new String();
 		int obj = 123;
-		String ret0 = String.valueOf(obj);
+		String ret0 = class0.valueOf(obj);
 		assert(ret0 == "123");
 		System.out.println(ret0);
 	}
@@ -22,3 +25,4 @@ public class String_valueOf_Object {
 		String_valueOf_Object.valueOf0();
 	}
 }
+
