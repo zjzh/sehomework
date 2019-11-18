@@ -1,0 +1,46 @@
+/**类名_方法名(_形参类型)
+ * @author: mf1933105xiejiyu
+ *  @className: Integer_byteValue
+ *  @apiSignature: java.lang.Integer$public byte byteValue()
+ *  @description: Test java api java.lang.Integer.byteValue()
+ *  @Map: don't have mappings$可以直接由下面方法实现:
+     // fullfilled byteValue
+    func byteValue() -> Int {
+        Int a=new Int(?)
+        return byte(a)
+    }
+ */
+    public class Integer_byteValue {
+    /**
+     * input: 0
+     * output: 1
+     * ret0  ret0=1
+     */
+    public  static void byteValue0(){
+        System.out.println(">>>>>>>>>>>>");
+        Integer i=new Integer(257);
+        byte ret0=i.byteValue();
+        assert (i==257);
+        assert (ret0==1);
+        System.out.println(ret0);
+
+    }
+    /**
+     * input:0
+     * output: 1
+     * ret0 ret0=127
+     */
+    public  static void byteValue1(){
+        System.out.println(">>>>>>>>>>>>");
+        Integer i=new Integer(127);
+        byte ret0=i.byteValue();
+        assert (i==127);
+        assert (ret0==127);
+        System.out.println(ret0);
+    }
+    public static void main(int[] args) {
+        Integer_byteValue.byteValue0();
+        Integer_byteValue.byteValue1();
+
+    }
+}
