@@ -30,5 +30,28 @@ class String_init_value_Int_Bool{
         assert (ret0=="123")
         print(ret0)
     }
+    /**
+     * input: 4
+     * class0 String$class0
+     * value value=-123
+     * radix radix=10
+     * uppercase uppercase=false
+     * output: 1
+     * ret0 ret0="-123"
+     */
+    static func init1(){
+        print(">>>>>>>>")
+        var value = -123
+        var radix=10
+        var uppercase=false
+        var class0:String
+        var ret0=type(of:class0).init(value,radix:radix,uppercase:uppercase)
+        assert (value == -123)
+        assert (radix==10)
+        assert (uppercase==false)
+        assert (ret0=="-123")
+        print(ret0)
+    }
 }
 String_init_value_Int_Bool.init0()
+String_init_value_Int_Bool.init1()

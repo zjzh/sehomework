@@ -8,7 +8,7 @@
 import Foundation
 
 class Int_description{
-     /**
+    /**
      * input: 1
      * class0 class0=123
      * output: 1
@@ -22,5 +22,20 @@ class Int_description{
         assert (ret0=="123")
         print(ret0)
     }
+    /**
+     * input: 1
+     * class0 class0=-123
+     * output: 1
+     * ret0 ret0="-123"
+     */
+    static func description1(){
+        print(">>>>>>>>")
+        var class0 = -123
+        var ret0=class0.description
+        assert (class0 == -123)
+        assert (ret0=="-123")
+        print(ret0)
+    }
 }
 Int_description.description0()
+Int_description.description1()
