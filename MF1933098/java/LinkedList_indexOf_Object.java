@@ -14,47 +14,47 @@
 import java.util.LinkedList;
  
 public class LinkedList_indexOf_Object {
-	/**
+    /**
      * input: 2
      * class0 LinkedList$class0
      * o o="hello"
      * output: 1
      * ret0 ret0=0
-	 * LinkedList$class0-LinkedList(Collection c) & c={"hello", "world", "hello"} & https://developer.android.google.cn/reference/java/util/LinkedList
+     * LinkedList$class0-LinkedList(Collection c) & c={"hello", "world", "hello"} & https://developer.android.google.cn/reference/java/util/LinkedList
      */
     public  static void indexOf0(){
         System.out.println(">>>>>>>>>>>>");
         LinkedList<String> class0 = new LinkedList<String> ();
-		class0.add("hello");
-		class0.add("world");
-		class0.add("hello");
-		String o="hello";
-		int ret0=class0.indexOf(o);
-		assert(ret0==0);
+	class0.add("hello");
+	class0.add("world");
+	class0.add("hello");
+	String o="hello";
+	int ret0=class0.indexOf(o);
+	assert(ret0==0);
         System.out.println(ret0);
 
     }
-	/**
+    /**
      * input: 2
      * class0 LinkedList$class0
      * o o="wow"
      * output: 1
      * ret0 ret0=0
-	 * LinkedList$class0-LinkedList$LinkedList(Collection c) & c={"hello", "world", "hello"} & https://developer.android.google.cn/reference/java/util/LinkedList
+     * LinkedList$class0-LinkedList$LinkedList(Collection c) & c={"hello", "world", "hello"} & https://developer.android.google.cn/reference/java/util/LinkedList
      */
     public  static void indexOf1(){
         System.out.println(">>>>>>>>>>>>");
         LinkedList<String> class0 = new LinkedList<String> ();
-		class0.add("hello");
-		class0.add("world");
-		class0.add("hello");
-		String o="wow";
-		int ret0=class0.indexOf(o);
-		assert(ret0==-1);
+	class0.add("hello");
+	class0.add("world");
+	class0.add("hello");
+	String o="wow";
+	int ret0=class0.indexOf(o);
+	assert(ret0==-1);
         System.out.println(ret0);
 
     }
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         LinkedList_indexOf_Object.indexOf0();
         LinkedList_indexOf_Object.indexOf1();
 
