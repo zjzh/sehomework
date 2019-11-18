@@ -11,7 +11,8 @@ import java.util.HashMap;
  */
     public class HashMap_size{
     /**
-     * input: 0
+     * input: 1
+     * class0 HashMap$class0
      * output: 1
      * ret0  ret0 = 5
      */
@@ -19,21 +20,22 @@ import java.util.HashMap;
 	{
         System.out.println(">>>>>>>>>>>>");
 		
-        HashMap<Integer, String> hash_map = new HashMap<Integer, String>();
+        HashMap<Integer, String> class0 = new HashMap<Integer, String>();
  
-        hash_map.put(10, "Geeks");
-        hash_map.put(15, "4");
-        hash_map.put(20, "Geeks");
-        hash_map.put(25, "Welcomes");
-        hash_map.put(30, "You");
+        class0.put(10, "Geeks");
+        class0.put(15, "4");
+        class0.put(20, "Geeks");
+        class0.put(25, "Welcomes");
+        class0.put(30, "You");
 		
-	Integer ret0 = hash_map.size();
+	Integer ret0 = class0.size();
         assert (ret0.equals(5));
         System.out.println(ret0);
     }
 	
     /**
-     * input: 0
+     * input: 1
+     * class0 HashMap$class0
      * output: 1
      * ret0  ret1 = 4
      */
@@ -41,20 +43,21 @@ import java.util.HashMap;
 	{
         System.out.println(">>>>>>>>>>>>");
 		
-	HashMap<String, Integer> hash_map = new HashMap<String, Integer>();
+	HashMap<String, Integer> class0 = new HashMap<String, Integer>();
 		
-        hash_map.put("Geeks", 10);
-        hash_map.put("4", 15);
-        hash_map.put("Geeks", 20);
-        hash_map.put("Welcomes", 25);
-        hash_map.put("You", 30);
+        class0.put("Geeks", 10);
+        class0.put("4", 15);
+        class0.put("Geeks", 20);
+        class0.put("Welcomes", 25);
+        class0.put("You", 30);
  
-	Integer ret0 = hash_map.size();
+	Integer ret0 = class0.size();
         assert (ret0.equals(4));
         System.out.println(ret0);
     }
     /**
-     * input: 0
+     * input: 1
+     * class0 HashMap$class0
      * output: 1
      * ret0  ret2 = 0
      */
@@ -62,9 +65,9 @@ import java.util.HashMap;
 	{
         System.out.println(">>>>>>>>>>>>");
 		
-	HashMap<String, Integer> hash_map = new HashMap<String, Integer>();
+	HashMap<String, Integer> class0 = new HashMap<String, Integer>();
  
-	Integer ret0 = hash_map.size();
+	Integer ret0 = class0.size();
         assert (ret0.equals(0));
         System.out.println(ret0);
     }
