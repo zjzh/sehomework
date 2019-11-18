@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
 * @author: MF1933099 卫昱阳
-*  @className: ContiguousArray_remove_Int
-*  @apiSignature: ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
-*  @description: Test swift api ContiguousArray$@discardableResult mutating func remove(at index: Int)
+*  @className: Array_remove_Int
+*  @apiSignature: Array$@discardableResult mutating func remove(at index: Int) -> Element
+*  @description: Test swift api Array$@discardableResult mutating func remove(at index: Int) -> Element
 *  @Map: java.util.ArrayList$ public E remove (int index)
 */
 import Foundation
