@@ -1,4 +1,3 @@
-
  /**类名_方法名(_形参类型)*($返回值类型)*
  * @author: MF1933116_zhangmiao
  *  @className: Dictionary_forEach_body
@@ -8,43 +7,19 @@
  */
 
 class Dictionary_forEach_body{
-
-	 /**
-     * input: 0
-     * output: 1
-	 * ret0 ret0 = 79
+    /**
+     * input: 1
+     * class0 Dictionary$class0
+     * output: 0
      */
     static func forEach0(){
-
-		print(">>>>>>>>>>>>")
-        var dict0:[String:Int] = ["Mohan":75, "Raghu":82, "John":79] 
-		dict0.forEach { (k,v) in
-			if k == "John" {
-			let ret0 = v
-			assert (ret0 == 79)
+	print(">>>>>>>>>>>>")
+        let class0:[Int:String] = [10:"Geks", 15:"4", 20:"Geeks",25:"Welcomes",30:"You"] 
+		class0.forEach { (k,v) in 
 			print("key : \(k) value :\(v)")
-			}
 		}
-    }
 
-	 /**
-     * input: 0
-     * output: 1
-	 * ret0 ret0 = Raghu"
-     */
-    static func forEach1(){
-	
-		print(">>>>>>>>>>>>")
-        var dict0:[String:Int] = ["Mohan":75, "Raghu":82, "John":79] 
-		dict0.forEach { (k,v) in
-			if v == 82 {
-			let ret0 = k
-			assert (ret0 == "Raghu")
-			print("key : \(k) value :\(v)")
-			}
-		}
     }
 }
 
 Dictionary_forEach_body.forEach0()
-Dictionary_forEach_body.forEach1()
