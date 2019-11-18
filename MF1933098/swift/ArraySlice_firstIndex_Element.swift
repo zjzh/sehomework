@@ -16,33 +16,33 @@
      */
      static func firstIndex0()
      {
-			print(">>>>>>>>>>>>")
-			var class0=ArraySlice<String>()
-			class0.append("hello")
-			class0.append("world")
-			class0.append("hello")
-			let ret0=class0.firstIndex(of: "hello")
-			assert(ret0==0)
-			print(ret0)
+        print(">>>>>>>>>>>>")
+	var class0=ArraySlice<String>()
+	class0.append("hello")
+	class0.append("world")
+	class0.append("hello")
+	let ret0=class0.firstIndex(of: "hello")
+	assert(ret0==0)
+	print(ret0)
      }
- 	/**
+    /**
      * input: 2
      * class0 class0=["hello","world","hello"]
      * of of="wow"
      * output: 1
      * ret0 0
      */
-	 static func firstIndex1()
-	 {
-			print(">>>>>>>>>>>>")
-			var class0=ArraySlice<String>()
-			class0.append("hello")
-			class0.append("world")
-			class0.append("hello")
-			let ret0=class0.firstIndex(of: "wow")
-			assert(ret0==nil)
-			print(ret0)
-	 }
+     static func firstIndex1()
+     {
+	print(">>>>>>>>>>>>")
+	var class0=ArraySlice<String>()
+	class0.append("hello")
+	class0.append("world")
+	class0.append("hello")
+	let ret0=class0.firstIndex(of: "wow")
+	assert(ret0==nil)
+	print(ret0)
+     }
  }
  ArraySlice_firstIndex_Element.firstIndex0()
  ArraySlice_firstIndex_Element.firstIndex1()
