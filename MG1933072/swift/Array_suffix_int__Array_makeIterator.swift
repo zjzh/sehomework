@@ -59,5 +59,5 @@ class Array_suffix_int__Array_makeIterator{
 	}
 }
 
-Array_suffix_int_Array_makeIterator.suffix_makeIterator0()
-Array_suffix_int_Array_makeIterator.suffix_makeIterator1()
+Array_suffix_int__Array_makeIterator.suffix_makeIterator0()
+Array_suffix_int__Array_makeIterator.suffix_makeIterator1()
