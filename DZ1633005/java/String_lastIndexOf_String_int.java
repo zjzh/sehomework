@@ -1,6 +1,6 @@
 package com.homework4;
-/**ÀàÃû_·½·¨Ãû(_ĞÎ²ÎÀàĞÍ)*
- * @author: DZ1633005 ¸ÊÔªÖù
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»å‹)*
+ * @author: DZ1633005 ç”˜å…ƒæŸ±
  *  @className: String_lastIndexOf_String_int
  *  @apiSignature: java.lang.String$public int lastIndexOf(String str, int fromIndex)
  *  @description: Test java api java.lang.String$lastIndexOf(String str, int fromIndex)

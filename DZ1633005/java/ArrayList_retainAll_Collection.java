@@ -3,8 +3,8 @@ package com.homework4;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/**ÀàÃû_·½·¨Ãû(_ĞÎ²ÎÀàĞÍ)*
- * @author: DZ1633005 ¸ÊÔªÖù
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»å‹)*
+ * @author: DZ1633005 ç”˜å…ƒæŸ±
  *  @className: ArrayList_retainAll_Collection
  *  @apiSignature: Java.util.ArrayList$public boolean retainAll(Collection<?> c)
  *  @description: Test java api Java.util.ArrayList$public boolean retainAll(Collection<?> c)
@@ -13,8 +13,8 @@ import java.util.Collection;
 public class ArrayList_retainAll_Collection {
     /**
      * input:2
-     * class0 class0=[1,1,5]
-     * c c=[1,2,3,4]
+     * class0 ArrayList$class0=[1,1,5]
+     * c Collection$c=[1,2,3,4]
      * output:1
      * ret0 ret0=true
      */
@@ -37,8 +37,8 @@ public class ArrayList_retainAll_Collection {
 
     /**
      * input:2
-     * class0 class0=[1,1,5]
-     * c c=[2,3,4]
+     * class0 ArrayList$class0=[1,1,5]
+     * c Collection$c=[2,3,4]
      * output:1
      * ret0 ret0=true
      */
@@ -61,8 +61,8 @@ public class ArrayList_retainAll_Collection {
 
     /**
      * input:2
-     * class0 class0=[1,2,3,4]
-     * c c=[1,2,3,4]
+     * class0 ArrayList$class0=[1,2,3,4]
+     * c Collection$c=[1,2,3,4]
      * output:1
      * ret0 ret0=false
      */

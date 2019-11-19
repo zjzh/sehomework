@@ -9,70 +9,73 @@
 import Foundation
 class NSString_substring_Int__NSString_range_String_NSString$CompareOptions{
     /**
-     *input : 3
+     *input : 4
      *class0 class0="aabbccbbaa"
      *to to=8
      *of of="bb"
+	 *options NSString.CompareOptions$options=backwards
      *ouput : 2
      *ret0 ret0="aabbccbb"
      *ret1 ret1=6
      */
     static func substring_range0(){
         print(">>>>>>>>")
-		let class0:NSString = "aabbccbbaa"
-		let ret0=class0.substring(to:8)
-		let class1 = NSString(string:ret0)
-		let temp = class1.range(of: "bb",options:.backwards)
+	let class0:NSString = "aabbccbbaa"
+	let ret0=class0.substring(to:8)
+	let class1 = NSString(string:ret0)
+	let temp = class1.range(of: "bb",options:NSString.CompareOptions.backwards)
         let ret1 = temp.location
         assert(ret0=="aabbccbb")
-		print(ret0)
+	print(ret0)
         assert(ret1==6)
 		print(ret1) 
         
     }
     /**
-     *input : 3
+     *input : 4
      *class0 class0="aabbccbbaa"
      *to to=5
      *of of="bb"
+	 *options NSString.CompareOptions$options=backwards
      *ouput : 2
      *ret0 ret0="aabbc"
      *ret1 ret1=2
      */
     static func substring_range1(){
         print(">>>>>>>>")
-		let class0:NSString = "aabbccbbaa"
-		let ret0=class0.substring(to:5)
-		let class1 = NSString(string:ret0)
-		let temp = class1.range(of: "bb",options:.backwards)
+	let class0:NSString = "aabbccbbaa"
+	let ret0=class0.substring(to:5)
+	let class1 = NSString(string:ret0)
+	let temp = class1.range(of: "bb",options:.backwards)
         let ret1 = temp.location
         assert(ret0=="aabbc")
-		print(ret0)
+	print(ret0)
         assert(ret1==2)
 		print(ret1) 
     }
     
     /**
-     *input : 3
+     *input : 4
      *class0 class0="aabbccbbaa"
      *to to=5
      *of of="dd"
      *ouput : 2
+	 *options NSString.CompareOptions$options=backwards
      *ret0 ret0="aabbc"
      *ret1 ret1=9223372036854775807
      9223372036854775807 == NSNotFound
      */
     static func substring_range2(){
         print(">>>>>>>>")
-		let class0:NSString = "aabbccbbaa"
-		let ret0=class0.substring(to:5)
-		let class1 = NSString(string:ret0)
-		let temp = class1.range(of: "dd",options:.backwards)
+	let class0:NSString = "aabbccbbaa"
+	let ret0=class0.substring(to:5)
+	let class1 = NSString(string:ret0)
+	let temp = class1.range(of: "dd",options:.backwards)
         let ret1 = temp.location
         assert(ret0=="aabbc")
-		print(ret0)
+	print(ret0)
         assert(ret1==NSNotFound)
-		print(ret1) 
+	print(ret1) 
     }
 
 }
