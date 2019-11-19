@@ -12,15 +12,17 @@ import java.io.IOException;
  */
 public class FileOutputStream_close {
     /**
-     * input: 1
+     * input: 2
      * class0 FileOutputStream$class0
-     * output: 1
-     * ret0 ret0="FileOutputStream Status: false\n"
+     * class1 File$class1
+     * output: 0
+     * FileOutputStream$class0-FileOutputStream(File file) & File = new File(String pathname)& File$class1-File(String pathname) & pathname="test.txt" & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
      */
     public static void close0(){
-        File file = new File("test.txt");
+        System.out.println(">>>>>>>>");
+        File class1 = new File("test.txt");
         try {
-            FileOutputStream class0 = new FileOutputStream(file);
+            FileOutputStream class0 = new FileOutputStream(class1);
 
             String str = "hello world!";
             for(int i = 0;i < str.length();i++){
@@ -29,8 +31,10 @@ public class FileOutputStream_close {
             }
 
             class0.close();
+            boolean status = class0.getFD().valid();
+            assert (status == false);
 
-            System.out.println("FileOutputStream Status: " + class0.getFD().valid());
+            System.out.println("FileOutputStream Status: " + status);
         }catch (FileNotFoundException e){
             e.printStackTrace();
         } catch (IOException e) {
@@ -41,25 +45,29 @@ public class FileOutputStream_close {
 
 
     /**
-     * input: 1
+     * input: 2
      * class0 FileOutputStream$class0
-     * output: 1
-     * ret0 ret0="FileOutputStream Status: false\n"
+     * class1 File$class1
+     * output: 0
+     * FileOutputStream$class0-FileOutputStream(File file) & File = new File(String pathname)& File$class1-File(String pathname) & pathname="test2.txt" & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
      */
     public static void close1(){
-        File file = new File("test2.txt");
+        System.out.println(">>>>>>>>");
+        File class1 = new File("test2.txt");
         try {
-            FileOutputStream class0 = new FileOutputStream(file);
+            FileOutputStream class0 = new FileOutputStream(class1);
 
-            String str = "I love nju!";
+            String str = "hello NJU!";
             for(int i = 0;i < str.length();i++){
                 char tmp = str.charAt(i);
                 class0.write(tmp);
             }
 
             class0.close();
+            boolean status = class0.getFD().valid();
+            assert (status == false);
 
-            System.out.println("FileOutputStream Status: " + class0.getFD().valid());
+            System.out.println("FileOutputStream Status: " + status);
         }catch (FileNotFoundException e){
             e.printStackTrace();
         } catch (IOException e) {
@@ -67,6 +75,7 @@ public class FileOutputStream_close {
         }
 
     }
+
 
     public static void main(String[] args){
         FileOutputStream_close.close0();
