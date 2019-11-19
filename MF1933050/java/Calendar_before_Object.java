@@ -1,5 +1,5 @@
 /**类名_方法名(_形参类型)
- * @author: MF1933050 李贵银
+ *  @author: MF1933050 李贵银
  *  @className: Calendar_before_Object
  *  @apiSignature: java.util.Calendar$public boolean before(Object when)
  *  @description: Test java api java.util.Calendar$public boolean before(Object when)
@@ -10,10 +10,12 @@ import java.util.Calendar;
 public class Calendar_before_Object {
     /**
      * input: 2
-     * class0 class0="2019.1.2 3:4:5"
-     * when when="2019.1.2 3:4:6"
+     * class0 Calendar$class0
+     * when Object$when
      * output: 1
      * ret0 ret0=true
+     * Calendar$class0-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
+     * Object$when-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
      */
     public static void before0(){
         Calendar class0 = Calendar.getInstance();
@@ -39,10 +41,12 @@ public class Calendar_before_Object {
 
     /**
      * input: 2
-     * class0 class0="2019.1.2 3:4:5"
-     * when when="2019.1.2 3:4:5"
+     * class0 Calendar$class0
+     * when Object$when
      * output: 1
      * ret0 ret0=false
+     * Calendar$class0-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
+     * Object$when-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
      */
     public static void before1(){
         Calendar class0 = Calendar.getInstance();
@@ -68,10 +72,12 @@ public class Calendar_before_Object {
 
     /**
      * input: 2
-     * class0 class0="2019.1.2 3:4:5"
-     * when when="2019.1.2 3:4:6"
+     * class0 Calendar$class0
+     * when Object$when
      * output: 1
      * ret0 ret0=false
+     * Calendar$class0-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
+     * Object$when-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
      */
     public static void before2(){
         Calendar class0 = Calendar.getInstance();
