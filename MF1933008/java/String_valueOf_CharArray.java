@@ -1,5 +1,5 @@
 /**类名_方法名(_形参类型)*
- * @@author: MF1933008陈思远
+ * @author: MF1933008陈思远
  * @className: String_valueOf_CharArray
  * @apiSignature: java.lang.String$public static String valueOf (char[] data)
  * @description: Test java api java.lang.String.valueOf(char[] data)
