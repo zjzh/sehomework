@@ -10,9 +10,10 @@ import java.util.LinkedList;
 public class LinkedList_peekFirst {
     /**
      * input: 1
-     * class0 class0=new LinkedList<Integer>() 
+     * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=10
+     * LinkedList$class0-LinkedList(Collection<? extends E> c) & c=Integer & https://developer.android.com/reference/java/util/LinkedList?hl=en#public-constructors
      */
     public static void peekFirst0(){
         LinkedList<Integer> class0 = new LinkedList<Integer>();

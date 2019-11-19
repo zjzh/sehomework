@@ -13,9 +13,10 @@ public class String_toUpperCase_Locale{
 	/**
      * input: 2 
      * class0 class0="hello" 
-     * local local=Local.getDefault() 
+     * local static Local$local 
      * output: 1
      * ret0  ret0="HELLO" 
+     * static Local$local-public static Locale getDefault () & https://developer.android.com/reference/java/util/Locale.html#getDefault()
      */
 	public static void toUpperCase0(){
 		String class0 = "hello";
