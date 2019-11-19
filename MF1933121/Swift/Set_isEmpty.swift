@@ -1,35 +1,37 @@
-/* *类名$方法名(_形参类型)*
+/*
  @author: MF1933121 张馨月
  @className: Set_isEmpty
- @apiSignature: Set$ var isEmpty: Bool { get }
- @description: Test swift api Set_isEmpty
- @Map: HashSet$ public boolean isEmpty ()
+ @apiSignature: Set$var isEmpty: Bool { get }
+ @description: Test swift api Set$var isEmpty: Bool { get }
+ @Map: HashSet$public boolean isEmpty ()
  */
 import Foundation
 
 class Set_isEmpty{
     /**
      input : 1
-     class0 class0 = Set<Int>([1,2,3,4,5,6])
+     class0 class0 = Set$class0
      output : 1
      ret0 ret0 = false
+     Set$class0-Set$Set<Int>() & class0 = [1,2,3,4,5,6] & https://developer.apple.com/documentation/swift/set/3018383-isempty
      */
     static func isEmpty0(){
-        var class0 = Set<Int>([1,2,3,4,5,6])
-        var ret0 = class0.isEmpty
+        let class0 = Set<Int>([1,2,3,4,5,6])
+        let ret0 = class0.isEmpty
         assert(class0.count != 0)
         assert(ret0 == false)
         print(ret0)
     }
     /**
      input : 1
-     class0 class0 = Set<Int>()
+     class0 class0 = Set$class0
      output : 1
      ret0 ret0 = true
+     Set$class0-Set$Set<Int>() & class0 = [] & https://developer.apple.com/documentation/swift/set/3018383-isempty
      */
     static func isEmpty1(){
-        var class0 = Set<Int>()
-        var ret0 = class0.isEmpty
+        let class0 = Set<Int>()
+        let ret0 = class0.isEmpty
         assert(class0.count == 0)
         assert(ret0 == true)
         print(ret0)
@@ -38,4 +40,5 @@ class Set_isEmpty{
 
 Set_isEmpty.isEmpty0()
 Set_isEmpty.isEmpty1()
+
 
