@@ -1,13 +1,12 @@
-import java.io.File;
-import java.io.IOException;
-
 /**
- * @author: DZ1933036_zhiyuan
+ * @author: DZ1933036_支原
  * @classname: File_IsDirectory
  * @apiSignature: java.io.File$public boolean isDirectory()
  * @description: Tests whether the file denoted by this abstract pathname is directory
- * @Map: FileWrapper$var isDirectory:Bool{get}
+ * @Map: FileWrapper$var isDirectory ->Bool?;URLResourceValues$var isDirectory ->Bool?
  */
+import java.io.File;
+import java.io.IOException;
 public class File_IsDirectory {
     /**
      * input:0
@@ -19,9 +18,9 @@ public class File_IsDirectory {
     {
         try {
             System.out.println(">>>>>>>>>>>>");
-            File f = new File("D:\\java");
+            File class0 = new File("D:\\java");
             boolean ret0 = true;
-            ret0 = f.isDirectory();
+            ret0 = class0.isDirectory();
             assert (ret0 == false);
             System.out.println(ret0);
         }catch (Exception e)
@@ -40,9 +39,9 @@ public class File_IsDirectory {
     {
         try{
             System.out.println(">>>>>>>>>>>>");
-            File f = new File("C:\\Users\\castle");
+            File class0 = new File("C:\\Users\\castle");
             boolean ret0 = true;
-            ret0 = f.isDirectory();
+            ret0 = class0.isDirectory();
             assert (ret0 == true);
             System.out.println(ret0);
         }catch (Exception e)

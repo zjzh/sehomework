@@ -1,12 +1,12 @@
 /**
- *@author: DZ1933036_zhiyuan
+ *@author: DZ1933036_支原
  *@classname: filewrapper_is_Directory_URLResourceValues_isDirectory
- *@apiSignature:  FileWrapper$ var isDirectory ->Bool?;URLResourceValues$var isDirectory: ->Bool?
+ *@apiSignature:  FileWrapper$ var isDirectory ->Bool?;URLResourceValues$var isDirectory:->Bool?
  *@description: This property contains a boolean value indicating whether the file wrapper is a directory file wrapper;True for directories.
  *Map:java.io.fileFile$ public boolean isDirectory()
  */
 import Foundation
-class filewrapper_isDirectory_URLResourceValues_isDirectory{
+class filewrapper_isDirectory__URLResourceValues_isDirectory{
     /**
      * input: 0
      * class0: FileWrapper$class0
@@ -59,4 +59,5 @@ class filewrapper_isDirectory_URLResourceValues_isDirectory{
         catch{print("error")}
     }
 }
+
 

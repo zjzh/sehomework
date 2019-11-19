@@ -1,13 +1,11 @@
-import java.util.HashMap;
-
-
 /**
- * @author: DZ1933036_zhiyuan
+ * @author: DZ1933036_支原
  * @classname: HashMap_put_K_V
  * @apiSignature: java.util.HashMap$public V put(K key,V value)
  * @description: Associate the specified value with tje specified key in this map
  * @Map: NSMapTable$func setObject(_ anObject:ObjectType?,forKey aKey: KeyType?)
  */
+import java.util.HashMap;
 public class HashMap_put_K_V {
     /**
      * input:2
