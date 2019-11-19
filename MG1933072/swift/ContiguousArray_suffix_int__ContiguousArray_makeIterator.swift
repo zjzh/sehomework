@@ -8,13 +8,6 @@ import Foundation
  * @Map: ArrayList$public ListIterator<E> listIterator(int index);LinkedList$public ListIterator<E> listIterator(int index)
  */
 class ContiguousArray_suffix_int__ContiguousArray_makeIterator{
-	/**
-     * input: 1
-     * class0 ContiguousArray$class0
-     * output: 1
-     * ret0 ret0="[4, 5]\nIndexingIterator<ArraySlice<Int>>(_elements: ArraySlice([4, 5]), _position: 3)"
-     */
-
      /**
      * input: 2
      * class0 class0= [1,2,3,4,5]
@@ -24,7 +17,6 @@ class ContiguousArray_suffix_int__ContiguousArray_makeIterator{
      * ret1 IndexingIterator$ret1
      * IndexingIterator$ret1-IndexingIterator();ContiguousArray$makeIterator() & https://developer.apple.com/documentation/swift/contiguousarray
      */
-
 	static func suffix_makeIterator0(){
 		print(">>>>>>>>")
 		let class0 = ContiguousArray<Int>([1,2,3,4,5])
