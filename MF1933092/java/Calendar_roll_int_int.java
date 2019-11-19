@@ -13,10 +13,11 @@ import java.util.Calendar;
 public class Calendar_roll_int_int {
     /**
      * input: 3
-     * class0 Calendar$class0-Calendar&class0 = Calendar.getInstance() &https://developer.android.com/reference/java/util/Calendar
+     * class0 Calendar$class0
      * field field = Calendar.MONTH
      * amount amount = 13
      * output: 0
+     * Calendar$class0-Calendar&class0 = Calendar.getInstance() &https://developer.android.com/reference/java/util/Calendar
      */
     public static void roll0(){
         Calendar class0 = Calendar.getInstance();
@@ -37,10 +38,11 @@ public class Calendar_roll_int_int {
 
     /**
      * input: 3
-     * class0 Calendar$class0-Calendar&class0 = Calendar.getInstance() &https://developer.android.com/reference/java/util/Calendar
+     * class0 Calendar$class0
      * field field = Calendar.DATE
      * amount amount = 32
      * output: 0
+     * Calendar$class0-Calendar&class0 = Calendar.getInstance() &https://developer.android.com/reference/java/util/Calendar
      */
     public static void roll1(){
         Calendar class0 = Calendar.getInstance();
