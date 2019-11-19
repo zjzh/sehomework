@@ -27,7 +27,7 @@ public class LinkedList_addLast_Element {
         class0.addLast(element0);
 
         assert(class0.getLast().equals("4"));
-        System.out.println(class0.getLast());
+        System.out.println("addLast0: "+class0.getLast());
     }
 
     /**
@@ -47,7 +47,7 @@ public class LinkedList_addLast_Element {
         class0.addLast(element0);
 
         assert(class0.getLast().equals(""));
-        System.out.println(class0.getLast());
+        System.out.println("addLast1: "+class0.getLast());
 
     }
     public static void main(String[] args) {
