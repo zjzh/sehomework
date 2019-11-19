@@ -8,7 +8,7 @@ import java.io.IOException;
  * @className: FileOutputStream_close
  * @apiSignature: java.io.FileOutputStream$public void close()
  * @description: Test java api java.io.FileOutputStream$public void close()
- * @Map: FileHandle$(void)closeFile
+ * @Map: FileHandle$func (void)closeFile
  */
 public class FileOutputStream_close {
     /**
