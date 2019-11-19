@@ -1,6 +1,6 @@
 /**
  *@author: MF1833060_shameng
- * @className: String_write_inoutTarget
+ * @className: String_write_TextOutputStream
  * @apiSignature: String$ func write<Target>(to target: inout Target) where Target : TextOutputStream
  * @description: Writes the string into the given output stream
  * @Map: PrintStream$ public void print(long l)
@@ -18,7 +18,7 @@ struct ASCIILogger: TextOutputStream {
     }
 }
 
-class String_write_inoutTarget{
+class String_write_TextOutputStream{
     /**
      * input: 2
 	 * class0 class0 = String.init(10)
