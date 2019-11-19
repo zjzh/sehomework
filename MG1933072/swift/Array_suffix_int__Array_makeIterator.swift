@@ -7,7 +7,7 @@ import Foundation
  * @description: Test swift api Array$suffix(_ maxLength: Int) -> ArraySlice<Element>;Array$makeIterator() -> IndexingIterator<Array<Element>>
  * @Map: java.util.ArrayList$public ListIterator<E> listIterator(int index);java.util.LinkedList$public ListIterator<E> listIterator(int index)
  */
-class Array_suffix_int_Array_makeIterator{
+class Array_suffix_int__Array_makeIterator{
 	/**
      * input: 2
      * class0 class0= [1,2,3,4,5]
