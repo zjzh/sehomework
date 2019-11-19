@@ -9,29 +9,29 @@
 class Int_Add_Int_Int{
 	/**
      * input: 2
-	 * Int0 Int0=21
-     * Int1 Int1=30
+	 * lhs lhs=21
+     * rhs rhs=30
      * output: 1
      * ret0 ret0=51
      */
     static func Add0(){
-	   	let x: Int = 21
-		let y: Int = 30
-		let ret0: Int = Int(x) + y
+	   	let lhs: Int = 21
+		let rhs: Int = 30
+		let ret0: Int = Int(lhs) + rhs
 		assert(ret0 == 51)
 		print(ret0)
     }
 	/**
      * input: 2
-	 * Int0 Int0=21
-     * Int1 Int1=-30
+	 * lhs lhs=21
+     * rhs rhs=-30
      * output: 1
      * ret0 ret0=-9
      */
     static func Add1(){
-	   	let x: Int = 21
-		let y: Int = -30
-		let ret0: Int = Int(x) + y
+	   	let lhs: Int = 21
+		let rhs: Int = -30
+		let ret0: Int = Int(lhs) + rhs
 		assert(ret0 == -9)
 		print(ret0)
     }

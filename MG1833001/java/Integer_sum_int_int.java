@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ĞÎ²ÎÀàĞÍ)
- * @author: MG1833001 ±ÏÊ¤
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»å‹)
+ * @author: MG1833001 æ¯•èƒœ
  *  @className: Integer_sum_int_int
  *  @apiSignature: java.lang.Integer$public static int sum (int a, int b)
  *  @description: Test java api java.lang.Integer.sum(int a, int b)
@@ -9,7 +9,7 @@
  */
 
 public class Integer_sum_int_int {
-	/**
+    /**
      * input: 2
      * a a=1
      * b b=2
@@ -29,10 +29,10 @@ public class Integer_sum_int_int {
      * a a=0
      * b b=1
      * output: 1
-     * ret0  ret0=3
+     * ret0  ret0=1
      */
     public  static void sum1(){
-    	System.out.println(">>>>>>>>>>>>");
+        System.out.println(">>>>>>>>>>>>");
         Integer a=0;
         Integer b=1;
         Integer ret0 = Integer.sum(a,b);
@@ -40,8 +40,8 @@ public class Integer_sum_int_int {
         System.out.println(ret0);
     }
     public static void main(String[] args) {
-    	Integer_sum_int_int.sum0();
-    	Integer_sum_int_int.sum1();
-
+        Integer_sum_int_int.sum0();
+        Integer_sum_int_int.sum1();
     }
 }
+

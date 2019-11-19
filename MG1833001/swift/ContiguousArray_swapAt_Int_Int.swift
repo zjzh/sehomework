@@ -9,14 +9,14 @@ class ContiguousArray_swapAt_Int_Int{
 	/**
      * input: 3
 	 * class0 class0=["apple", "pear", "grape", "banana"]
-     * Int0 Int0=1
-     * Int1: Int1=2
+     * i i=1
+     * j: j=2
      */
     static func swapAt0(){
 	   	var class0: ContiguousArray = ["apple", "pear", "grape", "banana"]
-		let Int0: Int = 1;
-		let Int1: Int = 2;
-		class0.swapAt(Int0, Int1);
+		let i: Int = 1;
+		let j: Int = 2;
+		class0.swapAt(i, j);
 		assert(class0 == ["apple", "grape", "pear", "banana"])
         print(class0);
     }

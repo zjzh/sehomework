@@ -11,34 +11,34 @@ class Int32_addingReportingOverflow_Int32{
 	 * class0 class0=1
      * other other=2
      * output: 2
-     * ret0 ret0=3
-	 * ret1 ret1=false
+     * partialValue partialValue=3
+	 * overflow overflow=false
      */
     static func addingReportingOverflow0(){
 	   	let class0: Int32 = 1;
 		let other: Int32 = 2;
-		let (ret0,ret1 ):(Int32,Bool) = class0.addingReportingOverflow(other)
-	    assert(ret0==3);
-		assert(ret1==false);
-        print(ret0);
-		print(ret1);
+		let (partialValue,overflow ):(Int32,Bool) = class0.addingReportingOverflow(other)
+	    assert(partialValue==3);
+		assert(overflow==false);
+        print(partialValue);
+		print(overflow);
     }
 	/**
      * input: 2
 	 * class0 class0=1
      * other other=-2
      * output: 2
-     * ret0 ret0=-1
-	 * ret1 ret1=false
+     * partialValue partialValue=-1
+	 * overflow overflow=false
      */
     static func addingReportingOverflow1(){
 	   	let class0: Int32 = 1;
 		let other: Int32 = -2;
-		let (ret0,ret1 ):(Int32,Bool) = class0.addingReportingOverflow(other)
-	    assert(ret0 == -1);
-		assert(ret1==false);
-        print(ret0);
-		print(ret1);
+		let (partialValue,overflow ):(Int32,Bool) = class0.addingReportingOverflow(other)
+	    assert(partialValue == -1);
+		assert(overflow==false);
+        print(partialValue);
+		print(overflow);
     }
 }
 Int32_addingReportingOverflow_Int32.addingReportingOverflow0();
