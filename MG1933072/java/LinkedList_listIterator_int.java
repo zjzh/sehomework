@@ -7,8 +7,8 @@ import java.util.ListIterator;
  * @className: LinkedList_listIterator_int
  * @apiSignature: java.util.LinkedList$public ListIterator<E> listIterator(int index)
  * @description: Test java.util.LinkedList$public ListIterator<E> listIterator(int index)
- * @Map: Array$suffix(_ maxLength: Int) -> ArraySlice<Element>;Array$makeIterator() -> IndexingIterator<Array<Element>>
- * @Map: ContiguousArray$suffix(_ maxLength : Int) -> ArraySlice<Element>;ContiguousArray$makeIterator() -> IndexingIterator<Array<Element>>
+ * @Map: Array$func suffix(_ maxLength: Int) -> ArraySlice<Element>;Array$func makeIterator() -> IndexingIterator<Array<Element>>
+ * @Map: ContiguousArray$func suffix(_ maxLength : Int) -> ArraySlice<Element>;ContiguousArray$func makeIterator() -> IndexingIterator<Array<Element>>
  */
 public class LinkedList_listIterator_int {
     /**
