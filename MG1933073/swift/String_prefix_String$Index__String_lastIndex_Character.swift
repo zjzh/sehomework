@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)*
- * @author:MG1933073 ÐÜ¿¡
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)*
+ * @author:MG1933073 ç†Šä¿Š
  * @className:String_prefix_String$Index__String_lastIndex_Character
  * @apiSignature:String$func prefix(through position: String.Index) -> Substring;String$func lastIndex(of element: Character) -> String.Index?
  * @description:Test swift api String$prefix(through position: String.Index);String.Index;String$lastIndex(of element: Character)
@@ -21,8 +21,8 @@
          print(">>>>>>>>>>>>>>>>>")
          let class0="Hello,World"
          let through=class0.index(class0.startIndex,offsetBy:11)
-         let ret0=class0.p/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)*
- * @author:MG1933073 ÐÜ¿¡
+         let ret0=class0.p/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)*
+ * @author:MG1933073 ç†Šä¿Š
  * @className:String_prefix_String$Index__String_lastIndex_Character
  * @apiSignature:String$func prefix(through position: String.Index) -> Substring;String$func lastIndex(of element: Character) -> String.Index? * @apiSignature:
  * @description:Test swift api String$prefix(through position: String.Index);String.Index;String$lastIndex(of element: Character)
