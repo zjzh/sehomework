@@ -11,44 +11,42 @@ class FileHandle_closeFile {
     /**
      * input: 1
      * class0 FileHandle$class0
-     * output: 1
-     * ret0 ret0="FileStatus: \nnil"
+     * output: 0
+     * FileHandle$class0-FileHandle();FileHandle$init(forUpdating url: URL) & url="test.txt" & https://developer.apple.com/documentation/foundation/filehandle/1417026-init
      */
     static func closeFile0() {
-    
+        print(">>>>>>>>")
         let path = "test.txt"
         
         //读写
         let class0 = FileHandle.init(forUpdatingAtPath: path)
-        
         let writeStr = "hello world!"
         let writeData1 = writeStr.data(using:String.Encoding.utf8)
-
         class0?.write(writeData1!)
 
-        print("FileStatus: ")
+        assert(class0?.closeFile() == nil)
+        print("FileStatus: ", terminator: "")
         print(class0?.closeFile())
     }
 
     /**
      * input: 1
      * class0 FileHandle$class0
-     * output: 1
-     * ret0 ret0="FileStatus: \nnil"
+     * output: 0
+     * FileHandle$class0-FileHandle();FileHandle$init(forUpdating url: URL) & url="test2.txt" & https://developer.apple.com/documentation/foundation/filehandle/1417026-init
      */
     static func closeFile1() {
-    
+        print(">>>>>>>>")
         let path = "test2.txt"
         
         //读写
         let class0 = FileHandle.init(forUpdatingAtPath: path)
-        
-        let writeStr = "I love nju!"
+        let writeStr = "hello world!"
         let writeData1 = writeStr.data(using:String.Encoding.utf8)
-
         class0?.write(writeData1!)
 
-        print("FileStatus: ")
+        assert(class0?.closeFile() == nil)
+        print("FileStatus: ", terminator: "")
         print(class0?.closeFile())
     }
 }
