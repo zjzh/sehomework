@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)*
- * @author:MG1933073 ÐÜ¿¡
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)*
+ * @author:MG1933073 ç†Šä¿Š
  * @className:Class_getSimpleName
  * @apiSignature:java.lang.Class$public String getSimpleName()
  * @description:Test java api java.lang.Class.getSimpleName()
@@ -8,13 +8,14 @@
     public class Class_getSimpleName{
         /**
          * input:1
-         * String String$String
+         * class0 class0="Hello,World"
          * output:1
          * ret0 ret0="String"
          */
         public static void getSimpleName0(){
             System.out.println(">>>>>>>>>>>>>>>>>");
-            String ret0=String.class.getSimpleName();
+            String class0="Hello,World";
+            String ret0=class0.getClass().getSimpleName();
             assert(ret0=="String");
             System.out.println(ret0);
          }
