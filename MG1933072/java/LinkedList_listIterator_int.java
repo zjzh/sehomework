@@ -12,43 +12,49 @@ import java.util.ListIterator;
  */
 public class LinkedList_listIterator_int {
     /**
-     * input: 1
-     * class0 ListIterator$class0
+     * input: 2
+     * class0 LinkedList$class0
+     * index index=1
      * output: 1
-     * ret0 ret0="nextIndex: 2\n nextElement: c\n"
+     * ret0 ListIterator$ret0
+     * LinkedList$class0-LinkedList();LinkedList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void listIterator0(){
-        List<String> list = new LinkedList<String> ();
-        list.add("a");
-        list.add("b");
-        list.add("c");
-        list.add("d");
+        System.out.println(">>>>>>>>");
+        List<String> class0 = new LinkedList<String> ();
+        String input = "Iamthexjx";
+        int len = input.length();
+        for(int i = 0;i < len;i++){
+            class0.add("" + input.charAt(i));
+        }
 
-        // 此时，迭代器指向Iterator_one位置
-        ListIterator<String> listIterator = list.listIterator(2);
-        System.out.println("nextIndex: " + listIterator.nextIndex());
-        String firstElement = listIterator.next();
-        System.out.println("nextElement: " + firstElement);
+        ListIterator<String> ret0 = class0.listIterator(1);
+        String nextElement = ret0.next();
+        assert(nextElement.equals("a"));
+        System.out.println("nextElement: " + nextElement);
     }
 
     /**
-     * input: 1
-     * class0 ListIterator$class0
+     * input: 2
+     * class0 ArrayList$class0
+     * index index=2
      * output: 1
-     * ret0 ret0="nextIndex: 1\n nextElement: j\n"
+     * ret0 ListIterator$ret0
+     * ArrayList$class0-ArrayList();ArrayList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */
     public static void listIterator1(){
-        List<String> list = new LinkedList<String> ();
-        list.add("n");
-        list.add("j");
-        list.add("u");
-        list.add("x");
+        System.out.println(">>>>>>>>");
+        List<String> class0 = new LinkedList<String> ();
+        String input = "IloveNJU";
+        int len = input.length();
+        for(int i = 0;i < len;i++){
+            class0.add("" + input.charAt(i));
+        }
 
-        // 此时，迭代器指向Iterator_one位置
-        ListIterator<String> listIterator = list.listIterator(1);
-        System.out.println("nextIndex: " + listIterator.nextIndex());
-        String firstElement = listIterator.next();
-        System.out.println("nextElement: " + firstElement);
+        ListIterator<String> ret0 = class0.listIterator(2);
+        String nextElement = ret0.next();
+        assert(nextElement.equals("o"));
+        System.out.println("nextElement: " + nextElement);
     }
 
     public static void main(String[] args){
