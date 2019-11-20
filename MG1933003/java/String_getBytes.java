@@ -10,13 +10,21 @@
 	 * input : 1
 	 * class0 class0="hello";
 	 * output : 1
-	 * ret0 = [104,101,108,108,111]
+	 * ret0 ret0 = [104,101,108,108,111]
 	 */
 	public static void getBytes0(){
 		System.out.println(">>>>>>>>>>>>");
 		String class0 = "hello";
 		System.out.println(class0);
 		byte[] ret0 = class0.getBytes();
+		
+		assert (class0 == "hello");
+		assert (ret0[0] == 104);
+		assert (ret0[1] == 101);
+		assert (ret0[2] == 108);
+		assert (ret0[3] == 108);
+		assert (ret0[4] == 111);
+		
 		for(int i = 0; i<ret0.length; i++)
 		{
 			System.out.println(ret0[i]);
@@ -33,6 +41,14 @@
 		String class0 = "world";
 		System.out.println(class0);
 		byte[] ret0 = class0.getBytes();
+		
+		assert (class0 == "world");
+		assert (ret0[0] == 119);
+		assert (ret0[1] == 111);
+		assert (ret0[2] == 114);
+		assert (ret0[3] == 108);
+		assert (ret0[4] == 100);
+		
 		for(int i = 0; i<ret0.length; i++)
 		{
 			System.out.println(ret0[i]);
