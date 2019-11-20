@@ -5,8 +5,6 @@ import java.io.*;
  *  @className: PrintStream_println_int
  *  @apiSignature: java.io.PrintStream$public void println(int x)
  *  @description: Test java api java.io.PrintStream$public void println(int x)
- *  @Map: String$func write<Target>(to target: inout Target) where Target : TextOutputStream
- * @Map: TextOutputStream$mutating func write(_ string: String)
  */
 public class PrintStream_println_int{
         /**
