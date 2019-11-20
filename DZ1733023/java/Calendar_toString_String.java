@@ -3,12 +3,14 @@
  *  @className: Calendar_toString_String
  *  @apiSignature: java.util.Calendar$public String toString ()
  *  @description: Test java api Calendar$public String toString ()
+ *  @map: Calendar$var description: String { get }
  */
 import java.util.Calendar;
 
 public class Calendar_toString_String{
     /**
-     * input: 3
+     * input: 4
+     * class0 Calendar$class0
      * class0 class0=Calendar.getInstance()
      * year year=2019
      * month month=11
@@ -16,6 +18,8 @@ public class Calendar_toString_String{
      * output: 1
      * ret0 ret0="java.util.GregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,dstSavings=0,useDaylight=false,transitions=19,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=?,YEAR=2019,MONTH=11,WEEK_OF_YEAR=?,WEEK_OF_MONTH=?,DAY_OF_MONTH=13,DAY_OF_YEAR=?,DAY_OF_WEEK=?,DAY_OF_WEEK_IN_MONTH=?,AM_PM=?,HOUR=?,HOUR_OF_DAY=?,MINUTE=?,SECOND=?,MILLISECOND=?,ZONE_OFFSET=?,DST_OFFSET=?]
 "
+	 * Calendar$class0-Calendar.getInstance()&https://developer.android.com/reference/android/icu/util/Calendar.html?hl=en#getInstance()
+
      */
     public static void toString0(){
     	Calendar class0 = Calendar.getInstance();
@@ -25,6 +29,7 @@ public class Calendar_toString_String{
 		class0.clear();
 		class0.set(year, month, date);
 		String ret0 = class0.toString();
+		assert (ret0 == "java.util.GregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"Asia/Shanghai\",offset=28800000,dstSavings=0,useDaylight=false,transitions=19,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=?,YEAR=2019,MONTH=11,WEEK_OF_YEAR=?,WEEK_OF_MONTH=?,DAY_OF_MONTH=13,DAY_OF_YEAR=?,DAY_OF_WEEK=?,DAY_OF_WEEK_IN_MONTH=?,AM_PM=?,HOUR=?,HOUR_OF_DAY=?,MINUTE=?,SECOND=?,MILLISECOND=?,ZONE_OFFSET=?,DST_OFFSET=?]");
 		System.out.println(ret0);
     }
 
