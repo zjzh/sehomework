@@ -20,8 +20,8 @@
     {
 	    print(">>>>>>>>>>>>")
 	    let class0=URL(fileURLWithPath: "D:/Software/Notepad/test.txt")
-	    let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey).parentDirectory
-	    assert(ret0==true)
+	    let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey]).parentDirectory
+	    assert(ret0==URL(fileURLWithPath: "D:/Software/Notepad"))
     }
     /**
      * input: 1
@@ -34,7 +34,7 @@
     {
 	    print(">>>>>>>>>>>>")
 	    let class0=URL(fileURLWithPath: "**&&%%￥#")
-	    let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey).parentDirectory
+	    let ret0=try?class0.resourceValues(forKeys:[.parentDirectoryURLKey]).parentDirectory
 	    assert(ret0==false)
     }
  }
