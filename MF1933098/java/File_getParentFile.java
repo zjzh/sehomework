@@ -19,7 +19,7 @@ public class File_getParentFile {
     public  static void getParentFile0(){
         System.out.println(">>>>>>>>>>>>");
         File class0=new File("D:/Software/Notepad/test.txt");
-	File ret0=class0.getParentFile();
+		File ret0=class0.getParentFile();
         assert (ret0.getPath()=="D:/Software/Notepad");
         System.out.println(ret0.getPath());
 		
@@ -34,7 +34,7 @@ public class File_getParentFile {
     public  static void getParentFile1(){
         System.out.println(">>>>>>>>>>>>");
         File class0=new File("**&&%%￥#");
-	File ret0=class0.getParentFile();
+		File ret0=class0.getParentFile();
         assert (ret0==null);
 		
     }
