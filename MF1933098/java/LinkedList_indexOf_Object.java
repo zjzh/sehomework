@@ -25,12 +25,12 @@ public class LinkedList_indexOf_Object {
     public  static void indexOf0(){
         System.out.println(">>>>>>>>>>>>");
         LinkedList<String> class0 = new LinkedList<String> ();
-	class0.add("hello");
-	class0.add("world");
-	class0.add("hello");
-	String o="hello";
-	int ret0=class0.indexOf(o);
-	assert(ret0==0);
+		class0.add("hello");
+		class0.add("world");
+		class0.add("hello");
+		String o="hello";
+		int ret0=class0.indexOf(o);
+		assert(ret0==0);
         System.out.println(ret0);
 
     }
@@ -45,12 +45,12 @@ public class LinkedList_indexOf_Object {
     public  static void indexOf1(){
         System.out.println(">>>>>>>>>>>>");
         LinkedList<String> class0 = new LinkedList<String> ();
-	class0.add("hello");
-	class0.add("world");
-	class0.add("hello");
-	String o="wow";
-	int ret0=class0.indexOf(o);
-	assert(ret0==-1);
+		class0.add("hello");
+		class0.add("world");
+		class0.add("hello");
+		String o="wow";
+		int ret0=class0.indexOf(o);
+		assert(ret0==-1);
         System.out.println(ret0);
 
     }
