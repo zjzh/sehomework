@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)
- * @author: MG1933098+³Â¼ÑÒ»
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)
+ * @author: MG1933098+é™ˆä½³ä¸€
  *  @className: String_suffix_String$Index_String_starts_Sequence
  *  @apiSignature: String$func suffix(from start: String.Index) -> Substring;String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix) -> Bool where PossiblePrefix : Sequence, Self.Element == PossiblePrefix.Element
  *  @description: Test swift api String$func suffix(from start: String.Index);String$func starts<PossiblePrefix>(with possiblePrefix: PossiblePrefix)
@@ -15,7 +15,7 @@ class String_suffix_String$Index_String_starts_Sequence{
      	*ouput : 2
      	*ret0 ret0="hello"
      	*ret1 ret1=true
-     	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
+     	*String.Index$from-String$startIndex & & https://developer.apple.com/documentation/swift/string/1540930-startindex
      	*/
 	static func suffix_starts0(){
 		print(">>>>>>>>")
@@ -39,7 +39,7 @@ class String_suffix_String$Index_String_starts_Sequence{
      	*ouput : 2
      	*ret0 ret0="hello"
      	*ret1 ret1=false
-     	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
+     	*String.Index$from-String$startIndex & & https://developer.apple.com/documentation/swift/string/1540930-startindex
      	*/
 	static func suffix_starts1(){
 		print(">>>>>>>>")
