@@ -9,70 +9,54 @@
 import Foundation
 class Array_lastIndex_Element__Array_remove_Int {
     /**
-     *input : 2
-     *class0 Array.Array$class0
-     *of of="interesting"
-     *ouput : 2
-     *ret0 ret0=3
-     *ret1 ret1="interesting"
-     *Array.Array$class0-Array$Array() &  & https://developer.apple.com/documentation/swift/array
-     */
+    * input : 2
+    * class0 Array$class0=["interesting", "happy", "funny", "interesting", "exciting"]
+    * of of="interesting"
+    * ouput : 2
+    * ret0 ret0=3
+    * ret1 ret1="interesting"
+    */
     static func lastIndex_remove0() {
         print(">>>>>>>>")
-        var class0 = Array<String>()
+        var class0 = ["interesting", "happy", "funny", "interesting", "exciting"]
         let of = "interesting"
-
-        class0.append(of)
-        class0.append("happy")
-        class0.append("funny")
-        class0.append(of)
-        class0.append("exciting")
 
         let ret0 = class0.lastIndex(of: of)
         assert(ret0 == 3)
 
-        let index = ret0!
-        let ret1 = class0.remove(at: index)
+        let at = ret0!
+        let ret1 = class0.remove(at: at)
 
         assert(ret1 == "interesting")
+        assert(class0 == ["interesting", "happy", "funny", "exciting"])
         print(ret0!)
         print(ret1)
     }
 
     /**
      *input : 2
-     *class0 Array.Array$class0
+     *class0 Array$class0=["happy", "funny", "exciting"]
      *of of="interesting"
      *ouput : 2
      *ret0 ret0=nil
      *ret1 ret1=nil
-     *Array.Array$class0-Array$Array() &  & https://developer.apple.com/documentation/swift/array
      */
     static func lastIndex_remove1() {
         print(">>>>>>>>")
-        var class0 = Array<String>()
+        var class0 = ["happy", "funny", "exciting"]
         let of = "interesting"
-
-        class0.append("happy")
-        class0.append("funny")
-        class0.append("exciting")
 
         let ret0 = class0.lastIndex(of: of)
         var ret1 : String?
-        assert(ret0 == nil)
-        assert(ret1 == nil)
-        if ret0 == nil {
-            print("nil")
-            print("nil")
-            return
+
+        if (ret0 != nil) {
+            let at = ret0!
+            ret1 = class0.remove(at: at)
         }
 
-        let index = ret0!
-        ret1 = class0.remove(at: index)
-
+        assert(ret0 == nil)
         assert(ret1 == nil)
-        print(ret0!)
-        print(ret1!)
+        assert(class0 == ["happy", "funny", "exciting"])
     }
 }
 
