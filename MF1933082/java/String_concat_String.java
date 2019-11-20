@@ -1,5 +1,5 @@
 /**类名_方法名(_形参类型)*($返回值类型)*
- * @author: zhangzejun
+ * @author: MF1933082孙颜洁
  *  @className: String_concat_String
  *  @apiSignature: java.lang.String$public String concat(String str)
  *  @description: Test java api java.lang.String.concat(String str)

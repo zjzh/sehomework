@@ -1,5 +1,5 @@
 /**类名_方法名(_形参类型)*
- * @author: zhangzejun
+ * @author: MF1933082孙颜洁
  *  @className: NSString_appending_String
  *  @apiSignature: NSString$func appending(_ aString: String) -> String
  *  @description: Test swift api NSString$appending(_ aString: String) 
@@ -41,5 +41,5 @@ class NSString_appending_String{
         print(ret0);
     }
 }
-NSString_appending_String.appending0()
-NSString_appending_String.appending1()
+NSString_appending_String.appending0();
+NSString_appending_String.appending1();
