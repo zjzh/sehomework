@@ -1,7 +1,5 @@
-package homework;
 import java.io.FileInputStream;
 import java.io.IOException;
-
 /**类名_方法名(_形参类型)
  * @author: MF1933031 周庆博
  *  @className: FileInputStream_close
@@ -10,34 +8,42 @@ import java.io.IOException;
  *  @Map: FileHandle$func closeFile()
  * 
 */
-
 public class FileInputStream_close {
 	/*
-	 * Input:0
-	 * Output:0
+	 * Input:4
+	 * class0 class0 = ".\\test.txt"
+	 * class1 class1 = FileInputStream(class0)
+	 * s1 s1 = 0
+	 * s2 s2 = 0
+	 * Output:2
+	 * s1 s1 = 1
+	 * s2 s2 = 1
 	 */
-	public static void close0()throws IOException {
-		String filepath = ".\\test1.txt";
-		FileInputStream fileinputstream = null;
-		int data = 0;
-		char c;
+	public static void close0() throws IOException{
+		String class0 = ".\\test.txt";
+		int s1 = 0;
+		int s2 = 0;
 		try {
-	         fileinputstream = new FileInputStream(filepath);	      
-	         data = fileinputstream.read();
-	         c = (char)data;	         
-	         System.out.println(c);
-	         fileinputstream.close();
-	         System.out.println("Close() invoked");
-	         data = fileinputstream.read();
-	         c = (char)data;	         
-	         System.out.println(c);
-		}catch(Exception ex){
-	         System.out.println("IOException: close called before read()");
-		}finally{
-	         if(fileinputstream!=null)
-	         {
-	            fileinputstream.close();
-	         }
+			FileInputStream class1 = new FileInputStream(class0);
+			s1 = (int)class1.read();
+			class1.close();
+			if(s1 != 0)
+			{
+				s1 = 1;
+				s2 = 1;
+			}
+		}catch(IOException e) {
+			s1 = 0;
+			s2 = 0;
 		}
+		finally {
+			assert(s1 == 104);
+			assert(s2 == 1);
+			System.out.println(s1);
+			System.out.println(s2);
+		}
+	}
+	public static void main(String[] args) throws IOException {
+		FileInputStream_close.close0();
 	}
 }

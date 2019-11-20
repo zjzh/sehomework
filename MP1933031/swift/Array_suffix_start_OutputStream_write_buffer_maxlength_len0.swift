@@ -1,12 +1,10 @@
 /*
 *@author:MP1933031_周庆博
-*@classname:Array_suffix_start_OutputStream_write_buffer_maxlength_len1
-*@apiSignature:Array$func suffix(from start:Int)->Array;
- *  	  Array$func prefix(maxLength:Int)->buffer;
- *  	  OutputStream write(buffer:Pointer,maxLength len:Int)
-* @description:Test swift api Array$func suffix(from start:Int)->Array;
- *  	  Array$func prefix(maxLength:Int)->buffer;
- *  	  OutputStream write(buffer:Pointer,maxLength len:Int)
+*@classname:Array_suffix_start_OutputStream_write_buffer_maxlength_len0
+*@apiSignature:Array$func suffix(from start:Int)->buffer;
+ 	OutputStream write(buffer:Pointer,maxLength len:Int)
+* @description:Test swift api Array$func suffix(from start:Int)->buffer;
+ 		OutputStream write(buffer:Pointer,maxLength len:Int)
 *@Map:java.io.FileOutputStream$public void write(Array[] b, int off, int len) throws IOException
 */
 
@@ -22,7 +20,6 @@ class Array_suffix_start_OutputStream_write_buffer_maxlength_len0{
 	 * class5 OutputStream$class5
 	 * class6 FileHandle$class6
 	 * class7 class7 = "CDE"
-	 * class8 class8 = "CDE"
 	 * output:1
 	 * rt rt = "CDE"
 	 */
@@ -32,7 +29,6 @@ class Array_suffix_start_OutputStream_write_buffer_maxlength_len0{
 		let class2 = 3
 		let class3 = "./test2.txt"
 		var class4 = String(class0.suffix(class1))
-		var class8 = String(class4.prefix(class2))
 		let class5 = OutputStream(toFileAtPath: class3, append: true)
 		class5!.open()
 		class5!.write(class4, maxLength:class2)

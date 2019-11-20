@@ -1,4 +1,4 @@
-package homework;
+package write_Array_int_int;
 /**类名_方法名(_形参类型)
  * @author: MF1933031 周庆博
  *  @className: write_Array_Int_Int
@@ -11,30 +11,42 @@ package homework;
  *  	  OutputStream write(buffer:Pointer,maxLength len:Int)
 */
 import java.io.*;
-
-public class write_Array_Int_Int {
+public class write_Array_int_int {
 	/*
-	 * input:3
-	 * b b = {65,66,67,68,69}
-	 * off off = 2
-	 * len len = 3
-	 * output:0
+	 * input:6
+	 * class0 class0 = ".\\test2.txt"
+	 * class1 FileOutputStream$class1 = null
+	 * class2 FileInputStream$class2 = null
+	 * class3 class3 = {65,66,67,68,69}
+	 * class4 class4 = 2
+	 * class5 class5 = 3
+	 * class6 class6 = new byte[6]
+	 * output:1
+	 * rt rt = "CDE"
 	 */
-	public static void write0() throws IOException {
-		 FileOutputStream fos = null;
-	     FileInputStream fis = null;
-	     byte[] b = {65,66,67,68,69};
-	     int i=0;
-	     char c; 
-	     try{
-	        fos=new FileOutputStream(".\\test2.txt");
-	        fos.write(b, 2, 3);
-	        fos.flush();
-	     }catch(Exception ex){
-	        ex.printStackTrace();
-	     }finally{
-	        if(fos!=null)
-	           fos.close();
-	     }
+	public static void write0() throws IOException{
+		String class0 = ".\\test2.txt";
+		FileOutputStream class1 = null;
+	    FileInputStream class2 = null;
+	    byte[] class3 = {65,66,67,68,69};
+	    int class4 = 2, class5 = 3;
+	    byte[] class6 = new byte[3];
+	    try{
+	       class1 = new FileOutputStream(class0);
+	       class1.write(class3, class4, class5);
+	       class1.flush();
+	       class1.close();
+	       class2 = new FileInputStream(class0);
+	       class2.read(class6);
+	       String rt = new String(class6);
+	       assert(rt == "CDE");
+	       System.out.println(rt);
+	       class2.close();
+	    }catch(Exception ex){
+	       ex.printStackTrace();
+	    }
+	}
+	public static void main(String[] args) throws IOException {
+		write_Array_int_int.write0();
 	}
 }
