@@ -16,7 +16,7 @@ class NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date{
      * output: 1
      * ret0 Date$ret0
      * NSCalendar.Unit$unit-NSCalendar.Unit$case day & unit=NSCalendar.Unit.day & https://developer.apple.com/documentation/foundation/nscalendar/unit/1413492-day
-     * Date$date-Date$Date() & date = new Date()& https://developer.apple.com/documentation/foundation/date/1780470-init
+     * Date$date-Date$Date()& https://developer.apple.com/documentation/foundation/date/1780470-init
      * NSCalendar.Options&option-NSCalendar.Options & case = NSCalendar.Options.wrapComponents & https://developer.apple.com/documentation/foundation/nscalendar/options/1408451-wrapcomponents
      */
     static func date0(){
@@ -26,10 +26,11 @@ class NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date{
         dateComponents.month = 1
         dateComponents.day = 3
 
-        let class0 = Calendar.current.date(from: dateComponents)
-        print(class0)
-        let ret0 = Calendar.current.date(byAdding: .day, value: 1, to: class0!)
-        print(ret0)
+        let class0 = NSCalendar.current.date(from: dateComponents)
+        let ret0:Date = NSCalendar.current.date(byAdding: .day, value: 1, to: class0!) as!Date
+        var description = ret0.description(with:nil).prefix(10)
+        assert(description == "2019-01-03")
+        print(description)
     }
 
      /**
@@ -41,7 +42,7 @@ class NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date{
      * output: 1
      * ret0 Date$ret0
      * NSCalendar.Unit$unit-NSCalendar.Unit$case month & unit=NSCalendar.Unit.month & https://developer.apple.com/documentation/foundation/nscalendar/unit/1418371-month
-     * Date$date-Date$Date() & date = new Date()& https://developer.apple.com/documentation/foundation/date/1780470-init
+     * Date$date-Date$Date()& https://developer.apple.com/documentation/foundation/date/1780470-init
      * NSCalendar.Options&option-NSCalendar.Options & case wrapComponents & https://developer.apple.com/documentation/foundation/nscalendar/options/1408451-wrapcomponents
      */
     static func date1(){
@@ -51,10 +52,11 @@ class NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date{
         dateComponents.month = 1
         dateComponents.day = 31
 
-        let class0 = Calendar.current.date(from: dateComponents)
-        print(class0)
-        let ret0 = Calendar.current.date(byAdding: .month, value: 13, to: class0!)
-        print(ret0)
+        let class0 = NSCalendar.current.date(from: dateComponents)
+        let ret0:Date = NSCalendar.current.date(byAdding: .month, value: 13, to: class0!) as!Date
+        var description = ret0.description(with:nil).prefix(10)
+        assert(description == "2020-02-28")
+        print(description)
     }
 }
 NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date.date0()

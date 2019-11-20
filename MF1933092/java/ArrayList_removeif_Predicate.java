@@ -9,7 +9,7 @@ import java.util.function.Predicate;
  *  @className: ArrayList_removeif_Predicate
  *  @apiSignature: 	java.util.ArrayList$public boolean removeIf (Predicate<? super E> filter)
  *  @description: Test java api java.util.ArrayList.removeIf (Predicate<? super E> filter)
- *  @Map: NSString$func appending(_ aString: String) -> String
+ *  @Map: Array$func removeAll(where shouldBeRemoved: (Element) throws -> Bool)
  */
 public class ArrayList_removeif_Predicate {
     /**
@@ -17,7 +17,7 @@ public class ArrayList_removeif_Predicate {
      * class0 ArrayList$class0
      * filter Function$filter = num -> num < 3
      * output: 0
-     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays.asList()&https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays.asList(1,2,3,4,5)&https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/
      */
     public static void removeif0(){
         ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(1,2,3,4,5));

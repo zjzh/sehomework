@@ -24,11 +24,11 @@ class OutputStream_init_String_Bool{
         out0!.write(buffer1, maxLength: 6)
         out0!.close()
 
-        let out1 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
+        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
         let buffer2 = "world"
-        out1!.open()
-        out1!.write(buffer2, maxLength: 6)
-        out1!.close()
+        ret0!.open()
+        ret0!.write(buffer2, maxLength: 6)
+        ret0!.close()
 
         let inp=InputStream(fileAtPath:toFileAtPath)
         var data=[UInt8](repeating: 0, count: 11)

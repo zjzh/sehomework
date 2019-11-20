@@ -20,8 +20,8 @@ public class FileOutputStream_FileOutputStream_File_boolean {
      * file File$file
      * append append = true
      * output: 1
-     * ret0 ret0=new FileOutputStream(file,append)
-     * File$file-File$file = new File([('String', 'filePath')]) &https://www.geeksforgeeks.org/file-class-in-java/
+     * ret0 FileOutputStream$ret0
+     * File$file-File$File(String fileName)& String$fileName="wgx_test.txt" & https://www.geeksforgeeks.org/file-class-in-java/
      */
     public static void FileOutputStream0(){
         try {
