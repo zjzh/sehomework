@@ -1,5 +1,5 @@
-/** ÀàÃû_·½·¨Ãû(_ĞÎ²ÎÀàĞÍ)*
- * @author : MG1933021 ºÎË¼Ô´
+/** ç±»å_æ–¹æ³•å(_å½¢å‚ç±»å‹)*
+ * @author : MG1933021 ä½•æ€æº
  * @className : File_listFiles
  * @apiSignature : Java.io.File$public File[] listFiles()
  * @description: Test java api java.io.Files
@@ -12,8 +12,8 @@ import java.io.File;
  * input:1
  * class0 File$class0 
  * output : 1
- * ret0 ret0 = {"F:\\NJU\\SEG","F:\\NJU\\Ò½±£"£¬"NJU\\Èí¼ş·½·¨Ñ§"£¬"F:\\NJU\\Ñ¡¿Î¡±}
- * File$class0-File$File()&class0 = new File("F\\F")&
+ * ret0 ret0 = {"F:\\NJU\\SEG","F:\\NJU\\åŒ»ä¿"ï¼Œ"NJU\\è½¯ä»¶æ–¹æ³•å­¦"ï¼Œ"F:\\NJU\\é€‰è¯¾â€}
+ * File$class0-File$File()&class0 = new File("F\\F")&https://blog.csdn.net/brushli/article/details/12356695
  */
 public class File_listFiles {
 
