@@ -1,6 +1,6 @@
 /**类名_方法名(_形参类型)*
  *  @author: MG1933043 彭彦鑫
- *  @className: ArrayList_get_int
+ *  @className: HashMap_merge_K_V_Bifunction
  *  @apiSignature: HashMap$public V merge(K key, V value, BiFunction<? super V,? super V,? extends V> remappingFunction)
  *  @description: Test java api HashMap.merge(K key, V value, BiFunction<? super V,? super V,? extends V> remappingFunction)
  *  @Map: Dictionary$mutating func merge(_ other: [Key : Value], uniquingKeysWith combine: (Value, Value) throws -> Value) rethrows
