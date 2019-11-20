@@ -3,28 +3,26 @@
  *  @className: String_regionMatches_boolean_int_String_int_int
  *  @apiSignature:  java.lang.String$public boolean regionMatches (boolean ignoreCase, int toffset, String other, int ooffset, int len)
  *  @description: Test java api java.lang.String$public boolean regionMatches (boolean ignoreCase, int toffset, String other, int ooffset, int len)
- *  @Map: 
- *  @Map: 
- *  @Map: 
- *  @Map: 
+ *  @Map: String$func prefix(through position: String.Index) -> Substring;String$func lastIndex(of element: Character) -> String.Index?
+ *  @Map: String$func substring(to: Int) -> String;String$func substring(from: Int) -> String;String$func lastIndex(of element: Character) -> String.Index?
  */
 public class String_regionMatches_boolean_int_String_int_int {
 	/**
 	 * input:6
-	 * string string="hello"
-	 * other other="Else"
+	 * class0 class0="hello"
 	 * ignoreCase ignoreCase=false
-	 * ooffset ooffset=0
 	 * toffset toffset=1
+	 * other other="Else"
+	 * ooffset ooffset=0
 	 * len len=2
-	 * output:true
+	 * output:1
 	 * ret0=true
 	 */
 	public static void regionMatches0() {
 		System.out.println(">>>>>>>>>>>>");
-		String string = "hello";
+		String class0 = "hello";
 		String other = "Else";
-		boolean ret0 = string.regionMatches(true, 1, other, 0, 2);
+		boolean ret0 = class0.regionMatches(true, 1, other, 0, 2);
 		assert(ret0 == true);
 		
 		System.out.println(ret0);
@@ -32,13 +30,13 @@ public class String_regionMatches_boolean_int_String_int_int {
 	
 	/**
 	 * input:6
-	 * string string="hello"
-	 * other other="Else"
+	 * class0 class0="hello"
 	 * ignoreCase ignoreCase=false
-	 * ooffset ooffset=0
 	 * toffset toffset=1
+	 * other other="Else"
+	 * ooffset ooffset=0
 	 * len len=2
-	 * output:false
+	 * output:1
 	 * ret0=false
 	 */
 	public static void regionMatches1() {

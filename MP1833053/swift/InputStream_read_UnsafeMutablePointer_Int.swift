@@ -13,8 +13,9 @@ class InputStream_read_UnsafeMutablePointer_Int{
      * buffer buffer="123"
      * maxLength maxLength=3
 	 * fileAtPath fileAtPath=toFileAtPath
-     * output: 3 49
+     * output: 1
      * ret0 ret0=3
+	 *OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="file.txt";Bool$shouldAppend=false &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
      */
     static func read0(){
         let toFileAtPath="file.txt"

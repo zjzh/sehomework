@@ -6,20 +6,18 @@ import java.util.Comparator;
  *  @className: Array_sort_int_int_Comparator
  *  @apiSignature:  java.lang.Arrays$public static void sort (T[] a, int fromIndex, int toIndex, Comparator<? super T> c)
  *  @description: Test java api java.lang.Arrays$public static void sort (T[] a, int fromIndex, int toIndex, Comparator<? super T> c)
- *  @Map: 
- *  @Map: 
- *  @Map: 
- *  @Map: 
  */
 public class Array_sort_Array_int_int_Comparator {
 	  /**
      * input: 4
-     * a a={0,6,5,4,3,0,0}
+     * class0 Integer[]$class0
      * fromIndex fromIndex=1
      * toIndex toIndex=5
-     * comparator comparator = new TestComparator();
+     * comparator Comparator$comparator
      * output: 1
-     * ret0 ret0={0,3,4,5,6,0,0}
+     * ret0 Integer[]$ret0
+     * Integer[]$class0-dataType arrayRefVar[]={data}& _=Integer class0[]={0,6,5,4,3,0,0} &https://blog.csdn.net/df0128/article/details/80435773
+     * Comparator$public abstract int compare (T o1, T o2)&Comparator comparator = new TestComparator()&https://www.tutorialspoint.com/java/java_using_comparator.htm
      */
     public static void sort0(){
         System.out.println(">>>>>>>>>>>>");

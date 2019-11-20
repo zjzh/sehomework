@@ -11,22 +11,25 @@ class String_suffix_String$Index__String_suffix_String$Index__String_Prefix_Int_
     /**
      *input : 2
      *class0 class0="Hello, playground"
+	 *upto String.Index$upto
 	 *class1 class1="hihello"
+	 *from String.Index$from
      *ouput : 3
      *ret0 ret0="Hello"
      *ret1 ret1="hello"
 	 *ret3 ret3=0
+	 *String.Index$upto-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & String.Index=String$startIndex;offsetBy=5 & https://stackoverflow.com/questions/32967445/how-to-check-what-a-string-starts-with-prefix-or-ends-with-suffix-in-swift
      */
     static func suffix_suffix_prefix_prefix_compare(){
         print(">>>>>>>>")
         var class0 = "Hello, playground"
-		let index = class0.index(class0.startIndex, offsetBy: 5)
-		let ret0 = class0.prefix(upTo: index) // Hello
+		let upto = class0.index(class0.startIndex, offsetBy: 5)
+		let ret0 = class0.prefix(upTo: upto) // Hello
 		assert(ret0=="Hello")
 		
 		var class1 = "hihello"
-		let index1 = class1.index(class1.endIndex, offsetBy: -5)
-		let ret1 = class1.suffix(from: index1) // hello
+		let from = class1.index(class1.endIndex, offsetBy: -5)
+		let ret1 = class1.suffix(from: from) // hello
 		assert(ret1=="hello")
 		
         var ret3 = ret0.compare(ret1, options: NSString.CompareOptions.caseInsensitive).rawValue

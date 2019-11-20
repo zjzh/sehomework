@@ -1,7 +1,7 @@
 /**类名_方法名(_形参类型)
  * @author:  周壮壮_MP1833053
  *  @className: String_substring_Int__String_substring_Int__NSString_compare_NSString$CompareOptions
- *  @apiSignature: String$func substring(to: Int) -> String;String$func substring(from: Int) -> String;String$func lastIndex(of element: Character) -> String.Index?
+ *  @apiSignature: String$func substring(to: Int) -> String;String$func substring(from: Int) -> String;NSString$ ompare(_ string: String, options mask: NSString.CompareOptions = []) -> ComparisonResult
  *  @description: Test swift api String$prefix(through position: String.Index);String$lastIndex(of element: Character)
  *  @Map: java.lang.String$public int lastIndexOf(int ch, int fromIndex)
  */
@@ -9,13 +9,15 @@
 import Foundation
 class String_substring_Int__String_substring_Int__NSString_compare_NSString$CompareOptions{
     /**
-     *input : 2
+     *input : 4
      *class0 class0="Hello, playground"
+	 *to to=5
 	 *class1 class1="hihello"
+	 *from from=2
      *ouput : 3
      *ret0 ret0="Hello"
      *ret1 ret1="hello"
-	 *ret3 ret3=0
+	 *ret3 ret2=0
      */
     static func substring_substring_compare(){
         print(">>>>>>>>")
@@ -29,8 +31,8 @@ class String_substring_Int__String_substring_Int__NSString_compare_NSString$Comp
 		assert(ret1=="hello")
 		
         var ret3 = ret0.compare(ret1, options: NSString.CompareOptions.caseInsensitive).rawValue
-        assert(ret3==0)
-		print(ret3)
+        assert(ret2==0)
+		print(ret2)
     }
 	
 	
