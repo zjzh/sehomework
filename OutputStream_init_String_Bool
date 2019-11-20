@@ -1,0 +1,46 @@
+import Foundation
+/**类名_方法名(_形参类型_形参类型)*
+ *  @author: MF1933016 dingzhu
+ *  @className: OutputStream_init_String_Bool
+ *  @apiSignature: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
+ *  @description: Test swift api OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
+ *  @Map:java.io.FileOutputStream$FileOutputStream(String name, boolean append)
+ */
+class OutputStream_init_String_Bool{
+     /**
+     * input: 3
+     * class0 class0
+     * toFileAtPath toFileAtPath="helloworld.txt"
+     * shouldAppend shouldAppend = true
+     * output: 1
+     * ret0 OutputStream$ret0
+     */
+    static func init1(){
+        let toFileAtPath="helloworld.txt"
+        let shouldAppend = true
+        let class0 = OutputStream(toFileAtPath: "helloworld.txt", append: shouldAppend);
+        let buffer1 = "helloworld"
+        class0!.open()
+        class0!.write(buffer1, maxLength: 11)
+        class0!.close()
+    }
+/**
+     * input: 3
+     * class0 class0
+     * toFileAtPath toFileAtPath="helloworld.txt"
+     * shouldAppend shouldAppend = true
+     * output: 1
+     * ret0 OutputStream$ret0
+     */
+    static func init0(){
+        let toFileAtPath="helloworld1.txt"
+        let shouldAppend = true
+        let class0 = OutputStream(toFileAtPath: "helloworld.txt", append: shouldAppend);
+        let buffer1 = "helloworld1"
+        class0!.open()
+        class0!.write(buffer1, maxLength: 12)
+        class0!.close()
+    }
+}
+OutputStream_init_String_Bool.init0()
+OutputStream_init_String_Bool.init1()
