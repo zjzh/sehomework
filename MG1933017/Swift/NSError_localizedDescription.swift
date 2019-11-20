@@ -7,17 +7,22 @@
  */
 import Foundation
 class NSError_localizedDescription{
+    static func throwNSError() throws {
+        throw NSError(domain: "new nserror", code: 233, userInfo: nil) 
+    }
+    
      /**
-     * input: 1
-     * class0 NSError$class0
+     * input: 0
      * output: 1
-     * ret0 ret0=5
-     * class0 NSError$class0-class0 NSError$init(domain: String, code: Int, userInfo dict: [String : Any]? = nil)&class0 = NSError.init(domain: "success", code: 0001, userInfo: nil) as Error&https://developer.apple.com/documentation/foundation/nserror/1417063-init
+     * ret0 ret0="The operation could not be completed. (new nserror error 233.)"
      */
     static func localizedDescription0(){
-        let class0 = NSError.init(domain: "success", code: 0001, userInfo: nil) as Error
-        let ret0 = class0.localizedDescription
-        print(ret0)
+        do {
+            try throwNSError()
+        } catch let error {
+            let ret0 = error.localizedDescription
+            print(ret0)
+        }
     }
 }
 

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Throwable_toString",
+            "request": "launch",
+            "mainClass": "Java.Throwable_toString",
+            "projectName": "sehomework_218dd4c5"
+        }
+    ]
+}

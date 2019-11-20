@@ -13,16 +13,20 @@ package Java;
  */
 public class Throwable_toString {
     /**
-     * input: 1
-     * class0 class0= new Throwable()
+     * input: 0
      * output: 1
-     * ret0 ret0="java.lang.Throwable"
+     * ret0 ret0="java.lang.Exception: new exception"
      */
 
     public static void toString0() {
-        Throwable class0 = new Throwable();
-        String ret0 = class0.toString();
-        System.out.println(ret0);
+        String ret0 = "";
+        try {
+            throw new Exception("new exception");
+        } catch (Throwable class0) {
+            ret0 = class0.toString();
+        } finally {
+            System.out.println(ret0);
+        }
     }
 
     public static void main(String[] args) {
