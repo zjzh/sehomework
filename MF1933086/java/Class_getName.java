@@ -7,7 +7,6 @@
  */
 import java.lang.*;
 public class Class_getName {
-
     /**
      * input: 1
      * class0 String$class0 

@@ -4,14 +4,13 @@
  * @className: PrintStream_println_Object
  * @apiSignature: java.io.PrintStream$public void println(Object x)
  * @description: Test Java api java.io.PrintStream.println(Object x)
- * @Map: OutputStream$func write(_ buffer: UnsafePointer<UInt8>,  maxLength len: Int) -> Int
  */
 import java.io.PrintStream ;
 public class PrintStream_println_Object{
     /**
      * input: 2
      * class0 PrintStream$class0
-     * Object x = 1
+     * x x = 1
      * output: 0
      */
     public  static void println1(){
@@ -21,12 +20,11 @@ public class PrintStream_println_Object{
         class0.println(x);
         class0.flush();
         assert (x == (Object)1);
-
     }
     /**
      * input: 2
      * class0 PrintStream$class0 
-     * Object x = "hello"
+     * x x = "hello"
      * output: 0
      */
     public  static void println2(){
@@ -36,9 +34,8 @@ public class PrintStream_println_Object{
         class0.println(x);
         class0.flush();
         assert (x == (Object)"hello");
-    
     }
-    
+
     public  static void main (String[] args){
         PrintStream_println_Object.println1();
         PrintStream_println_Object.println2();
