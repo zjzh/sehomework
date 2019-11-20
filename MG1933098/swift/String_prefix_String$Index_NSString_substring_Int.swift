@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)
- * @author: MG1933098+³Â¼ÑÒ»
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)
+ * @author: MG1933098+é™ˆä½³ä¸€
  *  @className: String_prefix_String$Index_NSString_substring_Int
  *  @apiSignature: String$func prefix(upTo end: String.Index) -> Substring;NSString$func substring(from: Int) -> String
  *  @description: Test swift api String$func prefix(upTo end: String.Index);NSString$func substring(from: Int)
@@ -15,7 +15,7 @@ class String_prefix_String$Index_NSString_substring_Int{
      *ouput : 2
      *ret0 ret0="he"
 	 *ret1 ret1="he"
-	 *String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance)&_=String$startIndex&offsetBy=2&https://developer.apple.com/documentation/swift/string/1786175-index
+	 *String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex ; offsetBy=2 & https://developer.apple.com/documentation/swift/string/1786175-index
 	 */
 	static func prefix_substring0(){
 		let class0 = "hello"
@@ -37,7 +37,7 @@ class String_prefix_String$Index_NSString_substring_Int{
      *ouput : 2
      *ret0 ret0=""
 	 *ret1 ret1=""
-	 *String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex & offsetBy=0 & https://developer.apple.com/documentation/swift/string/1786175-index
+	 *String.Index$upTo-String$func index(_ i: String.Index, offsetBy n: String.IndexDistance) & _=String$startIndex ; offsetBy=0 & https://developer.apple.com/documentation/swift/string/1786175-index
      */
 	static func prefix_substring1(){
 		let class0 = "hello"
