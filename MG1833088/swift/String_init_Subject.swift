@@ -10,7 +10,7 @@ import Foundation
 class String_init_Subject{
      /**
      * input: 1
-     * c Character="c"
+     * c char="c"
      * output: 1
      * ret0 ret0="c"
      */

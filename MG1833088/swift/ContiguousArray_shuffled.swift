@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
  * @author: MG1833088 张哲成
  *  @className: ContiguousArray_shuffled
- *  @apiSignature: ContiguousArray$shuffled ( [('inoutT', ['using', 'generator'])] )
- *  @description: Test swift api ContiguousArray$shuffled ( [('inoutT', ['using', 'generator'])] )
+ *  @apiSignature: ContiguousArray$shuffled<T>(using generator: inout T) -> [Element]
+ *  @description: Test swift api ContiguousArray$shuffled<T>(using generator: inout T) -> [Element]
  *  @Map: java.util.Collections$public static void shuffle(List<?> list)
  */
 class ContiguousArray_shuffled{
@@ -19,4 +19,4 @@ class ContiguousArray_shuffled{
         print(ret0);
     }
 }
-ContiguousArray_shuffled.shuffled0();
+ContiguousArray_shuffle.shuffled0();

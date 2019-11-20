@@ -3,10 +3,10 @@
  *  @className: Collections_shuffle
  *  @apiSignature: java.util.Collections$public static void shuffle(List<?> list)
  *  @description: Test java api java.util.Collections.shuffle(List<?> list)
- *  @Map: Array$shuffle ( [('inoutT', ['using', 'generator'])] )
- *  @Map: ContiguousArray$shuffle ( [('inoutT', ['using', 'generator'])] )
- *  @Map: ArraySlice$shuffle ( [('inoutT', ['using', 'generator'])] )
- *  @Map: ContiguousArray$shuffle ( [('inoutT', ['using', 'generator'])] )
+ *  @Map: Array$shuffle<T>(using generator: inout T)
+ *  @Map: ContiguousArray$shuffle<T>(using generator: inout T)
+ *  @Map: ArraySlice$shuffle<T>(using generator: inout T)
+ *  @Map: ContiguousArray$shuffled<T>(using generator: inout T) -> [Element]
  */
 
 import java.util.*;
@@ -14,18 +14,17 @@ import java.util.*;
 public class Collections_shuffle {
     /**
      * input: 1
-     * list list=["7"]
-     * output: 1
-     * list  list=["7"]
+     * class0 class0=["7"]
+     * output: 0
      */
     public  static void shuffle0(){
         System.out.println(">>>>>>>>>>>>");
-        List list = new ArrayList();
-        list.add('7');
-        Collections.shuffle(list);
-        assert(list.equals(new ArrayList('7')));
+        List class0 = new ArrayList();
+        class0.add('7');
+        Collections.shuffle(class0);
+        assert(class0.equals(new ArrayList('7')));
 
-        System.out.println(list);
+        System.out.println(class0);
     }
 
 
