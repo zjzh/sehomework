@@ -9,33 +9,21 @@ public class Throwable_getCause
 {
 	/**
 	 * input: 1
-	 * class0 class0=Throwable()
+	 * class0 Throwable$class0
 	 * output: 1
-	 * ret0 ret0=null
+	 * ret0 Throwable$ret0
+	 * Throwable$class0-Throwable()&https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html
 	 */
 	public static void getCause0()
 	{
-		Throwable class0 = new Throwable();
-		Throwable ret0 = class0.getCause();
-		System.out.println(ret0);
-	}
-
-	/**
-	 * input: 1
-	 * class0 class0=Throwable(message:"class0",cause:reason)
-	 * output: 1
-	 * ret0 ret0=Throwable(message:"reason")
-	 */
-	public static void getCause1()
-	{
-		Throwable reason = new Throwable("reason");
-		Throwable class0 = new Throwable("class0",reason);
-		Throwable ret0 = class0.getCause();
-		System.out.println(ret0);
+		try{
+			throw new Exception("message", new Throwable("cause"));
+		}catch (Throwable class0){
+			System.out.println(class0.getCause());
+		}
 	}
 	public static void main(String[] args)
 	{
 		Throwable_getCause.getCause0();
-		Throwable_getCause.getCause1();
 	}
 }

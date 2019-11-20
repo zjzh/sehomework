@@ -15,10 +15,12 @@ public class LinkedList_addAll_Collection
 {
 	/**
 	 * input: 2
-	 * class0 class0=LinkedList {1,2}
-	 * c c=LinkedList {1,2}
+	 * class0 LinkedList$class0
+	 * c LinkedList$c
 	 * output: 1
 	 * ret0 ret0=true
+	 * LinkedList$class0-LinkedList$LinkedList<Integer>() & class0 = [1,2]
+	 * LinkedList$c-LinkedList$LinkedList<Integer>() & c = [1,2]
 	 */
 	public static void addAll0()
 	{
@@ -34,10 +36,12 @@ public class LinkedList_addAll_Collection
 	}
 	/**
 	 * input: 2
-	 * class0 class0=LinkedList {1,2}
-	 * c c=LinkedList {}
+	 * class0 LinkedList$class0
+	 * c LinkedList$c
 	 * output: 1
 	 * ret0 ret0=false
+	 * LinkedList$class0-LinkedList$LinkedList<Integer>() & class0 = [1,2]
+	 * LinkedList$c-LinkedList$LinkedList<Integer>() & c = [1,2]
 	 */
 	public static void addAll1()
 	{
