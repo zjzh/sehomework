@@ -14,14 +14,14 @@ class Set_intersection_Set__Array_filter_Function__Array_elementsEqual_OtherSequ
      * input:3
      * class0 Set<Int>$class0
      * other Set<Int>$other
-	 * class1 Array$class1=[1,1,5]
+     * class1 Array$class1=[1,1,5]
      * output:3
      * ret0 ret0=[1]
      * ret1 ret1=[1,1]
      * ret2 ret2=true
-	 * Set<Int>$class0-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence&sequence Array$sequence=[1,1,5]&https://developer.apple.com/documentation/swift/set/3128843-init
-     * Set<Int>$other-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence&sequence Array$sequence=[1,2,3,4]&https://developer.apple.com/documentation/swift/set/3128843-init
-	*/
+     * Set<Int>$class0-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence & sequence Array$sequence=[1,1,5] & https://developer.apple.com/documentation/swift/set/3128843-init
+     * Set<Int>$other-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence & sequence Array$sequence=[1,2,3,4] & https://developer.apple.com/documentation/swift/set/3128843-init
+     */
      static func intersection_filter_elementsEqual0(){
          print(">>>>>>>>")
          let array0 = [1,1,5]
@@ -43,18 +43,18 @@ class Set_intersection_Set__Array_filter_Function__Array_elementsEqual_OtherSequ
          print(ret2)
      }
 	
-	 /**
+     /**
      * input:3
      * class0 Set<Int>$class0
      * other Set<Int>$other
-	 * class1 Array$class1=[1,1,5]
+     * class1 Array$class1=[1,1,5]
      * output:3
      * ret0 ret0=[]
      * ret1 ret1=[]
      * ret2 ret2=true
-	 * Set<Int>$class0-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence&sequence Array$sequence=[1,1,5]&https://developer.apple.com/documentation/swift/set/3128843-init
-     * Set<Int>$other-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence&sequence Array$sequence=[2,3,4]&https://developer.apple.com/documentation/swift/set/3128843-init
-	*/
+     * Set<Int>$class0-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence & sequence Array$sequence=[1,1,5] & https://developer.apple.com/documentation/swift/set/3128843-init
+     * Set<Int>$other-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence & sequence Array$sequence=[2,3,4] & https://developer.apple.com/documentation/swift/set/3128843-init
+     */
      static func intersection_filter_elementsEqual1(){
          print(">>>>>>>>")
          let array0 = [1,1,5]
@@ -80,14 +80,14 @@ class Set_intersection_Set__Array_filter_Function__Array_elementsEqual_OtherSequ
      * input:3
      * class0 Set<Int>$class0
      * other Set<Int>$other
-	 * class1 Array$class1=[1,2,3,4]
+     * class1 Array$class1=[1,2,3,4]
      * output:3
      * ret0 ret0=[1,2,3,4]
      * ret1 ret1=[1,2,3,4]
      * ret2 ret2=false
-	 * Set<Int>$class0-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence&sequence Array$sequence=[1,2,3,4]&https://developer.apple.com/documentation/swift/set/3128843-init
-     * Set<Int>$other-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence&sequence Array$sequence=[1,2,3,4]&https://developer.apple.com/documentation/swift/set/3128843-init
-	*/
+     * Set<Int>$class0-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence & sequence Array$sequence=[1,2,3,4] & https://developer.apple.com/documentation/swift/set/3128843-init
+     * Set<Int>$other-Set$init<Source>(_ sequence: Source) where Element == Source.Element, Source : Sequence & sequence Array$sequence=[1,2,3,4] & https://developer.apple.com/documentation/swift/set/3128843-init
+     */
      static func intersection_filter_elementsEqual2(){
          print(">>>>>>>>")
          let array0 = [1,2,3,4]

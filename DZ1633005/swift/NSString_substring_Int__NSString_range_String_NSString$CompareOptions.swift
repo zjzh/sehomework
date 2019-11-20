@@ -28,7 +28,7 @@ class NSString_substring_Int__NSString_range_String_NSString$CompareOptions{
         assert(ret0=="aabbccbb")
 	print(ret0)
         assert(ret1==6)
-		print(ret1) 
+	print(ret1) 
         
     }
     /**
@@ -51,7 +51,7 @@ class NSString_substring_Int__NSString_range_String_NSString$CompareOptions{
         assert(ret0=="aabbc")
 	print(ret0)
         assert(ret1==2)
-		print(ret1) 
+	print(ret1) 
     }
     
     /**
