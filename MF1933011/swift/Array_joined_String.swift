@@ -14,13 +14,13 @@ class Array_joined_String {
     * output: 1
     * ret0  ret0="hello-world"
     */
-    public func joined0(){
-        let class0= ["hello","world"]
-        let Sperater="-";
+    public static func joined0(){
+        let class0 = ["hello","world"]
+        let Separator="-";
         let ret0=class0.joined(separator:Separator);
-        assert (class0==["hello","world"]);
-        assert (Sperater="-");
-        assert (ret0=="hello-world");
+        assert (class0 == ["hello","world"]);
+        assert (Separator=="-");
+        assert (ret0 == "hello-world");
         print(ret0);
     }
     /**
@@ -30,18 +30,19 @@ class Array_joined_String {
     * output: 1
     * ret0  ret0=""
     */
-    public func joined1(){
-        let class0= [""]
-        let Sperater="-";
+    public static func joined1(){
+        let class0 = [""]
+        let Separator="-";
         let ret0=class0.joined(separator:Separator);
-        assert (class0==[]);
-        assert (Sperater="-");
+        assert (class0==[""]);
+        assert (Separator=="-");
         assert (ret0=="");
         print(ret0);
     }
-    
-func main(){
-    String_init_BinaryInteger_Int_Bool().joined0();
-    String_init_BinaryInteger_Int_Bool().joined1();
 }
+
+Array_joined_String.joined0();
+Array_joined_String.joined1();
+
+
 

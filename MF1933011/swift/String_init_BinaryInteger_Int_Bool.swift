@@ -51,24 +51,24 @@ class String_init_BinaryInteger_Int_Bool {
     * let Radix=2;
     * let Uppercase=false;
     * output: 1
-    * ret0 ret0="111111111111111111111111110110"
+    * ret0 ret0="-1010"
     */
     public func init2(){
         let class0 = -10;
         let Radix=2;
         let Uppercase=false;
         let ret0=String(class0,radix:Radix,uppercase:Uppercase);
-        assert (class0==10);
+        assert (class0 == -10);
         assert (Radix==2);
         assert (Uppercase==false);
-        assert (ret0=="111111111111111111111111110110");
+        assert (ret0=="-1010");
         print(ret0);
     }
 }
-func main(){
-    String_init_BinaryInteger_Int_Bool().init0();
-    String_init_BinaryInteger_Int_Bool().init1();
-    String_init_BinaryInteger_Int_Bool().init2();
-}
+
+String_init_BinaryInteger_Int_Bool().init0();
+String_init_BinaryInteger_Int_Bool().init1();
+String_init_BinaryInteger_Int_Bool().init2();
+
 
 
