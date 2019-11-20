@@ -29,9 +29,9 @@
      static func signum1()
      {
 	    print(">>>>>>>>>>>>")
-	    let class0= -2
+	    let class0 = -2
 	    let ret0=class0.signum()
-            assert(ret0== -1) 
+            assert(ret0 == -1) 
 	    print(ret0)
      }
     /**
