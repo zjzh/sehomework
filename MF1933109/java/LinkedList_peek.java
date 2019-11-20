@@ -9,7 +9,8 @@ public class LinkedList_peek {
  /**
      * input: 0
      * class0 LinkedList$class0
-     * output: 0
+     * output: 1
+	 * ret0 ret0=="hello"
      */
   public static void peek0() {
       LinkedList class0 = new LinkedList();
@@ -17,7 +18,8 @@ public class LinkedList_peek {
       class0.add(2);
       class0.add("Chocolate");
       class0.add("10");
-      assert(class0.peek()=="hello");
+	  ret0 = class0.peek()
+      assert(ret0=="hello");
    }
   public static void main(String[] args) {
         System.out.println("**********begin  " +"java.util.LinkedList$public E peek()"+"***************");
