@@ -5,6 +5,7 @@
  *  @description: Test swift api Dictionary$count: Int { get }
  *  @Map: java.util.HashMap$public int size()
 */
+
 class Dictionary_count{
     /**
      * input: 1

@@ -1,5 +1,5 @@
 
-
+import Foundation
 /**类名_方法名(_形参类型)*
  * @author: MF1933116_zhangmiao
  * @className: NSMapTable_count
@@ -18,35 +18,39 @@
 class NSMapTable_count {
 
     /**
-     * input: 1
-     * class0 NSMapTable$class0
+     * input: 3
+	 * class0 NSMapTable$class0
+	 * test0 TestClass$test0
+     * test1 TestClass$test1
+	 * test2 TestClass$test2
      * output: 1
      * ret0 ret0 = 3
      */
     static func count0() {
         
-	var class0 =  NSMapTable<TestClass,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)
+		var class0 =  NSMapTable<TestClass, NSString>(keyOptions: .weakMemory, valueOptions: .weakMemory)
         
-	var test0: TestClass? = TestClass(a:"name")
-	var test1: TestClass? = TestClass(a:"age")
-	var test2: TestClass? = TestClass(a:"height")
-	class0.setObject(test0, forKey: "1")
-	class0.setObject(test1, forKey: "2")
-	class0.setObject(test2, forKey: "3")
+		var test0: TestClass? = TestClass(a:"1")
+		var test1: TestClass? = TestClass(a:"2")
+		var test2: TestClass? = TestClass(a:"3")
+		class0.setObject("One", forKey: test0)
+		class0.setObject("Two", forKey: test1)
+		class0.setObject("Three", forKey: test2)
 
         var ret0 = class0.count
         assert(ret0 == 3)
         print(ret0)
+		
     }
-    /**
+	/**
      * input: 1
-     * class0 NSMapTable$class0
+	 * class0 NSMapTable$class0
      * output: 1
      * ret0 ret0 = 0
      */
     static func count1() {
         
-	var class0 =  NSMapTable<TestClass,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)
+		var class0 =  NSMapTable<TestClass, NSString>(keyOptions: .weakMemory, valueOptions: .weakMemory)
 
         var ret0 = class0.count
         assert(ret0 == 0)
@@ -56,3 +60,5 @@ class NSMapTable_count {
 }
 NSMapTable_count.count0()
 NSMapTable_count.count1()
+
+
