@@ -5,7 +5,7 @@
  *  @description: Test java api java.lang.String$subSequence(int beginIndex, int endIndex)
  *  @Map: NSString$func substring(from: Int) -> String;NSString$func substring(to: Int) -> String
  *  @Map: String$func prefix(upTo end: String.Index) -> Substring;String$func suffix(from start: String.Index) -> Substring
- *  @Maps String$func prefix(upTo end: String.Index) -> Substring;NSString$func substring(from: Int) -> String
+ *  @Map: String$func prefix(upTo end: String.Index) -> Substring;NSString$func substring(from: Int) -> String
  */
 public class String_subSequence_int_int {
     /**
