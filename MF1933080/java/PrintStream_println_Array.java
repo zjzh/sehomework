@@ -2,13 +2,13 @@ import java.io.PrintStream;
 
 /**类名_方法名(_形参类型)*
  * @author: MF1933080_隋文正
- * @className: PrintStream_println_chararray
+ * @className: PrintStream_println_Array
  * @apiSignature: java.io.PrintStream$ public void println(char[] x)
  * @description: test java api java.io.PrintStream$ public void println(char[] x)
  * @Map: OutputStream$ func write(_ buffer: UnsafePointer<UInt8>, maxLength len: Int) -> Int
  */
 
-public class PrintStream_println_chararray {
+public class PrintStream_println_Array {
     /**
      * input: 2
      * class0 PrintStream$class0
@@ -42,7 +42,7 @@ public class PrintStream_println_chararray {
     }
 
     public static void main(String[] args) {
-        PrintStream_println_chararray.println0();
-        PrintStream_println_chararray.println1();
+        PrintStream_println_Array.println0();
+        PrintStream_println_Array.println1();
     }
 }
