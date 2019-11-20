@@ -1,6 +1,5 @@
 package com.softwareMethodology.jiangbiao;
 
-import org.junit.Test;
 import java.util.LinkedList;
 
 /**
@@ -19,11 +18,10 @@ public class LinkedList_add_Object {
      * class0 LinkedList$class0
      * obj obj="jiangbiao"
      * output: 1
-     * ret0  ret0=true(success to add) or false(fail to add)
-     * LinkedList$class0-LinkedList$LinkedList<Object>() & https://docs.oracle.com/javase/8/docs/api/
+     * ret0  ret0=true
+     * LinkedList$class0-LinkedList$LinkedList<Object>() & & https://docs.oracle.com/javase/8/docs/api/
      */
-    @Test
-    public void add0() {
+    public static void add0() {
         System.out.println(">>>>>>>>>>>>");
         LinkedList<Object> linkedList = new LinkedList<Object>();
         if (linkedList.isEmpty()) {
@@ -44,11 +42,10 @@ public class LinkedList_add_Object {
      * class0 LinkedList$class0
      * obj obj=1
      * output: 1
-     * ret0  ret0=true(success to add) or false(fail to add)
-     * LinkedList$class0-LinkedList$LinkedList<Object>() & https://docs.oracle.com/javase/8/docs/api/
+     * ret0  ret0=true
+     * LinkedList$class0-LinkedList$LinkedList<Object>() & & https://docs.oracle.com/javase/8/docs/api/
      */
-    @Test
-    public void add1() {
+    public static void add1() {
         System.out.println(">>>>>>>>>>>>");
         LinkedList<Object> linkedList = new LinkedList<Object>();
         if (linkedList.isEmpty()) {
@@ -65,4 +62,8 @@ public class LinkedList_add_Object {
         }
     }
 
+    public static void main(String[] args) {
+        LinkedList_add_Object.add0();
+        LinkedList_add_Object.add1();
+    }
 }

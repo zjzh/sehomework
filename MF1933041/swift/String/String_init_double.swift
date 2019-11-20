@@ -11,15 +11,15 @@ class String_init_double {
 
      /**
      * input: 1
-     * character character=2.0
+     * class0 class0=2.0
      * output: 1
      * ret0 ret0="2.0"
      */
     static func init0(){
         print(">>>>>>>>>>>>")
-        let character = 2.0
-        print(character, type(of:character))
-        let ret0 = String.init(character)
+        let class0 = 2.0
+        print(class0, type(of:class0))
+        let ret0 = String.init(class0)
         assert(ret0 == "2.0")
         print(ret0, type(of:ret0))  
         // print:
@@ -29,15 +29,15 @@ class String_init_double {
 	
 	/**
      * input: 1
-     * character character=-2.44
+     * class0 class0=-2.44
      * output: 1
      * ret0 ret0="-2.44"
      */
 	static func init1(){
 	    print(">>>>>>>>>>>>")
-        let character = -2.44
-        print(character, type(of:character))
-        let ret0 = String.init(character)
+        let class0 = -2.44
+        print(class0, type(of:class0))
+        let ret0 = String.init(class0)
         assert(ret0 == "-2.44")
         print(ret0, type(of:ret0))  
         // print:
