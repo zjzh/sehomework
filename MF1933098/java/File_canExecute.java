@@ -19,7 +19,7 @@ public class File_canExecute {
      public  static void canExecute0(){
         	System.out.println(">>>>>>>>>>>>");
         	File class0= new File("D:/Software/Notepad/test.txt");
-	boolean ret0=class0.canExecute();
+			boolean ret0=class0.canExecute();
         	assert (ret0==true);
         	System.out.println(ret0);
 		
@@ -34,7 +34,7 @@ public class File_canExecute {
      public  static void canExecute1(){
         	System.out.println(">>>>>>>>>>>>");
         	File class0=new File("**&&%%￥#");
-	boolean ret0=class0.canExecute();
+			boolean ret0=class0.canExecute();
         	assert (ret0==false);
         	System.out.println(ret0);
 		
