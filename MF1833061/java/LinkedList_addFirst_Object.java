@@ -1,6 +1,6 @@
 import java.util.LinkedList;
-/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»å‹)
- * @author: MF1833061 æ²ˆæ€è¿œ
+/**ÀàÃû_·½·¨Ãû(_ĞÎ²ÎÀàĞÍ)
+ * @author: MF1833061 ÉòË¼Ô¶
  *  @className: LinkedList_addFirst_Object
  *  @apiSignature: java.util.LinkedList$public void addFirst(Object o)
  *  @description: Test java api java.util.LinkedList.addFirst(Object o)
@@ -51,3 +51,4 @@ import java.util.LinkedList;
 
     }
 }
+
