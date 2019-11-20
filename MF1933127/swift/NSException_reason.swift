@@ -14,7 +14,8 @@ class NSException_reason{
 	* ret0 ret0="reason for class0"
 	*/
 	static func reason0(){
-		var class0 = NSException(name:"name", reason:"reason for class0", userInfo:["key":"value"])
+		let name = NSExceptionName("name")
+		let class0 = NSException(name:name, reason:"reason for class0", userInfo:["key":"value"])
 		let ret0 = class0.reason()
 		print(ret0)
 	}
