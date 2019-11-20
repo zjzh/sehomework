@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**类名_方法名(_形参类型)*
  * @author: MF1933030 郝凯龙
@@ -6,6 +7,7 @@ import java.util.ArrayList;
  * @apiSignature: java.util.ArrayList$public boolean contains(Object o)
  * @description: Test java api java.util.ArrayList.contains(Object o)
  * @Map: Array$func contains(_ element: Element) -> Bool
+ * @Map: ContiguousArray$func contains(_ element: Element) -> Bool
  */
 public class ArrayList_contains_Object {
     public static void main(String[] args) {
@@ -14,33 +16,33 @@ public class ArrayList_contains_Object {
     }
 
     /**
-     *  input: 1
+     *  input: 2
      *  class0 ArrayList$class0
-     *  o o=1
+     *  o o="apple"
      *  output: 1
      *  ret0 ret0=true
-     *  ArrayList$class0-ArrayList$ArrayList()&https://docs.oracle.com/javase/9/docs/api/java/util/ArrayList.html#ArrayList--
+     *  ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays$asList&https://www.cnblogs.com/pcheng/p/9897596.html
      */
     public static void contains0(){
-        ArrayList class0 = new ArrayList();
-        class0.add(1);
-        boolean ret0 = class0.contains(1);
+        ArrayList class0 = new ArrayList(Arrays.asList("apple", "banana", "orange"));
+        Object o = "apple";
+        boolean ret0 = class0.contains(o);
         assert (ret0 == true);
         System.out.println(ret0);
     }
 
     /**
-     *  input: 1
+     *  input: 2
      *  class0 ArrayList$class0
-     *  o o=2
+     *  o o="peach"
      *  output: 1
      *  ret0 ret0=false
-     *  ArrayList$class0-ArrayList$ArrayList()&https://docs.oracle.com/javase/9/docs/api/java/util/ArrayList.html#ArrayList--
+     *  ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays$asList&https://www.cnblogs.com/pcheng/p/9897596.html
      */
     public static void contains1(){
-        ArrayList class0 = new ArrayList();
-        class0.add(1);
-        boolean ret0 = class0.contains(2);
+        ArrayList class0 = new ArrayList(Arrays.asList("apple", "banana", "orange"));
+        Object o = "peach";
+        boolean ret0 = class0.contains(o);
         assert (ret0 == false);
         System.out.println(ret0);
     }

@@ -1,11 +1,11 @@
 /**类名_方法名(_形参类型)*
  * @author: MF1933030 郝凯龙
- * @className: Array_contains_Element
- * @apiSignature: Array$func contains(_ element: Element) -> Bool
- * @description: Test swift api Array$func contains(_ element: Element)
+ * @className: ContiguousArray_contains_Element
+ * @apiSignature: ContiguousArray$func contains(_ element: Element) -> Bool
+ * @description: Test swift api ContiguousArray$func contains(_ element: Element)
  * @Map: java.util.ArrayList$public boolean contains(Object o)
  */
-class Array_contains_Element{
+class ContiguousArray_contains_Element{
     /**
      *  input: 2
      *  class0 class0=["apple", "banana", "orange"]
@@ -38,5 +38,5 @@ class Array_contains_Element{
 }
 
 
-Array_contains_Element.contains0()
-Array_contains_Element.contains1()
+ContiguousArray_contains_Element.contains0()
+ContiguousArray_contains_Element.contains1()
