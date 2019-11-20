@@ -3,7 +3,7 @@
  *  @className: String_write_inoutTarget
  *  @apiSignature: String$func write<Target>(to: inout Target)
  *  @description: Test java api String$func write<Target>(to: inout Target)
- *  @Map: PrintStream$public void print(int i)
+ *  @Map: PrintStream$public void print(char c)
  */
 import Foundation
 

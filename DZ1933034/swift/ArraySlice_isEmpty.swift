@@ -1,8 +1,8 @@
 /**
  *  @author: zhaoxin@DZ1933034
  *  @className: ArraySlice_isEmpty
- *  @apiSignature: ArraySlice$public Bool isEmpty()
- *  @description: Test swift api ArraySlice$public Bool isEmpty()
+ *  @apiSignature: ArraySlice$var isEmpty: Bool
+ *  @description: Test swift api ArraySlice$var isEmpty: Bool
  *  @Map: java.util.ArrayList<E>$public boolean isEmpty()
  */
 import Foundation

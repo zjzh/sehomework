@@ -3,7 +3,7 @@
  *  @className: PrintStream_println_char
  *  @apiSignature: Character$func write<Target>(to: inout Target)
  *  @description: Test swift api Character$func write<Target>(to: inout Target)
- *  @Map: PrintStream$public void print(int i)
+ *  @Map: PrintStream$public void print(char c)
  */
 import Foundation
 

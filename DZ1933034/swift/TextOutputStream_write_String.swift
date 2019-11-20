@@ -5,7 +5,7 @@
  *  @description: Test swift api TextOutStream$func write(String)
  *  @Map: Character$func write<Target>(to: inout Target)
  *  @Map: String$func write<Target>(to: inout Target)
- *  @Map: PrintStream$public void print(int i)
+ *  @Map: PrintStream$public void print(char c)
  */
 import Foundation
 
