@@ -27,7 +27,7 @@ class Dictionary_count{
      * ret0  ret0 = 0
      */
 	static func count1(){
-        var class0:[Int:String] = [:]
+        var class0:[String:String] = [:]
         var ret0=class0.count
         assert(ret0 == 0)
         print(ret0)
