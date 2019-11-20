@@ -8,19 +8,19 @@
 import Foundation
 
 class NSMutableArray_sort_NSSortOptions_usingComparator{
-     /**
+    /**
      * input: 3
      * class0 class0=[3,1,2,4,5]
      * opts opts=[]
      * cmptr Function$usingComparator={  (s1:Any,s2:Any)->ComparisonResult in
-            var str1=s1 as! Int
-            var str2=s2 as! Int
-            if str1<str2{  
-                return ComparisonResult.orderedAscending
-            }else{  
-                return ComparisonResult.orderedDescending
-            }  
-        } 
+                             var str1=s1 as! Int
+                             var str2=s2 as! Int
+                             if str1<str2{
+                                     return ComparisonResult.orderedAscending
+                             }else{
+                                     return ComparisonResult.orderedDescending
+                             }
+     }
      * output: 1
      * ret0 ret0=[1,2,3,4,5]
      */
@@ -37,8 +37,8 @@ class NSMutableArray_sort_NSSortOptions_usingComparator{
                                                 return ComparisonResult.orderedDescending
                                         }
         }
-        assert (class0==[3,1,2,4,5])   
-        class0.sort(opts:opts,cmptr:cmptr)
+        assert (class0==[3,1,2,4,5])
+        class0.sort(options:opts,usingComparator:cmptr)
         var ret0=class0
         assert (ret0==[1,2,3,4,5])
         print(ret0)
