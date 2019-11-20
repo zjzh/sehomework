@@ -5,7 +5,7 @@ import java.io.*;
  *  @className: InputStream_close$void
  *  @apiSignature: 	java.io.InputStream$public void close()
  *  @description: Test java api java.io.InputStream$close()
- * @Map: Stream$func close()
+ *  @Map: Stream$func close()
  */
 public class InputStream_close {
     /**
@@ -13,7 +13,7 @@ public class InputStream_close {
      * class0 FileInputStream$class0
      * output: 0
      * ret0 ret0=0
-     * InputStream$class0-File$File(String pathname);InputStream$InputStream(File file) & String$pathname="file.txt"
+     * InputStream$class0-File$File(String pathname);InputStream$InputStream(File file) & String$pathname="file.txt" & https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/io/InputStream.html
      */
     public static void close0() {
         System.out.println(">>>>>>>>>>>>");

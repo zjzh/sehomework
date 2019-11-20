@@ -1,27 +1,28 @@
 /***
  * @author: MG1933089 袁新雨
  *  @className: Stream_close
- *  @apiSignature: OutputStream$func close()
- *  @description: Test swift api OutputStream$close()
+ *  @apiSignature: Stream$func close()
+ *  @description: Test swift api Stream$close()
  *  @Map: java.io.InputStream$public void close()
  */
 import Foundation
 class Stream_close{
      /**
-     * input: 0
+     * input: 1
      * class0 Stream$class0
-     * output: 0
+     * output: 1
      * ret0 ret0=-1
-     * OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="file.txt";Bool$shouldAppend=false 
+     * Stream$class0-InputStream$init?(fileAtPath path: String) & String$path="file.txt";Bool$shouldAppend=false & https://developer.apple.com/documentation/foundation/inputstream
      */
     static func close0(){
-        let toFileAtPath="file.txt"
-        let class0 = InputStream(toFileAtPath: toFileAtPath, append: false)
+        print(">>>>>>>>")
+        let path="file.txt"
+        let class0 = InputStream(fileAtPath: path)
         class0!.open()
         class0!.close()
         var data=[UInt8](repeating: 0, count: 1)
         let ret0=class0?.read(&data, maxLength: 1)
-        assert(ret0==-1)
+        assert(ret0 == -1)
     }
    
 }

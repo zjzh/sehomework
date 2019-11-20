@@ -16,7 +16,7 @@ class String_suffix_String$Index__String_firstIndex_Character{
      *ouput : 2
      *ret0 ret0="hello"
      *ret1 String.Index$ret1
-     *String.Index$from-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & String.Index=String$startIndex;offsetBy=0
+     *String.Index$from-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & String.Index=String$startIndex;offsetBy=0 & https://developer.apple.com/documentation/swift/string
      */
     static func suffix_firstIndex0(){
         print(">>>>>>>>")
@@ -39,7 +39,7 @@ class String_suffix_String$Index__String_firstIndex_Character{
      *ouput:2
      *ret0 ret0="llo"
      *ret1 String.Index$ret1=nil
-     *String.Index$from-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & String.Index=String$startIndex;offsetBy=2
+     *String.Index$from-String$index(_ i: String.Index, offsetBy n: String.IndexDistance) & String.Index=String$startIndex;offsetBy=2 & https://developer.apple.com/documentation/swift/string
     */
     static func suffix_firstIndex1(){
             print(">>>>>>>>")
