@@ -2,7 +2,7 @@
  * @author: MF1933020 高凤宁
  * @className: String_substring_int
  * @apiSignature: java.lang.String$public String substring(int beginIndex)
- * @description: Test java api java.lang.String.substring(int beginIndex)
+ * @description: Test java api java.lang.String$substring(int beginIndex)
  * @Map: NSString$func substring(from: Int) -> String
  */
 public class String_substring_int {
@@ -18,7 +18,7 @@ public class String_substring_int {
         String class0="hello";
         String ret0=class0.substring(2);
         assert (class0=="hello");
-        assert (ret0=="llo");
+        assert (ret0.equals("llo"));
         System.out.println(ret0);
     }
     /**
@@ -33,7 +33,7 @@ public class String_substring_int {
         String class0="hello";
         String ret0=class0.substring(5);
         assert (class0=="hello");
-        assert (ret0=="");
+        assert (ret0.equals(""));
         System.out.println(ret0);
     }
     public static void main(String[] args){
