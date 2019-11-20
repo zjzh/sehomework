@@ -5,7 +5,6 @@
  * @discription: test java api java.lang.Thread$public final int getPriority()
  * @Map:Thread$func threadPriority() -> Double
  */
-
 public class Thread_getPriority{
 /**
  * input: 1
