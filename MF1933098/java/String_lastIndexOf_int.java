@@ -18,11 +18,11 @@ public class String_lastIndexOf_int {
         System.out.println(">>>>>>>>>>>>");
         String class0="hello";
         int ch=101;
-	int ret0=class0.lastIndexOf(ch);
+		int ret0=class0.lastIndexOf(ch);
         assert (ret0==1);
-	char e = class0.charAt(ret0);
+		char e = class0.charAt(ret0);
         System.out.println(ret0);
-	System.out.println(e);
+		System.out.println(e);
 
     }
     /**
@@ -36,7 +36,7 @@ public class String_lastIndexOf_int {
         System.out.println(">>>>>>>>>>>>");
         String class0="hello";
         int ch=97;
-	int ret0=class0.lastIndexOf(ch);
+		int ret0=class0.lastIndexOf(ch);
         assert (ret0==-1);
         System.out.println(ret0);
 
