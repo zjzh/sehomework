@@ -14,31 +14,19 @@ class Dictionary_count{
      * ret0  ret0 = 3
      */
     static func count0(){
-        var class0:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
+        var class0:[String:String] = ["1":"name", "2":"age", "3":"weight"]
         var ret0=class0.count
         assert(ret0 == 3)
         print(ret0)
     }
-    /**
-     * input: 1
-     * class0 Dictionary$class0
-     * output: 1
-     * ret0  ret0 = 3
-     */
-    static func count1(){
-        var class0:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
-        class0.updateValue("Ones", forKey: 1)
-        var ret0=class0.count
-        assert(ret0 == 3)
-        print(ret0)
-    }
+	
     /**
      * input: 1
      * class0 Dictionary$class0
      * output: 1
      * ret0  ret0 = 0
      */
-	static func count2(){
+	static func count1(){
         var class0:[Int:String] = [:]
         var ret0=class0.count
         assert(ret0 == 0)
@@ -47,4 +35,3 @@ class Dictionary_count{
 }
 Dictionary_count.count0()
 Dictionary_count.count1()
-Dictionary_count.count2()

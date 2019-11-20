@@ -19,16 +19,14 @@ import java.util.HashMap;
 	{
         System.out.println(">>>>>>>>>>>>");
 		
-        HashMap<Integer, String> class0 = new HashMap<Integer, String>();
+        HashMap<String, String> class0 = new HashMap<String, String>();
  
-        class0.put(10, "Geeks");
-        class0.put(15, "4");
-        class0.put(20, "Geeks");
-        class0.put(25, "Welcomes");
-        class0.put(30, "You");
+        class0.put("1", "name");
+        class0.put("2", "age");
+        class0.put("3", "weight");
 		
 	Integer ret0 = class0.size();
-        assert (ret0.equals(5));
+        assert (ret0.equals(3));
         System.out.println(ret0);
     }
 	
@@ -36,35 +34,13 @@ import java.util.HashMap;
      * input: 1
      * class0 HashMap$class0
      * output: 1
-     * ret0  ret1 = 4
+     * ret0  ret0 = 0
      */
 	public static void size1()
 	{
         System.out.println(">>>>>>>>>>>>");
 		
-	HashMap<String, Integer> class0 = new HashMap<String, Integer>();
-		
-        class0.put("Geeks", 10);
-        class0.put("4", 15);
-        class0.put("Geeks", 20);
-        class0.put("Welcomes", 25);
-        class0.put("You", 30);
- 
-	Integer ret0 = class0.size();
-        assert (ret0.equals(4));
-        System.out.println(ret0);
-    }
-    /**
-     * input: 1
-     * class0 HashMap$class0
-     * output: 1
-     * ret0  ret2 = 0
-     */
-	public static void size2()
-	{
-        System.out.println(">>>>>>>>>>>>");
-		
-	HashMap<String, Integer> class0 = new HashMap<String, Integer>();
+	HashMap<String, String> class0 = new HashMap<String, String>();
  
 	Integer ret0 = class0.size();
         assert (ret0.equals(0));
@@ -75,7 +51,5 @@ import java.util.HashMap;
 	{
 		HashMap_size.size0();
 		HashMap_size.size1();
-		HashMap_size.size2();
-
 	}
 }
