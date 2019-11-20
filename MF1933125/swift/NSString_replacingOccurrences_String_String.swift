@@ -9,7 +9,7 @@ import Foundation
 class NSString_replacingOccurrences_String_String{
     /**
     ∗ input:3
-    ∗ class0 class0=NSString(string:"this is an example")
+    ∗ class0 class0=string:"this is an example"
     ∗ of of="is"
     ∗ with with="IS"
     ∗ output:1
@@ -17,19 +17,19 @@ class NSString_replacingOccurrences_String_String{
     */
     static func replacingOccurrences0(){
         print(">>>>>>>>>>")
-        let class0=NSString(string:"this is an example")
-        let _of = "is"
-        let _with = "IS"
-        let ret0 = class0.replacingOccurrences(of: _of, with: _with)
-        assert(_of=="is")
-        assert(_with=="IS")
+        let class0 = "this is an example"
+        let of = "is"
+        let with = "IS"
+        let ret0 = class0.replacingOccurrences(of: of, with: with)
+        assert(of=="is")
+        assert(with=="IS")
         assert(ret0=="thIS IS an example")
         print(ret0)
     }
     
     /**
     ∗ input:3
-    ∗ class0 class0=NSString(string:"this is an example")
+    ∗ class0 class0="this is an example"
     ∗ of of="is"
     ∗ with with="IS"
     ∗ output:1
@@ -37,12 +37,12 @@ class NSString_replacingOccurrences_String_String{
     */
     static func replacingOccurrences1(){
         print(">>>>>>>>>>")
-        let class0 = NSString(string:"this is an example")
-        let _of = "are"
-        let _with = "ARE"
-        let ret0 = class0.replacingOccurrences(of: _of, with: _with)
-        assert(_of=="are")
-        assert(_with=="ARE")
+        let class0 = "this is an example"
+        let of = "are"
+        let with = "ARE"
+        let ret0 = class0.replacingOccurrences(of: of, with: with)
+        assert(of=="are")
+        assert(with=="ARE")
         assert(ret0=="this is an example")
         print(ret0)
     }

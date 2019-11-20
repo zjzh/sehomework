@@ -17,12 +17,12 @@ class String_index_Character{
     static func index0(){
 		print(">>>>>>>>>>")
 		let class0 = "this is an example"
-		let _of: Character = "i"
-		let ret0 = class0.index(of: _of) 
+		let of: Character = "i"
+		let ret0 = class0.index(of: of) 
 		assert(class0=="this is an example")
-		assert(_of==Character("i"))
+		assert(of==Character("i"))
 		assert(class0[ret0!]==Character("i"))
-		print(ret0!)
+		print(class0[ret0!])
 	}
     
     /**
@@ -30,17 +30,16 @@ class String_index_Character{
 	∗ class0 class0 = "this is an example"
     * of of = "b"
     * output: 1
-    * ret0 String.Index$ret0=nil
+    * ret0 String.Index$ret0
     */	
     static func index1(){
 		print(">>>>>>>>>>")
 		let class0 = "this is an example"
-		let _of: Character = "b"
-		let ret0 = class0.index(of: _of)
+		let of: Character = "b"
+		let ret0 = class0.index(of: of)
 		assert(class0=="this is an example")
-		assert(_of==Character("b"))
+		assert(of==Character("b"))
 		assert(ret0==nil)
-		print(ret0)
 	}	
 }
 
