@@ -11,16 +11,16 @@ import Foundation
 class NSString_compare_String{
     /**
      * input:2
-     * class0 class0="A"
-     * str str="d"
+     * class0 class0="a"
+     * str str="D"
      * output:1
-     * ret0 ret0="NSComparisonResult"
+     * ret0 ret0=1
      */
     static func compare0(){
-        var class0:NSString="A";
-        var str="d";
-        var ret0=class0.compare(str);
-        print(ret0);
+        var class0:NSString="a";
+        var str="D";
+        var ret0=class0.compare(str).rawValue;
+        print(ret0)
         
     }
 }

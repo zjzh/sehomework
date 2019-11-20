@@ -13,6 +13,7 @@ class ArraySlice_count{
      * class0 ArraySlice$class0
      * output:1
      * ret ret0=3
+     * ArraySlice$slice-pattern & slice=array1[1...3] & https://developer.apple.com/documentation/swift/arrayslice
      */
     static func count0(){
         let array1:[String]=["1","2","3","4"]

@@ -8,7 +8,7 @@
 
 import Foundation
 
-print("Hello, World!");
+//print("Hello, World!");
 //String_init_BinaryInteger_Int_Bool.init0()
 //NSString_compare_String_options.compare0()
 //NSString_compare_String.compare0()

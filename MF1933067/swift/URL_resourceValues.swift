@@ -12,7 +12,7 @@ class URL_resourceValues{
      * input:1
      * class0 resourceValues$class0
      * output:1
-     * URLResourceValues$class0-URLResourceValues$contentModificationDate
+     * URLResourceValues$class0-URL$URLResourceValues() & https://developer.apple.com/documentation/foundation/url/1780058-resourcevalues
      */
     
     static func contentModificationDate0(){
