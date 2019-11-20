@@ -9,16 +9,20 @@
 import java.util.Locale;
 public class String_toLowerCase_Locale {
 	 /**
-     * input: 1
+     * input: 2
      * class0 class0="\u0130\u0069"
+     * loc Locale$loc
      * output: 1
      * ret0 ret0="\u0069\u0069"
+     * Locale$loc-Locale$Locale(String language) & String$language="tr" & https://docs.oracle.com/javase/tutorial/i18n/locale/create.html
      */
     public  static void toLowerCase0(){
     	System.out.println(">>>>>>>>>>>>");
         String class0="\u0130\u0069";
         
-        String ret0=class0.toLowerCase(new Locale("tr"));
+        Locale loc = new Locale("tr");
+        
+        String ret0=class0.toLowerCase(loc);
         assert (class0=="\u0130\u0069");
         assert (ret0.equals("\u0069\u0069"));
         
@@ -27,16 +31,21 @@ public class String_toLowerCase_Locale {
 	
 	
     /**
-     * input: 1
+     * input: 2
      * class0 class0="HeLLo"
+     * loc Locale$loc
      * output: 1
-     * ret0  ret0="hello"
+     * ret0 ret0="hello"
+     * Locale$loc-Locale$Locale(String language) & String$language="en" & https://docs.oracle.com/javase/tutorial/i18n/locale/create.html
      */
     public  static void toLowerCase1(){
         System.out.println(">>>>>>>>>>>>");
         String class0="HeLLo";
         
-        String ret0=class0.toLowerCase(new Locale("en", "US"));
+        Locale loc = new Locale("en");
+        
+        String ret0=class0.toLowerCase(loc);
+        
         assert (class0=="HeLLo");
         assert (ret0.equals("hello"));
         

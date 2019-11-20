@@ -7,53 +7,30 @@
  */
 import Foundation
 
-struct UserIterator: IteratorProtocol {
-    let elements: [String]
-    var offset: Int
-	
-    init(elements: [String]) {
-        self.elements = elements
-        offset = 0
-    }
-	
-    mutating func next() -> String? {
-        guard offset < elements.endIndex else { return nil }
-        let ele = elements[offset]
-        offset += 1
-        return ele.substring(to: ele.index(ele.startIndex, offsetBy: 1))
-    }
-}
-
-struct UserSequence: Sequence {
- let elements: [String]
-	
- func makeIterator() -> UserIterator {
-    return UserIterator(elements: elements)
-  }
-}
-
 class Sequence_makeIterator{
 
      /**
-     * input: 0
+     * input: 1
+     * class0 class0=[]
      * output: 1
-     * ret0 UserIterator$ret0
+     * ret0 Iterator$ret0
      */
     static func makeIterator0(){
 
       print(">>>>>>>>")
 
-      var class0 = UserSequence(elements: [])
+      //NSArray conforms to Sequence protocol
+      let class0: NSArray = []
 
       var ret0 = class0.makeIterator();
 
       var counter = 0;
-      while let element = ret0.next() {
+      while var _ = ret0.next() {
         counter+=1;
       }
 
       assert(counter == 0)
-      
+
       print(counter);
 
     }

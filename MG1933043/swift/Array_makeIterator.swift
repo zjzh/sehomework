@@ -9,7 +9,8 @@ import Foundation
 
 class Array_makeIterator{
      /**
-     * input: 0
+     * input: 1
+     * class0 class0=[]
      * output: 1
      * ret0 IndexingIterator<Array<String>>$ret0
      */
@@ -17,11 +18,11 @@ class Array_makeIterator{
 
       print(">>>>>>>>")
 
-      var class0 = [String]();
-      var ret0 = class0.makeIterator();
+      let class0 : [String] = []
+      let ret0 = class0.makeIterator()
 
       var counter = 0;
-      for element in ret0{
+      for _ in ret0{
         counter+=1;
       }
 

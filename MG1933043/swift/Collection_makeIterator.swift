@@ -10,7 +10,8 @@ import Foundation
 
 class Collection_makeIterator{
      /**
-     * input: 0
+     * input: 1
+     * class0 class0=[:]
      * output: 1
      * ret0 Iterator$ret0
      */
@@ -18,11 +19,12 @@ class Collection_makeIterator{
 
       print(">>>>>>>>")
 
-      var class0 = "";
-      var ret0 = class0.makeIterator();
+      //Dictionary conforms to Collection
+      let class0 : [String:Int] = [:]
+      var ret0 = class0.makeIterator()
 
       var counter = 0;
-      while let element = ret0.next() {
+      while var _ = ret0.next() {
         counter+=1;
       }
 
