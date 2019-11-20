@@ -9,40 +9,42 @@
 public class Integer_compareTo_Integer {
     /**
      * input: 2
-     * Integer integer1 = 1
-     * Integer integer2 = 2
+     * class0 class0 = 1
+     * anotherInteger anotherInteger = 2
      * output: 1
      * ret0 ret0 = -1
      */
-    public static void println0() {
-        Integer integer1 = 1;
-        Integer integer2 = 2;
-        int ret0 = integer1.compareTo(integer2);
-        assert(integer1 == 1);
-        assert(integer2 == 2);
+    public static void compareTo0() {
+        System.out.println(">>>>>>>>>>>>");
+        Integer class0 = 1;
+        Integer anotherInteger = 2;
+        int ret0 = class0.compareTo(anotherInteger);
+        assert(class0 == 1);
+        assert(anotherInteger == 2);
         assert(ret0 == -1);
         System.out.println(ret0);
     }
 
     /**
      * input: 2
-     * Integer integer1 = 1
-     * Integer integer2 = 1
+     * class0 class0 = 1
+     * anotherInteger anotherInteger = 1
      * output: 1
      * ret0 ret0 = 0
      */
-    public static void println1() {
-        Integer integer1 = 1;
-        Integer integer2 = 1;
-        int ret0 = integer1.compareTo(integer2);
-        assert(integer1 == 1);
-        assert(integer2 == 1);
+    public static void compareTo1() {
+        System.out.println(">>>>>>>>>>>>");
+        Integer class0 = 1;
+        Integer anotherInteger = 1;
+        int ret0 = class0.compareTo(anotherInteger);
+        assert(class0 == 1);
+        assert(anotherInteger == 1);
         assert(ret0 == 0);
         System.out.println(ret0);
     }
 
     public static void main(String[] args) {
-        Integer_compareTo_Integer.println0();
-        Integer_compareTo_Integer.println1();
+        Integer_compareTo_Integer.compareTo0();
+        Integer_compareTo_Integer.compareTo1();
     }
 }

@@ -9,36 +9,38 @@ import Foundation
 class NSNumber_compare_NSNumber{
      /**
      * input: 2
-     * NSNumber int1 = 1
-	 * NSNumber int2 = 2
+     * class0 class0 = 1
+	 * otherNumber otherNumber = 2
      * output: 1
-     * ret0  ret0= NSOrderedAscending
+     * ret0  ret0=ComparisonResult.orderedAscending
      */
     static func compare0(){
-        let int1:NSNumber = 1
-		let int2:NSNumber = 2
-		let ret0 = int1.compare(int2)
-		assert(int1 == 1)
-		assert(int2 == 2)
-		assert(ret0.rawValue == -1)
-		print(ret0.rawValue)
+		print(">>>>>>>>")
+        let class0:NSNumber = 1
+		let otherNumber:NSNumber = 2
+		let ret0 = class0.compare(otherNumber)
+		assert(class0 == 1)
+		assert(otherNumber == 2)
+		assert(ret0 == ComparisonResult.orderedAscending)
+		print(ret0)
     }
 		
 	/**
      * input: 2
-     * NSNumber int1 = 1
-	 * NSNumber int2 = 1
+     * class0 class0 = 1
+	 * otherNumber otherNumber = 1
      * output: 1
-     * ret0  ret0= NSOrderedSame
+     * ret0  ret0=ComparisonResult.orderedSame
      */
     static func compare1(){
-        let int1:NSNumber = 1
-		let int2:NSNumber = 1
-		let ret0 = int1.compare(int2)
-		assert(int1 == 1)
-		assert(int2 == 1)
-		assert(ret0.rawValue == 0)
-		print(ret0.rawValue)
+		print(">>>>>>>>")
+        let class0:NSNumber = 1
+		let otherNumber:NSNumber = 1
+		let ret0 = class0.compare(otherNumber)
+		assert(class0 == 1)
+		assert(otherNumber == 1)
+		assert(ret0 == ComparisonResult.orderedSame)
+		print(ret0)
     }
 }
 NSNumber_compare_NSNumber.compare0()
