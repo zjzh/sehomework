@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ĞÎ²ÎÀàĞÍ)
- * @author: MG1933021 ºÎË¼Ô´
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»å‹)
+ * @author: MG1933021 ä½•æ€æº
  *  @className: ArrayList_removeAll_Collection
  *  @apiSignature: java.util.ArrayList$ public void removeAll (Collection<?> c)
  *  @description: test java api ArrayList$removeall
@@ -14,8 +14,8 @@ import java.util.Collection;
 public class ArrayList_removeAll_Collection {
 	/**
 	 * input:2
-	 * class0 ArrayList.add$class0 
-	 * c ArrayList.add$c  
+	 * class0 ArrayList$class0 
+	 * c ArrayList$c  
 	 * output:1
 	 * ret0 ret0 = true
 	 * ArrayList$class0-ArrayList$add(E e)&class0.add(0)class0.add(1)class0.add(2)class0.add(3)class0.add(4)&https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html
@@ -38,8 +38,8 @@ public class ArrayList_removeAll_Collection {
 	
 	/**
 	 * input:2
-	 * class0 ArrayList.add$class0
-	 * c ArrayList.add$c 
+	 * class0 ArrayList$class0
+	 * c ArrayList$c 
 	 * output:1
 	 * ret0 ret0 = true
 	 * ArrayList$class0-ArrayList$add(E e)&class0.add(0)class0.add(1)class0.add(2)class0.add(3)class0.add(4)&https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html
