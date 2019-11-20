@@ -9,19 +9,21 @@ import Foundation
 
 class IndexSet_makeIterator{
      /**
-     * input: 0
+     * input: 1
+     * class0 IndexSet$class0
      * output: 1
      * ret0 IndexingIterator<IndexSet>$ret0
+     * IndexSet$class0-IndexSet$init() & https://developer.apple.com/search/?q=IndexSet
      */
     static func makeIterator0(){
 
       print(">>>>>>>>")
 
-      var class0 = IndexSet.init();
-      var ret0 = class0.makeIterator();
+      let class0 = IndexSet.init();
+      let ret0 = class0.makeIterator();
 
       var counter = 0;
-      for element in ret0{
+      for _ in ret0{
         counter+=1;
       }
 

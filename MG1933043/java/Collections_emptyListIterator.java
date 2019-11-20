@@ -21,7 +21,8 @@ public class Collections_emptyListIterator {
 	 */
 	public static void emptyListIterator0() {
 		System.out.println(">>>>>>>>>>>>");
-
+		
+		//static,no class0
 		ListIterator<String> ret0 = Collections.emptyListIterator();
 
 		int counter = 0;

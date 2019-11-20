@@ -10,19 +10,21 @@ import Foundation
 
 class NSSet_makeIterator{
      /**
-     * input: 0
+     * input: 1
+     * class0 NSSet$class0
      * output: 1
      * ret0 Iterator$ret0
+     * NSSet$class0-NSSet$init() & https://developer.apple.com/documentation/foundation/nsset
      */
     static func makeIterator0(){
 
       print(">>>>>>>>")
 
-      var class0 = NSSet.init();
-      var ret0 = class0.makeIterator();
+      let class0 = NSSet.init();
+      let ret0 = class0.makeIterator();
 
       var counter = 0;
-      while let element = ret0.next() {
+      while var _ = ret0.next() {
         counter+=1;
       }
 
