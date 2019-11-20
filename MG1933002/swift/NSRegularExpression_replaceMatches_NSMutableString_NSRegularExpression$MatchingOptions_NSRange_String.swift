@@ -11,7 +11,7 @@ import Foundation
 class NSRegularExpression_replaceMatches_NSMutableString_NSRegularExpression$MatchingOptions_NSRange_String{
 
     /**
-     * input: 4
+     * input: 5
      * class0 NSRegularExpression$class0
      * in NSMutableString$in
      * options NSRegularExpression.MatchingOptions$options
@@ -35,7 +35,7 @@ class NSRegularExpression_replaceMatches_NSMutableString_NSRegularExpression$Mat
     }
 
     /**
-     * input: 4
+     * input: 5
      * class0 NSRegularExpression$class0
      * in NSMutableString$in
      * options NSRegularExpression.MatchingOptions$options

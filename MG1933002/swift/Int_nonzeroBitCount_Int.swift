@@ -8,7 +8,7 @@
 
 class Int_nonzeroBitCount_Int{
     /**
-     * input: 0
+     * input: 1
      * class0 class0=31
      * output: 1
      * ret0  ret0=5
@@ -22,7 +22,7 @@ class Int_nonzeroBitCount_Int{
     }
 
     /**
-     * input: 0
+     * input: 1
      * class0 class0=0xffffffff
      * output: 1
      * ret0  ret0=32

@@ -9,7 +9,7 @@ import java.util.Calendar;
 
 public class Calendar_set_int_int_int{
     /**
-     * input: 3
+     * input: 4
      * class0 Calendar$class0
      * year year=2019
      * month month=11

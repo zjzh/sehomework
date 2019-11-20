@@ -9,7 +9,7 @@
 class Int64_nonzeroBitCount_Int{
 
     /**
-     * input: 0
+     * input: 1
      * class0 class0=31
      * output: 1
      * ret0  ret0=5
@@ -23,7 +23,7 @@ class Int64_nonzeroBitCount_Int{
     }
 
     /**
-     * input: 0
+     * input: 1
      * class0 class0=0x7fffffffffffffff
      * output: 1
      * ret0  ret0=63

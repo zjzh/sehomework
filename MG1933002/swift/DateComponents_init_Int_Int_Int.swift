@@ -15,14 +15,14 @@ class DateComponents_init_Int_Int_Int {
      * month month=11
      * day day=11
      * output: 1
-     * ret0  ret0="2019-11-11"
+     * ret0 DateComponents$ret0
     */
     static func init0(){
-        var dateComponents = DateComponents.init(year: 2019, month: 11, day: 11)
-        let newDate0:Date = Calendar.current.date(from: dateComponents) as! Date
-        var ret0 = newDate0.description(with: nil).prefix(10)
-        assert(ret0 == "2019-11-11")
-        print(ret0)
+        var ret0 = DateComponents.init(year: 2019, month: 11, day: 11)
+        let newDate0:Date = Calendar.current.date(from: ret0) as! Date
+        var description = newDate0.description(with: nil).prefix(10)
+        assert(description == "2019-11-11")
+        print(description)
     }
 
     /**
@@ -31,16 +31,16 @@ class DateComponents_init_Int_Int_Int {
      * month month=11
      * day day=31
      * output: 1
-     * ret0  ret0="2019-12-01"
+     * ret0 DateComponents$ret0
     */
     static func init1(){
-        var dateComponents = DateComponents.init(year: 2019, month: 11, day: 31)
-        let newDate0:Date = Calendar.current.date(from: dateComponents) as! Date
-        var ret0 = newDate0.description(with: nil).prefix(10)
-        assert(ret0 == "2019-12-01")
-        print(ret0)
+        var ret0 = DateComponents.init(year: 2019, month: 11, day: 31)
+        let newDate0:Date = Calendar.current.date(from: ret0) as! Date
+        var description = newDate0.description(with: nil).prefix(10)
+        assert(description == "2019-12-01")
+        print(description)
     }
 }
 
 DateComponents_init_Int_Int_Int.init0()
-DateComponents_init_Int_Int_Int.init1()
+DateComponents_init_Int_Int_Int.init1() 

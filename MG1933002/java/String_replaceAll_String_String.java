@@ -8,7 +8,7 @@
  */
 public class String_replaceAll_String_String{
     /**
-     * input: 2
+     * input: 3
      * class0 class0="this is an example"
      * regex regex="is"
      * replacement replacement="IS"
@@ -24,7 +24,7 @@ public class String_replaceAll_String_String{
     }
 
     /**
-     * input: 2
+     * input: 3
      * class0 class0="this is an example"
      * regex regex="are"
      * replacement replacement="ARE"
