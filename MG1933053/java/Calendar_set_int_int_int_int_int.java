@@ -22,7 +22,7 @@ nanosecond nanosecondValue: Int) -> Date?
     public class Calendar_set_int_int_int_int_int {
     /**
      * input: 6
-     * class0 class0=null
+     * class0 class0=Calendar$class0
      *  year=2019
      * month=11
      * date=11
@@ -30,6 +30,7 @@ nanosecond nanosecondValue: Int) -> Date?
      * minute=40
      * output: 1
      * ret0  ret0=Wed Dec 11 19:49 CST 2019
+     * Calendar$class0-Calendar$getInstance() &   &https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      */
     public  static void set0(){
         System.out.println(">>>>>>>>>>>>");

@@ -5,7 +5,7 @@
  * @className: String_equalsIgnoreCase_String
  * @apiSignature: java.lang.String$public boolean equalsIgnoreCase(String anotherString)
  * @description: Test java api  java.lang.String.equalsIgnoreCase(String anotherString)
- * @Map: NSString ['ComparisonResult']  caseInsensitiveCompare ( [('String', ['string'])] )
+ * @Map: NSString$caseInsensitiveCompare(_ string: String) -> ComparisonResult
  */
 public class String_equalsIgnoreCase_String {
     /**
@@ -22,6 +22,7 @@ public class String_equalsIgnoreCase_String {
         assert(class0=="Hello");
         assert(str=="hellO");
         boolean ret0=class0.equalsIgnoreCase(str);
+        assert(ret0==true);
         System.out.println(ret0);
     }
      /**
@@ -38,6 +39,7 @@ public class String_equalsIgnoreCase_String {
         assert(class0=="world");
         assert(str=="wOrd");
         boolean ret0=class0.equalsIgnoreCase(str);
+        assert(ret0==false);
         System.out.println(ret0);
     }
     public static void main(String[] args) {

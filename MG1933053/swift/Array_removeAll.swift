@@ -16,10 +16,10 @@ class Array_removeAll{
      */
     static func removeAll1(){
         var class0:[String] = ["hello","world"];
-		assert (class0==["hello","world"]);
+	assert (class0==["hello","world"]);
         print(class0,class0.capacity);
-		class0.removeAll();
-		print(class0,class0.capacity);
+	class0.removeAll();
+	print(class0,class0.capacity);
     }
   	/**
      * input: 2
@@ -29,10 +29,10 @@ class Array_removeAll{
      */
     static func removeAll2(){
         var class0:[Int] = [1,2,3,4,5,6];
-		assert (class0==[1,2,3,4,5,6]);
+	assert (class0==[1,2,3,4,5,6]);
         print(class0,class0.capacity);
-		class0.removeAll(keepingCapacity:true);
-		print(class0,class0.capacity);
+	class0.removeAll(keepingCapacity:true);
+	print(class0,class0.capacity);
     }
 }
 Array_removeAll.removeAll1()

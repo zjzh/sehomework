@@ -13,7 +13,7 @@ class NSString_caseInsensitiveCompare_String{
      * class0 class0="hello"
      * str="HellO"
      * output:1
-     * ret0 ret0=ComparisonResult.orderedSame
+     * ret0 ret0=ComparisonResult$orderedSame
      */
     static func caseInsensitiveCompare1(){
 		let class0 = "hello";
@@ -29,7 +29,7 @@ class NSString_caseInsensitiveCompare_String{
      * class0 class0="hello"
      * str="HelO"
      * output:1
-     * ret0 ret0=ComparisonResult.orderedAscending
+     * ret0 ret0=ComparisonResult$orderedAscending
      */
 	static func caseInsensitiveCompare2(){
 		let class0 = "hello";
