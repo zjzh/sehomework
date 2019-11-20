@@ -20,8 +20,8 @@ public class ArrayList_addAll_Collection {
      * c Arrays$c
      * output: 1
      * ret0  ret0=true
-     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a); a=1,2 & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * Arrays$c-Arrays$asList(T... a) & c=Arrays.asList(a); a=2,3 & https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-
+     * ArrayList$class0-ArrayList$ArrayList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a); a=1,2 & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * ArrayList$c-Arrays$asList(T... a) & c=Arrays.asList(a); a=2,3 & https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-
      */
     public static void addAll0(){
         System.out.println(">>>>>>>>>>>>");
