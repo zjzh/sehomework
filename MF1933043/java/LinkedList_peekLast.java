@@ -11,10 +11,10 @@ import java.util.LinkedList;
 public class LinkedList_peekLast{
     /**
      * input: 1
-     * class0 LinkedList<Integer>$class0
+     * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=2
-     * LinkedList<Integer>$class0-LinkedList<>();LinkedList<E>$add(E x) & x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
+     * LinkedList$class0-LinkedList$add(Integer x) & Integer x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
      */
     public static void peekLast0(){
         System.out.println(">>>>>>>>>>>>");
@@ -29,10 +29,9 @@ public class LinkedList_peekLast{
 
     /**
      * input: 1
-     * class0 LinkedList<Integer>$class0
+     * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=null
-     * LinkedList<Integer>$class0-LinkedList<>() & https://blog.csdn.net/gongchuangsu/article/details/51527042
      */
     public static void peekLast1(){
         System.out.println(">>>>>>>>>>>>");

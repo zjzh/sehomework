@@ -12,7 +12,7 @@ class Data_min{
      * input: 1
 	 * class0 class0=[1,2,3]
 	 * output: 1
-	 * ret0 ret0="123"
+	 * ret0 ret0=1
      */
     static func min0(){
         let class0 = [1,2,3]

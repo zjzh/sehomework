@@ -12,10 +12,10 @@ class Array_min{
      * input: 1
 	 * class0 class0=[1,2,3]
 	 * output: 1
-	 * ret0 ret0="123"
+	 * ret0 ret0=1
      */
     static func min0(){
-        let class0 = [1,2,3]
+        var class0 : Array = [1, 2, 3]
 		let ret0 = class0.min()
 		assert(ret0 == 1)
 		print(ret0)

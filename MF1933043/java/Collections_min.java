@@ -18,7 +18,7 @@ public class Collections_min{
      * coll LinkedList$coll=[1, 2, 3]
      * output: 1
      * ret0 ret0=1
-     * LinkedList<Integer>$class0-LinkedList<Integer>$LinkedList<Integer>.add(x) & x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
+     * LinkedList$coll-LinkedList$add(Integer x) & Integer x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
      */
     public static void min0(){
         System.out.println(">>>>>>>>>>>>");

@@ -14,7 +14,7 @@ class Data_min_Function{
 	 * class0 class0=[1,2,3]
 	 * by Function$by= {a, b in a < b}
 	 * output: 1
-	 * ret0 ret0="123"
+	 * ret0 ret0=1
 	 * Function$by-Function$by= {(s1: Character, s2: Character) -> Bool in return s1 == s2} & https://github.com/zjzh/sehomework/pull/68/commits/d28ac0c51c84cfd92bd674fa27e8eb7ffd1c76ce
      */
     static func min0(){

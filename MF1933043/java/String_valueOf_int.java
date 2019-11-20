@@ -1,7 +1,7 @@
 
 /**类名_方法名(_形参类型)*
  * @author: jiangxianjie
- *  @className: LinkedList_peekLast
+ *  @className: String_valueOf_int
  *  @apiSignature: java.lang.String$public static String valueOf(int i)
  *  @description: Test java api java.lang.String$public static String valueOf(int i)
  *  @Map: String$init<Subject>(describing instance: Subject)

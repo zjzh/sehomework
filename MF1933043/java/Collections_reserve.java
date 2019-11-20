@@ -17,7 +17,7 @@ public class Collections_reserve{
      * list List$list=[1, 2, 3]
      * output: 1
      * ret0 ret0=[3, 2, 1]
-     * List<Integer>list-List<Integer>$List<Integer>.add(x) & x=2 & https://blog.csdn.net/vaniice/article/details/6102015
+     * List$list-List$add(Integer x) & Integer x=2 & https://blog.csdn.net/vaniice/article/details/6102015
      */
     public static void reserve0(){
         System.out.println(">>>>>>>>>>>>");
