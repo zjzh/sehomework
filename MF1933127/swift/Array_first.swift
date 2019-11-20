@@ -10,12 +10,14 @@ import Foundation
 class Array_first{
 	/**
 	* input: 1
-	* class0 class0=[1,2,3]
+	* class0 class0=["A","B"]
 	* output: 1
 	* ret0 ret0=1
 	*/
 	static func first0(){
-		let class0 = [1,2,3]
+		var class0 = Array<String>()
+		class0.append("A")
+		class0.append("B")
 		let ret0 = class0.first
 		print(ret0)
 	}

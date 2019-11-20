@@ -16,8 +16,9 @@ class ContiguousArray_first{
 	*/
 	static func first0(){
 		let class0 = [1,2,3]
-		let ret0 = class0.first
-		print(ret0)
+		if let ret0 = class0.first{
+			print(ret0)
+		}
 	}
 }
 ContiguousArray_first.first0()
