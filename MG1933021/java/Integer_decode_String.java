@@ -1,26 +1,37 @@
-/*ç±»å_æ–¹æ³•åï¼ˆ_å½¢å‚ç±»å‹ï¼‰*
- * @author:MG1933021 ä½•æ€æº
- * @className:Integer
+/**ÀàÃû_·½·¨Ãû£¨_ĞÎ²ÎÀàĞÍ£©*
+ * @author:MG1933021 ºÎË¼Ô´
+ * @className:Integer_decoder_String
  * description:Test java api java.lang.Integer$decode(String nm)
  * @api_signature:java.lang.Integer$public static Integer decode(String nm) throws NumberFormatException
  * @Map:NSString$var integerValue: Int { get }
  */
+package Test_Integer_Decode;
 
-package Decode;
-import java.lang.*;
+import java.lang.Integer;
+
 public class Integer_decode_String {
-	/*
-	 * input:50
-	 * str str = "50"
-	 * output:50
+	/**
+	 * input:2
+	 * class0 Integer$class0
+	 * nm nm = "50"
+	 * output:1
 	 * ret0 ret0 = 50
+	 * Integer$class0-Integer$new Integer(int)
+	 * &Integer class0 = new Integer(50)
+	 * &https://juejin.im/post/5d628c50e51d4561c75f2822
 	 */
-	public static void main(String []args) {
+	public static void decode0() {
 		System.out.println(">>>>>>>>>>");
-		Integer i = new Integer(10);
-		String str = "50";
-		int ret0 = i.decode("50");
-		assert(i==50);
+		String nm = "50";
+		Integer class0 = new Integer(50);
+		int ret0 = class0.decode(nm);
+		assert(ret0==50);
 		System.out.println("Number = "+ret0);
 	}
+	public static void main(String []args) {
+		Integer_decode_String.decode0();
+	}
 }
+
+
+// ·½·¨½âÂë×Ö·û´®×ª»»ÎªÕûÊı¡£Ëü½ÓÊÜÊ®½øÖÆ£¬Ê®Áù½øÖÆºÍ°Ë½øÖÆÊı

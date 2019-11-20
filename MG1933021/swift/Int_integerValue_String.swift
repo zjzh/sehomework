@@ -6,21 +6,22 @@
  *@Map:Integer$public static Integer decode(String nm)
 **/
 
+import Foundation
 
+class Integer_decode_String{
 /**
 *input:1
-*class0 NSString$class0
+*class0 class0 = "50"
 *output:1
 *ret0 ret0 = 50
 **/
-import Foundation
-
-func testintegerValue(){
-print(">>>>>>>")
-let class0 = NSString(string : "50")
-let ret0 = class0.integerValue
-assert(ret0==50)
-print(ret0)
+	static func decode0(){
+		print(">>>>>>>")
+		let class0 = NSString(string : "50")
+		let ret0 = class0.integerValue
+		assert(ret0==50)
+		print(ret0)
+		}
 }
 
-testintegerValue();
+Integer_decode_String.decode0();

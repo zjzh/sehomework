@@ -5,19 +5,18 @@
 *@description:test swift api Canlendar$current
 *@Map:Calendar$public Calendar getInstance()
 */
-
 import Foundation
-
+class Calendar_current{
 /*
 *input:0
 *output:1
 *ret0 ret0 = gregorian(current)
 */
-func Calendar_current(){
-print(">>>>>>>>>")
-let current = Calendar.current
-let ret0 = current.description
-assert(ret0=="gregorian (current)")
-print(ret0)
+	static func current0(){
+	print(">>>>>>>>>")
+	let ret0 = Calendar.current
+	assert(ret0.description=="gregorian (current)")
+	print(ret0)
+	}
 }
-Calendar_current()
+Calendar_current.current0()

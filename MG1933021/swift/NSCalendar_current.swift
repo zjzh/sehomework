@@ -8,16 +8,17 @@
 
 import Foundation
 
+class NSCalendar_current{
 /*
 *input:0
 *output:1
 *ret0 ret0 = gregorian(current)
 */
-func NSCalendar_current(){
-print(">>>>>>>>>")
-let current = NSCalendar.current
-let ret0 = current.description
-assert(ret0=="gregorian (current)")
-print(ret0)
+	static func current0(){
+		print(">>>>>>>>>")
+		let ret0 = NSCalendar.current
+		assert(ret0.description=="gregorian (current)")
+		print(ret0)
+		}
 }
-NSCalendar_current()
+NSCalendar_current.current0()
