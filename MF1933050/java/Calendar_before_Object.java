@@ -14,8 +14,8 @@ public class Calendar_before_Object {
      * when Object$when
      * output: 1
      * ret0 ret0=true
-     * Calendar$class0-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
-     * Object$when-Calendar$getInstance() & Calendar=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
+     * Calendar$class0-Calendar$getInstance() & class0=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
+     * Object$when-Calendar$getInstance() & when=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
      */
     public static void before0(){
         Calendar class0 = Calendar.getInstance();
