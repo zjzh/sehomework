@@ -97,8 +97,6 @@ class NSRegularExpression_matches_string_NSRegularExpressionMatchingOptions_NSRa
     }
 
   }
-
-
 }
 
 NSRegularExpression_matches_NSTextCheckingResult.matches0()

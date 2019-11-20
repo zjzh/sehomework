@@ -6,7 +6,6 @@
  *  @Map: java.lang.HashSet$ public iterator<E> iterator()
  */
 
-
 import Foundation
 
 class NSSet_makeIterator_NSFastEnumrationIterator {
@@ -28,7 +27,6 @@ class NSSet_makeIterator_NSFastEnumrationIterator {
     }
     assert(count == class0.count)
   }
-
 }
 
 NSSet_makeIterator_NSFastEnumrationIterator.makeIterator0()

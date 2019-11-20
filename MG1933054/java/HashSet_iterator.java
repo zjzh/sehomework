@@ -1,6 +1,6 @@
 /**类名_方法名(_形参类型)
  * @author: MG1933054_田鑫
- *  @className: HashSet_iterator_Iterator
+ *  @className: HashSet_iterator
  *  @apiSignature: java.util.HashSet$public Iterator<E> iterator()
  *  @description: Test java api java.util.HashSet.Iterator()
  *  @Map: NSOrderedSet$ func makeIterator() -> NSFastEnumerationIterator
@@ -9,7 +9,7 @@
  */
 import java.util.*;
 
-public class HashSet_iterator_Iterator {
+public class HashSet_iterator {
     /**
      * input: 1
      * class0 HashSet$class0
@@ -26,11 +26,11 @@ public class HashSet_iterator_Iterator {
         for (int num = 1; num <= 2; ++num) {
             int x = iter.next();
             assert(num == x);
+            System.out.println(x);
         }
     }
 
     public static void main(String[] args) {
-        HashSet_iterator_Iterator.iterator0();
-
+        HashSet_iterator.iterator0();
     }
 }

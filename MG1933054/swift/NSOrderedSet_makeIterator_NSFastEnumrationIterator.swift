@@ -6,7 +6,6 @@
  *  @Map: java.lang.HashSet$ public iterator<E> iterator()
  */
 
-
 import Foundation
 
 class NSOrderedSet_makeIterator_NSFastEnumrationIterator {
