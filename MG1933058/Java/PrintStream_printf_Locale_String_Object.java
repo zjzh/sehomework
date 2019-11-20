@@ -11,17 +11,17 @@
 import java.io.PrintStream;
 import java.io.ByteArrayOutputStream;
 import java.util.Locale;
-import java.util.IllegalFormatException;
 
 public class PrintStream_printf_Locale_String_Object 
 {
     /**
-     * input: 4
-     * class0 class0 = new PrintStream
-     * Locale locale = Locale.CHINA
-     * format format = "Java %s language."
-     * args args0 = "object-orentied"
+     * input: 3
+     * class0 PrintStream$class0
+     * Locale locale=Locale.CHINA
+     * format format="Java %s language."
+     * args args0="object-orentied"
      * output: 0 
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream$out=new ByteArrayOutputStream() & link-https: https://developer.android.google.cn/reference/java/io/PrintStream?hl=en#printf(java.util.Locale,%20java.lang.String,%20java.lang.Object...)
      */
     public static void printf0()
     {
@@ -37,12 +37,13 @@ public class PrintStream_printf_Locale_String_Object
     }
 
     /**
-     * input: 4
-     * class0 class0 = new PrintStream
+     * input: 3
+     * class0 PrintStream$class0
      * Locale locale = Locale.CHINA
      * format format = "The hexdecimal represetation of 1493: 0X%X"
      * args args0 = 1493
      * output: 0
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream$out=new ByteArrayOutputStream() & link-https: https://developer.android.google.cn/reference/java/io/PrintStream?hl=en#printf(java.util.Locale,%20java.lang.String,%20java.lang.Object...)
      */
     public static void printf1()
     {
@@ -58,13 +59,14 @@ public class PrintStream_printf_Locale_String_Object
     }
 
     /**
-     * input: 5
-     * class0 class0 = new PrintStream
+     * input: 4
+     * class0 PrintStream$class0
      * Locale locale = Locale.CHINA
      * format format = "%s %s"
      * args args0 = "hello"
      * args args1 = "world"
      * output: 0
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream$out=new ByteArrayOutputStream() & link-https: https://developer.android.google.cn/reference/java/io/PrintStream?hl=en#printf(java.util.Locale,%20java.lang.String,%20java.lang.Object...)
      */
     public static void printf2()
     {
@@ -80,66 +82,10 @@ public class PrintStream_printf_Locale_String_Object
         System.out.println(out.toString());
         class0.close();
     }
-    
-    /**
-     * input: 4
-     * class0 class0 = new PrintStream
-     * Locale locale = Locale.CHINA
-     * format format = null
-     * args args0 = ""
-     * output: 1
-     * ret0 ret0 = "NullPointerException."
-     */
-    public static void printf3()
-    {
-        System.out.println(">>>>>>>>>>");
-        PrintStream out = new PrintStream(System.out);
-        String format = null;
-        String ret0 = null;
-        try {
-            out.printf(Locale.CHINA, format, "");
-        } catch (NullPointerException e) {
-            ret0 = "NullPointerException.";
-        }
-        assert(format == null);
-        assert(ret0 != null && !ret0.isEmpty());
-        assert(ret0.equals("NullPointerException."));
-        out.flush();
-        System.out.println(ret0);
-    }
-
-    /**
-     * input: 4
-     * class0 class0 = new PrintStream
-     * Locale locale = Locale.CHINA
-     * format format = "%d"
-     * args args0 = "hello"
-     * output: 1
-     * ret0 ret0 = "IllegalForamtException."
-     */
-    public static void printf4()
-    {
-        System.out.println(">>>>>>>>>>");
-        PrintStream out = new PrintStream(System.out);
-        String format = "%d";
-        String args0 = "hello";
-        String ret0 = null;
-        try {
-            out.printf(Locale.CHINA, format, args0);
-        } catch (IllegalFormatException e) {
-            ret0 = "IllegalFormatException.";
-        }
-        assert(ret0 != null && !ret0.isEmpty());
-        assert(ret0.equals("IllegalFormatException."));
-        System.out.println(ret0);
-        out.flush();
-    }
     public static void main(String[] args) 
     {
         PrintStream_printf_Locale_String_Object.printf0();
         PrintStream_printf_Locale_String_Object.printf1();
         PrintStream_printf_Locale_String_Object.printf2();
-        PrintStream_printf_Locale_String_Object.printf3();
-        PrintStream_printf_Locale_String_Object.printf4();
     }
 }

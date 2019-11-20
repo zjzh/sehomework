@@ -12,42 +12,34 @@ public class Class_forName_String
 {
     /**
      * input: 1
-     * class0 class0 = "java.lang.Thread"
+     * name name = "java.lang.Integer"
      * output: 1
-     * ret0 ret0 = "java.lang.Thread"
+     * ret0 ret0 = java.lang.Integer
      */
     public static void forName0() throws ClassNotFoundException {
         System.out.println(">>>>>>>>>>");
-        String class0 = "java.lang.Integer";
+        String name = "java.lang.Integer";
         Integer test0 = 10;
-        Class ret0 = Class.forName(class0);
+        Class ret0 = Class.forName(name);
         assert(ret0.isInstance(test0));
-        assert(ret0.getCanonicalName().equals(class0));
+        assert(ret0.getCanonicalName().equals(name));
         System.out.println(ret0.getCanonicalName());
     }
 
     /**
      * input: 1
-     * class0 class0 = "something.not.in.packages"
+     * name = "Class_forName_String"
      * output: 1
-     * ret0 ret0 = "class name: something.not.in.packages is not found."
+     * ret0 ret0 = Class_forName_String 
      */
-    public static void forName1() {
+    public static void forName1() throws ClassNotFoundException {
         System.out.println(">>>>>>>>>>");
-        String class0 = "something.not.in.packages";
-        // Test when used for none of class name
-        String ret0 = "";
-        try {
-           Class t = Class.forName(class0);
-           ret0 = t.getCanonicalName();
-        } catch (ClassNotFoundException e) {
-            ret0 = "class name: " + class0 + " is not found.";
-        } finally {
-            assert(!ret0.equals(""));
-            assert(!ret0.equals(class0));
-            assert(ret0.equals("class name: something.not.in.packages is not found."));
-            System.out.println(ret0);
-        }
+        String name = "Class_forName_String";
+        Class ret0 = Class.forName(name);
+        Class_forName_String test0 = new Class_forName_String();
+        assert(ret0.getCanonicalName().equals(name));
+        assert(ret0.isInstance(test0));
+        System.out.println(name);
     }
     public static void main(String[] args) throws ClassNotFoundException {
         Class_forName_String.forName0();
