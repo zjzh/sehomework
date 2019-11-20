@@ -1,5 +1,7 @@
 # sehomework
-## 主要用来上传代码
-文件夹命名为 学号
-  一个子文件夹为java
-  一个子文件夹为swift
+String,310 same
+HashSet,46 same
+Calendar,122 same
+LinkedList,138 same
+File,102 change
+File,106 same
