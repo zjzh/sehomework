@@ -16,7 +16,7 @@ class String_suffix_String$Index_String_starts_Sequence_function{
      	*ouput : 2
      	*ret0 ret0="hello"
      	*ret1 ret1=true
-     	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
+     	*String.Index$from-String$startIndex & & https://developer.apple.com/documentation/swift/string/1540930-startindex
      	*/
 	static func suffix_starts0(){
 		print(">>>>>>>>")
@@ -41,7 +41,7 @@ class String_suffix_String$Index_String_starts_Sequence_function{
      	*ouput : 2
      	*ret0 ret0="hello"
      	*ret1 ret1=true
-     	*String.Index$from-String$startIndex & https://developer.apple.com/documentation/swift/string/1540930-startindex
+     	*String.Index$from-String$startIndex & & https://developer.apple.com/documentation/swift/string/1540930-startindex
      	*/
 	static func suffix_starts1(){
 		print(">>>>>>>>")
