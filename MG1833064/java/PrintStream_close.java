@@ -17,6 +17,7 @@ public class PrintStream_close {
    public static void close0(){
       PrintStream class0 = new PrintStream("test.txt");
       String s = "Hello, World!";
+      assert(s=="Hello, World");
       class0.print(s);
       class0.close();
    }

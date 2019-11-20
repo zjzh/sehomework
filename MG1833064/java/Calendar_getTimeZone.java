@@ -16,10 +16,13 @@ public class Calendar_getTimeZone {
      */
 	public static void getTimeZone0(){
 		Calendar class0 = Calendar.getInstance();
-		TimeZone ret0 = cal.getTimeZone();
+		TimeZone ret0 = class0.getTimeZone();
+		assert(ret0.getDisplayName() == "GMT+08:00");
 		System.out.println(ret0.getDisplayName());
 	}
+
 	public static void main(String[] args) {
 		Calendar_getTimeZone.getTimeZone0();
    }
+   
 }

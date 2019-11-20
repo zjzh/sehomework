@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
  *  @author: MG1833064时煜坤
  *  @className: UserDefaults_object_String
- *  @apiSignature: swift.UserDefaults.func object(forKey defaultName: String) -> Any?
- *  @description: Returns the object associated with the specified key.
+ *  @apiSignature: UserDefaults$func object(forKey defaultName: String) -> Any?
+ *  @description: Test api swift UserDefaults$func object(forKey defaultName: String) -> Any?
  *  @Map: java.util.HashMap$public V get (Object key)
  */
 
@@ -15,7 +15,6 @@ class UserDefaults_object_forKey{
      * key0 key0 = 1;
      * output: 1
      * ret0  ret0="Hello"
-     * UserDefaults$through-String$https://developer.apple.com/documentation/foundation/userdefaults/1410095-object
      */
     static func object0(){
      	var class0 = UserDefaults.init()
@@ -32,7 +31,6 @@ class UserDefaults_object_forKey{
      * key1 key1 = 1;
      * output: 1
      * ret0  ret0=null
-     * UserDefaults$through-null$https://developer.apple.com/documentation/foundation/userdefaults/1410095-object
      */
     static func object1(){
      	let class1 = UserDefaults.init()

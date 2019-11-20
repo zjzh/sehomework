@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
  *  @author: MG1833064 时煜坤
  *  @className: Calendar_timeZone
- *  @apiSignature: swift.Calendar.timeZone
- *  @description: The time zone of the calendar
+ *  @apiSignature: Calendar$var timeZone: TimeZone { get set }
+ *  @description: Test swift api Calendar$var timeZone: TimeZone { get set }
  *  @Map: java.util.Calendar$public TimeZone getTimeZone ()
  */
 
@@ -14,11 +14,11 @@ class Calendar_timeZone{
      * class0: Calendar.current
      * output: 1
      * ret0  ret0="GMT(current)"
-     * Calendar$through-TimeZone$https://developer.apple.com/documentation/foundation/calendar/2293575-timezone
      */
      static func timeZone0(){
      	let class0 = Calendar.current
      	let ret0 = class0.timeZone
+          assert((String)ret0 == "GMT(current)")
      	print(ret0);
      }
  }

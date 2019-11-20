@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
  *  @author: MG1833064时煜坤
  *  @className: NSMapTable_NSMapGet_NSMapTable_Pointer
- *  @apiSignature: swift.NSMapTable.func NSMapGet(_ table: NSMapTable<AnyObject, AnyObject>,  _ key: UnsafeRawPointer?) -> UnsafeMutableRawPointer?*key);
- *  @description: Returns a map table value for the specified key.
+ *  @apiSignature: NSMapTable$func NSMapGet(_ table: NSMapTable<AnyObject, AnyObject>,  _ key: UnsafeRawPointer?) -> UnsafeMutableRawPointer?*key);
+ *  @description: Test swift api NSMapTable$func NSMapGet(_ table: NSMapTable<AnyObject, AnyObject>,  _ key: UnsafeRawPointer?) -> UnsafeMutableRawPointer?*key)
  *  @Map: java.util.HashMap$public V get (Object key)
  */
 
@@ -16,7 +16,6 @@ class NSMapTable_NSMapGet_NSMapTable_Pointer{
      * key0 key0 = 1;
      * output: 1
      * ret0  ret0="Hello"
-     * NSMapTable$through-String$https://developer.apple.com/documentation/foundation/1391356-nsmapget
      */
      static func NSMapGet0(){
      	var class0 = NSMapTable.init(keyOptions:strongMemory, valueOptions: weakMemory)
@@ -34,7 +33,6 @@ class NSMapTable_NSMapGet_NSMapTable_Pointer{
      * key1 key1 = 1;
      * output: 1
      * ret0  ret0 = null
-     * NSMapTable$through-String$https://developer.apple.com/documentation/foundation/1391356-nsmapget
      */
     static func NSMapGet1(){
      	let class1 = NSMapTable.init(keyOptions:strongMemory, valueOptions: weakMemory)

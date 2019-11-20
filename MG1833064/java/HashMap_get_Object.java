@@ -20,6 +20,7 @@ public class HashMap_get_Object {
 		class0.put(1,"Hello");
 		int key0 = 1;
 		String ret0 = (String)class0.get(key0);
+		assert(key0 == 1);
 		assert(ret0 == "Hello");
 		System.out.println(ret0);
 	}

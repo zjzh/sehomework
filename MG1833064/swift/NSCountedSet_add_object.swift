@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)*
  *  @author: MG1833064时煜坤
  *  @className: NSCountedSet_add_object
- *  @apiSignature: swift.NSCountedSet.func add(_ object: Any)
- *  @description: Adds a given object to the set.
+ *  @apiSignature: NSCountedSet$func add(_ object: Any)
+ *  @description:  Test swift api NSCountedSet$func add(_ object: Any)
  *  @Map: java.util.HashSet$public boolean add (E e)
  */
 
