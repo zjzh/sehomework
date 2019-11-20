@@ -11,7 +11,7 @@ import Foundation
 class Thread_setThreadPriority_Double{
     /**
      * input:2
-     * class0 Thread$class0
+     * class0 Thread$class0 & let class0 = Thread.init() & https://developer.apple.com/documentation/foundation/thread
      * p p = 0.1
      * output: 1
      * ret0 ret0 = true

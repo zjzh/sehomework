@@ -3,6 +3,7 @@
  *  @className: Array_joined_Sequence
  *  @apiSignature: Array$func joined<Separator>(separator: Separator) -> JoinedSequence<Array<Element>> where Separator : Sequence, Separator.Element == Self.Element.Element
  *  @description: Test swift api Array.joined(separator:)
+ *  @Map: java.io.String$public static String join(CharSequence delimiter, CharSequence... elements)
  */
 
 import Foundation

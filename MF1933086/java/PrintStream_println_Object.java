@@ -9,7 +9,7 @@ import java.io.PrintStream ;
 public class PrintStream_println_Object{
     /**
      * input: 2
-     * class0 PrintStream$class0
+     * class0 PrintStream$class0 & PrintStream class0 = new PrintStream(System.out) & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
      * x x = 1
      * output: 0
      */
@@ -23,7 +23,7 @@ public class PrintStream_println_Object{
     }
     /**
      * input: 2
-     * class0 PrintStream$class0 
+     * class0 PrintStream$class0 & PrintStream class0 = new PrintStream(System.out) & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
      * x x = "hello"
      * output: 0
      */

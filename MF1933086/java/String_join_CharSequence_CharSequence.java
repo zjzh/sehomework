@@ -13,7 +13,7 @@ import java.lang.*;
 public class String_join_CharSequence_CharSequence {
     /**
      * input: 3
-     * class0 String$class0
+     * class0 String$class0 & String  class0 = new String() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      * delimiter delimiter = "-"
      * elements1 elements1 = "hello" 
      * elements2 elements2 = "world"
@@ -35,7 +35,7 @@ public class String_join_CharSequence_CharSequence {
     }
     /**
      * input: 4
-     * class0 String$class0
+     * class0 String$class0 & String  class0 = new String() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      * delimiter delimiter = " "
      * elements1 elements1 = "Hello" 
      * elements2 elements2 = "Nanjing"

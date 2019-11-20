@@ -9,7 +9,7 @@ import java.lang.*;
 public class Class_getName {
     /**
      * input: 1
-     * class0 String$class0 
+     * class0 String$class0 & String  class0 = new String() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      * output: 1
      * ret0 ret0 == "java.lang.String"
      */

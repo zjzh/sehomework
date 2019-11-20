@@ -9,14 +9,14 @@ import Foundation
 class ObjectiveCRuntime_class_getName_AnyClass{
     /**
     *input:1
-    *NSString NSString$NSString
+    *class0 NSString$class0 & let class0 = NSString.init() & https://developer.apple.com/documentation/foundation/nsstring?language=occ
     *output:1
     *ret0 ret0="__NSCFConstantString"
     */
     static func class_getName0 () {
         print(">>>>>>>>>>>>>>>>>")
-        let instance = NSString.init()
-        let ret0 = String(cString: class_getName(type(of: instance)))
+        let class0 = NSString.init()
+        let ret0 = String(cString: class_getName(type(of: class0)))
         assert (ret0 == "__NSCFConstantString" )
         print(ret0)
     }
