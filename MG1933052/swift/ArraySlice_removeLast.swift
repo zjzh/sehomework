@@ -12,7 +12,7 @@ class ArraySlice_removeLast{
  * class0  ArraySlice$class0
  * output: 1
  * ret0  ret0=6
- * ArraySlice$class0 = ArraySlice.init(arrayLiteral elements: Element...) &
+ * ArraySlice$class0 - ArraySlice.init(arrayLiteral elements: Element...) &
 	arrayLiteral = 3,1,4,1,5,9,2,6 & 
 	https://developer.apple.com/documentation/swift/arrayslice/1541070-init
  */

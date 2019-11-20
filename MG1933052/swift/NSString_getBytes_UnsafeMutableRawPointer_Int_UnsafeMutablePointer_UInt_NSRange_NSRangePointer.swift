@@ -31,8 +31,8 @@ class NSString_getBytes_UnsafeMutableRawPointer_Int_UnsafeMutablePointer_UInt_NS
  * remaining remaining = nil
  * output: 1
  * ret0 ret0 = true
- * NSRange$range = NSRange(location loc: Int, length len: Int) -> NSRange &
-	location = 0 & length = 4 & 
+ * NSRange$range - NSRange(location loc: Int, length len: Int) -> NSRange &
+	location = 0 ; length = 4 & 
 	https://developer.apple.com/documentation/foundation/nsrange
  */
 static func getBytes0(){

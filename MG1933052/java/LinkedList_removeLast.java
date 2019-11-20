@@ -18,7 +18,7 @@ public class LinkedList_removeLast{
  * class0 LinkedList$class0
  * output: 1
  * ret0  ret0=6
- * LinkedList$class0 = LinkedList(Collection<? extends E> c) &
+ * LinkedList$class0 - LinkedList(Collection<? extends E> c) &
 	c = Arrays.asList(3,1,4,1,5,9,2,6) &
 	https://developer.android.com/reference/java/util/LinkedList#LinkedList(java.util.Collection%3C?%20extends%20E%3E)
  */
