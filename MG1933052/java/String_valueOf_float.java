@@ -5,7 +5,6 @@
  *  @discription:test java api java.lang.String$public static String valueOf (float f)
  *  @Map:String$init<Subject>(describing instance: Subject)
  */
-
 public class String_valueOf_float{
 /**
  * input: 2
