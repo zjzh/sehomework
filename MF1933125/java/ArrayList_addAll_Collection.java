@@ -25,8 +25,8 @@ public class ArrayList_addAll_Collection {
      */
     public static void addAll0(){
         System.out.println(">>>>>>>>>>>>");
-        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(new Integer[]{1, 2}));
-        boolean ret0 = class0.addAll(Arrays.asList(new Integer[]{2, 3}));
+        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(1,2));
+        boolean ret0 = class0.addAll(Arrays.asList(2,3));
         assert(ret0 == true);
         System.out.println(ret0);
         for(Integer i : class0){
