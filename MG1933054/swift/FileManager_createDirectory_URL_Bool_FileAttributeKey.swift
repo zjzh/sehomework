@@ -9,7 +9,7 @@ import Foundation
 class FileManager_createDirectory_URL_Bool_FileAttributeKey{
     /**
      * input: 4
-     * class0  FileManager$class0
+     * class0 FileManager$class0
      * url URLResourceValues$url
      * createIntermediates createIntermediates=true
      * attributes = nil
@@ -36,7 +36,7 @@ class FileManager_createDirectory_URL_Bool_FileAttributeKey{
     }
     /**
      * input: 4
-     * class0  FileManager$class0
+     * class0 FileManager$class0
      * url URLResourceValues$url
      * createIntermediates createIntermediates=true
      * attributes = nil

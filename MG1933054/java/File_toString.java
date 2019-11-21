@@ -12,7 +12,7 @@ public class File_toString {
      * input: 1
      * class0 File$class0
      * output: 1
-     * ret0  ret0="/Users/tx/Documents/Test"
+     * ret0 ret0="/Users/tx/Documents/Test"
      * File$class0-File(String pathname) & pathname="/Users/tx/Documents/Test" & https://developer.android.google.cn/reference/java/io/File.html
      */
     public  static void toString0(){

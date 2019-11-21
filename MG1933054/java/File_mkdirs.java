@@ -14,7 +14,7 @@ public class File_mkdirs {
      * input: 1
      * class0 File$class0
      * output: 1
-     * ret0  ret0=true
+     * ret0 ret0=true
      * File$class0-File(String pathname) & pathname="/Users/tx/testA" & https://developer.android.google.cn/reference/java/io/File.html
      */
 	public static void mkdir0() throws IOException{
@@ -31,7 +31,7 @@ public class File_mkdirs {
      * input: 1
      * class0 File$class0
      * output: 1
-     * ret0  ret0=true
+     * ret0 ret0=true
      * File$class0-File(String pathname) & pathname= "./pa/son/testA" & https://developer.android.google.cn/reference/java/io/File.html
      */
 	public static void mkdir1() throws IOException{

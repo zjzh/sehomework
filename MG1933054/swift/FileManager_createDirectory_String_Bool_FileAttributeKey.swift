@@ -9,7 +9,7 @@ import Foundation
 class FileManager_createDirectory_String_Bool_FileAttributeKey{
     /**
      * input: 4
-     * class0  FileManager$class0
+     * class0 FileManager$class0
      * path path = "/Users/tx/testA"
      * createIntermediates createIntermediates=true
      * attributes = nil
@@ -35,7 +35,7 @@ class FileManager_createDirectory_String_Bool_FileAttributeKey{
     }
     /**
      * input: 4
-     * class0  FileManager$class0
+     * class0 FileManager$class0
      * path path = "./pa/son/testA"
      * createIntermediates createIntermediates=true
      * attributes = nil
