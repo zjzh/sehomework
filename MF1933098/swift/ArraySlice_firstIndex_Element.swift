@@ -9,7 +9,7 @@
  class ArraySlice_firstIndex_Element {
     /**
      * input: 2
-     * class0 class0=["hello","world","hello"]
+     * class0 ArraySlice$class0=["hello","world","hello"]
      * of of="hello"
      * output: 1
      * ret0 0
@@ -24,7 +24,7 @@
       }
     /**
      * input: 2
-     * class0 class0=["hello","world","hello"]
+     * class0 ArraySlice$class0=["hello","world","hello"]
      * of of="wow"
      * output: 1
      * ret0 0
