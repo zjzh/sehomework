@@ -14,7 +14,7 @@ public class HashSet_iterator {
      * input: 1
      * class0 HashSet$class0
      * output: 1
-     * ret0 Iterator<Integer>$ret0
+     * ret0 Iterator$ret0
      * HashSet$class0-HashSet$HashSet() & & https://docs.oracle.com/javase/9/docs/api/java/util/HashSet.html
      */
     public  static void iterator0(){
