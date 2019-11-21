@@ -12,7 +12,7 @@ class NSDateComponents_year{
 * class0 NSDateComponents$class0
 * output: 1
 * ret0 ret0 = 2019
-* NSDateComponents$class0-NSDateComponents()&https://developer.apple.com/documentation/foundation/nsdatecomponents
+* NSDateComponents$class0-NSDateComponents()&&https://developer.apple.com/documentation/foundation/nsdatecomponents
 */
     static func year0(){
         let class0: NSDateComponents = NSDateComponents()

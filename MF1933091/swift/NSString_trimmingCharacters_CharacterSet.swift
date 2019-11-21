@@ -14,8 +14,7 @@ class NSString_trimmingCharacters_CharacterSet{
 * set CharacterSet$set
 * output: 1
 * ret0 ret0="hello"
-*##CharacterSet$set-CharacterSet$
- https://developer.apple.com/documentation/foundation/characterset
+* CharacterSet$set-CharacterSet$$https://developer.apple.com/documentation/foundation/characterset
 */
     static func trimmingCharacters0(){
         var class0=" hello ";
