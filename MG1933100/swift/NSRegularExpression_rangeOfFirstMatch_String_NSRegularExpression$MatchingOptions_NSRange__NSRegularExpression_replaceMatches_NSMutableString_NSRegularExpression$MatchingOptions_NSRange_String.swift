@@ -16,7 +16,7 @@ class NSRegularExpression_rangeOfFirstMatch_String_NSRegularExpression$MatchingO
     * replacement replacement="0"
     * output: 1
     * ret0 ret0=1
-    * NSRegularExpression$class0-try? NSRegularExpression(pattern: String, options: NSRegularExpression.MatchingOptions) & pattern="ex" & options=[] https://www.jianshu.com/p/d9291b8770a7
+    * NSRegularExpression$class0-try? NSRegularExpression(pattern: String, options: NSRegularExpression.MatchingOptions) & pattern="ex" & options=[] & https://www.jianshu.com/p/d9291b8770a7
     */
     static func rangeOfFirstMatch_replaceMatches0() {
         print(">>>>>>>>>>>>")
