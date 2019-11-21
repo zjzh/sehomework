@@ -14,7 +14,7 @@ class HashMap_containKey_Object {
      * class0 HashMap$class0
      * output: 1
      * ret0 ret0=true
-     * HashMa$class0-HashMap<K,V>() & HashMap<Integer,Integer>() & https://docs.oracle.com/javase/8/docs/api/
+     * HashMap$class0-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void containsKey0(){
         HashMap<Integer,Integer> class0 = new HashMap<Integer,Integer>();
@@ -28,7 +28,7 @@ class HashMap_containKey_Object {
      * class1 HashMap$class1
      * output: 1
      * ret1 ret1=false
-     * HashMa$class1-HashMap<K,V>() & HashMap<Integer,Integer>() & https://docs.oracle.com/javase/8/docs/api/
+     * HashMa$class0-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void containsKey1(){
         HashMap<Integer,Integer> class1 = new HashMap<Integer,Integer>();

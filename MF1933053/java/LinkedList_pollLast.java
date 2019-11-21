@@ -17,7 +17,7 @@ public class LinkedList_pollLast{
      * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=null
-     * LinkedList$class0- LinkedList<Object>() & new LinkedList<Integer>() & https://docs.oracle.com/javase/8/docs/api/
+     * LinkedList$class0-LinkedList$LinkedList<Object>() & & https://docs.oracle.com/javase/8/docs/api/
     */
      public static void pollLast0(){
         System.out.println(">>>>>>>>>>>>>>>>>>>");
@@ -32,7 +32,7 @@ public class LinkedList_pollLast{
      * class1 LinkedList$class1
      * output: 1
      * ret1 ret1=2
-     * LinkedList$class0- LinkedList<Object>() & new LinkedList<Integer>() & https://docs.oracle.com/javase/8/docs/api/
+     * LinkedList$class0-LinkedList$LinkedList<Object>() & & https://docs.oracle.com/javase/8/docs/api/
     */
     public static void pollLast1(){
         System.out.println(">>>>>>>>>>>>>>>>>>>");

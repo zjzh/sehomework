@@ -14,7 +14,7 @@ class File_mkdir{
      * class0 File$class0
      * output: 1
      * ret0 ret0 = true
-     * File$class0-File(String pathname) & pathname="D:\\test" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File$File(String pathname) & pathname="D:\\test" & https://developer.android.google.cn/reference/java/io/File.html
     */
     static void mkdir0(){
         File class0 = new File("D:\\test");

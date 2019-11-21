@@ -14,7 +14,7 @@ public class String_contentEquals_StringBuffer{
      * sb StringBuffer$class0
      * output: 1
      * ret0 ret0 = true
-     * StringBuffer$sb- StringBuffer(String str) & str="NJU" & https://docs.oracle.com/javase/8/docs/api/
+     * StringBuffer$sb-StringBuffer$StringBuffer(String str) & str="NJU" & https://docs.oracle.com/javase/8/docs/api/
      */
     public static void contentEquals0(){
         System.out.println(">>>>>>>>>>>>>>>>>");
@@ -31,7 +31,7 @@ public class String_contentEquals_StringBuffer{
      * sb StringBuffer$sb
      * output: 1
      * ret1 ret1 = false
-     * StringBuffer$sb- StringBuffer(String str) & str="nju" & https://docs.oracle.com/javase/8/docs/api/
+     * StringBuffer$sb-StringBuffer$StringBuffer(String str) & str="nju" & https://docs.oracle.com/javase/8/docs/api/
      */
     public static void contentEquals1(){
         System.out.println(">>>>>>>>>>>>>>>>>");

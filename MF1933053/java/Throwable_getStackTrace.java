@@ -11,10 +11,10 @@ class Throwable_getStackTrace {
      * class0 Thread$class0 = Thread.currentThread()
      * output: 1
      * ret0 ret0=StackTraceElement[]
-     * Thread$class0-File(String pathname) & pathname="D:\\test" & https://developer.android.google.cn/reference/java/io/File.html
+     * Throwable$class0-Throwable$Throwable() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void getStackTrace0(){
-        Thread class0 = Thread.currentThread();
+		Throwable class0 = new Throwable();
         StackTraceElement[] ret0 = class0.getStackTrace();
         assert(ret0 !=null );
         for(StackTraceElement item: ret0){
