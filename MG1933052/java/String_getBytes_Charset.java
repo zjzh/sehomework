@@ -20,7 +20,7 @@ public class String_getBytes_Charset{
  * charset Charset$charset
  * output: 1
  * ret0  ret0=[51,46,49,52]
- * Charset$charset - Charset forName (String charsetName) & 
+ * Charset$charset - Charset$forName (String charsetName) & 
 	charsetName = "UTF-8" &
 	https://developer.android.com/reference/java/nio/charset/Charset#forName(java.lang.String)
  */

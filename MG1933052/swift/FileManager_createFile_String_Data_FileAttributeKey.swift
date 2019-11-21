@@ -19,7 +19,7 @@ class FileManager_createFile_String_Data_FileAttributeKey{
  * attributes attributes = nil
  * output: 1
  * ret0 ret0 = true
- * FileManager$class0 - FileManager.init() & https://developer.apple.com/documentation/foundation/filemanager
+ * FileManager$class0 - FileManager$init() & & https://developer.apple.com/documentation/foundation/filemanager
  */
 static func createFile0(){
 	print(">>>>>>>>>>>>")

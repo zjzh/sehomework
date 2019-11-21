@@ -14,7 +14,7 @@ public class File_createNewFile{
  * class0 File$class0
  * output: 1
  * ret0  ret0 = true
- * File$class0 - File(String pathname) & 
+ * File$class0 - File$File(String pathname) & 
 	pathname="test.txt" & 
 	https://developer.android.com/reference/java/io/File#File(java.lang.String)
  */

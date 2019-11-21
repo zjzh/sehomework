@@ -12,7 +12,7 @@ class Tread_threadPriority{
  * class0  Thread$class0
  * output: 1
  * ret0  ret0=0.5
- * Thread$class0 - Thread.init() & https://developer.apple.com/documentation/foundation/thread/1416464-init
+ * Thread$class0 - Thread$init() & & https://developer.apple.com/documentation/foundation/thread/1416464-init
  */
 static func threadPriority0(){
 	print(">>>>>>>>>>>>")
