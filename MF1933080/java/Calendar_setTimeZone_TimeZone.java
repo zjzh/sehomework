@@ -16,8 +16,8 @@ public class Calendar_setTimeZone_TimeZone {
      * class0 Calendar$class0
      * value TimeZone$value
      * output: 0
-     * Calendar$class0-Calendar$getInstance()$https://blog.csdn.net/x6696/article/details/81154576
-     * TimeZone$value-TimeZone$getTimeZone(String id)$id = "Asia/Shanghai"$https://blog.csdn.net/goodbye_youth/article/details/81807273
+     * Calendar$class0-Calendar$getInstance()& &https://blog.csdn.net/x6696/article/details/81154576
+     * TimeZone$value-TimeZone$getTimeZone(String id)&id = "Asia/Shanghai"&https://blog.csdn.net/goodbye_youth/article/details/81807273
      */
     public static void setTimeZone0() {
         System.out.println(">>>>>>>>>>>>");

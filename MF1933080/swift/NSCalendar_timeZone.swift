@@ -12,7 +12,7 @@ class NSCalendar_timeZone{
      *  input: 1
      *  class0 NSCalendar$class0
      *  output: 0
-     *  NSCalendar$class0-NSCalendar$current$https://www.jianshu.com/p/77edb706fd46
+     *  NSCalendar$class0-NSCalendar$current&https://www.jianshu.com/p/77edb706fd46
 	*/
     static func timeZone0(){
 		print(">>>>>>>>")

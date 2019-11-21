@@ -14,8 +14,8 @@ public class PrintStream_println_Array {
      * class0 PrintStream$class0
      * x char[]$x
      * output: 0
-     * PrintStream$class0-PrintStream&PrintStream(OutputStream out)$OutputStream=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
-     * char[]$x-char[]$new char[]{chars}$chars='1','2','3'$https://blog.csdn.net/wo1211061560031/article/details/70153575
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out)&out=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
+     * char[]$x-char[]$new char[]{chars}&chars='1','2','3'&https://blog.csdn.net/wo1211061560031/article/details/70153575
      */
     public static void println0(){
         System.out.println(">>>>>>>>>>>>");
@@ -30,8 +30,8 @@ public class PrintStream_println_Array {
      * class0 PrintStream$class0
      * x char[]$x
      * output: 0
-     * PrintStream$class0-PrintStream&PrintStream(OutputStream out)$OutputStream=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
-     * char[]$x-char[]$new char[]{chars}$chars='1','2','3'$https://blog.csdn.net/wo1211061560031/article/details/70153575
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out)&OutputStream=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
+     * char[]$x-char[]$new char[]{chars}&chars='1','2','3'&https://blog.csdn.net/wo1211061560031/article/details/70153575
      */
     public static void println1(){
         System.out.println(">>>>>>>>>>>>");

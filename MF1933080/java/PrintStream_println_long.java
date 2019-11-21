@@ -14,7 +14,7 @@ public class PrintStream_println_long {
      * class0 PrintStream$class0
      * x x=1L
      * output: 0
-     * PrintStream$class0-PrintStream&PrintStream(OutputStream out)$OutputStream=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out)&out=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
      */
     public static void println0() {
         System.out.println(">>>>>>>>>>>>");
@@ -30,7 +30,7 @@ public class PrintStream_println_long {
      * class0 PrintStream$class0
      * x x=123L
      * output: 0
-     * PrintStream$class0-PrintStream&PrintStream(OutputStream out)$OutputStream=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out)&OutputStream=System.out&https://blog.csdn.net/qq_34374664/article/details/78659166
      */
     public static void println1() {
         System.out.println(">>>>>>>>>>>>");
