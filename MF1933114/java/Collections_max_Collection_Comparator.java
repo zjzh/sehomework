@@ -14,11 +14,11 @@ public class Collections_max_Collection_Comparator{
 	public static void max0(){
 	/**
 	*input:2
-	*coll List<Integer>$coll=[1,12,3,7]
+	*coll List<Integer>$coll
 	*comp Comparator$comp={(Integer a,Integer b)->a-b}
-	*
 	*output:1
 	*ret0 ret0 = 12
+	*List$coll-List$max() & List<Integer> coll=new ArrayList<Integer>();coll.add(1);coll.add(12);coll.add(3);coll.add(7); & https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 	*/
 		List<Integer> coll=new ArrayList<Integer>();
 		coll.add(1);
