@@ -1,5 +1,4 @@
-
-/**类名_方法名(_形参类型)*  运行没通过！！！！！
+/**类名_方法名(_形参类型)*  
  *  @author: MF1933040贾晓玉
  *  @className: DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateComponents
  *  @apiSignature:DateComponents$init(calendar: Calendar? = nil, timeZone: TimeZone? = nil, era: Int? = nil, year: Int? = nil, month: Int? = nil, day: Int? = nil, hour: Int? = nil, minute: Int? = nil, second: Int? = nil, nanosecond: Int? = nil, weekday: Int? = nil, weekdayOrdinal: Int? = nil, quarter: Int? = nil, weekOfMonth: Int? = nil, weekOfYear: Int? = nil, yearForWeekOfYear: Int? = nil);
