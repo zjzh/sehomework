@@ -1,5 +1,5 @@
 /**
- *@author:DZ2933036_ 支原
+ *@author:DZ1933036_ 支原
  *@classname: ObjectiveCRuntime_classgetsuperclass_anyclass
  *@apiSignature: Objective-C Runtime$Class class_getSuperclass(Class cls);
  *@description:Returns the superclass of a class
@@ -23,8 +23,8 @@ class ObjectiveCRuntime_classgetsuperclass_anyclass{
     static func classgetsuperclass0()
     {
         /**
-         *input: 0
-         *class0: D$class0
+         *input: 1
+         *class0:D&class0
          *output:1
          *ret0: ret0=C.type
          */
@@ -36,8 +36,8 @@ class ObjectiveCRuntime_classgetsuperclass_anyclass{
     static func classgetsuperclass1()
        {
         /**
-         *input: 0
-         *class0: C$class0
+         *input: 1
+         *class0:C$class0
          *output:1
          *ret0: ret0=Swift._SwiftObject
          */

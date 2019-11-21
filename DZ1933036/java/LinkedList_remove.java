@@ -3,7 +3,10 @@
  * @classname: LinkedList_remove
  * @apiSignature: java.util.LinkedList$public E remove()
  * @description: retrieves and removes the head(first element) of the list
- * @Map: ArraySlice$func popFirst() ->Element;ArraySlice$func removeFirst()->Element;ContiguousArray$func removeFirst()->Element;Array$func removeFirst()->Element;
+ * @Map: ArraySlice$func popFirst() ->Element;
+ * @Map:ArraySlice$func removeFirst()->Element;
+ * @Map:ContiguousArray$func removeFirst()->Element;
+ * @Map:Array$func removeFirst()->Element;
  */
 import java.util.LinkedList;
 public class LinkedList_remove {
@@ -11,10 +14,11 @@ public class LinkedList_remove {
     public static void remove0()
     {
         /**
-         * input:0
+         * input:1
          * class0:LinkedList$class0
          * output:1
          * ret0: ret0 = 1
+         * LinkedList$class0-LinkedList$LinkedList()&&"https://developer.android.com/reference/java/util/LinkedList.html"
          */
         LinkedList<Integer>class0 = new LinkedList<>();
         class0.add(1);

@@ -8,12 +8,13 @@
 import java.util.HashMap;
 public class HashMap_put_K_V {
     /**
-     * input:2
+     * input:3
      * class0:HashMap$class0
      * K String key = "first"
      * V String value = "100"
      * output:1
      * ret0 ret0=null
+     * HashMap$class0-HashMap$HashMap()&&"https://developer.android.com/reference/java/util/HashMap.html
      */
     public static void put0(){
         System.out.println(">>>>>>>>>>>>>>>");
@@ -25,12 +26,13 @@ public class HashMap_put_K_V {
 
     }
     /**
-     * input:2
+     * input:3
      * class0:HashMap$class0
      * K String key = "first"
      * V String value = "100"
      * output:1
      * ret0 ret0="100"
+     *   HashMap$class0-HashMap$HashMap()&&"https://developer.android.com/reference/java/util/HashMap.html
      */
     public static void put1(){
         System.out.println(">>>>>>>>>>>>>>>");

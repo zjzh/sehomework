@@ -6,14 +6,14 @@
  * @Map: ObjectiveCRuntime$func class_getSuperclass(cls:AnyClass?)->Anyclass?
  */
 import java.lang.*;
-class C{}
-class D extends C{}
 public class Class_getSuperclass {
+    private static class C{}
+    private static class D extends C{}
     public static void getSuperclass0()
     {
         /**
-         * input:0
-         * class0: D$class0
+         * input:1
+         * class0:D$class0
          * output:1
          * ret0:ret0 = class C
          */
@@ -28,8 +28,8 @@ public class Class_getSuperclass {
     public static void getSuperclass1()
     {
         /**
-         * input:0
-         * class0: C$class0
+         * input:1
+         * class0:C$class0
          * output:1
          * ret0:ret0 = java.lang.Object
          */
