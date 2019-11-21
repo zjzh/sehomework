@@ -13,7 +13,7 @@ class IndexSet_makeIterator{
      * class0 IndexSet$class0
      * output: 1
      * ret0 IndexingIterator<IndexSet>$ret0
-     * IndexSet$class0-IndexSet$init() & https://developer.apple.com/search/?q=IndexSet
+     * IndexSet$class0-IndexSet$init() & &https://developer.apple.com/search/?q=IndexSet
      */
     static func makeIterator0(){
 

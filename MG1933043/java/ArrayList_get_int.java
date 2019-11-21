@@ -10,12 +10,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 public class ArrayList_get_int {
 	/**
-     * input: 1
+     * input: 2
      * class0 ArrayList$class0
      * index index=0
      * output: 1
      * ret0 ret0=-1
-     * ArrayList$class0-ArrayList$new ArrayList<Integer>(Collection c);Arrays.asList(Integer... a) & Collection$c=Arrays.asList(a);Integer[]$a=new Integer[] { -1, 2, 3, 5, 7 } &https://developer.android.com/reference/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$new ArrayList<Integer>(Collection c);Arrays$asList(Integer... a) & Collection$c=Arrays.asList(a);Integer[]$a=new Integer[] { -1, 2, 3, 5, 7 } &https://developer.android.com/reference/java/util/ArrayList.html
      */
 	public static void get0() {
 		System.out.println(">>>>>>>>>>>>");
@@ -31,12 +31,12 @@ public class ArrayList_get_int {
 
 	}
 	/**
-     * input: 1
+     * input: 2
      * class0 class0=ArrayList$class0
      * index index=2
      * output: 1
      * ret0 ret0="Chesapeake"
-     * ArrayList$class0-ArrayList$new ArrayList<Integer>(Collection c);Arrays.asList(String... a) & Collection$c=Arrays.asList(a);String[]$a=new String[] {"Albemarle", "Brandywine", "Chesapeake"} &https://developer.android.com/reference/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$new ArrayList<Integer>(Collection c);Arrays$asList(String... a) & Collection$c=Arrays.asList(a);String[]$a=new String[] {"Albemarle", "Brandywine", "Chesapeake"} &https://developer.android.com/reference/java/util/ArrayList.html
      */
 	public static void get1() {
 		System.out.println(">>>>>>>>>>>>");

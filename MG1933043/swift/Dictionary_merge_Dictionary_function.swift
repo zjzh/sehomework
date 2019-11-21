@@ -14,9 +14,7 @@ class Dictionary_merge_Dictionary_function{
 	   * class0 class0=["a": 1]
      * class1 class1=["b": 2]
      * uniquingKeysWith Function$uniquingKeysWith={(current, _) in current}
-     * output: 2
-     * ret0 ret0=1
-     * ret1 ret1=2
+     * output: 0
      */
     static func merge0(){
       print(">>>>>>>>>>>>")
@@ -25,14 +23,14 @@ class Dictionary_merge_Dictionary_function{
 
       class0.merge(class1) { (current, _) in current }
 
-      let ret0 = class0["a"]
-      let ret1 = class0["b"]
+      let var0 = class0["a"]
+      let var1 = class0["b"]
 
-      assert(ret0 == 1)
-      assert(ret1 == 2)
+      assert(var0 == 1)
+      assert(var1 == 2)
 
-      print(ret0!)
-      print(ret1!)
+      print(var0!)
+      print(var1!)
 
       
     }
@@ -42,8 +40,7 @@ class Dictionary_merge_Dictionary_function{
 	   * class0 class0=["key": 1]
      * class1 class1=["key": 2]
      * uniquingKeysWith Function$uniquingKeysWith={(current, _) in current}
-     * output: 1
-     * ret0 ret0=1
+     * output: 0
      */
     static func merge1(){
       print(">>>>>>>>>>>>")
@@ -52,11 +49,11 @@ class Dictionary_merge_Dictionary_function{
 
       class0.merge(class1) { (current, _) in current }
 
-      let ret0 = class0["key"]
+      let var0 = class0["key"]
 
-      assert(ret0 == 1)
+      assert(var0 == 1)
 
-      print(ret0!)
+      print(var0!)
 
     }
 
@@ -65,8 +62,7 @@ class Dictionary_merge_Dictionary_function{
 	   * class0 class0=["key": "hello"]
      * class1 class1=["key": "world"]
      * uniquingKeysWith Function$uniquingKeysWith={(_, new) in new}
-     * output: 1
-     * ret0 ret0="world"
+     * output: 0
      */
     static func merge2(){
       print(">>>>>>>>>>>>")
@@ -75,11 +71,11 @@ class Dictionary_merge_Dictionary_function{
 
       class0.merge(class1) { (_, new) in new }
 
-      let ret0 = class0["key"]
+      let var0 = class0["key"]
 
-      assert(ret0 == "world")
+      assert(var0 == "world")
 
-      print(ret0!)
+      print(var0!)
 
     }
 

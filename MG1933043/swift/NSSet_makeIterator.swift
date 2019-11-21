@@ -14,7 +14,7 @@ class NSSet_makeIterator{
      * class0 NSSet$class0
      * output: 1
      * ret0 Iterator$ret0
-     * NSSet$class0-NSSet$init() & https://developer.apple.com/documentation/foundation/nsset
+     * NSSet$class0-NSSet$init() & & https://developer.apple.com/documentation/foundation/nsset
      */
     static func makeIterator0(){
 
