@@ -15,7 +15,7 @@ public class Calendar_set_int_int_int{
      * month month=11
      * date date=11
      * output: 0
-     *  Calendar$class0-Calendar.getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance()
+     *  Calendar$class0-Calendar$Calendar.getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance()
      */
     public static void set0(){
         System.out.println(">>>>>>>>>>>>");

@@ -15,7 +15,7 @@ public class File_equals_Object{
      * obj File$obj
      * output: 1
      * ret0  ret0=true
-     *  File$class0-File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
+     *  File$class0-File$File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
      *  File$obj-File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
     */
     public static void equals0(){
@@ -32,7 +32,7 @@ public class File_equals_Object{
      * obj File$obj
      * output: 1
      * ret0  ret0=false
-     *  File$class0-File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
+     *  File$class0-File$File(String pathname) & pathname="file.txt" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
      *  File$obj-File(String pathname) & pathname="file.png" & https://docs.oracle.com/javase/7/docs/api/java/io/File.html#File(java.lang.String)
     */
     public static void equals1(){

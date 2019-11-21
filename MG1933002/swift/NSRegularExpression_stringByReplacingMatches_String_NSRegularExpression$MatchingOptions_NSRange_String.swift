@@ -19,9 +19,9 @@ class NSRegularExpression_stringByReplacingMatches_String_NSRegularExpression$Ma
      * withTemplate withTemplate="IS"
      * output: 1
      * ret0 ret0="thIS IS an example"
-     *  NSRegularExpression$class0-try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
+     *  NSRegularExpression$class0-NSRegularExpression$try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
      *  NSRegularExpression.MatchingOptions$options-.reportProgress
-     *  NSRange$range-NSRange(location: 0,length: value.length) & value="this is an example"
+     *  NSRange$range-NSRange$NSRange(location: 0,length: value.length) & value="this is an example"
     */    
     static func stringByReplacingMatches0(){
         print(">>>>>>>>>>")
@@ -43,9 +43,9 @@ class NSRegularExpression_stringByReplacingMatches_String_NSRegularExpression$Ma
      * withTemplate withTemplate="IS"
      * output: 1
      * ret0 ret0="these are some examples"
-     *  NSRegularExpression$class0-try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
+     *  NSRegularExpression$class0-NSRegularExpression$try? NSRegularExpression(pattern: String) & pattern="is" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
      *  NSRegularExpression.MatchingOptions$options-.reportProgress
-     *  NSRange$range-NSRange(location: 0,length: value.length) & value="these are some examples"
+     *  NSRange$range-NSRange$NSRange(location: 0,length: value.length) & value="these are some examples"
     */    
     static func stringByReplacingMatches1(){
         print(">>>>>>>>>>")
