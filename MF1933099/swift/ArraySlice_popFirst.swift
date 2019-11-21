@@ -2,7 +2,7 @@
 * @author: MF1933099 卫昱阳
 *  @className: ArraySlice_popFirst
 *  @apiSignature: ArraySlice$mutating func popFirst() -> Element?
-*  @description: Test swift api ArraySlice$mutating func popFirst()
+*  @description: Test swift api ArraySlice$mutating func popFirst() -> Element?
 *  @Map: java.util.LinkedList$ public E pollFirst ()
 */
 import Foundation
@@ -10,7 +10,7 @@ import Foundation
 class ArraySlice_popFirst{
     /**
     * input: 1
-    * class0 class0: ArraySlice = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 ArraySlice$class0: ArraySlice = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 ret0="Nanjing"
     */
@@ -26,7 +26,7 @@ class ArraySlice_popFirst{
     
     /**
     * input: 1
-    * class0 class0: ArraySlice<Int> = []
+    * class0 ArraySlice$class0: ArraySlice<Int> = []
     * output: 1
     * ret0 ret0=nil
     */
@@ -44,4 +44,3 @@ class ArraySlice_popFirst{
 
 ArraySlice_popFirst.popFirst0()
 ArraySlice_popFirst.popFirst1()
-

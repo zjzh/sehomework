@@ -2,7 +2,7 @@
 * @author: MF1933099 卫昱阳
 *  @className: ArraySlice_removeFirst
 *  @apiSignature: ArraySlice$@discardableResult mutating func removeFirst() -> Element
-*  @description: Test swift api ArraySlice$@discardableResult mutating func removeFirst()
+*  @description: Test swift api ArraySlice$@discardableResult mutating func removeFirst() -> Element
 *  @Map: java.util.LinkedList$ public E pollFirst ()
 */
 import Foundation
@@ -10,7 +10,7 @@ import Foundation
 class ArraySlice_removeFirst{
     /**
     * input: 1
-    * class0 class0: ArraySlice = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 ArraySlice$class0: ArraySlice = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 ret0="Nanjing"
     */

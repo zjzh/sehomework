@@ -10,7 +10,7 @@ import Foundation
 class NSMutableArray_sort_options_usingComparator{
     /**
     * input: 3
-    * class0: NSMutableArray = [6,3,2,4]
+    * class0 NSMutableArray$class0: NSMutableArray = [6,3,2,4]
     * opts  NSSortOptions$opts
     * usingComparator usingComparator = {(a,b)-> ComparisonResult in
         if((a as! Int) < (b as! Int)){return ComparisonResult.orderedAscending}

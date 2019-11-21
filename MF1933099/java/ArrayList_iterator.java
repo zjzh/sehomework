@@ -16,7 +16,7 @@ public class ArrayList_iterator {
      * class0 ArrayList$class0
      * output: 1
      * ret0 Iterator$ret0
-     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c=Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}) & https://developer.android.com/reference/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$ArrayList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}) & https://developer.android.com/reference/java/util/ArrayList.html
      */
     public static void iterator0(){
         System.out.println(">>>>>>>>>>>>");

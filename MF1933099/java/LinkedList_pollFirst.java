@@ -17,7 +17,7 @@ public class LinkedList_pollFirst {
      * class0 LinkedList$class0
      * output: 1
      * ret0 ret0="Nanjing"
-     * LinkedList$class0-LinkedList$LinkedList(Collection c) & c=Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}) & https://developer.android.com/reference/java/util/LinkedList.html
+     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}) & https://developer.android.com/reference/java/util/LinkedList.html
      */
     public static void pollFirst0(){
         System.out.println(">>>>>>>>>>>>");
@@ -35,7 +35,7 @@ public class LinkedList_pollFirst {
      * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=null
-     * LinkedList$class0-LinkedList$LinkedList(Collection c) & c=Arrays.asList(new String[]{}) & https://developer.android.com/reference/java/util/LinkedList.html
+     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(new String[]{}) & https://developer.android.com/reference/java/util/LinkedList.html
      */
     public static void pollFirst1(){
         System.out.println(">>>>>>>>>>>>");

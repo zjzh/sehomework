@@ -10,7 +10,7 @@ import Foundation
 class NSMutableArray_sort_sortDescriptors{
     /**
     * input: 2
-    * class0: NSMutableArray = [6,3,2,4]
+    * class0 NSMutableArray$class0: NSMutableArray = [6,3,2,4]
     * sortDescriptors NSSortDescriptor$sortDescriptors
     * output: 0
     * NSSortDescriptor$sortDescriptors-NSSortDescriptor$NSSortDescriptor(key: nil, ascending: true)&https://developer.apple.com/documentation/foundation/nssortdescriptor

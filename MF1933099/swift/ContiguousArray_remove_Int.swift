@@ -2,7 +2,7 @@
 * @author: MF1933099 卫昱阳
 *  @className: ContiguousArray_remove_Int
 *  @apiSignature: ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
-*  @description: Test swift api ContiguousArray$@discardableResult mutating func remove(at index: Int)
+*  @description: Test swift api ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
 *  @Map: java.util.ArrayList$ public E remove (int index)
 */
 import Foundation
@@ -10,7 +10,7 @@ import Foundation
 class ContiguousArray_remove_Int{
     /**
     * input: 2
-    * class0 class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 ContiguousArray$class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * index index=2
     * output: 1
     * ret0 ret0=""
@@ -29,7 +29,7 @@ class ContiguousArray_remove_Int{
     
     /**
     * input: 2
-    * class0 class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 ContiguousArray$class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * index index=5
     * output: 1
     * ret0 ret0=""
