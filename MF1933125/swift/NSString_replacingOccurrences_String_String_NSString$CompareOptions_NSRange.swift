@@ -12,7 +12,7 @@ class NSString_replacingOccurrences_String_String_NSString$CompareOptions_NSRang
 	∗ class0 class0="this is an example"
 	∗ of of="is"
 	∗ with with="IS"
-	∗ options options=NSString.CompareOptions$caseInsensitive
+	∗ options NSString.CompareOptions$options=NSString.CompareOptions$caseInsensitive
 	∗ range NSRange$range
 	∗ output:1
 	∗ ret0 ret0="thIS IS an example"
@@ -35,7 +35,7 @@ class NSString_replacingOccurrences_String_String_NSString$CompareOptions_NSRang
 	∗ class0 class0="this is an example"
 	∗ of of="is"
 	∗ with with="IS"
-	∗ options options=NSString.CompareOptions$caseInsensitive
+	∗ options NSString.CompareOptions$options=NSString.CompareOptions$caseInsensitive
 	∗ range NSRange$range
 	∗ output:1
 	∗ ret0 ret0="thIS IS an example"
