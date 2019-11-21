@@ -36,6 +36,7 @@ public class PrintStream_print_boolean {
             class0.close();
             FileInputStream in = new FileInputStream(pathname);
             int content = in.read();
+            System.out.println(content);
             assert (content == 102);
             in.close();
         } catch (IOException e) {
