@@ -20,14 +20,11 @@ public class LinkedList_indexOf_Object {
      * o o="hello"
      * output: 1
      * ret0 ret0=0
-     * LinkedList$class0-LinkedList(Collection c) & c={"hello", "world", "hello"} & https://developer.android.google.cn/reference/java/util/LinkedList
+     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a);a="hello", "world", "hello" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public  static void indexOf0(){
         	System.out.println(">>>>>>>>>>>>");
-        	LinkedList<String> class0 = new LinkedList<String> ();
-	        class0.add("hello");
-	        class0.add("world");
-	        class0.add("hello");
+        	LinkedList<String> class0 = new LinkedList<>(Arrays.asList("hello", "world", "hello"));
 	        String o="hello";
 	        int ret0=class0.indexOf(o);
 	        assert(ret0==0);
@@ -44,10 +41,7 @@ public class LinkedList_indexOf_Object {
      */
      public  static void indexOf1(){
         	System.out.println(">>>>>>>>>>>>");
-        	LinkedList<String> class0 = new LinkedList<String> ();
-	        class0.add("hello");
-	        class0.add("world");
-	        class0.add("hello");
+        	LinkedList<String> class0 = new LinkedList<>(Arrays.asList("hello", "world", "hello"));
 	        String o="wow";
 	        int ret0=class0.indexOf(o);
 	        assert(ret0==-1);
