@@ -13,7 +13,7 @@ class URLResourceValues_name{
      * class URLResourceValues$class0
      * output: 1
      * ret0 ret0="Java"
-     * URLResourceValues$class0-(fileURLWithPath: String) & fileURLWithPath="/Users/chenyinghao/Desktop/Java" & https://developer.apple.com/documentation/foundation/url
+     * URLResourceValues$class0-URLResourceValues$var name: String? { get set }& fileURLWithPath="/Users/chenyinghao/Desktop/Java" & https://developer.apple.com/documentation/foundation/url
      */
     public static func name0(){
         let class0=URL(fileURLWithPath: "/Users/chenyinghao/Desktop/Java")
