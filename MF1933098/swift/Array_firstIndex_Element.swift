@@ -9,7 +9,7 @@
 class Array_firstIndex_Element {
    /**
      * input: 2
-     * class0 class0=["hello","world","hello"]
+     * class0 Array$class0=["hello","world","hello"]
      * of of="hello"
      * output: 1
      * ret0 0
@@ -24,7 +24,7 @@ class Array_firstIndex_Element {
      }
    /**
      * input: 2
-     * class0 class0=["hello","world","hello"]
+     * class0 Array$class0=["hello","world","hello"]
      * of of="wow"
      * output: 1
      * ret0 0
