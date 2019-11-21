@@ -12,7 +12,7 @@ class DateComponents_timeZone{
      *  input: 1
      *  class0 DateComponents$class0
      *  output: 0
-     *  DateComponents$class0-DateComponents$init()&https://developer.apple.com/documentation/foundation/datecomponents/1948879-init
+     *  DateComponents$class0-DateComponents$init()& &https://developer.apple.com/documentation/foundation/datecomponents/1948879-init
 	*/
     static func timeZone0(){
 		print(">>>>>>>>")
