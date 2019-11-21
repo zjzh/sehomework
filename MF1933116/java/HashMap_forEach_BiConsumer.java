@@ -13,6 +13,7 @@ import java.util.HashMap;
      * class0 HashMap$class0
      * output: 1
      * ret0 ret0 = 5
+	 * HashMap$class0-HashMap$HashMap() & & https://blog.csdn.net/tuzki_520/article/details/38560577
      */
     public static int count0 = 0;
     public static int count1 = 0;
@@ -46,6 +47,7 @@ import java.util.HashMap;
      * class0 HashMap$class0
      * output: 1
      * ret0 ret0 = 0
+	 * HashMap$class0-HashMap$HashMap() & & https://blog.csdn.net/tuzki_520/article/details/38560577
      */
 	public static void forEach1()
 	{

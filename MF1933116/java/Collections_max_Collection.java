@@ -16,10 +16,11 @@ import java.util.Arrays;
      * class0 Collection$class0
      * output: 1
      * ret0  ret0=9
+	 * Array$class0-Array$Array<Integer>() & https://www.geeksforgeeks.org/collections-max-method-in-java-with-examples/
 	 */
     public static void max0(){
         System.out.println(">>>>>>>>>>>>");
-        Integer[] class0 = { 8, 2, 7, 1, 4, 9, 5};
+        Integer[] class0 = {8, 2, 7, 1, 4, 9, 5};
         Integer ret0 = (Integer) Collections.max(Arrays.asList(class0));
         assert (ret0.equals(9));
         System.out.println(ret0);
@@ -30,6 +31,7 @@ import java.util.Arrays;
      * class0 Collection$class0
      * output: 1
      * ret0 ret0="e"
+	 * Array$class0-Array$Array<String>() & https://www.geeksforgeeks.org/collections-max-method-in-java-with-examples/
      */
     public static void max1(){
         System.out.println(">>>>>>>>>>>>");

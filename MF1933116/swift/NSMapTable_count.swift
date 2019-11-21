@@ -25,7 +25,11 @@ class NSMapTable_count {
 	 * test2 TestClass$test2
      * output: 1
      * ret0 ret0 = 3
-     */
+	 * NSMapTable$class0-NSMapTable$init(keyOptions: NSPointerFunctions.Options = [], valueOptions: NSPointerFunctions.Options = [], capacity initialCapacity: Int) & & https://stackoverflow.com/questions/46982265/how-nsmaptable-works
+     * TestClass$test0-TestClass$init(String a) & String$name="1" & https://www.jianshu.com/p/7a5eb853b1d7
+	 * TestClass$test1-TestClass$init(String a) & String$name="2" & https://www.jianshu.com/p/7a5eb853b1d7
+     * TestClass$test2-TestClass$init(String a) & String$name="3" & https://www.jianshu.com/p/7a5eb853b1d7
+	 */
     static func count0() {
         
 		var class0 =  NSMapTable<TestClass, NSString>(keyOptions: .weakMemory, valueOptions: .weakMemory)
@@ -47,6 +51,7 @@ class NSMapTable_count {
 	 * class0 NSMapTable$class0
      * output: 1
      * ret0 ret0 = 0
+	 * NSMapTable$class0-NSMapTable$init(keyOptions: NSPointerFunctions.Options = [], valueOptions: NSPointerFunctions.Options = [], capacity initialCapacity: Int) & & https://stackoverflow.com/questions/46982265/how-nsmaptable-works
      */
     static func count1() {
         
