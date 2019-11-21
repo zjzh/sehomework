@@ -11,7 +11,7 @@ import java.io.IOException;
 public class File_getCanonicalPath {
     /*
      * input: 1
-     * class0 class0 = File$class0
+     * class0 File$class0
      * output: 1
      * ret0 ret0 = false
      * File$class0-File$File(String pathname) & pathname = "./mac/Documents" & https://developer.android.google.cn/reference/java/io/File.html
@@ -31,7 +31,7 @@ public class File_getCanonicalPath {
     }
     /*
      * input: 1
-     * class0 class0 = "/Users/mac/Documents"
+     * class0 File$class0
      * output: 1
      * ret0 ret0 = true
      * File$class0-File$File(String pathname) & pathname =  "/Users/mac/Documents" & https://developer.android.google.cn/reference/java/io/File.html

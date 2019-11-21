@@ -10,7 +10,7 @@ import Foundation
 class URLResourceValues_canonicalPath{
     /*
     input: 1
-    class0 class0 = URL$class0
+    class0 URL$class0
     output: 1
     ret0 ret0 = false
     URL$class0-URL$URL(fileURLWithPath:String) & fileURLWithPath = "./mac/Documents" & https:stackoverflow.com/questions/40397131/get-fullpath-or-convert-to-fullpath
@@ -29,7 +29,7 @@ class URLResourceValues_canonicalPath{
     }
     /*
     input: 1
-    class0 class0 = URL$class0
+    class0 URL$class0
     output: 1
     ret0 ret0 = false
     URL$class0-URL$URL(fileURLWithPath:String) & fileURLWithPath = "/Users/mac/Documents" & https:stackoverflow.com/questions/40397131/get-fullpath-or-convert-to-fullpath
@@ -50,5 +50,3 @@ class URLResourceValues_canonicalPath{
 }
 URLResourceValues_canonicalPath.canonicalPath0()
 URLResourceValues_canonicalPath.canonicalPath1()
-
-

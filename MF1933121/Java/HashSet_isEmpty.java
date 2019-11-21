@@ -10,10 +10,10 @@ import java.util.HashSet;
 public class HashSet_isEmpty {
     /*
      * input: 1
-     * class0 class0 = HashSet$class0
+     * class0 HashSet$class0
      * output: 1
      * ret0 ret0 = false
-     * HashSet$class0-HashSet$HashSet() & class0 = [1,2,3,4,5,6] & https://developer.android.com/reference/java/util/HashSet#isEmpty()
+     * HashSet$class0-HashSet$HashSet() &   & https://developer.android.com/reference/java/util/HashSet#HashSet()
      * */
     public static void isEmpty0(){
         HashSet class0 = new HashSet();
@@ -27,10 +27,10 @@ public class HashSet_isEmpty {
     }
     /*
      * input: 1
-     * class0 class0 = HashSet$class0
+     * class0 HashSet$class0
      * output: 1
      * ret0 ret0 = true
-     * HashSet$class0-HashSet$HashSet() & class0 = [] & https://developer.android.com/reference/java/util/HashSet#isEmpty()
+     * HashSet$class0-HashSet$HashSet() &   & https://developer.android.com/reference/java/util/HashSet#HashSet()
      * */
     public static void isEmpty1(){
         HashSet class0 = new HashSet();
@@ -44,4 +44,3 @@ public class HashSet_isEmpty {
         HashSet_isEmpty.isEmpty1();
     }
 }
-

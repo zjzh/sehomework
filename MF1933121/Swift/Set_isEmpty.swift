@@ -10,13 +10,16 @@ import Foundation
 class Set_isEmpty{
     /**
      input : 1
-     class0 class0 = Set$class0
+     class0 Set$class0
      output : 1
      ret0 ret0 = false
-     Set$class0-Set$Set<Int>() & class0 = [1,2,3,4,5,6] & https://developer.apple.com/documentation/swift/set/3018383-isempty
+     Set$class0-Set$Set<Int>() &   & https://developer.apple.com/documentation/swift/set
      */
     static func isEmpty0(){
-        let class0 = Set<Int>([1,2,3,4,5,6])
+        var class0 = Set<Int>()
+        for i in 1..<7 {
+            class0.insert(i)
+        }
         let ret0 = class0.isEmpty
         assert(class0.count != 0)
         assert(ret0 == false)
@@ -24,10 +27,10 @@ class Set_isEmpty{
     }
     /**
      input : 1
-     class0 class0 = Set$class0
+     class0 Set$class0
      output : 1
      ret0 ret0 = true
-     Set$class0-Set$Set<Int>() & class0 = [] & https://developer.apple.com/documentation/swift/set/3018383-isempty
+     Set$class0-Set$Set<Int>() &   & https://developer.apple.com/documentation/swift/set
      */
     static func isEmpty1(){
         let class0 = Set<Int>()
@@ -40,5 +43,3 @@ class Set_isEmpty{
 
 Set_isEmpty.isEmpty0()
 Set_isEmpty.isEmpty1()
-
-

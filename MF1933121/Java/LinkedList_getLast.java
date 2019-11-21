@@ -12,17 +12,17 @@ import java.util.LinkedList;
 public class LinkedList_getLast {
     /*
     * input : 1
-    * class0 class0 = LinkedList$class0
+    * class0 LinkedList$class0
     * output : 1
     * ret0 ret0 = 50
-    * LinkedList$class0-LinkedList$LinkedList<Integer>() & class0 = [10,30,50] & https://www.geeksforgeeks.org/linkedlist-getlast-method-in-java/
+    * LinkedList$class0-LinkedList$LinkedList() &   & https://developer.android.com/reference/java/util/LinkedList#LinkedList()
     * */
     public static void getLast0(){
-        LinkedList<Integer> class0 = new LinkedList<Integer>();
+        LinkedList class0 = new LinkedList();
         class0.add(10);
         class0.add(30);
         class0.add(50);
-        int ret0 = class0.getLast();
+        int ret0 = (int) class0.getLast();
         assert (ret0 == 50);
         System.out.println(ret0);
     }
