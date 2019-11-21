@@ -11,9 +11,11 @@ public class HashMap_isEmpty{
 	public static void isEmpty0(){
 	/**
 	*input:1
-	*hashmap HashMap<Integer,Integer>$hashmap={}
+	*hashmap HashMap<Integer,Integer>$hashmap
 	*output:1
 	*ret0=true
+	*HashMap$hashmap-HashMap$isEmpty() & HashMap<Integer,Integer>hashmap=new HashMap<>(); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+	*
 	*/  
 	    HashMap<Integer,Integer>hashmap=new HashMap<>();
 	    boolean ret0=hashmap.isEmpty();
@@ -26,6 +28,7 @@ public class HashMap_isEmpty{
 	*hashmap HashMap<Integer,Integer>$hashmap={(0,0)}
 	*output:1
 	*ret1=false
+	*HashMap$hashmap-HashMap$isEmpty() & HashMap<Integer,Integer>hashmap=new HashMap<>(); hashmap.put(0,0); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
 	*/  
 	    HashMap<Integer,Integer>hashmap=new HashMap<>();
 	    hashmap.put(0,0);
