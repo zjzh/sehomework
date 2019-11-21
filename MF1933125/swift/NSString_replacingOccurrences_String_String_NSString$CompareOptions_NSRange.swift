@@ -12,11 +12,10 @@ class NSString_replacingOccurrences_String_String_NSString$CompareOptions_NSRang
 	∗ class0 class0="this is an example"
 	∗ of of="is"
 	∗ with with="IS"
-	∗ options NSString.CompareOptions$options
+	∗ options options=NSString.CompareOptions$caseInsensitive
 	∗ range NSRange$range
 	∗ output:1
 	∗ ret0 ret0="thIS IS an example"
-	* NSString.CompareOptions$options-NSString.CompareOptions$caseInsensitive & & https://developer.apple.com/documentation/foundation/nsstring/compareoptions/1412382-caseinsensitive
 	* NSRange$range-NSRange$NSMakeRange(NSUInteger loc, NSUInteger len) & loc=0;len=10 & https://developer.apple.com/documentation/foundation/1417188-nsmakerange?language=occ
     */
     static func replacingOccurrences0(){
@@ -36,11 +35,10 @@ class NSString_replacingOccurrences_String_String_NSString$CompareOptions_NSRang
 	∗ class0 class0="this is an example"
 	∗ of of="is"
 	∗ with with="IS"
-	∗ options NSString.CompareOptions$options
+	∗ options options=NSString.CompareOptions$caseInsensitive
 	∗ range NSRange$range
 	∗ output:1
 	∗ ret0 ret0="thIS IS an example"
-	* NSString.CompareOptions$options-NSString.CompareOptions$caseInsensitive & & https://developer.apple.com/documentation/foundation/nsstring/compareoptions/1412382-caseinsensitive
 	* NSRange$range-NSRange$NSMakeRange(NSUInteger loc, NSUInteger len) & loc=0;len=10 & https://developer.apple.com/documentation/foundation/1417188-nsmakerange?language=occ
     */
     static func replacingOccurrences1(){
