@@ -10,7 +10,7 @@ import Foundation
 class Array_remove_Int{
     /**
     * input: 2
-    * class0 class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 Array$class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * index index=2
     * output: 1
     * ret0 ret0=""
@@ -27,7 +27,7 @@ class Array_remove_Int{
     
     /**
     * input: 2
-    * class0 class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 Array$class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * index index=5
     * output: 1
     * ret0 ret0=""

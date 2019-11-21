@@ -10,7 +10,7 @@ import Foundation
 class Array_sort{
     /**
     * input: 1
-    * class0 class0 = [6,3,2,4]
+    * class0 Array$class0 = [6,3,2,4]
     * output: 0
     */
     static func sort0(){

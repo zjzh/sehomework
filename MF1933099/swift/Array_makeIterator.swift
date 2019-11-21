@@ -2,7 +2,7 @@
 * @author: MF1933099 卫昱阳
 *  @className: Array_makeIterator
 *  @apiSignature: Array$func makeIterator() -> IndexingIterator<Array<Element>>
-*  @description: Test swift api Array$func makeIterator() 
+*  @description: Test swift api Array$func makeIterator() -> IndexingIterator<Array<Element>>
 *  @Map: java.util.ArrayList$ public Iterator iterator ()
 */
 import Foundation
@@ -10,7 +10,7 @@ import Foundation
 class Array_makeIterator{
     /**
     * input: 1
-    * class0 class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 Array$cclass0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 Iterator$ret0
     */
