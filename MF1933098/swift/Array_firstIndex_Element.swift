@@ -17,10 +17,7 @@ class Array_firstIndex_Element {
     static func firstIndex0()
     {
 	print(">>>>>>>>>>>>")
-	var class0=Array<String>()
-	class0.append("hello")
-	class0.append("world")
-	class0.append("hello")
+	var class0:Array=["hello","world","hello"]
 	let ret0=class0.firstIndex(of: "hello")
 	assert(ret0==0)
 	print(ret0)
@@ -35,10 +32,7 @@ class Array_firstIndex_Element {
     static func firstIndex1()
     {
 	print(">>>>>>>>>>>>")
-	var class0=Array<String>()
-	class0.append("hello")
-	class0.append("world")
-	class0.append("hello")
+	var class0:Array=["hello","world","hello"]
 	let ret0=class0.firstIndex(of: "wow")
 	assert(ret0==nil)
 	print(ret0)
