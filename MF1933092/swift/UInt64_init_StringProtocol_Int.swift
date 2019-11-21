@@ -10,7 +10,7 @@ class UInt64_init_StringProtocol_Int{
      /**
      * input: 3
      * class0 class0=0
-     * text text="18446744073709551615"   // MAX UInt64
+     * text text="18446744073709551615"
      * radix radix = 10
      * output: 1
      * ret0 ret0 = 18446744073709551615

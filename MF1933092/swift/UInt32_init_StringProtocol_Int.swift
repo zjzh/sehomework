@@ -11,7 +11,7 @@ class UInt32_init_StringProtocol_Int{
      /**
      * input: 3
      * class0 class0=0
-     * text text="4294967295"   // MAX UInt32
+     * text text="4294967295"
      * radix radix = 10
      * output: 1
      * ret0 ret0 = 4294967295

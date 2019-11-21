@@ -3,7 +3,7 @@ import Foundation
  *  @author: MF1933092 王国新
  *  @className: NSDateComponents_setValue_Int_NSCalendarUnit
  *  @apiSignature: NSDateComponents$func setValue(_ value: Int, forComponent unit: NSCalendar.Unit)
- *  @description: Test swift api NSDateComponents$func setValue(_ value: Int, forComponent unit: NSCalendar.Unit)
+ *  @description: Test swift api NSDateComponents$setValue(_ value: Int, forComponent unit: NSCalendar.Unit)
  *  @Map: java.util.Calendar$public void roll(int field, int amount)
  */
 class NSDateComponents_setValue_Int_NSCalendar$Unit{
@@ -11,10 +11,9 @@ class NSDateComponents_setValue_Int_NSCalendar$Unit{
      * input: 3
      * class0 NSDateComponents$class0
      * value value = 13
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit = NSCalendar.Unit.month
      * output: 0
      * NSDateComponents$class0-NSDateComponents$NSDateComponents() & class0=NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
-     * NSCalendar.Unit$unit-NSCalendar.Unit$case month & unit=NSCalendar.Unit.month & https://developer.apple.com/documentation/foundation/nscalendar/unit/1418371-month
      */
     static func setValue0(){
         print(">>>>>>>>")
@@ -36,10 +35,9 @@ class NSDateComponents_setValue_Int_NSCalendar$Unit{
      * input: 3
      * class0 NSDateComponents$class0
      * value value = 32
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit=NSCalendar.Unit.day
      * output: 0
      * NSDateComponents$class0-NSDateComponents$NSDateComponents() & class0=NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
-     * NSCalendar.Unit$unit-NSCalendar.Unit$case day & unit=NSCalendar.Unit.day & https://developer.apple.com/documentation/foundation/nscalendar/unit/1413492-day
      */
     static func setValue1(){
         print(">>>>>>>>")

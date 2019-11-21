@@ -3,21 +3,19 @@ import Foundation
  *  @author: MF1933092 王国新
  *  @className: NSCalendar_date_NSCalendarUnit_Int_Date_NSCalendarOptions_Date
  *  @apiSignature: NSCalendar$func date(byAdding unit: NSCalendar.Unit, value: Int, to date: Date, options: NSCalendar.Options = []) -> Date?
- *  @description: Test swift api NSCalendar$func date(byAdding unit: NSCalendar.Unit, value: Int, to date: Date, options: NSCalendar.Options = []) -> Date?
+ *  @description: Test swift api NSCalendar$date(byAdding unit: NSCalendar.Unit, value: Int, to date: Date, options: NSCalendar.Options = [])
  *  @Map: java.util.Calendar$public void roll(int field, int amount)
  */
 class NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date{
      /**
      * input: 4
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit = NSCalendar.Options.wrapComponents
      * value value = 31
-     * date Date$date = new Date()
-     * option NSCalendar.Options&option
+     * date Date$date
+     * option NSCalendar.Options&option = NSCalendar.Options.wrapComponents
      * output: 1
      * ret0 Date$ret0
-     * NSCalendar.Unit$unit-NSCalendar.Unit$case day & unit=NSCalendar.Unit.day & https://developer.apple.com/documentation/foundation/nscalendar/unit/1413492-day
      * Date$date-Date$Date()& https://developer.apple.com/documentation/foundation/date/1780470-init
-     * NSCalendar.Options&option-NSCalendar.Options & case = NSCalendar.Options.wrapComponents & https://developer.apple.com/documentation/foundation/nscalendar/options/1408451-wrapcomponents
      */
     static func date0(){
         print(">>>>>>>>>>>>>")
@@ -35,15 +33,13 @@ class NSCalendar_date_NSCalendar$Unit_Int_Date_NSCalendar$Options_Date{
 
      /**
      * input: 4
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit = NSCalendar.Options.wrapComponents
      * value value = 12
      * date Date$date
-     * option NSCalendar.Options&option
+     * option NSCalendar.Options&option = NSCalendar.Options.wrapComponents
      * output: 1
      * ret0 Date$ret0
-     * NSCalendar.Unit$unit-NSCalendar.Unit$case month & unit=NSCalendar.Unit.month & https://developer.apple.com/documentation/foundation/nscalendar/unit/1418371-month
      * Date$date-Date$Date()& https://developer.apple.com/documentation/foundation/date/1780470-init
-     * NSCalendar.Options&option-NSCalendar.Options & case wrapComponents & https://developer.apple.com/documentation/foundation/nscalendar/options/1408451-wrapcomponents
      */
     static func date1(){
         print(">>>>>>>>>>>>>")

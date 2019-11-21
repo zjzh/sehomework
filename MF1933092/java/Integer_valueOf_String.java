@@ -12,7 +12,7 @@ public class Integer_valueOf_String {
      * input: 1
      * s s = "65"
      * output: 1
-     * ret0 ret0 = 65
+     * ret0 Integer$ret0
      */
     public static void valueOf0(){
         String s = "65";
@@ -26,7 +26,7 @@ public class Integer_valueOf_String {
      * input: 1
      * s s = "-985"
      * output: 1
-     * ret0 ret0 = -985
+     * ret0 Integer$ret0
      */
     public static void valueOf1(){
         String s = "-985";

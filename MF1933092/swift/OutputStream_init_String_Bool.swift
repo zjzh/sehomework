@@ -13,7 +13,6 @@ class OutputStream_init_String_Bool{
      * shouldAppend shouldAppend = true
      * output: 1
      * ret0 OutputStream$ret0
-     * OutputStream$ret0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="test.txt";Bool$shouldAppend=true &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
      */
     static func init0(){
         let toFileAtPath="wgx_test1.txt"

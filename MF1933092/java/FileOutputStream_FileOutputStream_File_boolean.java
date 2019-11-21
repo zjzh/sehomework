@@ -10,9 +10,6 @@ import java.io.FileOutputStream;
  *  @apiSignature: 	java.io.FileOutputStream$FileOutputStream(File file, boolean append)
  *  @description: Test java api java.io.FileOutputStream.FileOutputStream(File file, boolean append)
  *  @Map: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
- *
- *  注：这是个构造函数，我不知道apiSignature写成java.io.FileOutputStream.FileOutputStream的形式对不对
- *      或者应该写成java.io.FileOutputStream.FileOutputStream(File file, boolean append)?
  */
 public class FileOutputStream_FileOutputStream_File_boolean {
     /**
@@ -26,23 +23,23 @@ public class FileOutputStream_FileOutputStream_File_boolean {
     public static void FileOutputStream0(){
         try {
             File file = new File("wgx_test.txt");
-            FileOutputStream out = null;
+            FileOutputStream ret0 = null;
             // write "hello " into file
-            out = new FileOutputStream(file, true);
+            ret0 = new FileOutputStream(file, true);
             String str = "hello ";
             for(int i = 0;i < str.length();i++){
                 char ch = str.charAt(i);
-                out.write(ch);
+                ret0.write(ch);
             }
-            out.close();
+            ret0.close();
             // write "world" into file
-            out = new FileOutputStream(file, true);
+            ret0 = new FileOutputStream(file, true);
             str = "world";
             for(int i = 0;i < str.length();i++){
                 char ch = str.charAt(i);
-                out.write(ch);
+                ret0.write(ch);
             }
-            out.close();
+            ret0.close();
             FileInputStream in = new FileInputStream(file);
             int iAvail = in.available();
             byte[] bytes = new byte[iAvail];

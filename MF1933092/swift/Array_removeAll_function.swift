@@ -3,7 +3,7 @@ import Foundation
  *  @author: MF1933092 王国新
  *  @className: Array_removeAll_function
  *  @apiSignature: Array$func removeAll(where shouldBeRemoved: (Element) throws -> Bool)
- *  @description: Test swift api Array$func removeAll(where shouldBeRemoved: (Element) throws -> Bool)
+ *  @description: Test swift api Array$removeAll(where shouldBeRemoved: (Element) throws -> Bool)
  *  @Map: java.util.ArrayList$public boolean removeIf (Predicate<? super E> filter)
  */
 class Array_removeAll_function{

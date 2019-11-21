@@ -17,10 +17,10 @@ public class ArrayList_removeif_Predicate {
      * class0 ArrayList$class0
      * filter Function$filter = num -> num < 3
      * output: 0
-     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays.asList(1,2,3,4,5)&https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays.asList(a)& a = new Integer[] { 1, 2, 3, 4, 5 }&https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/
      */
     public static void removeif0(){
-        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(new Integer[] { 1, 2, 3, 4, 5 }));
         Predicate<Integer> filter = num -> num < 3;
         class0.removeIf(filter);
         assert(filter.test(2));
