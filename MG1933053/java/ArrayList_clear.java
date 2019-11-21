@@ -15,7 +15,7 @@ import java.util.Arrays;
 public class ArrayList_clear {
     /**
      * input: 1
-     * class0 class0=ArrayList$class0
+     * class0: ArrayList$class0
      * output: 0
      * ArrayList$class0-ArrayList$ArrayList(Collection c) & Collection$c = Arrays$asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */
@@ -30,7 +30,7 @@ public class ArrayList_clear {
     }
     /**
      * input: 1
-     * class0 class0=ArrayList$class0
+     * class0: ArrayList$class0
      * output: 0
      * ArrayList$class0-ArrayList$ArrayList(Collection c) & Collection$c = Arrays$asList(new Integer[] {1,2,3,4,5}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */

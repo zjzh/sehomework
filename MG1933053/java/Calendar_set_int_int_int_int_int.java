@@ -9,20 +9,13 @@ import java.util.Date;
  * @className: Calendar_set_int_int_int_int_int
  * @apiSignature: java.util.Calendar$Calender$ public final void set(int year,int month,int date,int hourOfDay,int minute)
  * @description: Test java api java.util.Calendar.set(int year,int month,int date,int hourOfDay,int minute)
- * @Map: NSCalendar$func date(era eraValue: Int, 
-     year yearValue: Int, 
-    month monthValue: Int, 
-      day dayValue: Int, 
-     hour hourValue: Int, 
-   minute minuteValue: Int, 
-   second secondValue: Int, 
-nanosecond nanosecondValue: Int) -> Date?
+ * @Map: NSCalendar$func date(era eraValue: Int, year yearValue: Int, month monthValue: Int, day dayValue: Int,hour hourValue: Int,minute minuteValue: Int,second secondValue: Int,nanosecond nanosecondValue: Int)-> Date?
  */
 
     public class Calendar_set_int_int_int_int_int {
     /**
      * input: 6
-     * class0 class0=Calendar$class0
+     * class0: Calendar$class0
      *  year=2019
      * month=11
      * date=11
@@ -52,7 +45,7 @@ nanosecond nanosecondValue: Int) -> Date?
     }
     /**
      * input: 6
-     * class0 class0=current Calendar instance
+     * class0: Calendar$class0
      *  year=1949
      * month=10
      * date=1
@@ -60,6 +53,7 @@ nanosecond nanosecondValue: Int) -> Date?
      * minute=0
      * output: 1
      * ret0  ret0=Fri Nov 01 08:00 CST 1949
+     * Calendar$class0-Calendar$getInstance() &   &https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      */
     public  static void set1(){
         System.out.println(">>>>>>>>>>>>");

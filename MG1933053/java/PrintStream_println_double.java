@@ -13,7 +13,7 @@ import java.io.PrintStream;
     public class PrintStream_println_double {
     /**
      * input: 2
-     * class0 class0=PrintStream$class0
+     * class0: PrintStream$class0
      * double x =1.2345
      * output: 0
      * PrintStream$class0-PrintStream$PrintStream(OutputStream out) &OutputStream out=System.out & https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html#PrintStream-java.io.OutputStream-
@@ -27,7 +27,7 @@ import java.io.PrintStream;
     }
     /**
      * input: 2
-     * class0 class0=PrintStream$class0
+     * class0: PrintStream$class0
      * double x =1.2345
      * output: 0
      * PrintStream$class0-PrintStream$PrintStream(String fileName) & String$fileName="file.txt" &https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html#PrintStream-java.io.OutputStream-
