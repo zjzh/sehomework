@@ -14,7 +14,7 @@ public class Array_deepToString_Object {
      * input: 1
      * object0 Object$object0
      * output: 1
-     * ret0  ret0=[software,engineering]
+     * ret0  ret0="[software,engineering]"
      * Object$object0-Object[] ob=data & data={"software","engineering"} & https://bbs.csdn.net/topics/392017693?page=1
      */
     public  static void deepToString0(){
@@ -29,7 +29,7 @@ public class Array_deepToString_Object {
      * input: 1
      * object0 Object$object0
      * output: 1
-     * ret0  ret0=[]
+     * ret0  ret0="[]"
      * Object$object0-Object[] ob=data & data={} & https://bbs.csdn.net/topics/392017693?page=1
      */
     public  static void deepToString1(){

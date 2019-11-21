@@ -14,7 +14,7 @@ public class LinkedList_addLast_Element {
      * class0 LinkedList$class0
      * element0 element0="4"
      * output: 0
-     * LinkedList$class0-LinkedList() & new LinkedList() & https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm
+     * LinkedList$class0-LinkedList() &   & https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm
      */
 
     public  static void addLast0() {
@@ -35,7 +35,7 @@ public class LinkedList_addLast_Element {
      * class0 LinkedList$class0
      * element0 element0=""
      * output: 0
-     * LinkedList$class0-LinkedList() & new LinkedList() & https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm
+     * LinkedList$class0-LinkedList() &   & https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm
      */
     public  static void addLast1() {
         LinkedList class0 = new LinkedList();

@@ -19,8 +19,8 @@ public class Collection_disjoint_Collection_Collection {
      * collection1 Collection$collection1
      * output: 1
      * ret0  ret0=true
-     * Collection$collection0-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
-     * Collection$collection1-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$collection0-ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$collection1-ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
      */
 
     public  static void lastIndexOf0(){
@@ -51,8 +51,8 @@ public class Collection_disjoint_Collection_Collection {
      * collection1 Collection$collection1
      * output: 1
      * ret0  ret0=false
-     * Collection$collection0-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
-     * Collection$collection1-new ArrayList() & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$collection0-ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$collection1-ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
      */
 
     public  static void lastIndexOf1(){
