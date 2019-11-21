@@ -13,7 +13,7 @@ public class Calendar_getWeekYear{
      * class0 Calendar$class0
      * output: 1
      * ret0 ret0=2019
-     *  Calendar$class0-Calendar$getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance()
+     *  Calendar$class0-Calendar$getInstance() && https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance()
      */
     public static void getWeekYear0(){
         Calendar class0 = Calendar.getInstance();
