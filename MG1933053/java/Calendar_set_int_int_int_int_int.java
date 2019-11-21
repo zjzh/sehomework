@@ -21,8 +21,7 @@ import java.util.Date;
      * date=11
      * hourOfDay=19
      * minute=40
-     * output: 1
-     * ret0  ret0=Wed Dec 11 19:49 CST 2019
+     * output: 0
      * Calendar$class0-Calendar$getInstance() &   &https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      */
     public  static void set0(){
@@ -40,8 +39,6 @@ import java.util.Date;
         assert(class0.get(Calendar.HOUR_OF_DAY)==19);
         assert(class0.get(Calendar.MINUTE)==49);
         System.out.println(class0.getTime());
-        Date ret0= class0.getTime();
-        System.out.println(ret0);
     }
     /**
      * input: 6
@@ -51,8 +48,7 @@ import java.util.Date;
      * date=1
      * hourOfDay=8
      * minute=0
-     * output: 1
-     * ret0  ret0=Fri Nov 01 08:00 CST 1949
+     * output: 0
      * Calendar$class0-Calendar$getInstance() &   &https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      */
     public  static void set1(){
@@ -70,8 +66,6 @@ import java.util.Date;
         assert(class0.get(Calendar.HOUR_OF_DAY)==8);
         assert(class0.get(Calendar.MINUTE)==0);
         System.out.println(class0.getTime());
-        Date ret0= class0.getTime();
-        System.out.println(ret0);
     }
     public static void main(String[] args) {
         Calendar_set_int_int_int_int_int.set0();
