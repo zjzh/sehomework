@@ -17,10 +17,7 @@
      static func index0()
      {
 	print(">>>>>>>>>>>>")
-	var class0=ArraySlice<String>()
-	class0.append("hello")
-	class0.append("world")
-	class0.append("hello")
+	var class0:ArraySlice=["hello","world","hello"]
 	let ret0=class0.index(of: "hello")
 	assert(ret0==0)
 	print(ret0)
@@ -35,10 +32,7 @@
      static func index1()
      {
 	print(">>>>>>>>>>>>")
-	var class0=ArraySlice<String>()
-	class0.append("hello")
-	class0.append("world")
-	class0.append("hello")
+	var class0:ArraySlice=["hello","world","hello"]
 	let ret0=class0.index(of: "wow")
 	assert(ret0==nil)
 	print(ret0)
