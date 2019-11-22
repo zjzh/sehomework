@@ -12,8 +12,8 @@ class Thread_exit{
         /**
          input : 1
          class0 Thread$class0
-         output : 2
-         ret1 ret1 = false
+         output : 1
+         ret0 ret0 = false
          Thread$class0-Thread$Thread() &   &  https://swift.gg/2017/09/04/all-about-concurrency-in-swift-1-the-present/
          */
         let class0 : Thread = Thread(){
