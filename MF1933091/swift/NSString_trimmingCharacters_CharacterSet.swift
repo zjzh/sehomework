@@ -11,10 +11,10 @@ class NSString_trimmingCharacters_CharacterSet{
 /**
 * input: 2
 * class0 class0=" hello "
-* set CharacterSet$set
+* set CharacterSet.Set$set
+* set CharacterSet&set = CharacterSet.whitespaces
 * output: 1
 * ret0 ret0="hello"
-* CharacterSet$set-CharacterSet$$https://developer.apple.com/documentation/foundation/characterset
 */
     static func trimmingCharacters0(){
         var class0=" hello ";

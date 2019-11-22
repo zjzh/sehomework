@@ -12,13 +12,14 @@ class NSDateComponents_yearForWeekOfYear{
 * class0 NSDateComponents$class0
 * output: 1
 * ret0 ret0 =2019
-* NSDateComponents$class0-NSDateComponents()&&https://developer.apple.com/documentation/foundation/nsdatecomponents
+* NSDateComponents$class0-NSDateComponents()& class0=NSDateComponents() &https://developer.apple.com/documentation/foundation/nsdatecomponents
 */
     static func yearForWeekOfYear0(){
         let class0: NSDateComponents = NSDateComponents()
         class0.yearForWeekOfYear=2019
-        assert(class0.yearForWeekOfYear==2019)
-        print(class0.yearForWeekOfYear)
+        ret0=class0.yearForWeekOfYear
+        assert(ret0==2019)
+        print(ret0)
     }
 }
 

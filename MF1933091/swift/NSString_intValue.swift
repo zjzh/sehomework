@@ -18,7 +18,7 @@ NSNumber(integerLiteral: param) & param = 35 & https://www.cnblogs.com/QianChia/
 */
     static func intValue0(){
         let class0 = NSNumber(integerLiteral: 35)
-        var ret0 = class0.floatValue
+        var ret0 = class0.intValue
         assert(class0==35)
         assert(ret0==35)
         print(ret0)
