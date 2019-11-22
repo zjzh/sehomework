@@ -4,7 +4,7 @@
  * @apiSignature: java.lang.Class$public static Class<?> forName(String className)
  *                                                          throws ClassNotFoundException
  * @description: Test Java api java.lang.Class.forName(String className)
- * @Map: ObjectiveCRuntime$func objc_getClass(_ className: UnsafePointer<Int8>) -> Any!
+ * @Map: ObjectiveCRuntime$func objc_getClass(_ name: UnsafePointer<Int8>) -> Any!
  */
 import java.lang.Class;
 
