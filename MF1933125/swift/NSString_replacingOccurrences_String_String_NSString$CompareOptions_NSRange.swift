@@ -33,12 +33,12 @@ class NSString_replacingOccurrences_String_String_NSString$CompareOptions_NSRang
     /**
 	∗ input:5
 	∗ class0 class0="this is an example"
-	∗ of of="is"
-	∗ with with="IS"
+	∗ of of="are"
+	∗ with with="ARE"
 	∗ options NSString.CompareOptions$options=NSString.CompareOptions.caseInsensitive
 	∗ range NSRange$range
 	∗ output:1
-	∗ ret0 ret0="thIS IS an example"
+	∗ ret0 ret0="this is an example"
 	* NSRange$range-NSRange$NSMakeRange(NSUInteger loc, NSUInteger len) & loc=0;len=10 & https://developer.apple.com/documentation/foundation/1417188-nsmakerange?language=occ
     */
     static func replacingOccurrences1(){

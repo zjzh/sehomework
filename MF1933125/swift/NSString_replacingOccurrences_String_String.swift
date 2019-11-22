@@ -30,10 +30,10 @@ class NSString_replacingOccurrences_String_String{
     /**
     ∗ input:3
     ∗ class0 class0="this is an example"
-    ∗ of of="is"
-    ∗ with with="IS"
+    ∗ of of="are"
+    ∗ with with="ARE"
     ∗ output:1
-    ∗ ret0 ret0="thIS IS an example"
+    ∗ ret0 ret0="this is an example"
     */
     static func replacingOccurrences1(){
         print(">>>>>>>>>>")

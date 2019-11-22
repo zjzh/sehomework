@@ -15,9 +15,9 @@ public class HashMap_getOrDefault_Object_Object {
      * defaultValue defaultValue=0
      * output: 1
      * ret0  ret0=1
-     * HashMap$class0-HashMap$HashMap();HashMap$put(String str, Integer in) & str="key1";in=1 & https://docs.oracle.com/javase/8/docs/api/
+     * HashMap$class0-HashMap$HashMap()& & https://docs.oracle.com/javase/8/docs/api/
      */
-    public static void getOrDefault0(){
+    public static void getOrDefault0(){	
         System.out.println(">>>>>>>>>>>>");
         HashMap<String, Integer> class0 = new HashMap<>();
         class0.put("key1", 1);
@@ -35,7 +35,7 @@ public class HashMap_getOrDefault_Object_Object {
      * defaultValue defaultValue=0
      * output: 1
      * ret0  ret0=0
-     * HashMap$class0-HashMap$HashMap();HashMap$put(String str, Integer in) & str="key1";in=1 & https://docs.oracle.com/javase/8/docs/api/
+     * HashMap$class0-HashMap$HashMap()& & https://docs.oracle.com/javase/8/docs/api/
      */
     public static void getOrDefault1(){
         System.out.println(">>>>>>>>>>>>");
