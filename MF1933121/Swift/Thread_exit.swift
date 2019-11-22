@@ -8,25 +8,23 @@
 import Foundation
 
 class Thread_exit{
+    /**
+    input : 1
+    class0 Thread$class0
+    output : 0
+    Thread$class0-Thread$Thread() &   &  https://swift.gg/2017/09/04/all-about-concurrency-in-swift-1-the-present/
+    */
     static func exit0(){
-        /**
-         input : 1
-         class0 Thread$class0
-         output : 1
-         ret0 ret0 = false
-         Thread$class0-Thread$Thread() &   &  https://swift.gg/2017/09/04/all-about-concurrency-in-swift-1-the-present/
-         */
+        print(">>>>>>>>>>")
         let class0 : Thread = Thread(){
             sleep(1)
             print("Thread$class0 start!")
             Thread.exit()
         }
-
         class0.start()
+
         sleep(3)
-        let ret0 = class0.isExecuting
-        assert(ret0 == false)
-        print(ret0)
+        assert(class0.isExecuting == false)
     }
 }
 

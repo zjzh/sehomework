@@ -9,18 +9,17 @@ public class Thread_interrupt{
     /*
     * input : 1
     * class0 Thread$class0
-    * output : 1
-    * ret0 ret0 = false
+    * output : 0
     * Thread$class0-Thread$Thread() &   & https://developer.android.com/reference/java/lang/Thread?hl=en
     * */
     public static void interrupt0() {
+        System.out.println(">>>>>>>>>>");
         Thread class0 = new Thread();
         class0.start();
         for(int i = 0 ; i < 2000000; i++){}
+        assert (class0.isAlive() == true);
         class0.interrupt();
-        boolean ret0 = class0.isAlive();
-        assert(ret0 == false);
-        System.out.println(ret0);
+        assert(class0.isAlive() == false);
     }
 
     public static void main(String[] args) {

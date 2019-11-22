@@ -16,6 +16,7 @@ class Set_isEmpty{
      Set$class0-Set$Set<Int>() &   & https://developer.apple.com/documentation/swift/set
      */
     static func isEmpty0(){
+        print(">>>>>>>>>>")
         var class0 = Set<Int>()
         for i in 1..<7 {
             class0.insert(i)
@@ -33,6 +34,7 @@ class Set_isEmpty{
      Set$class0-Set$Set<Int>() &   & https://developer.apple.com/documentation/swift/set
      */
     static func isEmpty1(){
+        print(">>>>>>>>>>")
         let class0 = Set<Int>()
         let ret0 = class0.isEmpty
         assert(class0.count == 0)

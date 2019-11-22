@@ -8,16 +8,17 @@
 import java.util.Locale;
 
 public class String_format_Locale_String_Object {
+    /*
+     * input : 3
+     * l Locale$l
+     * format format = "%.2f"
+     * args args = 1.2233
+     * output : 1
+     * ret0 ret0 = "1.22"
+     * Locale$l-Locale$public static Locale getDefault () &   & https://developer.android.com/reference/java/util/Locale?hl=en#getDefault()
+     * */
     public static void format0(){
-        /*
-        * input : 3
-        * l Locale$l
-        * format format = "%.2f"
-        * args args = 1.2233
-        * output : 1
-        * ret0 ret0 = "1.22"
-        * Locale$l-Locale$public static Locale getDefault () &   & https://developer.android.com/reference/java/util/Locale?hl=en#getDefault()
-        * */
+        System.out.println(">>>>>>>>>>");
         Locale l = Locale.getDefault();
         String format = "%.2f";
         double args = 1.2233;

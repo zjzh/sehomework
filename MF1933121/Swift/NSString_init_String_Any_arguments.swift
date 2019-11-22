@@ -8,15 +8,15 @@
 import Foundation
 
 class NSString_init_String_Any_arguments{
+    /**
+    input : 3
+    format format = "%.2f"
+    locale Locale$locale  = Locale.current
+    arguments arguments = 1.2233
+    output : 1
+    ret0 ret0 = "1.22"
+    */
     static func init0(){
-        /**
-         input : 3
-         format format = "%.2f"
-         locale Locale$locale  = Locale.current
-         arguments arguments = 1.2233
-         output : 1
-         ret0 ret0 = "1.22"
-         */
         let format : String = "%.2f"
         let locale : Locale = Locale.current
         let arguments : Float = 1.2233

@@ -16,6 +16,7 @@ public class HashSet_isEmpty {
      * HashSet$class0-HashSet$HashSet() &   & https://developer.android.com/reference/java/util/HashSet#HashSet()
      * */
     public static void isEmpty0(){
+        System.out.println(">>>>>>>>>>");
         HashSet class0 = new HashSet();
         for(int i = 1 ; i <= 6 ; i++ ){
             class0.add(i);
@@ -33,6 +34,7 @@ public class HashSet_isEmpty {
      * HashSet$class0-HashSet$HashSet() &   & https://developer.android.com/reference/java/util/HashSet#HashSet()
      * */
     public static void isEmpty1(){
+        System.out.println(">>>>>>>>>>");
         HashSet class0 = new HashSet();
         boolean ret0 = class0.isEmpty();
         assert (class0.size() == 0);

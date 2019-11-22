@@ -16,7 +16,7 @@ class ContiguousArray_last{
      ContiguousArray$class0-ContiguousArray$ContiguousArray<Int>() &   &  https://developer.apple.com/documentation/swift/contiguousarray
      */
     static func last0(){
-//        var class0 : ContiguousArray<Int> = [10, 30, 50]
+        print(">>>>>>>>>>")
         var class0 = ContiguousArray<Int>()
         class0.append(10)
         class0.append(30)

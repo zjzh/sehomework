@@ -18,6 +18,7 @@ public class LinkedList_getLast {
     * LinkedList$class0-LinkedList$LinkedList() &   & https://developer.android.com/reference/java/util/LinkedList#LinkedList()
     * */
     public static void getLast0(){
+        System.out.println(">>>>>>>>>>");
         LinkedList class0 = new LinkedList();
         class0.add(10);
         class0.add(30);

@@ -16,6 +16,7 @@ class Array_last{
      Array$class0-Array$Array<Int>() &   & https://developer.apple.com/documentation/swift/array
      */
     static func last0(){
+        print(">>>>>>>>>>")
         var class0 = Array<Int>()
         class0.append(10)
         class0.append(30)

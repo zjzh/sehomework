@@ -16,7 +16,7 @@ class ArraySlice_last{
      ArraySlice$class0-ArraySlice$ArraySlice<Int>() &   & https://developer.apple.com/documentation/swift/arrayslice
      */
     static func last0(){
-//        var class0 : ArraySlice<Int> = [10, 30, 50]
+        print(">>>>>>>>>>")
         var class0 = ArraySlice<Int>()
         class0.append(10)
         class0.append(30)
