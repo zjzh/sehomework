@@ -1,6 +1,6 @@
 /**
  * @author: MG1933058+Wang Heng
- * @className: NSString_init_String_Any_Pointer_write_inoutTarget
+ * @className: NSString_init_String_Any_CVaListPointer__String_write_inoutTarget
  * @apiSignature: NSString$convenience init(format: String, locale: Any?,  arguments argList: CVaListPointer); String$func write<Target>(to target: inout Target) where Target : TextOutputStream
  * @description: Test swift api NSString$convenience init(format: String, locale: Any?,  arguments argList: CVaListPointer); String$func write<Target>(to target: inout Target) where Target : TextOutputStream
  * @Map: java.io.PrintStream$public PrintStream format(Locale l, String format, Object... args)

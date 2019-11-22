@@ -18,7 +18,7 @@ import java.util.Arrays;
       * dst dst=['*','*','*','*','*','*','*','*','*','*']
       * dstBegin = 0
       * output: 0
-      * String.length$to-String$length() & https://www.guru99.com/string-length-method-java.html
+      * String.length$to-String$length() & & https://www.guru99.com/string-length-method-java.html
       */
 
     public static void getChars0()
@@ -43,7 +43,7 @@ import java.util.Arrays;
      * dst dst=['*','*','*','*','*','*','*','*','*','*']
      * dstBegin = 0
      * output: 0
-     * String.length$to-String$length() & https://www.guru99.com/string-length-method-java.html
+     * String.length$to-String$length() & & https://www.guru99.com/string-length-method-java.html
      */
     public static void getChars1()
     {
@@ -68,7 +68,7 @@ import java.util.Arrays;
      * dst dst=['*','*','*','*','*','*','*','*','*','*']
      * dstBegin = 1
      * output: 0
-     * String.length$to-String$length() & https://www.guru99.com/string-length-method-java.html
+     * String.length$to-String$length() & & https://www.guru99.com/string-length-method-java.html
      */
     public static void getChars2()
     {

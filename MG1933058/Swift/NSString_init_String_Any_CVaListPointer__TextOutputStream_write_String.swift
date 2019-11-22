@@ -1,6 +1,6 @@
 /**
  * @author: MG1933058+Wang Heng
- * @className: NSString_init_String_Any_Pointer__TextOutputStream_write_String
+ * @className: NSString_init_String_Any_CVaListPointer__TextOutputStream_write_String 
  * @apiSignature: NSString$convenience init(format: String, locale: Any?,  arguments argList: CVaListPointer); TextOutputStream$mutating func write(_ String: String)
  * @description: Test swift api NSString$convenience init(format: String, locale: Any?,  arguments argList: CVaListPointer); TextOutputStream$mutating func write(_ String: String)
  * @Map: java.io.PrintStream$public PrintStream format(Locale l, String format, Object... args)
