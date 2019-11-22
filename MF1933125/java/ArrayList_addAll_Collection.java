@@ -17,7 +17,7 @@ public class ArrayList_addAll_Collection {
     /**
      * input: 2
      * class0 ArrayList$class0
-     * c Arrays$c
+     * c ArrayList$c
      * output: 1
      * ret0  ret0=true
      * ArrayList$class0-ArrayList$ArrayList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a); a=1,2 & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
