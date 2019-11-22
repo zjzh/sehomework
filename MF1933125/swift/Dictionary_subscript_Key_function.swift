@@ -19,7 +19,7 @@ class Dictionary_subscript_Key_function{
     static func subscript0(){
         print(">>>>>>>>>>")
         var class0 = Dictionary<String, Int>()
-		class0.updateValue(1, forKey: "key1")
+        class0.updateValue(1, forKey: "key1")
         let key = "key1"
         let ret0 = class0[key, default:  {() -> Int in return 0}()]
         assert(key=="key1")
@@ -39,7 +39,7 @@ class Dictionary_subscript_Key_function{
     static func subscript1(){
         print(">>>>>>>>>>")
         var class0 = Dictionary<String, Int>()
-		class0.updateValue(1, forKey: "key1")
+        class0.updateValue(1, forKey: "key1")
         let key = "key0"
         let ret0 = class0[key, default: {() -> Int in return 0}()]
         assert(key=="key0")

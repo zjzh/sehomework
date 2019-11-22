@@ -12,7 +12,7 @@ class Calendar_firstWeekday{
      * class0 Calendar$class0
      * output: 1
      * ret0 ret0=1
-     * Calendar$class0-Calendar$current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+     * Calendar$class0-Calendar$current & & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
     static func firstWeekday0(){
         print(">>>>>>>>>>")

@@ -21,7 +21,7 @@ public class ArrayList_addAll_Collection {
      * output: 1
      * ret0  ret0=true
      * ArrayList$class0-ArrayList$ArrayList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a); a=1,2 & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * ArrayList$c-Arrays$asList(T... a) & c=Arrays.asList(a); a=2,3 & https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-
+     * ArrayList$c-Arrays$asList(T... a) & a=2,3 & https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-
      */
     public static void addAll0(){
         System.out.println(">>>>>>>>>>>>");

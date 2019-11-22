@@ -13,7 +13,7 @@ class Slice_insert_Collection_Base$Index{
      * contentsOf contentsOf=[4, 5]
      * at Base.Index$at
      * output: 0
-	 * Base.Index$at-Slice$endIndex & https://developer.apple.com/documentation/swift/slice/1538651-endindex
+	 * Base.Index$at-Slice$endIndex & & https://developer.apple.com/documentation/swift/slice/1538651-endindex
      */
     static func insert0() {
         print(">>>>>>>>>>>>")
