@@ -1,6 +1,7 @@
 package com.homework4;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 
 /**类名_方法名(_形参类型)*
@@ -13,22 +14,17 @@ import java.util.Collection;
 public class ArrayList_retainAll_Collection {
     /**
      * input:2
-     * class0 ArrayList$class0=[1,1,5]
-     * c Collection$c=[1,2,3,4]
+     * class0 ArrayList$class0
+     * c Collection$c
      * output:1
      * ret0 ret0=true
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {1,1,5} & https://developer.android.com/reference/java/util/ArrayList.html
+     * Collection$c-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {1,2,3,4} & https://developer.android.com/reference/java/util/ArrayList.html
      */
     public static void retainAll0(){
         System.out.println(">>>>>>>>>>>>");
-        ArrayList class0 = new ArrayList();
-        class0.add(1);
-        class0.add(1);
-        class0.add(5);
-        Collection c = new ArrayList();
-        c.add(1);
-        c.add(2);
-        c.add(3);
-        c.add(4);
+        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(new Integer[]{1, 1, 5}));
+        Collection c = new ArrayList(Arrays.asList(new Integer[]{1,2,3,4}));
         boolean ret0 = class0.retainAll(c);
         assert (ret0==true);
         System.out.println(ret0);
@@ -37,22 +33,18 @@ public class ArrayList_retainAll_Collection {
 
     /**
      * input:2
-     * class0 ArrayList$class0=[1,1,5]
-     * c Collection$c=[2,3,4]
+     * class0 ArrayList$class0
+     * c Collection$c
      * output:1
      * ret0 ret0=true
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {1,1,5} & https://developer.android.com/reference/java/util/ArrayList.html
+     * Collection$c-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {2,3,4} & https://developer.android.com/reference/java/util/ArrayList.html
      */
 
     public static void retainAll1(){
         System.out.println(">>>>>>>>>>>>");
-        ArrayList class0 = new ArrayList();
-        class0.add(1);
-        class0.add(1);
-        class0.add(5);
-        Collection c = new ArrayList();
-        c.add(2);
-        c.add(3);
-        c.add(4);
+        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(new Integer[]{1, 1, 5}));
+        Collection c = new ArrayList(Arrays.asList(new Integer[]{2,3,4}));
         boolean ret0 = class0.retainAll(c);
         assert (ret0==true);
         System.out.println(ret0);
@@ -61,23 +53,17 @@ public class ArrayList_retainAll_Collection {
 
     /**
      * input:2
-     * class0 ArrayList$class0=[1,2,3,4]
-     * c Collection$c=[1,2,3,4]
+     * class0 ArrayList$class0
+     * c Collection$c
      * output:1
-     * ret0 ret0=false
+     * ret0 ret0=true
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {1,2,3,4} & https://developer.android.com/reference/java/util/ArrayList.html
+     * Collection$c-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {1,2,3,4} & https://developer.android.com/reference/java/util/ArrayList.html
      */
     public static void retainAll2(){
         System.out.println(">>>>>>>>>>>>");
-        ArrayList class0 = new ArrayList();
-        class0.add(1);
-        class0.add(2);
-        class0.add(3);
-        class0.add(4);
-        Collection c = new ArrayList();
-        c.add(1);
-        c.add(2);
-        c.add(3);
-        c.add(4);
+        ArrayList<Integer> class0 = new ArrayList<>(Arrays.asList(new Integer[]{1,2,3,4}));
+        Collection c = new ArrayList(Arrays.asList(new Integer[]{1,2,3,4}));
         boolean ret0 = class0.retainAll(c);
         assert (ret0==false);
         System.out.println(ret0);
