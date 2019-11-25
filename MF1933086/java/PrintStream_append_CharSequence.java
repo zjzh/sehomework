@@ -14,7 +14,7 @@ public class PrintStream_append_CharSequence{
      * class0 PrintStream$class0 
      * CharSequence csq = "Hello World";
      * output: 0
-     * PrintStream$class0-PrintStream$PrintStream() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
      */
     public  static void append(){
         System.out.println(">>>>>>>>>>");

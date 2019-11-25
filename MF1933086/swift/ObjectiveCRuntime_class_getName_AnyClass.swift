@@ -2,7 +2,7 @@
  * @author: MF1933086 TongZhan
  * @className:Objective-CRuntime_class_getName_AnyClass
  * @apiSignature:Objective-CRuntime$func class_getName(_ cls: AnyClass?) -> UnsafePointer<Int8>
- * @description:Test swift api Objective-C Runtime$func class_getName(_ cls: AnyClass?)
+ * @description:Test swift api Objective-CRuntime$func class_getName(_ cls: AnyClass?) -> UnsafePointer<Int8>
  * @Map:java.lang.Class$public  public String getName()
  */
 import Foundation

@@ -2,7 +2,7 @@
  *  @author: MF1933086 TongZhan
  *  @className: Array_joined_String
  *  @apiSignature: Array$func joined(separator: String = "") -> String
- *  @description: Test swift api Array.joined(separator:)
+ *  @description: Test swift api Array$func joined(separator: String = "") -> String
  *  @Map: java.io.String$public static String join(CharSequence delimiter, CharSequence... elements)
  */
 

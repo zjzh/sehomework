@@ -2,7 +2,7 @@
  *  @author: MF1933086 TongZhan
  *  @className: Array_joined_Sequence
  *  @apiSignature: Array$func joined<Separator>(separator: Separator) -> JoinedSequence<Array<Element>> where Separator : Sequence, Separator.Element == Self.Element.Element
- *  @description: Test swift api Array.joined(separator:)
+ *  @description: Test swift api Array$func joined<Separator>(separator: Separator) -> JoinedSequence<Array<Element>> where Separator : Sequence, Separator.Element == Self.Element.Element
  *  @Map: java.io.String$public static String join(CharSequence delimiter, CharSequence... elements)
  */
 

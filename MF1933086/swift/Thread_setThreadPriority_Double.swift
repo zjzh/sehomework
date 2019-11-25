@@ -2,7 +2,7 @@
  *  @author: MF1933086 TongZhan
  *  @className: Thread_setThreadPriority_Double 
  *  @apiSignature: Thread$func setThreadPriority(_ p: Double) -> Bool
- *  @description: Test swift api  Thread.setThreadPriority ( [('Double', ['p'])] )
+ *  @description: Test swift api  Thread$func setThreadPriority(_ p: Double) -> Bool
  *  @Map: java.lang.Thread$public final void setPriority(int newPriority)
  */
 

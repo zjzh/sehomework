@@ -27,7 +27,7 @@ public class PrintStream_println_Object{
      * class0 PrintStream$class0
      * x x = "hello"
      * output: 0
-     * PrintStream$lass0-PrintStream$PrintStream(System.out) & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
+     * PrintStream$lass0-PrintStream$PrintStream(OutputStream out) & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
      */
     public  static void println2(){
         System.out.println(">>>>>>>>>>");
