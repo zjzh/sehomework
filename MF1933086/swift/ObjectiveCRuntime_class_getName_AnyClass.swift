@@ -9,9 +9,10 @@ import Foundation
 class ObjectiveCRuntime_class_getName_AnyClass{
     /**
     *input:1
-    *class0 NSString$class0 & let class0 = NSString.init() & https://developer.apple.com/documentation/foundation/nsstring?language=occ
+    *class0 NSString$class0 
     *output:1
     *ret0 ret0="__NSCFConstantString"
+    *NSString$class0-NSString$init() & class0 = NSString.init() &  https://developer.apple.com/documentation/foundation/nsstring?language=occ
     */
     static func class_getName0 () {
         print(">>>>>>>>>>>>>>>>>")

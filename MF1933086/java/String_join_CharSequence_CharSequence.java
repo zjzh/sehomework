@@ -13,12 +13,13 @@ import java.lang.*;
 public class String_join_CharSequence_CharSequence {
     /**
      * input: 3
-     * class0 String$class0 & String  class0 = new String() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
+     * class0 String$class0 
      * delimiter delimiter = "-"
      * elements1 elements1 = "hello" 
      * elements2 elements2 = "world"
      * output: 1
      * ret0 ret0 = "hello-world"
+     * String$class0-String$tring() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      */
     public  static void  join0(){
         System.out.println(">>>>>>>>>>>>");
@@ -35,13 +36,14 @@ public class String_join_CharSequence_CharSequence {
     }
     /**
      * input: 4
-     * class0 String$class0 & String  class0 = new String() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
+     * class0 String$class0 
      * delimiter delimiter = " "
      * elements1 elements1 = "Hello" 
      * elements2 elements2 = "Nanjing"
      * elements3 elements3 = "University"
      * output: 1
      * ret0 ret0 = "Hello Nanjing University"
+     * String$class0-String$tring() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      */
     public  static void  join1(){
         System.out.println(">>>>>>>>>>>>");

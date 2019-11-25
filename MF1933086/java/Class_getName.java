@@ -1,7 +1,7 @@
 /*
  * @author: MF1933086 TongZhan
  * @className: Class_getName
- * @apiSignature: java.lang.Class$public  public String getName()
+ * @apiSignature: java.lang.Class$public String getName()
  * @description: Test Java api java.lang.Class.getName()
  * @Map: Objective-CRuntime$func object_getClassName(_ obj: Any?) -> UnsafePointer<Int8>
  */
@@ -9,9 +9,10 @@ import java.lang.*;
 public class Class_getName {
     /**
      * input: 1
-     * class0 String$class0 & String  class0 = new String() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
+     * class0 String$class0 
      * output: 1
      * ret0 ret0 == "java.lang.String"
+     * String$class0-String$tring() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      */
     public static void getName1() {
         System.out.println(">>>>>>>>>>");

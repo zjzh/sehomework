@@ -12,9 +12,10 @@ import java.lang.Thread;
 public class Thread_setPriority_int {
     /**
      * input: 2
-     * class0 Thread$class0 & Thread class0 = Thread.currentThread() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Thread.html
+     * class0 Thread$class0 
      * newPriority newPriority = 1
      * output: 0
+     * Thread$class0-Thread$currentThread() & class0=Thread.currentThread() & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Thread.html
      */
     public  static void setPriority0(){
         System.out.println(">>>>>>>>>>>>");
