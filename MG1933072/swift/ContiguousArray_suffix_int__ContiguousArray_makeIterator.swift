@@ -2,7 +2,7 @@ import Foundation
 
 /**类名_方法名(_形参类型)
  * @author: MG1933072 谢佳鑫
- * @className: ContiguousArray _suffix_int_ContiguousArray_makeIterator
+ * @className: ContiguousArray_suffix_int__ContiguousArray_makeIterator
  * @apiSignature: ContiguousArray$suffix(_ maxLength: Int) -> ContiguousArraySlice<Element>;ContiguousArray$makeIterator() -> IndexingIterator<ContiguousArray<Element>>
  * @description: Test swift api ContiguousArray$suffix(_ maxLength: Int) -> ArraySlice<Element>;ContiguousArray$makeIterator() -> IndexingIterator<ContiguousArray<Element>>
  * @Map: ArrayList$public ListIterator<E> listIterator(int index);LinkedList$public ListIterator<E> listIterator(int index)
