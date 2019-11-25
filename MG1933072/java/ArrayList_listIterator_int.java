@@ -17,8 +17,8 @@ public class ArrayList_listIterator_int {
      * index index=2
      * output: 1
      * ret0 ListIterator$ret0
-     * ArrayList$class0-ArrayList();ArrayList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
-     * ListIterator$ret0-ListIterator();ArrayList$listIterator(int index) & index=2 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
+     * ArrayList$class0-ArrayList$ArrayList();ArrayList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+     * ListIterator$ret0-ArrayList$listIterator(int index) & index=2 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
      */
     public static void listIterator0(){
         System.out.println(">>>>>>>>");
@@ -41,8 +41,8 @@ public class ArrayList_listIterator_int {
      * index index=2
      * output: 1
      * ret0 ListIterator$ret0
-     * ArrayList$class0-ArrayList();ArrayList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
-     * ListIterator$ret0-ListIterator();ArrayList$listIterator(int index) & index=2 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
+     * ArrayList$class0-ArrayList$ArrayList();ArrayList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+     * ListIterator$ret0-ArrayList$listIterator(int index) & index=2 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
      */
     public static void listIterator1(){
         System.out.println(">>>>>>>>");
