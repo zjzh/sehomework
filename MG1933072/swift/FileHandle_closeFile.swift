@@ -12,7 +12,7 @@ class FileHandle_closeFile {
      * input: 1
      * class0 FileHandle$class0
      * output: 0
-     * FileHandle$class0-FileHandle();FileHandle$init(forUpdating url: URL) & url="test.txt" & https://developer.apple.com/documentation/foundation/filehandle/1417026-init
+     * FileHandle$class0-FileHandle$init(forUpdating url: URL) & url="test.txt" & https://developer.apple.com/documentation/foundation/filehandle/1417026-init
      */
     static func closeFile0() {
         print(">>>>>>>>")
@@ -33,7 +33,7 @@ class FileHandle_closeFile {
      * input: 1
      * class0 FileHandle$class0
      * output: 0
-     * FileHandle$class0-FileHandle();FileHandle$init(forUpdating url: URL) & url="test2.txt" & https://developer.apple.com/documentation/foundation/filehandle/1417026-init
+     * FileHandle$class0-FileHandle$init(forUpdating url: URL) & url="test2.txt" & https://developer.apple.com/documentation/foundation/filehandle/1417026-init
      */
     static func closeFile1() {
         print(">>>>>>>>")
