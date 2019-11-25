@@ -14,7 +14,7 @@ public class HashMap_containsValue_Object {
      * str0 str0="value1"
      * output: 1
      * ret0  ret0=true
-     * HashMap$class0-HashMap$HashMap<String, String>() & HashMap<String,String> class0 = new HashMap<String,String>();class0.put("key1", "value1"); & https://docs.oracle.com/javase/8/docs/api/
+     * HashMap$class0-HashMap$HashMap<String, String>() &  & https://docs.oracle.com/javase/8/docs/api/
      */
 	public  static void containsValue0(){
 		HashMap<String,String> class0 = new HashMap<String,String>();
@@ -33,7 +33,7 @@ public class HashMap_containsValue_Object {
      * str0 str0="value4"
      * output: 1
      * ret0  ret0=false
-     * HashMap$class0-HashMap$HashMap<String, String>() & HashMap<String,String> class0 = new HashMap<String,String>();class0.put("key1", "value1") & https://docs.oracle.com/javase/8/docs/api/
+     * HashMap$class0-HashMap$HashMap<String, String>() &  & https://docs.oracle.com/javase/8/docs/api/
      */
 	public  static void containsValue1(){
 		HashMap<String,String> class0 = new HashMap<String,String>();

@@ -13,10 +13,11 @@ class Dictionary_contains_Bool{
      * str0 str0="value1"
      * output: 1
      * ret0  ret0=true
-	 * Dictionary$class0-Dictionary<Key, Value>& let class0 = ["key1":"value1","key2":"value2","key3":"value3"] & https://developer.apple.com/documentation/swift/dictionary
+	 * Dictionary$class0-Dictionary$Dictionary<String,String>()& & https://developer.apple.com/documentation/swift/dictionary
      */
     static func contains0(){
-         let class0 = ["key1":"value1","key2":"value2","key3":"value3"];
+	     var class0 = Dictionary<String,String>();
+		 class0.updateValue("value1",forKey:"key1");
 		 let class1 = class0.map{$0.value};
          let str0="value1";
          let ret0=class1.contains(str0);
@@ -30,10 +31,11 @@ class Dictionary_contains_Bool{
      * str0 str0="value4"
      * output: 1
      * ret0  ret0=false
-	 * Dictionary$class0-Dictionary<Key, Value>& let class0 = ["key1":"value1","key2":"value2","key3":"value3"] & https://developer.apple.com/documentation/swift/dictionary
+	 * Dictionary$class0-Dictionary$Dictionary<String,String>()& & https://developer.apple.com/documentation/swift/dictionary
      */
     static func contains1(){
-         let class0 = ["key1":"value1","key2":"value2","key3":"value3"];
+         var class0 = Dictionary<String,String>();
+		 class0.updateValue("value1",forKey:"key1");
 		 let class1 = class0.map{$0.value};
          let str0="value4";
          let ret0=class1.contains(str0);
