@@ -17,8 +17,8 @@ public class LinkedList_listIterator_int {
      * index index=1
      * output: 1
      * ret0 ListIterator$ret0
-     * LinkedList$class0-LinkedList();LinkedList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * ListIterator$ret0-ListIterator();LinkedList$listIterator(int index) & index=1 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
+     * LinkedList$class0-LinkedList$LinkedList();LinkedList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * ListIterator$ret0-LinkedList$listIterator(int index) & index=1 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
      */
     public static void listIterator0(){
         System.out.println(">>>>>>>>");
@@ -41,8 +41,8 @@ public class LinkedList_listIterator_int {
      * index index=2
      * output: 1
      * ret0 ListIterator$ret0
-     * LinkedList$class0-LinkedList();LinkedList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * ListIterator$ret0-ListIterator();LinkedList$listIterator(int index) & index=2 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
+     * LinkedList$class0-LinkedList$LinkedList();LinkedList$add(e) & e="I" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * ListIterator$ret0-LinkedList$listIterator(int index) & index=2 & https://docs.oracle.com/javase/8/docs/api/java/util/List.html#listIterator-int-
      */
     public static void listIterator1(){
         System.out.println(">>>>>>>>");
