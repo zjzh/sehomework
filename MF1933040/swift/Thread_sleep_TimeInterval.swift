@@ -13,7 +13,7 @@ class Thread_sleep_TimeInterval{
      * class0 class0=Thread$class0
      * ti ti = 3.0
      * output: 0
-     * Thread$class0-Thread$Thread.sleep(forTimeInterval:ti)$https://developer.apple.com/documentation/foundation/thread/1413673-sleep
+     * Thread$class0-Thread&Thread.sleep(forTimeInterval:ti)&https://developer.apple.com/documentation/foundation/thread/1413673-sleep
      */
     static func sleep0(){
       let ti = 3.0
