@@ -11,7 +11,7 @@ import Foundation
 class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateComponents{
      /**
      * input: 8
-	 * class0 class0 = NSCalendar.current
+     * class0 Canlendar$class0
      * int year = 2019
      * int month = 11
      * int day = 12
@@ -21,9 +21,10 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
      * int nanosecond = 23
      * output: 1
      * ret0  ret0= class0.date(from: dateComponents)!
+     * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
     static func date0(){
-	    let class0 = NSCalendar.current
+	let class0 = NSCalendar.current
         let year = 2019
         let month = 11
         let day = 12
@@ -48,12 +49,12 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
             weekOfYear: nil,
             yearForWeekOfYear: nil)
         let ret0 = class0.date(from: dateComponents)!
-		let formatter = DateFormatter()
-		formatter.locale = Locale.init(identifier: "zh_CN")
-		formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-		let date = formatter.string(from: ret0)
-		assert(date=="2019-11-12 16:21:43")
-		print(date)
+	let formatter = DateFormatter()
+	formatter.locale = Locale.init(identifier: "zh_CN")
+	formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+	let date = formatter.string(from: ret0)
+	assert(date=="2019-11-12 16:21:43")
+	print(date)
     }
 }
 DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateComponents.date0();
