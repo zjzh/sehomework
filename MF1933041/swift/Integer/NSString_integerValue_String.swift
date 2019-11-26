@@ -3,7 +3,7 @@
  * @className: NSString_integerValue_String
  * @apiSignature: NSString$ var integerValue: Int { get }
  * @description: Test swift api NSString$integerValue: Int { get }
- * @Map: java.lang.Integer$getInteger(String nm)
+ * @Map: java.lang.Integer$valueOf(String nm)
  */
 import Foundation
 

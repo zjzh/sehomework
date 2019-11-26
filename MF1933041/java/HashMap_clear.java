@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * @author: MF1933041_江彪
- * @className: HashMap_clear_
+ * @className: HashMap_clear
  * @apiSignature: java.util.HashMap<K,V>$ public void clear()
  * @description: Test java api java.util.HashMap<K,V>$clear()
  * @Map: ArraySlice$ func append(_ newElement: Element)
@@ -15,7 +15,7 @@ public class HashMap_clear {
      * input: 1
      * class0 HashMap$class0
      * output: 0
-     * HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String str, Integer in) & String$string="key";Integer$in=1 & https://docs.oracle.com/javase/8/docs/api/
+     * HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String str, Integer in) & String$string="jiangbiao";Integer$in=1 & https://docs.oracle.com/javase/8/docs/api/
      */
     public static void clear0() {
         System.out.println(">>>>>>>>>>>>");
@@ -23,8 +23,6 @@ public class HashMap_clear {
         HashMap<String, Integer> class0 = new HashMap<String, Integer>() {
             {
                 put("jiangbiao", 1);
-                put("longkun", 2);
-                put("huangzhiheng", 3);
             }
         };
         // 利用 keySet 进行遍历

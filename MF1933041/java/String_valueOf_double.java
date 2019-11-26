@@ -1,6 +1,4 @@
 package com.softwareMethodology.jiangbiao;
-
-import org.junit.Test;
 import static java.lang.String.valueOf;
 
 /**
@@ -13,42 +11,43 @@ import static java.lang.String.valueOf;
 public class String_valueOf_double {
 
     /**
-     * input: 1
-     * class0 Double$class0
+     * input: 2
+     * class0 String$class0
+     * d d = 123.4
      * output: 1
-     * ret0  ret0="123"
-     * Double$class0-Double$Double(double value) & Double$double=123 & https://docs.oracle.com/javase/8/docs/api/
+     * ret0 ret0="123.4"
+     * String$class0-String$new String() & & https://docs.oracle.com/javase/8/docs/api/
      */
-    @Test
-    public void valueOf0() {
+    public static void valueOf0() {
         System.out.println(">>>>>>>>>>>>");
-        Double class0 = new Double(123);
-        System.out.println(class0 + " -> " + class0.getClass().toString());
-        String string = valueOf(class0);
-        System.out.println(string + " -> " + getClass().toString());
-        // print:
-        // ----------------------------------------
-        // 123.0 -> class java.lang.Double
-        // 123.0 -> class com.softwareMethodology.jiangbiao.String_valueOf_double
+        String class0 = new String();
+        double d = 123.4;
+        System.out.println(d);
+        String ret0 = class0.valueOf(d);
+        assert(ret0 == "123.4");
+        System.out.println(ret0 + " -> " + ret0.getClass().toString());
     }
 
     /**
      * input: 1
-     * class0 class0=-0.2514
+     * class0 String$class0
+     * d d = -0.2514
      * output: 1
      * ret0  ret0="-0.2514"
-     * Double$class0-Double$Double(double value) & Double$double=-0.2514 & https://docs.oracle.com/javase/8/docs/api/
+     * String$class0-String$new String() &  & https://docs.oracle.com/javase/8/docs/api/
      */
-    @Test
-    public void valueOf1() {
+    public static void valueOf1() {
         System.out.println(">>>>>>>>>>>>");
-        Double class0 = new Double(-0.2514);
-        System.out.println(class0 + " -> " + class0.getClass().toString());
-        String string = valueOf(class0);
-        System.out.println(string + " -> " + getClass().toString());
-        // print:
-        // ----------------------------------------
-        // -0.2514 -> class java.lang.Double
-        // -0.2514 -> class com.softwareMethodology.jiangbiao.String_valueOf_double
+        String class0 = new String();
+        double d = -0.2514;
+        System.out.println(d);
+        String ret0 = class0.valueOf(d);
+        assert (ret0 == "-0.2514");
+        System.out.println(ret0 + " -> " + ret0.getClass().toString());
+    }
+
+    public static void main(String[] args) {
+        String_valueOf_double.valueOf0();
+        String_valueOf_double.valueOf1();
     }
 }

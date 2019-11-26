@@ -1,7 +1,5 @@
 package com.softwareMethodology.jiangbiao;
 
-
-
 /**
  * @author: MF1933041_江彪
  * @className: Integer_getInteger_String
