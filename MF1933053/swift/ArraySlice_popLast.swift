@@ -8,13 +8,13 @@
 class ArraySlice_popLast {
     /**
      * input: 1
-     * class0 class0:ArraySlice<Int> = [0,1,2]
+     * class0 class0:ArraySlice = [0,1,2]
      * output: 1
      * ret0 ret0=2
     */
     static func popLast0(){
         print(">>>>>>>>>>>>>")
-        var class0:ArraySlice<Int> = [0,1,2]
+        var class0:ArraySlice = [0,1,2]
         let ret0 = class0.popLast()
         assert(ret0 == 2)
         print(ret0)
@@ -22,13 +22,13 @@ class ArraySlice_popLast {
 
     /**
      * input: 1
-     * class1 class1:ArraySlice<Int> = []
+     * class1 class1:ArraySlice = []
      * output: 1
      * ret1 ret1=nil
     */
     static func popLast1(){
         print(">>>>>>>>>>>>>>")
-        var class1:ArraySlice<Int> = []
+        var class1:ArraySlice = []
         let ret1 = class1.popLast()
         assert(ret1 == nil)
         print(ret1)

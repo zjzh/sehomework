@@ -12,7 +12,7 @@ class NSException_callStackSymbols{
         * input: 1
         * class0 NSException$class0
         * output:1
-        * ret0 ret0=['String']
+        * ret0 Array$ret0
         * NSException$class0- NSException.init(name,reason,userInfo) & name="name";reason="reason for class0";userInfo=["key":"value"] & https://developer.apple.com/documentation/foundation/thread/1414836-callstacksymbols
         */
         print(">>>>>>>>>>>>>")

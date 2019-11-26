@@ -11,10 +11,11 @@ class FileManager_FileManager$SearchPathDirectory_FileManager$SearchPathDomainMa
      * input: 3
 	 * class0 FileManager$class0
      * shouldCreate shouldCreate = true
-	 * url url = URL(string:".")
+	 * url URL$url = URL(string:".")
      * output: 1
      * ret0 ret0 = URL
-	 * FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url
+	 * FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url;
+	 * URL$url-URL(string) & string = "." & https://developer.apple.com/documentation/foundation/filemanager/1407693-url
     */
     static func url0(){
 		let url = URL(string:".")

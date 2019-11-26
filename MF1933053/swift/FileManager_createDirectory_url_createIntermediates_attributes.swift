@@ -17,7 +17,7 @@ class FileManager_createDirectory_url_createIntermediates_attributes{
     static func createDirectory0(){
         let url = "./test"
         let createIntermedaites = true
-        let ret0 = FileManager.createDirectory(url:url  ,createIntermedaites:createIntermedaites,nil:attributes)
+        let ret0 = FileManager.createDirectory(url:url  ,createIntermedaites:createIntermedaites, attributes:nil)
         assert(ret0 == true)
         print(ret0)
     }
