@@ -11,7 +11,7 @@ class Thread_sleep_TimeInterval{
      /**
      * input: 1
      * class0 class0=Thread$class0
-     * ELement sq = "hello world"
+     * ti ti = 3.0
      * output: 0
      * Thread$class0-Thread$Thread.sleep(forTimeInterval:ti)$https://developer.apple.com/documentation/foundation/thread/1413673-sleep
      */
