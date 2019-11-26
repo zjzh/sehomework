@@ -16,6 +16,7 @@ class String_prefix_String__NSString_substring_int{
      *ouput : 2
      *ret0 ret0="hellow"
      *ret1 ret1="llow"
+     *String.Index$through-String$index(_?i:?String.Index,?offsetBy?n:?String.IndexDistance)?&?String.Index=String$startIndex;offsetBy=2?&?https://stackoverflow.com/questions/32967445/how-to-check-what-a-string-starts-with-prefix-or-ends-with-suffix-in-swift
      */
     static func prefix_substring0(){
         print(">>>>>>>>");
@@ -39,6 +40,7 @@ class String_prefix_String__NSString_substring_int{
      *ouput : 2
      *ret0 ret0="hellowor"
      *ret1 ret1="llowor"
+     **String.Index$through-String$index(_?i:?String.Index,?offsetBy?n:?String.IndexDistance)?&?String.Index=String$startIndex;offsetBy=2?&?https://stackoverflow.com/questions/32967445/how-to-check-what-a-string-starts-with-prefix-or-ends-with-suffix-in-swift
      */
     static func prefix_substring1(){
         print(">>>>>>>>");
