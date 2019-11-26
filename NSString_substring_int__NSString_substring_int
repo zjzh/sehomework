@@ -7,7 +7,7 @@
  */
 import Foundation
 
-class NSString_substring_int$NSString_substring_int{
+class NSString_substring_int__NSString_substring_int{
      /**
      * input: 3
      * class0 class0="helloworld"
