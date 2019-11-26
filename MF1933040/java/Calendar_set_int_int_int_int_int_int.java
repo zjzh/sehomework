@@ -22,15 +22,15 @@ import java.util.Date;
 public class Calendar_set_int_int_int_int_int_int {
 	/**
      * input: 6
-     * class0 class0=Calendar
+     * class0 Calendar$class0
      * int year = 2019
      * int month = 11
      * int date = 12
      * int hourOfDay = 14
      * int minute = 52
      * int second = 43
-     * output: 1
-     * Date ret0 
+     * output: 0
+     * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      **/
 	public static void setting0() {
 		Calendar class0 = Calendar.getInstance();
