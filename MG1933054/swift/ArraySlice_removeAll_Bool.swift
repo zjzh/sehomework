@@ -14,7 +14,7 @@ class ArraySlice_removeAll_Bool {
    *class0 ArraySlice$class0
    *keepCapacity0 keepCapacity0 = false
    *output : 0
-   *ArraySlice$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & String$S & https://developer.apple.com/documentation/swift/arrayslice/2905236-init
+   *ArraySlice$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & & https://developer.apple.com/documentation/swift/arrayslice/2905236-init
    */
   static func removeAll0() {
     print(">>>>>>>")
@@ -38,7 +38,7 @@ class ArraySlice_removeAll_Bool {
    *class0 ArraySlice$class0
    *keepCapacity0 keepCapacity0 = true
    *output : 0
-   *ArraySlice$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & S: String & https://developer.apple.com/documentation/swift/arrayslice/2905236-init
+   *ArraySlice$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & & https://developer.apple.com/documentation/swift/arrayslice/2905236-init
    */
   static func removeAll1() {
     print(">>>>>>>")

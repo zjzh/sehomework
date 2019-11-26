@@ -13,22 +13,22 @@ class NSRegularExpression_matches_string_NSRegularExpressionMatchingOptions_NSRa
    *input : 3
    *class0 NSRegularExpression$class0
    *range0 NSRange$range0
-   *in in_string0 = "hatatatat"
+   *in0 in0 = "hatatatat"
    *output : 1
-   *ret0 ret0 = NSTextCheckingResult$ret0
+   *ret0  NSTextCheckingResult$ret0
    *NSRegularExpression$class0-NSRegularExpression$init(pattern: String, options: NSRegularExpression.Options = []) throws & pattern: "ta" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
    *NSRange$range0-NSRegularExpression$init?(_ range: NSRange, in string: String) & string="hatatatat" & https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
    */
   static func matches0() {
     print(">>>>>>>")
-    let in_string0 = "hatatatat"
+    let in0 = "hatatatat"
     let regex0 = "ta"
     do {
       let class0 = try NSRegularExpression(pattern: regex0)
-      let ret0 = class0.matches(in: in_string0,
-                                  range: NSRange(in_string0.startIndex..., in: in_string0))
+      let ret0 = class0.matches(in: in0,
+                                  range: NSRange(in0.startIndex..., in: in0))
       let resultsMap = ret0.map {
-        String(in_string0[Range($0.range, in: in_string0)!])
+        String(in0[Range($0.range, in: in0)!])
       }
       assert(resultsMap.count == 3)
       print(resultsMap.count > 0)
@@ -42,22 +42,22 @@ class NSRegularExpression_matches_string_NSRegularExpressionMatchingOptions_NSRa
    *input : 3
    *class0 NSRegularExpression$class0
    *range0 NSRange$range0
-   *in in_string0 = "hatatatat"
+   *in in0 = "hatatatat"
    *output : 1
-   *ret0 ret0 = NSTextCheckingResult$ret0
+   *ret0 NSTextCheckingResult$ret0
    *NSRegularExpression$class0-NSRegularExpression$init(pattern: String, options: NSRegularExpression.Options = []) throws & pattern: "b" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
    *NSRange$range0-NSRegularExpression$init?(_ range: NSRange, in string: String) & string="hatatatat" & https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
    */
   static func matches1() {
     print(">>>>>>>")
-    let in_string0 = "hatatatat"
+    let in0 = "hatatatat"
     let regex0 = "b"
     do {
       let class0 = try NSRegularExpression(pattern: regex0)
-      let ret0 = class0.matches(in: in_string0,
-                                  range: NSRange(in_string0.startIndex..., in: in_string0))
+      let ret0 = class0.matches(in: in0,
+                                  range: NSRange(in0.startIndex..., in: in0))
       let resultsMap = ret0.map {
-        String(in_string0[Range($0.range, in: in_string0)!])
+        String(in0[Range($0.range, in: in0)!])
       }
       assert(resultsMap.count == 0)
       print(resultsMap.count > 0)
@@ -72,22 +72,22 @@ class NSRegularExpression_matches_string_NSRegularExpressionMatchingOptions_NSRa
    *input : 3
    *class0 NSRegularExpression$class0
    *range0 NSRange$range0
-   *in in_string0 = "X+Y+2*3=Z+W"
+   *in in0 = "X+Y+2*3=Z+W"
    *output : 1
-   *ret0 ret0 = NSTextCheckingResult$ret0
+   *ret0 NSTextCheckingResult$ret0
    *NSRegularExpression$class0-NSRegularExpression$init(pattern: String, options: NSRegularExpression.Options = []) throws & pattern: "[a-zA-z0-9]" & https://developer.apple.com/documentation/foundation/nsregularexpression/1410900-init
    *NSRange$range0-NSRegularExpression$init?(_ range: NSRange, in string: String) & string="hatatatat" & https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
    */
   static func matches2() {
     print(">>>>>>>")
-    let in_string0 = "X+Y+2*3=Z+W"
+    let in0 = "X+Y+2*3=Z+W"
     let regex0 = "[a-zA-z0-9]"
     do {
       let class0 = try NSRegularExpression(pattern: regex0)
-      let ret0 = class0.matches(in: in_string0,
-                                  range: NSRange(in_string0.startIndex..., in: in_string0))
+      let ret0 = class0.matches(in: in0,
+                                  range: NSRange(in0.startIndex..., in: in0))
       let resultsMap = ret0.map {
-        String(in_string0[Range($0.range, in: in_string0)!])
+        String(in0[Range($0.range, in: in0)!])
       }
       assert(resultsMap.count == 6)
       print(resultsMap.count > 0)

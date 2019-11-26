@@ -14,7 +14,7 @@ class ContiguousArray_removeAll_Bool {
    *class0 ContiguousArray$class0
    *keepCapacity0 keepCapacity0 = false
    *output : 0
-   *ContiguousArray$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & String$S & https://developer.apple.com/documentation/swift/arrayslice/2884787-removeall
+   *ContiguousArray$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & & https://developer.apple.com/documentation/swift/arrayslice/2884787-removeall
    */
   static func removeAll0() {
     print(">>>>>>>")
@@ -38,7 +38,7 @@ class ContiguousArray_removeAll_Bool {
    *class0 ContiguousArray$class0
    *keepCapacity0 keepCapacity0 = true
    *output : 0
-   *ContiguousArray$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & String$S & https://developer.apple.com/documentation/swift/arrayslice/2884787-removeall
+   *ContiguousArray$class0-init<S>(_ elements: S) where S : Sequence, Self.Element == S.Element & & https://developer.apple.com/documentation/swift/arrayslice/2884787-removeall
    */
   static func removeAll1() {
     print(">>>>>>>")
@@ -59,3 +59,4 @@ class ContiguousArray_removeAll_Bool {
 }
 
 ContiguousArray_removeAll_Bool.removeAll0()
+ContiguousArray_removeAll_Bool.removeAll1()

@@ -14,7 +14,7 @@ class FileManager_createDirectory_URL_Bool_FileAttributeKey{
      * createIntermediates createIntermediates=true
      * attributes = nil
      * output: 0
-     * FileManager$class0-FileManager$init() & https://developer.apple.com/documentation/foundation/filemanager
+     * FileManager$class0-FileManager$init() & & https://developer.apple.com/documentation/foundation/filemanager
      * URLResourceValues$url-URL(fileURLWithPath: String) & fileURLWithPath="/Users/tx/testA" & https://developer.apple.com/documentation/foundation/url
      */
     
@@ -41,7 +41,7 @@ class FileManager_createDirectory_URL_Bool_FileAttributeKey{
      * createIntermediates createIntermediates=true
      * attributes = nil
      * output: 0
-     * FileManager$class0-FileManager$init() & https://developer.apple.com/documentation/foundation/filemanager
+     * FileManager$class0-FileManager$init() & & https://developer.apple.com/documentation/foundation/filemanager
      * URLResourceValues$url-URL(fileURLWithPath: String) & fileURLWithPath="./pa/son/testA" & https://developer.apple.com/documentation/foundation/url
      */
     static func createDirectory1(){

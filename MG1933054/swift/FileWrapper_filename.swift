@@ -13,7 +13,7 @@ class FileWrapper_filename_String{
      * class0 FileWrapper$class0
      * output: 1
      * ret0 ret0="Test"
-     * FileWrapper$class0-(directoryWithFileWrappers childrenByPreferredName: [String : FileWrapper]) & https://developer.apple.com/documentation/foundation/filewrapper/1415121-init
+     * FileWrapper$class0-(directoryWithFileWrappers childrenByPreferredName: [String : FileWrapper]) & & https://developer.apple.com/documentation/foundation/filewrapper/1415121-init
      */
     static func filename0(){
 //        let class0 = FileWrapper(directoryWithFileWrappers: [:])

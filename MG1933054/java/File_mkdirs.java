@@ -15,7 +15,7 @@ public class File_mkdirs {
      * class0 File$class0
      * output: 1
      * ret0 ret0=true
-     * File$class0-File(String pathname) & pathname="/Users/tx/testA" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File$File(String pathname) & pathname="/Users/tx/testA" & https://developer.android.google.cn/reference/java/io/File.html
      */
 	public static void mkdir0() throws IOException{
 		System.out.println(">>>>>>>>>>>>");
@@ -32,7 +32,7 @@ public class File_mkdirs {
      * class0 File$class0
      * output: 1
      * ret0 ret0=true
-     * File$class0-File(String pathname) & pathname= "./pa/son/testA" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File$File(String pathname) & pathname= "./pa/son/testA" & https://developer.android.google.cn/reference/java/io/File.html
      */
 	public static void mkdir1() throws IOException{
 		System.out.println(">>>>>>>>>>>>");

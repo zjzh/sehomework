@@ -14,7 +14,7 @@ class FileManager_createDirectory_String_Bool_FileAttributeKey{
      * createIntermediates createIntermediates=true
      * attributes = nil
      * output: 0
-     * FileManager$class0-FileManager$init() & https://developer.apple.com/documentation/foundation/filemanager
+     * FileManager$class0-FileManager$init() & & https://developer.apple.com/documentation/foundation/filemanager
      */
     
     static func createDirectory0(){
@@ -40,7 +40,7 @@ class FileManager_createDirectory_String_Bool_FileAttributeKey{
      * createIntermediates createIntermediates=true
      * attributes = nil
      * output: 0
-     * FileManager$class0-FileManager$init() & https://developer.apple.com/documentation/foundation/filemanager
+     * FileManager$class0-FileManager$init() & & https://developer.apple.com/documentation/foundation/filemanager
      */
     static func createDirectory1(){
         print(">>>>>>>>>>>>")

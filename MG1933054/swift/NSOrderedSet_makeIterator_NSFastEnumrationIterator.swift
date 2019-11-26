@@ -13,7 +13,7 @@ class NSOrderedSet_makeIterator_NSFastEnumrationIterator {
    *input : 1
    *class0 NSOrderedSet$class0
    *output : 1
-   *ret0 ret0 = NSFastEnumerationIterator$ret0
+   *ret0 NSFastEnumerationIterator$ret0
    *NSOrderedSet$class0-NSOrderedSet$convenience init(array: [Any]) & array=[4, 3, 2, 2] & https://developer.apple.com/documentation/foundation/nsorderedset/1408623-init
    */
   static func makeIterator0() {

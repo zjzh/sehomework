@@ -14,7 +14,7 @@ public class LinkedList_clear {
      * input: 1
      * class0 LinkedList$class0
      * output: 0
-     * LinkedList$class0-LinkedList$LinkedList(Collection<? extends E> c) & class0 = ["aa","bb","cc"]0 & https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html#LinkedList()
+     * LinkedList$class0-LinkedList$LinkedList(Collection<? extends E> c) & c={"aa", "bb", "cc"} & https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html#LinkedList()
      */
     public static void clear0(){
         LinkedList<String> class0 = new LinkedList<String>();

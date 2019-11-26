@@ -13,7 +13,7 @@ public class Calendar_clone {
      * class0 Calendar$class0
      * output: 1
      * ret0 Object$ret0
-     * Calendar$class0-Calendar$getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#clone()
+     * Calendar$class0-Calendar$getInstance() & & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#clone()
      */
     public  static void clone0(){
         System.out.println(">>>>>>>>>>>>");
