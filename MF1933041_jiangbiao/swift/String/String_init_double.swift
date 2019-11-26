@@ -9,7 +9,7 @@ import Foundation
 
 class String_init_double {
 
-     /**
+    /**
      * input: 1
      * d d=2.0
      * output: 1
@@ -27,16 +27,16 @@ class String_init_double {
         // 2.0 String
     }
 	
-	/**
+    /**
      * input: 1
      * d d=-2.44
      * output: 1
      * ret0 ret0="-2.44"
      */
-	static func init1(){
-	    print(">>>>>>>>>>>>")
-        let d = -2.44
-        print(d, type(of:d))
+     static func init1(){
+    	print(">>>>>>>>>>>>")
+    	let d = -2.44
+    	print(d, type(of:d))
         let ret0 = String.init(d)
         assert(ret0 == "-2.44")
         print(ret0, type(of:ret0))  
