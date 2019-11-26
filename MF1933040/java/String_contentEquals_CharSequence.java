@@ -11,9 +11,9 @@ public class String_contentEquals_CharSequence {
 	/**
      * input: 2
      * class0 class0="hello world"
-     * CharSequence cs = "hello world"
+     * cs cs = "hello world"
      * output: 1
-     * ret0 = false
+     * ret0 = true
      **/
 	public static void contentEquals0() {
 		String class0 = "hello world";
@@ -25,7 +25,7 @@ public class String_contentEquals_CharSequence {
 	/**
      * input: 2
      * class0 class0="hello world"
-     * CharSequence cs = "hello world"
+     * cs cs = "hello world"
      * output: 1
      * ret0 = false
      **/
