@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c37386-77ac-4b73-9f90-a8be40db2cb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DZ1933034/java/ArrayList_isEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/java/ArrayList_isEmpty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/java/Class_toString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/java/Class_toString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/java/HashSet_remove_object.java" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/java/HashSet_remove_object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/java/PrintStream_println_char.java" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/java/PrintStream_println_char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/ArraySlice_isEmpty.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/ArraySlice_isEmpty.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/Array_isEmpty.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/Array_isEmpty.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/Character_write_inoutTarget.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/Character_write_inoutTarget.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/Dictionary_removeValue_object.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/Dictionary_removeValue_object.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/NSCountedSet_remove_object.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/NSCountedSet_remove_object.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/NSMutableSet_remove_object.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/NSMutableSet_remove_object.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/Set_remove_object.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/Set_remove_object.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/String_init_subject.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/String_init_subject.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/String_write_inoutTarget.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/String_write_inoutTarget.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1933034/swift/TextOutputStream_write_String.swift" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1933034/swift/TextOutputStream_write_String.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,6 +207,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -254,16 +242,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574787533970</updated>
-      <workItem from="1574787535305" duration="2428000" />
+      <workItem from="1574787535305" duration="2711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2428000" />
+    <option name="totallyTimeSpent" value="2711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1835" y="16" width="1910" height="2043" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -272,7 +259,7 @@
       <window_info id="Capture Tool" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298573" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
