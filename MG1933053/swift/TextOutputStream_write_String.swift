@@ -18,10 +18,9 @@
 class TextOutputStream_write_String{
 	/**
      * input: 2
-     * class0 class0=My_TextOutputStream$class0
+     * class0 My_TextOutputStream$class0
      * str String="HelloWorld"
-     * output 1
-     * class0 class0
+     * output 0
      */
     static func write0(){
 	let str: String = "HelloWorld"
@@ -30,10 +29,9 @@ class TextOutputStream_write_String{
     }
 	/**
      * input: 2
-     * class0 class0
+     * class0 My_TextOutputStream$class0
      * str String=""
-     * output 1
-     * class0 class0
+     * output 0
      */
     static func write1(){
 	let str: String = ""

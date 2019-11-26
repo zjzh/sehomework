@@ -10,10 +10,10 @@ import Foundation
  class URLResourceValues_parentDirectory {
 	/**
      * input: 1
-     * class0 class0=URLResourceValues$class0
+     * class0 URLResourceValues$class0
      * output: 1
-     * ret0 ret0=URL(fileURLWithPath: "/home/")
-     * URLResourceValues$class0-URL$resourceValues(forKeys:);URL$URL(fileURLWithPath:)&Set<URLResourceKey>$forKeys=[.parentDirectoryURLKey],String$fileURLWithPath="/home/test.py" &https://developer.apple.com/documentation/foundation/urlresourcevalues/1779599-parentdirectory
+     * ret0 URL$ret0
+     * URLResourceValues$class0-URL$resourceValues(forKeys:);URL$URL(fileURLWithPath:) & Set<URLResourceKey>$forKeys=[.parentDirectoryURLKey],String$fileURLWithPath="/home/test.py" & https://developer.apple.com/documentation/foundation/urlresourcevalues/1779599-parentdirectory
 	 */
 	 static func parentDirectory0()
 	 {
@@ -25,10 +25,10 @@ import Foundation
 	 }
 	 	/**
      * input: 1
-     * class0 class0=URLResourceValues$class0
+     * class0 URLResourceValues$class0
      * output: 1
-     * ret0 ret0=URL(fileURLWithPath: "/../")
-	 * URLResourceValues$class0-URL$resourceValues(forKeys:);URL$URL(fileURLWithPath:)&Set<URLResourceKey>$forKeys=[.parentDirectoryURLKey],String$fileURLWithPath="/" &https://developer.apple.com/documentation/foundation/urlresourcevalues/1779599-parentdirectory
+     * ret0 URL$ret0
+	 * URLResourceValues$class0-URL$resourceValues(forKeys:);URL$URL(fileURLWithPath:) & Set<URLResourceKey>$forKeys=[.parentDirectoryURLKey],String$fileURLWithPath="/" & https://developer.apple.com/documentation/foundation/urlresourcevalues/1779599-parentdirectory
 	 */
 	 static func parentDirectory1()
 	 {

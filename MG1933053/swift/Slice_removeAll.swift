@@ -10,10 +10,10 @@ import Foundation
 class Slice_removeAll{
      /**
      * input: 2
-     * class0 class0=ArraySlice$class0
+     * class0 ArraySlice$class0
      * keepingCapacity=false
      * output:0
-     * ArraySlice$class0-Array$subscript(bounds: Range<Int>);Array$init<S>(S) & Sequence$S=["hello","world","!"];Range<Int>$bounds=[1...2] &https://developer.apple.com/documentation/swift/array/2944258-subscript
+     * ArraySlice$class0-Array$subscript(bounds: Range<Int>);Array$init<S>(S) & Sequence$S=["hello","world","!"];Range<Int>$bounds=[1...2] & https://developer.apple.com/documentation/swift/array/2944258-subscript
      */
     static func removeAll1(){
 	var class0=Array(["hello","world","!"])[1...2];
@@ -25,10 +25,10 @@ class Slice_removeAll{
     }
     /**
      * input: 2
-     * class0 class0=ArraySlice$class0
+     * class0 ArraySlice$class0
      * keepingCapacity=true
      * output:0
-     * ArraySlice$class0-Array$subscript(bounds: Range<Int>) ;Array$init<S>(S) & Sequence$S=[1,2,3,4,5,6];Range<Int>$bounds=[1..3] &https://developer.apple.com/documentation/swift/array/2944258-subscript
+     * ArraySlice$class0-Array$subscript(bounds: Range<Int>) ;Array$init<S>(S) & Sequence$S=[1,2,3,4,5,6];Range<Int>$bounds=[1..3] & https://developer.apple.com/documentation/swift/array/2944258-subscript
      */  	
     static func removeAll2(){
         var class0 = Array([1,2,3,4,5,6])[1...3];

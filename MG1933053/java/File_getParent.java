@@ -12,7 +12,7 @@ import java.io.File;
     public class File_getParent {
     /**
      * input: 1
-     * class0: File$class0
+     * class0  File$class0
      * output: 1
      * ret0  ret0= "/usr"
      * File$class0-File$File(String pathname) & String$pathname="/usr/lib" & https://docs.oracle.com/javase/8/docs/api/java/io/File.html#getParent--
@@ -28,7 +28,7 @@ import java.io.File;
     }
    /**
      * input: 1
-     * class0: File$class0
+     * class0  File$class0
      * output: 1
      * ret0  ret0= null
      * File$class0-File$File(String pathname) & String$pathname="/" & https://docs.oracle.com/javase/8/docs/api/java/io/File.html#getParent--

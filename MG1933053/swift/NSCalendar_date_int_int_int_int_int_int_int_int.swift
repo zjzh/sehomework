@@ -1,22 +1,8 @@
 /**类名_方法名(_形参类型)*
  * @author: MG1933053 taoguangpin
  *  @className: NSCalendar_date_int_int_int_int_int_int_int_int
- *  @apiSignature: NSCalendar$func date(era eraValue: Int, 
-     year yearValue: Int, 
-    month monthValue: Int, 
-      day dayValue: Int, 
-     hour hourValue: Int, 
-   minute minuteValue: Int, 
-   second secondValue: Int, 
-nanosecond nanosecondValue: Int) -> Date?
- *  @description: Test swift api NSCalendar.date(era eraValue: Int, 
-     year yearValue: Int, 
-    month monthValue: Int, 
-      day dayValue: Int, 
-     hour hourValue: Int, 
-   minute minuteValue: Int, 
-   second secondValue: Int, 
-nanosecond nanosecondValue: Int) -> Date?
+ *  @apiSignature: NSCalendar$func date(era eraValue: Int, year yearValue: Int,month monthValue: Int,day dayValue: Int,hour hourValue: Int,minute minuteValue: Int,second secondValue: Int,nanosecond nanosecondValue: Int) -> Date?
+ *  @description: Test swift api NSCalendar.date(era eraValue: Int, year yearValue: Int,month monthValue: Int,day dayValue: Int,hour hourValue: Int,minute minuteValue: Int,second secondValue: Int,nanosecond nanosecondValue: Int) -> Date?
  *  @Map: java.util.Calendar$public final void set(int year, int month, int date, int hourOfDay, int minute, int second)
  */
 import Foundation
@@ -33,8 +19,7 @@ class NSCalendar_date_int_int_int_int_int_int_int_int{
 	 * testminute testminute=21
 	 * testsecond testsecond=21
 	 * testnanosecond testnanosecond=21
-     * output:1
-     * ret0 ret0=ComparisonResult.orderedSame
+     * output:0
      */	
     static func date0(){
     let class0 = Calendar.current

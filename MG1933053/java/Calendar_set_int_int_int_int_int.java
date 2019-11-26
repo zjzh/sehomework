@@ -15,14 +15,14 @@ import java.util.Date;
     public class Calendar_set_int_int_int_int_int {
     /**
      * input: 6
-     * class0: Calendar$class0
+     * class0  Calendar$class0
      *  year=2019
      * month=11
      * date=11
      * hourOfDay=19
      * minute=40
      * output: 0
-     * Calendar$class0-Calendar$getInstance() &   &https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
+     * Calendar$class0-Calendar$getInstance() &   & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      */
     public  static void set0(){
         System.out.println(">>>>>>>>>>>>");
@@ -49,7 +49,7 @@ import java.util.Date;
      * hourOfDay=8
      * minute=0
      * output: 0
-     * Calendar$class0-Calendar$getInstance() &   &https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
+     * Calendar$class0-Calendar$getInstance() &   & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html
      */
     public  static void set1(){
         System.out.println(">>>>>>>>>>>>");
