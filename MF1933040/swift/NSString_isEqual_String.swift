@@ -11,30 +11,30 @@ class NSString_isEqual_String{
      /**
      * input: 2
      * class0 class0="hello world"
-     * ELement sq = "hello world"
+     * astring = "hello world"
      * output: 1
      * ret0  ret0=true
      */
     static func isEqual0(){
         let class0 = "hello world"
-        let sq = "hello world"
-        let ret0 = class0.isEqual(sq)
+        let astring = "hello world"
+        let ret0 = class0.isEqual(astring)
         assert(ret0 == true)
-        print(class0.isEqual(sq))
+        print(class0.isEqual(astring))
     }
     /**
     * input: 2
     * class0 class0="hello world"
-    * ELement sq = "hello"
+    * astring astring= "hello"
     * output: 1
     * ret0  ret0=false
     */
    static func isEqual1(){
        let class0 = "hello world"
-       let sq = "hello"
-       let ret0 = class0.isEqual(sq)
+       let astring = "hello"
+       let ret0 = class0.isEqual(astring)
        assert(ret0 == false)
-       print(class0.isEqual(sq))
+       print(class0.isEqual(astring))
    }
 }
 NSString_isEqual_String.isEqual0()
