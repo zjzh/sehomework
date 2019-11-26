@@ -10,49 +10,48 @@ import java.io.IOException;
                 boolean append)
  * @description: Test java api java.io.FileOutputStream$public FileOutputStream (String name, 
                 boolean append)
- * @Map: swift.io.OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
+ * @Map: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
  */
 
-public class FileOutputStream_init_string_bool{
-
+public class FileOutputStream_string_bool{
 /**
-     * input: 3
-     * class0 class0
-     * string str = "helloworld.txt"
-     * append append = bool
-     * output: 0
+     * input: 2
+     * name name = "helloworld.txt"
+     * append append = true
+     * output: 1
+     * ret0 FileOutputStream$ret0
      */
-
 public static void init0(){
-File file = new File("helloworld.txt");
+String name = "helloworld.txt"
+File file = new File(name);
      try {
 	 String str = "helloworld";
-	 Boolean bo = true;
-         FileOutputStream class0 = new FileOutputStream("helloworld.txt",append);
-	 class0.write(str.getBytes());
+	 Boolean append = true;
+         FileOutputStream ret0 = new FileOutputStream(name,append);
+	 ret0.write(str.getBytes());
      }catch (FileNotFoundException e){
 
  e.printStackTrace();
 }catch (IOException e) {
             e.printStackTrace();
         }
-
 }
 /**
-     * input: 3
-     * class0 class0
-     * string str = "helloworld1.txt"
-     * append append = bool
-     * output: 0
+     * input: 2
+     * name name = "helloearth.txt"
+     * append append = true
+     * output: 1
+     * ret0 FileOutputStream$ret0
      */
 
 public static void init1(){
-File file = new File("helloworld1.txt");
+String name = "helloearth.txt"
+File file = new File(name);
      try {
-	 String str = "helloworld1";
+	 String str = "helloearth";
 	 Boolean append = true;
-         FileOutputStream class0 = new FileOutputStream("helloworld1.txt",append);
-	 class0.write(str.getBytes());
+         FileOutputStream ret0 = new FileOutputStream(name,append);
+	 ret0.write(str.getBytes());
      }catch (FileNotFoundException e){
 
  e.printStackTrace();
@@ -61,9 +60,7 @@ File file = new File("helloworld1.txt");
         }
 }
 public static void main(String[] args){
-        FileOutputStream_init_string_bool.init0();
-        FileOutputStream_init_string_bool.init1();
+        FileOutputStream_string_bool.init0();
+        FileOutputStream_string_bool.init1();
     }
-
-
 }
