@@ -8,11 +8,12 @@
 import java.io.*;
 public class FileInputStream_read_Array {
          /*
-		  *input:1
+		  *input:3
 		  *class0 class0=FileInputStream$class
 		  *length length = 2
 		  *output 1
           *ret0 ret0=2
+		  *FileInputStream$class0-FileInputStream$FileInputStream (String name)&String$name="file.txt"&https://www.tutorialspoint.com/java/io/java_io_fileinputstream.html
 		 */
     public static void read0() throws IOException {
         FileInputStream class0 = new FileInputStream("D:\\a.txt");

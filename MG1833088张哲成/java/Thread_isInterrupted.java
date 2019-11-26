@@ -12,6 +12,7 @@ public class Thread_isInterrupted {
      * millis millis = 0
      * output: 1
      * ret0 ret0 = true
+	 * Thread$class0-Thread$new Thread()$https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
      **/
     public static void isInterrupted0() throws InterruptedException{
         Thread class0 = new Thread(){
@@ -37,6 +38,7 @@ public class Thread_isInterrupted {
      * millis millis = 1000
      * output: 1
      * ret0 ret0 = false
+	 * Thread$class0-Thread$new Thread()$https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
      **/
     public static void isInterrupted1() throws InterruptedException{
         Thread class0 = new Thread(){

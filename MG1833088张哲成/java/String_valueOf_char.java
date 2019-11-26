@@ -8,15 +8,15 @@
 public class String_valueOf_char {
     /**
      * input: 1
-     * c char='c'
+     * class0 class0='c'
      * output: 1
      * ret0  ret0="c"
      */
     public  static void valueOf0(){
         System.out.println(">>>>>>>>>>>>");
-        char c = 'c';
-        String ret0=String.valueOf(c);
-        assert (c=='c');
+        char class0 = 'c';
+        String ret0=String.valueOf(class0);
+        assert (class0=='c');
         assert (ret0.equals("c"));
         System.out.println(ret0);
 

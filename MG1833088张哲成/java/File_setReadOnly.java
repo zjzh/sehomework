@@ -10,7 +10,7 @@ import java.io.File;
 public class File_setReadOnly {
     /**
      * input: 1
-     * class0 File$class0
+     * class0 class0 = File$class0
      * output: 1
      * ret0  ret0=false
      */
@@ -24,7 +24,7 @@ public class File_setReadOnly {
     }
     /**
      * input: 1
-     * class0 File$class0
+     * class0 class0 = File$class0
      * output: 1
      * ret0  ret0=true
      */
