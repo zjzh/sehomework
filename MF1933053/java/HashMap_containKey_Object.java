@@ -10,16 +10,18 @@ import java.util.HashMap;
  */
 class HashMap_containKey_Object {
     /**
-     * input: 1
+     * input: 2
      * class0 HashMap$class0
+	 * key Integer$key
      * output: 1
      * ret0 ret0=true
-     * HashMap$class0-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
+     * Integer$key-Integer(int value) & value=1 &https://docs.oracle.com/javase/8/docs/api/ ; HashMap$class0-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void containsKey0(){
         HashMap<Integer,Integer> class0 = new HashMap<Integer,Integer>();
         class0.put(1,1);
-        boolean ret0 = class0.containsKey(1);
+		Integer key=new Integer(1);
+        boolean ret0 = class0.containsKey(key);
         assert(ret0 == true);
         System.out.println(ret0);
     }
