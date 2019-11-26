@@ -14,15 +14,11 @@ public class LinkedList_clear {
      * input: 1
      * class0 LinkedList$class0
      * output: 0
-     * LinkedList$class0-LinkedList$LinkedList(Collection<? extends E> c) & c={"aa", "bb", "cc"} & https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html#LinkedList()
+     * LinkedList$class0-LinkedList$LinkedList(Collection c) & c=Arrays.asList(new String[]{"aa","bb","","cc") & https://developer.android.com/reference/java/util/LinkedList.html
      */
     public static void clear0(){
-        LinkedList<String> class0 = new LinkedList<String>();
-        class0.add("aa");
-        class0.add("bb");
-        class0.add("cc");
+        LinkedList<String> class0 = new LinkedList<>(Arrays.asList(new String[]{"aa","bb","","cc"}));
         System.out.println("Original LinkedList:" + class0);
-
         class0.clear();
 
         assert(class0.isEmpty() == true);
