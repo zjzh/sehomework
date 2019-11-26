@@ -15,10 +15,10 @@ class ArraySlice_removeAll{
      * output:0
      * ArraySlice$class0-Array$suffix(Int maxLength);Array$init<S>(S) & Sequence$S=[0, 2, 0, 4, 0, 3, 1, 0];Int$maxLength=3 & https://developer.apple.com/documentation/swift/array/1689487-suffix
      */
-    static func removeAll1(keepingCapacity:false){
+    static func removeAll1(){
 	var class0 = [0, 2, 0, 4, 0, 3, 1, 0].suffix(3);
 	assert(class0==[3,1,0]);
-	class0.removeAll();
+	class0.removeAll(keepingCapacity:false);
 	assert(class0==[]&&class0.capacity==0)
     }
      /**
