@@ -9,7 +9,7 @@ public class String_valueOf_Object {
 	/**
      * input: 2
      * class0 class0 = String$class0
-     * Object obj = 123
+     * obj obj = 123
      * output: 1
      * ret0 = "123"
      * String$class0-String$new String()$https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
