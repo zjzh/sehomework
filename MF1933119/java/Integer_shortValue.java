@@ -11,9 +11,10 @@ import java.lang.Integer;
 public class Integer_shortValue {
     /**
      * input: 1
-     * class0 class0=new new Integer(100)
+     * class0 Integer$class0
      * output: 1
      * ret0  ret0=100
+     * Integer$class0-Integer$Integer(int i) & i = 100 & https://www.geeksforgeeks.org/integer-shortvalue-method-in-java/
      */
     public static void shortValue0() {
         System.out.println(">>>>>>>>>>>>");
@@ -27,9 +28,10 @@ public class Integer_shortValue {
 
     /**
      * input: 1
-     * class0 class0=new new Integer(-100)
+     * class0 Integer$class0
      * output: 1
      * ret0  ret0=-100
+     * Integer$class0-Integer$Integer(int i) & i = -100 & https://www.geeksforgeeks.org/integer-shortvalue-method-in-java/
      */
     public static void shortValue1() {
         System.out.println(">>>>>>>>>>>>");

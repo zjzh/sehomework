@@ -11,8 +11,9 @@ import java.io.FileInputStream;
 public class PrintStream_println {
     /**
      * input: 1
-     * class0 class0=new new PrintStream(System.out)
+     * class0 PrintStream$class0
      * output: 0
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & out=System.out & https://www.geeksforgeeks.org/java-io-printstream-class-java-set-1/
      */
     public static void println0() {
         System.out.println(">>>>>>>>>>>>");
@@ -30,8 +31,9 @@ public class PrintStream_println {
     }
     /**
      * input: 1
-     * class0 class0=new PrintStream()
+     * class0 PrintStream$class0
      * output: 0
+     * PrintStream$class0-PrintStream$PrintStream(String fileName) & fileName="file.txt" & https://www.geeksforgeeks.org/java-io-printstream-class-java-set-1/
      */
     public static void println1(){
         System.out.println(">>>>>>>>>>>>");

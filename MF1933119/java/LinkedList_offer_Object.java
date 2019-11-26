@@ -13,10 +13,11 @@ import java.util.LinkedList;
 public class LinkedList_offer_Object {
     /**
      * input: 2
-     * class0 class0=new LinkedList()
+     * class0 LinkedList$class0
      * e e="hello"
      * output: 1
      * ret0  ret0=true
+     * LinkedList$class0-LinkedList$LinkedList() & & https://www.geeksforgeeks.org/java-util-linkedlist-offer-offerfirst-offerlast-java/
      */
     public static void offer0() {
         System.out.println(">>>>>>>>>>>>");
@@ -37,10 +38,11 @@ public class LinkedList_offer_Object {
 
     /**
      * input: 2
-     * class0 class0=new LinkedList()
+     * class0 LinkedList$class0
      * e e=""
      * output: 1
      * ret0  ret0=true
+     * LinkedList$class0-LinkedList$LinkedList() & & https://www.geeksforgeeks.org/java-util-linkedlist-offer-offerfirst-offerlast-java/
      */
     public static void offer1() {
         System.out.println(">>>>>>>>>>>>");

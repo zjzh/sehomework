@@ -9,9 +9,10 @@
  class ContiguousArray_append_Element {
    /**
      * input: 2
-     * class0 class0=ContiguousArray<String>()
+     * class0 ContiguousArray$class0
      * newElement newElement="hello"
-     * output: 
+     * output: 0
+     * ContiguousArray$class0-ContiguousArray$ContiguousArray<String>() & & https://developer.apple.com/documentation/swift/contiguousarray/3127058-append
      */
 
      static func append0() {
@@ -27,9 +28,10 @@
 
    /**
      * input: 2
-     * class0 class0=ContiguousArray<String>()
-     * newElement newElement=""
-     * output: 
+     * class0 ContiguousArray$class0
+     * newElement newElement="hello"
+     * output: 0
+     * ContiguousArray$class0-ContiguousArray$ContiguousArray<String>() & & https://developer.apple.com/documentation/swift/contiguousarray/3127058-append
      */
 
      static func append1() {

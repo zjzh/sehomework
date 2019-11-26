@@ -12,15 +12,16 @@ import java.lang.Integer;
 public class Integer_toString_int {
     /**
      * input: 2
-     * class0 class0=new new Integer(100)
-     * i i = new Integer(30)
+     * class0 Integer$class0
+     * i i = 30
      * output: 1
      * ret0  ret0=30
+     * Integer$class0-Integer$Integer(int i) & i = 100 & https://www.geeksforgeeks.org/integer-tostring-in-java/
      */
     public static void toString0() {
         System.out.println(">>>>>>>>>>>>");
         Integer class0 = new Integer(100);
-        Integer i = new Integer(30);
+        int i = 30;
         String ret0 = class0.toString(i);
         assert (ret0 == "30");
         System.out.println(ret0);
@@ -28,15 +29,16 @@ public class Integer_toString_int {
 
     /**
      * input: 2
-     * class0 class0=new new Integer(100)
-     * i i = new Integer(-30)
+     * class0 Integer$class0
+     * int i = -30
      * output: 1
      * ret0  ret0=-30
+     * Integer$class0-Integer$Integer(int i) & i = 100 & https://www.geeksforgeeks.org/integer-tostring-in-java/
      */
     public static void toString1() {
         System.out.println(">>>>>>>>>>>>");
         Integer class0 = new Integer(100);
-        Integer i = new Integer(-30);
+        int i = -30;
         String ret0 = class0.toString(i);
         assert (ret0 == "-30");
         System.out.println(ret0);

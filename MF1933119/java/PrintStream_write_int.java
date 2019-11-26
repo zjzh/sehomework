@@ -11,9 +11,10 @@ import java.io.FileInputStream;
 public class PrintStream_write_int {
     /**
      * input: 2
-     * class0 class0=new new PrintStream(System.out)
-     * b byte b = 70
+     * class0 PrintStream$class0
+     * b  b = 70
      * output: 0
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & out=System.out & https://www.geeksforgeeks.org/java-io-printstream-class-java-set-1/
      */
     public static void write0() {
         System.out.println(">>>>>>>>>>>>");
@@ -30,9 +31,10 @@ public class PrintStream_write_int {
     }
     /**
      * input: 2
-     * class0 class0=new PrintStream()
-     * b byte b = 70
+    * class0 PrintStream$class0
+     * b  b = 70
      * output: 0
+     * PrintStream$class0-PrintStream$PrintStream(String fileName) & fileName="file.txt" & https://www.geeksforgeeks.org/java-io-printstream-class-java-set-1/
      */
     public static void write1(){
         System.out.println("\n>>>>>>>>>>>>");
