@@ -10,15 +10,15 @@ public class Thread_sleep_long {
 	/**
      * input: 2
      * class0 class0=Thread$class0
-     * long m = 3000
+     * millis millis = 3000
      * output: 0
      * Thread$class0-Thread$new Thread()$https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
      **/
 	public static void sleep0() throws InterruptedException {
 		Thread class0 = new Thread();
-		long m = 4000;
+		long millis = 4000;
 		long startTime = System.currentTimeMillis();
-		class0.sleep(m);
+		class0.sleep(millis);
 		long endTime = System.currentTimeMillis();
 		long timeSpan = endTime - startTime;
 		assert(m == timeSpan);
