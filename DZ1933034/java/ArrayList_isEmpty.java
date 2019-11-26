@@ -6,6 +6,7 @@
  *  @Map: Array$public Bool isEmpty()
  *  @Map: ArraySlice$public Bool isEmpty()
  */
+
 import java.util.ArrayList;
 
 public class ArrayList_isEmpty {
@@ -15,28 +16,28 @@ public class ArrayList_isEmpty {
     }
     /**
      * input: 0
-     * arrayList ArrayList$arrayList
+     * class0 ArrayList$class0
      * output 1
      * ret0 ret0=false
      */
     public static void isEmpty0(){
-        ArrayList arrayList = new ArrayList<>();
+        ArrayList class0 = new ArrayList<>();
         for(int i = 0; i < 10; i++){
-            arrayList.add(i);
+            class0.add(i);
         }
-        boolean ret0 = arrayList.isEmpty();
+        boolean ret0 = class0.isEmpty();
         assert !ret0;
         System.out.println(ret0);
     }
     /**
      * input: 0
-     * arrayList ArrayList$arrayList
+     * class0 ArrayList$class0
      * output 1
      * ret0 ret0=true
      */
     public static void isEmpty1(){
-        ArrayList arrayList = new ArrayList<>();
-        boolean ret0 = arrayList.isEmpty();
+        ArrayList class0 = new ArrayList<>();
+        boolean ret0 = class0.isEmpty();
         assert ret0;
         System.out.println(ret0);
     }

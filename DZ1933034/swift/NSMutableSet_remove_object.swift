@@ -1,5 +1,5 @@
 /**
- *  @author: zhaoxin+DZ1933034 
+ *  @author: zhaoxin+DZ1933034
  *  @className: NSMutableSet_remove_object
  *  @apiSignature: NSMutableSet$func remove(_ object: Any)
  *  @description: Test swift api NSMutableSet$func remove(_ object: Any)
@@ -10,49 +10,49 @@ import Foundation
 class NSMutableSet_remove_object{
     /**
      * input: 1
-     * newSet: newSet$NSMutableset
+     * class0: NSMutableset$class0
      * output: 0
      * removeElement removeElement="123"
      */
     static func remove0(){
-        let newSet: NSMutableSet = NSMutableSet()
+        let class0: NSMutableSet = NSMutableSet()
         let stringPool = ["123", "456", "789"]
         let removeElement = "123"
         for str in stringPool{
-            newSet.add(str)
+            class0.add(str)
         }
         print("before remove")
-        for temp in newSet{
+        for temp in class0{
             print(temp)
         }
-        newSet.remove(removeElement)
+        class0.remove(removeElement)
         print("after remove")
-        for temp in newSet{
+        for temp in class0{
             print(temp)
-        } 
+        }
     }
     /**
      * input: 1
-     * newSet: newSet$NSMutableset
+     * class0: NSMutableset$class0
      * output: 0
      * removeElement removeElement=1
      */
     static func remove1(){
-        let newSet: NSMutableSet = NSMutableSet()
+        let class0: NSMutableSet = NSMutableSet()
         let intPool = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         let removeElement = 9
         for temp in intPool{
-            newSet.add(temp)
+            class0.add(temp)
         }
         print("before remove")
-        for temp in newSet{
+        for temp in class0{
             print(temp)
         }
-        newSet.remove(removeElement)
+        class0.remove(removeElement)
         print("after remove")
-        for temp in newSet{
+        for temp in class0{
             print(temp)
-        } 
+        }
     }
 }
 

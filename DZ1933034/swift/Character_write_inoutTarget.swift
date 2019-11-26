@@ -21,28 +21,28 @@ struct ASCIILogger: TextOutputStream {
 class Character_write_inoutTarget{
     /**
      * input: 1
-     * asciiLogger TextOutputStream$asciiLogger
+     * class0 TextOutputStream$class0
      * ch Character$ch
      * output 0
      */
     static func write0(){
-        var asciiLogger = ASCIILogger()
+        var class0 = ASCIILogger()
         let ch = Character("a")
         print("the following is output")
-        ch.write(to: &asciiLogger)
+        ch.write(to: &class0)
     }
-    
+
    /**
      * input: 1
-     * asciiLogger TextOutputStream$asciiLogger
+     * class0 TextOutputStream$class0
      * ch Character$ch
      * output 0
      */
     static func write1(){
-        var asciiLogger = ASCIILogger()
-        let usFlag: Character = Character("")
+        var class0 = ASCIILogger()
+        let usFlag: Character = Character(" ")
         print("the following is output")
-        usFlag.write(to: &asciiLogger)
+        usFlag.write(to: &class0)
     }
 }
 

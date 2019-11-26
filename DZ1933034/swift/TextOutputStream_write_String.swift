@@ -23,26 +23,26 @@ struct ASCIILogger: TextOutputStream {
 class TextOutputStream_write_String{
     /**
      * input: 1
-     * asciiLogger TextOutputStream$asciiLogger
+     * class0 TextOutputStream$class0
      * ch Character$ch
      * output 0
      */
     static func write0(){
-        var asciiLogger = ASCIILogger()
+        var class0 = ASCIILogger()
         let str = "a"
-        asciiLogger.write(str)
+        class0.write(str)
     }
-    
+
    /**
      * input: 1
-     * asciiLogger TextOutputStream$asciiLogger
+     * class0 TextOutputStream$class0
      * ch Character$ch
      * output 0
      */
     static func write1(){
-        var asciiLogger = ASCIILogger()
+        var class0 = ASCIILogger()
         let str = ""
-        asciiLogger.write(str)
+        class0.write(str)
     }
 }
 

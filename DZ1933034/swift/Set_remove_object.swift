@@ -1,5 +1,5 @@
 /**
- *  @author: zhaoxin+DZ1933034 
+ *  @author: zhaoxin+DZ1933034
  *  @className: Set_remove_object
  *  @apiSignature: Set$func remove(_ member: Element) -> Element
  *  @description: Test swift api Set$func remove(_ member: Element) -> Element
@@ -10,7 +10,7 @@ import Foundation
 class Set_remove_object{
      /**
      * input: 1
-     * subject: Set<String>$subject
+     * class0: Set<String>$class0
      * output: 1
      * ret0 ret0
      */
@@ -22,7 +22,7 @@ class Set_remove_object{
     }
      /**
      * input: 1
-     * subject: Set<String>$subject
+     * class0: Set<String>$class0
      * output: 1
      * ret0 ret0
      */

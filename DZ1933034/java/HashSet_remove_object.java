@@ -1,5 +1,5 @@
 /**
- *  @author: zhaoxin+DZ1933034 
+ *  @author: zhaoxin+DZ1933034
  *  @className: HashSet_remove_object
  *  @apiSignature: java.util.HashSet<E>$public V remove(Object key)
  *  @description: Test java api java.util.HashSet<E>$public V remove(Object key)
@@ -7,6 +7,8 @@
  *  @Map:  NSMutableSet$func remove(_ object: Any)
  *  @Map:  NSCountedSet$func remove(_ object: Any)
  */
+
+import java.util.HashSet;
 
 public class HashSet_remove_object{
     /**
@@ -23,8 +25,8 @@ public class HashSet_remove_object{
         for(int i = 0; i < 3; i++){
             class0.add(stringPool[i]);
         }
-        String ret0 = class0.remove("13");
-        assert (ret0 == false);
+        boolean ret0 = class0.remove("13");
+        assert (!ret0);
         System.out.println(ret0);
     }
     /**
@@ -36,17 +38,17 @@ public class HashSet_remove_object{
      */
     public static void remove1(){
         System.out.println(">>>>>>>>>>>>>>>>>>");
-        HashSet<int> class0 = new HashSet<int>();
+        HashSet class0 = new HashSet<>();
         int[] intPool = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         for(int i = 0; i < 9; i++){
             class0.add(intPool[i]);
         }
-        int ret0 = class0.remove(9);
-        assert (ret0 == true);
+        boolean ret0 = class0.remove(9);
+        assert (ret0);
         System.out.println(ret0);
     }
     public static void main(String[] args){
-        remove0();
-        remove1();
+        HashSet_remove_object.remove0();
+        HashSet_remove_object.remove1();
     }
 }

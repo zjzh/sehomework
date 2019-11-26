@@ -2,7 +2,7 @@
  *  @author: zhaoxin+DZ1933034
  *  @className: Class_toString
  *  @apiSignature: java.lang.Class<T>$public String toString()
- *  @description: Test java api java.lang.Class<T>$public String toString() 
+ *  @description: Test java api java.lang.Class<T>$public String toString()
  *  @Map: String$init(describing: Subject)
  */
 public class Class_toString{
@@ -17,6 +17,7 @@ public class Class_toString{
         String class0 = new String("hello");
         String ret0 = class0.toString();
         assert(ret0.equals("hello"));
+        System.out.println(ret0);
     }
 
     /**
@@ -30,11 +31,11 @@ public class Class_toString{
         Integer class0 = new Integer(1);
         String ret0 = class0.toString();
         assert(ret0.equals("1"));
+        System.out.println(ret0);
     }
 
     public static void main(String[] args){
-        Class_toString.toString0()
-        Class_toString.toString1()
+        Class_toString.toString0();
+        Class_toString.toString1();
     }
-
 }
