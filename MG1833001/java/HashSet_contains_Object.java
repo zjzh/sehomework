@@ -17,6 +17,7 @@ public class HashSet_contains_Object {
      * o o="java"
      * output 1
      * ret0 ret0=true
+	 * HashSet$class0-HashSet$HashSet() & & https://developer.android.com/reference/java/util/HashSet.html#contains(java.lang.Object)
      */
     public static void contains0(){
         System.out.println(">>>>>>>>>>>>>>>>>>");

@@ -17,9 +17,10 @@ public class PrintStream_println_float {
 
     /**
      * input 2
-     * class0 class0=PrintStream$class0
+     * class0 PrintStream$class0
      * x x=12.34
      * output 0
+	 * PrintStream$class0-PrintStream$PrintStream(OutputStream out) 
      */
     public static void println0() throws FileNotFoundException {
         float x = 12.3f;
@@ -31,7 +32,7 @@ public class PrintStream_println_float {
 
     /**
      * input 2
-     * class0 class0=PrintStream$class0
+     * class0 PrintStream$class0
      * x x=12.34
      * output 0
      */

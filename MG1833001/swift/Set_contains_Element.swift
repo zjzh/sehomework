@@ -10,7 +10,7 @@ class Set_contains_Element{
      * input: 1
      * member member="123"
      * output: 1
-     * ret0 ret0
+     * ret0 ret0=true
      */
     static func contains0(){
         let class0 : Set = ["123", "456", "789"]
@@ -23,7 +23,7 @@ class Set_contains_Element{
      * input: 1
      * member member="1234"
      * output: 1
-     * ret0 ret0
+     * ret0 ret0=false
      */
     static func contains1(){
         let class0 : Set = ["123", "456", "789"]

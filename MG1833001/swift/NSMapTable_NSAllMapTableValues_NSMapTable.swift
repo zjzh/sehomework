@@ -24,6 +24,7 @@ class NSMapTable_NSAllMapTableValues_NSMapTable {
      * rob Person$rob
      * bob Person$bob
      * output: 0
+	 * NSMapTable$class0-NSMapTable$init(keyOptions: NSPointerFunctions.Options = [], valueOptions: NSPointerFunctions.Options = [], capacity initialCapacity: Int) & & https://stackoverflow.com/questions/46982265/how-nsmaptable-works
      */
     static func NSAllMapTableValues0() {
         var class0 = NSMapTable<Person, NSString>(keyOptions: .weakMemory, valueOptions: .weakMemory)

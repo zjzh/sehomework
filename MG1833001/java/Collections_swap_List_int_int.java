@@ -14,10 +14,11 @@ import java.util.*;
 public class Collections_swap_List_int_int {
     /**
      * input: 3
-     * list list=[1,2,3,4,5]
+     * class0 ArrayList$class0
      * i i=0
      * j j=3
      * output: 0
+	 * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) &https://developer.android.com/reference/java/util/ArrayList.html
      */
     public  static void swap0(){
         System.out.println(">>>>>>>>>>>>");

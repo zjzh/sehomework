@@ -1,7 +1,7 @@
 
 /**类名_方法名(_形参类型)
  * @author: MG1833001 毕胜
- *  @className: HashMap_values_
+ *  @className: HashMap_values
  *  @apiSignature: java.util.HashMap<K,V>$public Collection<V> values ()
  *  @description: Test java api java.util.HashMap.values ()
  *  @Map:NSMapTable$func NSAllMapTableValues(_ table: NSMapTable<AnyObject, AnyObject>) -> [Any]
@@ -11,7 +11,7 @@
 import java.util.Collection;
 import java.util.HashMap;
 
-public class HashMap_values_ {
+public class HashMap_values {
     /**
      * input: 1
      * class0 HashMap$class0
@@ -29,6 +29,6 @@ public class HashMap_values_ {
     }
 
     public static void main(String[] args) {
-        HashMap_values_.values0();
+        HashMap_values.values0();
     }
 }

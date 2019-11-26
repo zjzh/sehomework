@@ -11,6 +11,7 @@ class ContiguousArray_swapAt_Int_Int{
 	 * class0 class0=["apple", "pear", "grape", "banana"]
      * i i=1
      * j: j=2
+	 * output: 0
      */
     static func swapAt0(){
 	   	var class0: ContiguousArray = ["apple", "pear", "grape", "banana"]

@@ -10,10 +10,11 @@ import Foundation
 class NSOrderedSet_contains_Any{
     /**
     * input : 2
-    * class0 class0=NSOrderedSet<Int>([1,2,3,4,5])
+    * class0 class0 = NSOrderedSet$class0
 	* object object=1
     * output : 1
     * ret0 ret0 = true
+	* NSOrderedSet$class0-NSOrderedSet$NSOrderedSet<Int>() & class0 = [1,2,3,4,5] & https://developer.apple.com/documentation/foundation/nsorderedset/1410106-count
     */
     static func contains0(){
         let class0 = NSOrderedSet(array:[1,2,3,4,5])
@@ -24,10 +25,11 @@ class NSOrderedSet_contains_Any{
     }
     /**
     * input : 2
-    * class0 class0=NSOrderedSet<Int>([1,2,3,4,5])
+    * class0 class0 = NSOrderedSet$class0
 	* object object=6
     * output : 1
     * ret0 ret0 = false
+	* NSOrderedSet$class0-NSOrderedSet$NSOrderedSet<Int>() & class0 = [1,2,3,4,5] & https://developer.apple.com/documentation/foundation/nsorderedset/1410106-count
     */
     static func contains1(){
         let class0 = NSOrderedSet(array:[1,2,3,4,5])
