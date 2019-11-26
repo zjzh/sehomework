@@ -20,8 +20,9 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
      * int second = 43
      * int nanosecond = 23
      * output: 1
-     * ret0  ret0= class0.date(from: dateComponents)!
+     * ret0 DateComponents$ret0
      * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+     * DateComponents$ret0-DateComponents&class0.date(from: dateComponents)!&https://developer.apple.com/documentation/foundation/nscalendar/1407609-date
      */
     static func date0(){
 	let class0 = NSCalendar.current
