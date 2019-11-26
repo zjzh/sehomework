@@ -20,7 +20,7 @@ class Array_insert_Array {
         print(">>>>>>>>>>>>")
         var class0: Array = [1, 2, 3, 4, 5]
         let array1: Array = [9, 8, 7, 6]
-		let i = 0
+	let i = 0
         class0.insert(contentsOf: array1, at: i)
         assert(class0 == [9, 8, 7, 6, 1, 2, 3, 4, 5])
         print(class0)
