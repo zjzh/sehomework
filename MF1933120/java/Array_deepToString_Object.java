@@ -12,17 +12,12 @@ import java.util.Arrays;
 public class Array_deepToString_Object {
     /**
      * input: 1
-     * object0 int[][]$object0
+     * object0 object0 = {{11,12},{19,20}}
      * output: 1
      * ret0  ret0="[[11, 12], [19, 20]]"
-     * int[][]$object0- new int[rows][cols] & rows=2 cols=2 & https://bbs.csdn.net/topics/392017693?page=1
      */
     public  static void deepToString0(){
-        int[][] object0 = new int[2][2];
-        object0[0][0] = 11;
-        object0[0][1] = 12;
-        object0[1][0] = 19;
-        object0[1][1] = 20;
+        int[][] object0 = {{11,12},{19,20}};
         String ret0;
         ret0 = Arrays.deepToString(object0);
         assert(ret0=="[[11, 12], [19, 20]]");
@@ -31,13 +26,12 @@ public class Array_deepToString_Object {
 
     /**
      * input: 1
-     * object0 int[][]$object0
+     * object0 object0 = {{0,0},{0,0}}
      * output: 1
      * ret0  ret0="[[0, 0], [0, 0]]"
-     * int[][]$object0- new int[rows][cols] & rows=2 cols=2 & https://bbs.csdn.net/topics/392017693?page=1
      */
     public  static void deepToString1(){
-        int[][] object0 = new int[2][2];
+        int[][] object0 = {{0,0},{0,0}};
         String ret0;
         ret0 = Arrays.deepToString(object0);
         assert(ret0=="[[0, 0], [0, 0]]");

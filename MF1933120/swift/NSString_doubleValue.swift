@@ -13,7 +13,7 @@ class NSString_doubleValue{
    * class0 NSString$class0
    * output: 1
    * ret0  ret0 =11.0
-   * NSString$class0-NSString(param) & param = "11"  & https://blog.csdn.net/athinkerbomb/article/details/27797227
+   * NSString$class0-NSString$NSString(param) & param = "11"  & https://blog.csdn.net/athinkerbomb/article/details/27797227
    */
    static func doubleValue0(){
        let class0 = NSString("11")
@@ -28,7 +28,7 @@ class NSString_doubleValue{
     * class0 NSString$class0
     * output: 1
     * ret0  ret0 =0.0
-    * NSString$class0-NSString(param) & param = "abc"  & https://blog.csdn.net/athinkerbomb/article/details/27797227
+    * NSString$class0-NSString$NSString(param) & param = "abc"  & https://blog.csdn.net/athinkerbomb/article/details/27797227
     */
     static func doubleValue1(){
         let class0 = NSString("abc")

@@ -13,7 +13,7 @@ class Double_init_Int{
    * value0 Int$value0
    * output: 1
    * ret0  ret0 =8.0
-   * Int$value0-Int(param) & param = 8  & https://developer.apple.com/documentation/swift/int
+   * Int$value0-Int$Int(param) & param = 8  & https://developer.apple.com/documentation/swift/int
    */
    static func init0(){
         let value0 = Int(8);
@@ -28,7 +28,7 @@ class Double_init_Int{
       * value0 Int$value0
       * output: 1
       * ret0  ret0 =-1.0
-      * Int$value0-Int(param) & param = -1  & https://developer.apple.com/documentation/swift/int
+      * Int$value0-Int$Int(param) & param = -1  & https://developer.apple.com/documentation/swift/int
       */
       static func init1(){
            let value0 = Int(-1);

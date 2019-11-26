@@ -16,7 +16,7 @@ class NSArray_description{
        software,
        engineering
       )
-   * NSArray$class0-NSArray=[data]()& data="software", "engineering" & https://blog.csdn.net/yishengzhiai005/article/details/51097770?utm_source=blogxgwz1
+   * NSArray$class0-NSArray$NSArray=[data]()& data="software", "engineering" & https://blog.csdn.net/yishengzhiai005/article/details/51097770?utm_source=blogxgwz1
    */
    static func description0(){
        let class0: NSArray = ["software", "engineering"]
@@ -31,7 +31,7 @@ class NSArray_description{
    * class0 NSArray$class0
    * output: 1
    * ret0  ret0=( )
-   * NSArray$class0-NSArray=[data]()& data=nil  & https://blog.csdn.net/yishengzhiai005/article/details/51097770?utm_source=blogxgwz1
+   * NSArray$class0-NSArray$NSArray=[data]()& data=nil  & https://blog.csdn.net/yishengzhiai005/article/details/51097770?utm_source=blogxgwz1
    */
    static func description1(){
        let class0: NSArray = [];

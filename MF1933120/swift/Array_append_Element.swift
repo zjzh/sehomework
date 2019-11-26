@@ -13,7 +13,7 @@ class Array_append_Element{
      * class0 Array$class0
      * element0 element0="4"
      * output: 0
-     * Array$class0-Array<String>[data]& data= ["1","2","3"] & https://www.jianshu.com/p/8730de8d8778
+     * Array$class0-Array$Array<String>[data]& data= ["1","2","3"] & https://www.jianshu.com/p/8730de8d8778
      */
     static func append0(){
         var class0 : Array<String> = ["1","2","3"];
@@ -28,7 +28,7 @@ class Array_append_Element{
      * class0 Array$class0
      * element0 element0=""
      * output: 0
-     * Array$class0-Array<String>[data]& data= ["1","2","3"] & https://www.jianshu.com/p/8730de8d8778
+     * Array$class0-Array$Array<String>[data]& data= ["1","2","3"] & https://www.jianshu.com/p/8730de8d8778
      */
     static func append1(){
          var class0 : Array<String> = ["1","2","3"];

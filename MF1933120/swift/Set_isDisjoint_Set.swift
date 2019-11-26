@@ -14,8 +14,8 @@ class Set_isDisjoint_Set{
      * set0 Set$set0
      * output: 1
      * ret0  ret0=true
-     * Set$class0-Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
-     * Set$set0-Set<Int>[data]& data=[1,2,3,4,5] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * Set$class0-Set$Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * Set$set0-Set$Set<Int>[data]& data=[1,2,3,4,5] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
      */
     static func isDisjoint0(){
         let class0 : Set<Int> = [6,7,8,9,10];
@@ -31,8 +31,8 @@ class Set_isDisjoint_Set{
      * set0 Set$set0
      * output: 1
      * ret0  ret0=false
-     * Set$class0-Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
-     * Set$set0-Set<Int>[data]& data=[1,2,3,4,5,6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * Set$class0-Set$Set<Int>[data]& data=[6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
+     * Set$set0-Set$Set<Int>[data]& data=[1,2,3,4,5,6,7,8,9,10] & https://www.cnblogs.com/xubaoaichiyu/archive/2017/03/01/6483993.html
      */
     static func isDisjoint1(){
         let class0 : Set = [6,7,8,9,10];
@@ -42,6 +42,5 @@ class Set_isDisjoint_Set{
         print(ret0);
     }
 }
-
 Set_isDisjoint_Set.isDisjoint0()
 Set_isDisjoint_Set.isDisjoint1()

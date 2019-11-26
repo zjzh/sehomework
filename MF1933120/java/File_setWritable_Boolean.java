@@ -17,7 +17,7 @@ public class File_setWritable_Boolean {
      * writable0 writable0=true
      * output: 1
      * ret0  ret0=true
-     * File$class0-File(String pathname) & pathname="test.txt" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File$File(String pathname) & pathname="test.txt" & https://developer.android.google.cn/reference/java/io/File.html
      */
 
     public  static void setWritable0() throws IOException {
@@ -42,7 +42,7 @@ public class File_setWritable_Boolean {
      * writable0 writable0=false
      * output: 1
      * ret0  ret0=false
-     * File$class0-File(String pathname) & pathname="test.txt" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File$File(String pathname) & pathname="test.txt" & https://developer.android.google.cn/reference/java/io/File.html
      */
 
     public  static void setWritable1() throws IOException {

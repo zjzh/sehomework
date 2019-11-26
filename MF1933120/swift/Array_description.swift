@@ -13,7 +13,7 @@ class Array_description{
     * class0 Array$class0
     * output: 1
     * ret0  ret0= ["software", "engineering"]
-    * Array$class0-Array=[Type]()& Type=String & https://www.cnblogs.com/zhuzhubjtu/p/4919587.html
+    * Array$class0-Array$Array=[Type]()& Type=String & https://www.cnblogs.com/zhuzhubjtu/p/4919587.html
     */
     static func description0(){
         var class0:Array = [String]();
@@ -30,7 +30,7 @@ class Array_description{
     * class0 Array$class0
     * output: 1
     * ret0  ret0=[""]
-    * Array$class0-Array=[Type]()& Type=String & https://www.cnblogs.com/zhuzhubjtu/p/4919587.html
+    * Array$class0-Array$Array=[Type]()& Type=String & https://www.cnblogs.com/zhuzhubjtu/p/4919587.html
     */
     static func description1(){
         var class0:Array = [String]();

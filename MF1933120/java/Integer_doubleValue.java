@@ -14,7 +14,7 @@ public class Integer_doubleValue {
      * class0 Integer$class0
      * output: 1
      * ret0  ret0=5.0
-     * Integer$class0-Integer(value value1) & value1=5 & https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html
+     * Integer$class0-Integer$Integer(int b) & b=5 & https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html
      */
 
     public static void doubleValue0(){
@@ -31,7 +31,7 @@ public class Integer_doubleValue {
      * class0 Integer$class0
      * output: 1
      * ret0  ret0=0.0
-     * Integer$class0-Integer(value value1) & value1=0 & https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html
+     * Integer$class0-Integer$Integer(int b) & b=0 & https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html
      */
 
     public static void doubleValue1(){

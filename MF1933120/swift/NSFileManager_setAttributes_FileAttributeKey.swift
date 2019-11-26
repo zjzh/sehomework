@@ -14,7 +14,7 @@ class NSFileManager_setAttributes_FileAttributeKey{
      * FileAttributeKey FileAttributeKey$modifiedAttribute0
      * output: 1
      * ret0  ret0="success"
-     * FileAttributeKey$modifiedAttribute0-[FileAttributeKey.ownerAccountName:param]& param="test" & https://www.jianshu.com/p/c366b4368415
+     * FileAttributeKey$modifiedAttribute0-FileAttributeKey$[FileAttributeKey.ownerAccountName:param]& param="test" & https://www.jianshu.com/p/c366b4368415
      */
     static func setAttributes0(){
         let filePath = "/Users/zxw1021/Swift Dev/SEhomework/SEhomework/test.txt";
@@ -36,7 +36,7 @@ class NSFileManager_setAttributes_FileAttributeKey{
         * FileAttributeKey  FileAttributeKey$modifiedAttribute0
         * output: 1
         * ret0  ret0="failed"
-        * FileAttributeKey$modifiedAttribute0-[FileAttributeKey.ownerAccountName:param]& param="test" & https://www.jianshu.com/p/c366b4368415
+        * FileAttributeKey$modifiedAttribute0-FileAttributeKey$[FileAttributeKey.ownerAccountName:param]& param="test" & https://www.jianshu.com/p/c366b4368415
         */
        static func setAttributes1(){
            let filePath = "/Users/zxw1021/Swift Dev/SEhomework/SEhomework/nofile.txt";

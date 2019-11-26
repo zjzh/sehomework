@@ -13,7 +13,7 @@ class NSNumber_doubleValue{
    * class0 NSNumber$class0
    * output: 1
    * ret0  ret0 =3.0
-   * NSNumber$class0-NSNumber(integerLiteral: param) & param = 3  & https://www.cnblogs.com/QianChia/p/5777445.html
+   * NSNumber$class0-NSNumber$NSNumber(integerLiteral: param) & param = 3  & https://www.cnblogs.com/QianChia/p/5777445.html
    */
    static func doubleValue0(){
        let class0 = NSNumber(integerLiteral: 3)
@@ -28,7 +28,7 @@ class NSNumber_doubleValue{
      * class0 NSNumber$class0
      * output: 1
      * ret0  ret0 =4.0
-     * NSNumber$class0-NSNumber(value: param) & param = 4  & https://www.cnblogs.com/QianChia/p/5777445.html
+     * NSNumber$class0-NSNumber$NSNumber(value: param) & param = 4  & https://www.cnblogs.com/QianChia/p/5777445.html
      */
      static func doubleValue1(){
          let class0 = NSNumber(value: 4)
@@ -43,7 +43,7 @@ class NSNumber_doubleValue{
     * class0 NSNumber$class0
     * output: 1
     * ret0  ret0 =1.1
-    * NSNumber$class0-NSNumber(floatLiteral: param) & param = 1.1  & https://www.cnblogs.com/QianChia/p/5777445.html
+    * NSNumber$class0-NSNumber$NSNumber(floatLiteral: param) & param = 1.1  & https://www.cnblogs.com/QianChia/p/5777445.html
     */
     static func doubleValue2(){
         let class0 = NSNumber(floatLiteral: 1.1)
