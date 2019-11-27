@@ -11,7 +11,7 @@ import Foundation
 class ContiguousArray_reversed{
      /**
      * input: 1
-	 * class0 ContiguousArray$class0=[1, 2, 3]
+	 * class0 class0=[1, 2, 3]
 	 * output: 1
 	 * ret0 ret0=[3, 2, 1]
      */
