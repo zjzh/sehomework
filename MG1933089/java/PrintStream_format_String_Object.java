@@ -5,10 +5,6 @@ import java.io.*;
  *  @className: PrintStream_format_String_Object$PrintStream
  *  @apiSignature: java.io.PrintStream$public PrintStream format​(String format, Object... args)
  *  @description: Test java api java.io.PrintStream$format​(String format, Object... args)
- *  @Map: NSString$convenience init(format: String, locale: Any?, arguments argList: CVaListPointer) -> NSString;String$func write<Target>(to target: inout Target) where Target : TextOutputStream
- *  @Map: NSString$convenience init(format: String, locale: Any?, arguments argList: CVaListPointer) -> NSString;TextOutputStream$mutating func write(_ string: String)
- *  @Map: NSString$convenience init(format: String, arguments argList: CVaListPointer) -> NSString;String$func write<Target>(to target: inout Target) where Target : TextOutputStream
- *  @Map: NSString$convenience init(format: String, arguments argList: CVaListPointer) -> NSString;TextOutputStream$mutating func write(_ string: String)
  */
 public class PrintStream_format_String_Object {
     /**
