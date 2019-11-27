@@ -11,16 +11,13 @@ class ArraySlice_append_Element{
 	*input:2
 	*numbers ArraySlice$numbers=[1,2,3,4]
 	*newElement=5
-	*output:1
-	*ret0  ArraySlice$numbers=[1,2,3,4,5]
+	*output:0
 	*/
 	static func append0(){
 	var numbers=[1,2,3,4]
 	let newElement=5
     numbers.append(newElement)
-    let ret0=numbers
-	assert(ret0==[1,2,3,4,5])
-	print (ret0)
+	assert(numbers==[1,2,3,4,5])
     }
 }
 ArraySlice_append_Element.append0()
