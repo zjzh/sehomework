@@ -15,8 +15,8 @@ public class ArrayList_size {
      * class0 ArrayList$class0
      * output:1
      * ret ret0=3
-     * ArrayList$class0-ArrayList$ArrayList() & https://developer.android.com/reference/java/util/ArrayList.html?hl=en#ArrayList()
-     * ArrayList$class0-ArrayList$add(int a) & https://developer.android.com/reference/java/util/ArrayList?hl=en
+     * ArrayList$class0-ArrayList$ArrayList() & & https://developer.android.com/reference/java/util/ArrayList.html?hl=en#ArrayList()
+     * ArrayList$class0-ArrayList$add(int a) & & https://developer.android.com/reference/java/util/ArrayList?hl=en
      */
 
     public static void size0(){
