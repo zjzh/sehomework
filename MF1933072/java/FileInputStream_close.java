@@ -15,7 +15,7 @@ public class FileInputStream_close {
      * input: 1
      * class0 FileInputStream$class0
      * output: 0
-     * FileInputStream$class0-FileInputStream(String name)&name= "C:\\Users\\test.txt"&https://docs.oracle.com/javase/7/docs/api/java/io/FileInputStream.html
+     * FileInputStream$class0-FileInputStream$FileInputStream(String name)&name= "C:\\Users\\test.txt"&https://docs.oracle.com/javase/7/docs/api/java/io/FileInputStream.html
      */
     public  static void close0() throws FileNotFoundException,IOException  {
         System.out.println(">>>>>>>>>>>>");
