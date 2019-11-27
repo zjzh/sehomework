@@ -13,10 +13,10 @@ public class ArrayList_add_int_E{
       /**
      * input: 2
      * class0 ArrayList$class0
-	 * ArrayList$class0-ArrayList$ArrayList(Collection c) & Collection$c=Arrays.asList([1,2,3,4,5]) & https://docs.oracle.com/javase/8/docs/api/
      *index index=0
-	 *element element = 25
-	 * output: 0
+     *element element = 25
+     * output: 0
+     * ArrayList$class0-ArrayList$ArrayList(Collection c) & Collection$c=Arrays.asList([1,2,3,4,5]) & https://docs.oracle.com/javase/8/docs/api/
      */
     // create an empty array list with an initial capacity
     ArrayList<Integer> class0 = new ArrayList<Integer>(5);
