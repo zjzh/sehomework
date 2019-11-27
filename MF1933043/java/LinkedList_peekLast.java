@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 
 /**类名_方法名(_形参类型)*
@@ -14,14 +15,11 @@ public class LinkedList_peekLast{
      * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=2
-     * LinkedList$class0-LinkedList$add(Integer x) & Integer x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
+     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a);a="interesting", "happy", "funny", "interesting", "exciting" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void peekLast0(){
         System.out.println(">>>>>>>>>>>>");
-        LinkedList<Integer> class0 = new LinkedList<>();
-        class0.add(0);
-        class0.add(1);
-        class0.add(2);
+        LinkedList<Integer> class0 = new LinkedList<>(Arrays.asList(0, 1, 2));
         Integer ret0 = class0.peekLast();
         assert (ret0 == 2);
         System.out.println(ret0);
@@ -32,6 +30,7 @@ public class LinkedList_peekLast{
      * class0 LinkedList$class0
      * output: 1
      * ret0 ret0=null
+     * LinkedList$class0-LinkedList$LinkedList(Collection c) & c=null & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void peekLast1(){
         System.out.println(">>>>>>>>>>>>");
