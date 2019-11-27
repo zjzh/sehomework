@@ -9,14 +9,14 @@
 public class String_toString{
     /**
 	*input:1
-	*s String$s="This is a String."
+	*class0 String$s="This is a String."
 	*output:1
 	*ret0 String$ret0="This is a String."
 	*/
     public static void toString0() {
          
-        String s="This is a String.";
-        String ret0=s.toString();
+        String class0="This is a String.";
+        String ret0=class0.toString();
         assert(ret0=="This is a String");
         System.out.println(ret0);
         
