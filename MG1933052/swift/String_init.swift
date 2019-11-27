@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: String_init_Subject
  *  @apiSignature: String$init<Subject>(describing instance: Subject) 
- *  @discription:test swift api String$init<Subject>(describing instance: Subject)
+ *  @description:test swift api String$init<Subject>(describing instance: Subject)
  *  @Map:java.lang.String$public static String valueOf (float f)
  */
 import Foundation
