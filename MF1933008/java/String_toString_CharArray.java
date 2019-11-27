@@ -13,38 +13,38 @@ import java.util.*;
 
 public class String_toString_CharArray {
 	
-    /**
-     * input: 1
-     * a a = {'h', 'e', 'l', 'l', 'o'}
-     * output: 1
+        /**
+         * input: 1
+         * class0 class0 = {'h', 'e', 'l', 'l', 'o'}
+         * output: 1
 	 * ret0 ret0 = "[h, e, l, l, o]"
 	 */
 	public static void tostring0() {
-        System.out.println(">>>>>>>>>>>>");
-        char[] a = {'h', 'e', 'l', 'l', 'o'};
-        String ret0 = Arrays.toString(a);
-        assert (a != null);
-        assert (ret0 == "[h, e, l, l, o]");
-        System.out.println(ret0);
+                System.out.println(">>>>>>>>>>>>");
+                char[] class0 = {'h', 'e', 'l', 'l', 'o'};
+                String ret0 = Arrays.toString(class0);
+                assert (class0 != null);
+                assert (ret0 == "[h, e, l, l, o]");
+                System.out.println(ret0);
 	}
 	
 	/**
-     * input: 1
-     * a a = {}
-     * output: 1
-	 * ret0 ret0: []
+         * input: 1
+         * class0 class0 = {}
+         * output: 1
+	 * ret0 ret0 = []
 	 */
 	public static void tostring1() {
-        System.out.println(">>>>>>>>>>>>");
-        char[] a = {};
-        String ret0 = Arrays.toString(a);
-        assert (a == null);
-        assert (ret0 == null);
-        System.out.println(ret0);
+                System.out.println(">>>>>>>>>>>>");
+                char[] class0 = {};
+                String ret0 = Arrays.toString(class0);
+                assert (class0 == null);
+                assert (ret0 == null);
+                System.out.println(ret0);
 	}
 	
 	public static void main(String[] args) {
-        String_toString_CharArray.tostring0();
-        String_toString_CharArray.tostring1();
+                String_toString_CharArray.tostring0();
+                String_toString_CharArray.tostring1();
 	}
 }

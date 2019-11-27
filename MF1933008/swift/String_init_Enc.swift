@@ -11,15 +11,15 @@ class String_init_Enc {
     
     /*
      * input: 1
-     * str0 str0 = Data(bytes: [65, 66, 67, 0, 0, 0, 0, 0, 0]) & https://stackoverflow.com/questions/44570363/why-does-strings-bytes-and-cstring-initializers-give-different-results-here/44570513#44570513
+     * class0 class0 = Data(bytes: [65, 66, 67, 0, 0, 0, 0, 0, 0]) & https://stackoverflow.com/questions/44570363/why-does-strings-bytes-and-cstring-initializers-give-different-results-here/44570513#44570513
      * output: 1
      * ret0 ret0 = "ABC"
      */
     static func init0() {
         print(">>>>>>>>>>>>>>")
-        var str0 = Data(bytes: [65, 66, 67, 0, 0, 0, 0, 0, 0])
+        var class0 = Data(bytes: [65, 66, 67, 0, 0, 0, 0, 0, 0])
         // let str1 = String(bytes: str0, encoding: .utf8)
-        let ret0 = str0.withUnsafeBytes {(p: UnsafePointer<CChar>) -> String? in 
+        let ret0 = class0.withUnsafeBytes {(p: UnsafePointer<CChar>) -> String? in 
             return String(cString: p, encoding: .utf8)
         }
 

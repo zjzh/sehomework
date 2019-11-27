@@ -10,20 +10,20 @@ import Foundation
 class ArraySlice_remove_At {
     /*
      * input: 2
-     * arr0 arr0 = [1, 2, 3, 4, 5]
+     * class0 class0 = [1, 2, 3, 4, 5]
      * rmeoved removed = 2
      * output: 1
-     * ret0 ret0 = [1, 2, 4, 5]
+     * class0 class0 = [1, 2, 4, 5]
      */
     static func remove1() {
         print(">>>>>>>>>>>>>>")
-        var arr0: Array<Int> = [1, 2, 3, 4, 5]
-        assert (arr0 == [1, 2, 3, 4, 5])
-        print(arr0)
-        let removed = arr0.remove(at: 2)
-        assert (arr0 == [1, 2, 4, 5])
+        var class0: Array<Int> = [1, 2, 3, 4, 5]
+        assert (class0 == [1, 2, 3, 4, 5])
+        print(class0)
+        let removed = class0.remove(at: 2)
+        assert (class0 == [1, 2, 4, 5])
         // print(removed)
-        print(arr0)
+        print(class0)
     }
 }
 

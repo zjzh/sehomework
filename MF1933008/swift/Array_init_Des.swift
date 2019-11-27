@@ -11,15 +11,15 @@ class Array_init_Des {
     
     /*
      * input: 1
-     * arr0 arr0$Array
+     * class0 class0 = ["h", "e", "l", "l", "o"]
      * output: 1
      * ret0 ret0 = ["h", "e", "l", "l", "o"]
      */
     static func init0() {
         print(">>>>>>>>>>>>>>")
-        let arr0 = ["h", "e", "l", "l", "o"]
-        let ret0 = arr0.description
-        assert (arr0.count == 5)
+        let class0 = ["h", "e", "l", "l", "o"]
+        let ret0 = class0.description
+        assert (class0.count == 5)
         assert (type(of: ret0) == type(of: "abc"))
         // print(type(of: ret0))
         print(ret0)
@@ -27,49 +27,49 @@ class Array_init_Des {
 
     /*
      * input: 1
-     * arr0 arr0$Array
+     * class0 class0 = [1, 2, 3]
      * output: 1
      * ret0 ret0 = [1, 2, 3]
      */
     static func init1() {
         print(">>>>>>>>>>>>>>")
-        let arr0 = [1, 2, 3]
-        let ret0 = arr0.description
-        assert (arr0.count == 3)
+        let class0 = [1, 2, 3]
+        let ret0 = class0.description
+        assert (class0.count == 3)
         assert (type(of: ret0) == type(of: "abc"))
         print(ret0)
     }
 
     /*
      * input: 1
-     * arr0 arr0$Array
+     * class0 class0 = ["hello", "world"]
      * output: 1
      * ret0 ret0 = ["hello", "world"]
      */
     static func init2() {
         print(">>>>>>>>>>>>>>")
-        var arr0: Array = [String]()
-        arr0.append("hello")
-        arr0.append("world")
-        let ret0 = arr0.description
-        assert (arr0.first == "hello")
-        assert (arr0.last == "world")
+        var class0: Array = [String]()
+        class0.append("hello")
+        class0.append("world")
+        let ret0 = class0.description
+        assert (class0.first == "hello")
+        assert (class0.last == "world")
         assert (type(of: ret0) == type(of: "abc"))
         print(ret0)
     }
 
     /*
      * input: 1
-     * arr0 arr0$Array
+     * class0 class0 = [""]
      * output: 1
      * ret0 ret0 = [""]
      */
     static func init3() {
         print(">>>>>>>>>>>>>>")
-        var arr0: Array = [String]()
-        arr0.append("")
-        let ret0 = arr0.description
-        assert (arr0.first == "")
+        var class0: Array = [String]()
+        class0.append("")
+        let ret0 = class0.description
+        assert (class0.first == "")
         // assert (arr0.last == "")
         assert (type(of: ret0) == type(of: "abc"))
         print(ret0)

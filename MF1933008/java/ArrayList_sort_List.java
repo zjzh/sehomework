@@ -17,31 +17,31 @@ import java.util.ArrayList;
 public class Array_sort_List {
 	/*
 	 * input: 1
-	 * src0 src0$ArrayList
+	 * class0 class0 = (3, 1, 2)
 	 * output: 1
-	 * src0 src0 = (1, 2, 3)
+	 * class0 class0 = (1, 2, 3)
 	 */
 	public static void sort1() {
 		System.out.println(">>>>>>>>>>>>");
-		ArrayList<Integer> src0 = new ArrayList<Integer>();
-		src0.add(3);
-		src0.add(1);
-		src0.add(2);
-		assert (src0.contains(1) == true);
-		assert (src0.contains(2) == true);
-		assert (src0.contains(3) == true);
-		for(int i = 0; i < src0.size(); i++) {
-			int temp = (int)src0.get(i);
+		ArrayList<Integer> class0 = new ArrayList<Integer>();
+		class0.add(3);
+		class0.add(1);
+		class0.add(2);
+		assert (class0.contains(1) == true);
+		assert (class0.contains(2) == true);
+		assert (class0.contains(3) == true);
+		for(int i = 0; i < class0.size(); i++) {
+			int temp = (int)class0.get(i);
 			System.out.println(temp + " ");
 		}
 			
-		Collections.sort(src0);
-		assert (src0.contains(1) == true);
-		assert (src0.contains(2) == true);
-		assert (src0.contains(3) == true);
+		Collections.sort(class0);
+		assert (class0.contains(1) == true);
+		assert (class0.contains(2) == true);
+		assert (class0.contains(3) == true);
 
-		for(int i = 0; i < src0.size(); i++) {
-			int temp = (int)src0.get(i);
+		for(int i = 0; i < class0.size(); i++) {
+			int temp = (int)class0.get(i);
 			System.out.println(temp + " ");
 		}
 	}

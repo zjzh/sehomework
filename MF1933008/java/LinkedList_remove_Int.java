@@ -15,37 +15,37 @@ import java.util.ArrayList;
 public class LinkedList_remove_Int {
 	/*
 	 * input: 2
-	 * src0 src0 = (1, 2, 3 ,4, 5)
+	 * class0 class0 = (1, 2, 3 ,4, 5)
      * index index = 2
 	 * output: 1
-	 * src0 src0 = (1, 2, 4, 5)
+	 * class0 class0 = (1, 2, 4, 5)
 	 */
 	public static void remove1() {
 		System.out.println(">>>>>>>>>>>>");
-		ArrayList<Integer> src0 = new ArrayList<Integer>();
-		src0.add(1);
-		src0.add(2);
-        src0.add(3);
-        src0.add(4);
-        src0.add(5);
-		assert (src0.contains(1) == true);
-		assert (src0.contains(2) == true);
-        assert (src0.contains(3) == true);
-        assert (src0.contains(4) == true);
-        assert (src0.contains(5) == true);
-		for(int i = 0; i < src0.size(); i++) {
-			int temp = (int)src0.get(i);
+		ArrayList<Integer> class0 = new ArrayList<Integer>();
+		class0.add(1);
+		class0.add(2);
+        class0.add(3);
+        class0.add(4);
+        class0.add(5);
+		assert (class0.contains(1) == true);
+		assert (class0.contains(2) == true);
+        assert (class0.contains(3) == true);
+        assert (class0.contains(4) == true);
+        assert (class0.contains(5) == true);
+		for(int i = 0; i < class0.size(); i++) {
+			int temp = (int)class0.get(i);
 			System.out.println(temp + " ");
 		}
 		
-		src0.remove(2);
-		assert (src0.contains(1) == true);
-		assert (src0.contains(2) == true);
-        assert (src0.contains(3) == false);
-        assert (src0.contains(4) == true);
-        assert (src0.contains(5) == true);
-		for(int i = 0; i < src0.size(); i++) {
-			int temp = (int)src0.get(i);
+		class0.remove(2);
+		assert (class0.contains(1) == true);
+		assert (class0.contains(2) == true);
+        assert (class0.contains(3) == false);
+        assert (class0.contains(4) == true);
+        assert (class0.contains(5) == true);
+		for(int i = 0; i < class0.size(); i++) {
+			int temp = (int)class0.get(i);
 			System.out.println(temp + " ");
 		}
 	}

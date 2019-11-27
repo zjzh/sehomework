@@ -7,40 +7,40 @@
  */
 public class String_valueOf_CharArray {
 
-    /**
-     * input: 1
-     * data data = {'h', 'e', 'l', 'l', 'o'}
-     * output: 1
-     * ret0 ret0 = "hello"
-     */
+        /**
+         * input: 1
+         * class0 class0 = {'h', 'e', 'l', 'l', 'o'}
+         * output: 1
+         * ret0 ret0 = "hello"
+         */
         public static void valueof0() {
-        System.out.println(">>>>>>>>>>>>");
-        char[] data = {'h', 'e', 'l', 'l', 'o'};
-        String ret0 = String.valueOf(data);
-        assert (data != null);
-        assert (ret0 == "hello");
-        System.out.println(ret0);
+                System.out.println(">>>>>>>>>>>>");
+                char[] class0 = {'h', 'e', 'l', 'l', 'o'};
+                String ret0 = String.valueOf(class0);
+                assert (class0 != null);
+                assert (ret0 == "hello");
+                System.out.println(ret0);
 	}
 	
 	/**
-     * input: 1
-     * data data = {'h', 'e', 'l', 'l', 'o'}
-     * output: 1
-	 * ret0 ret0: "hello"
+         * input: 1
+         * class0 class0 = {'h', 'e', 'l', 'l', 'o'}
+         * output: 1
+	 * ret0 ret0 = "hello"
 	 */
 	public static void valueof1() {
-        System.out.println(">>>>>>>>>>>>");
-        char[] data = {'h', 'e', 'l', 'l', 'o'};
-        char[] tmp = {'w', 'o', 'r', 'l', 'd'};
-        String ret0 = String.valueOf(data);
-        data = tmp;
-        assert (data != null);
-        assert (ret0 == "hello");
-        System.out.println(ret0);
+                System.out.println(">>>>>>>>>>>>");
+                char[] class0 = {'h', 'e', 'l', 'l', 'o'};
+                char[] tmp = {'w', 'o', 'r', 'l', 'd'};
+                String ret0 = String.valueOf(class0);
+                class0 = tmp;
+                assert (class0 != null);
+                assert (ret0 == "hello");
+                System.out.println(ret0);
 	}
 	
 	public static void main(String[] args) {
-        String_valueOf_CharArray.valueof0();
-        String_valueOf_CharArray.valueof1();
+                String_valueOf_CharArray.valueof0();
+                String_valueOf_CharArray.valueof1();
 	}
 }

@@ -11,22 +11,22 @@ class String_init_Instance {
     
     /*
      * input: 1
-     * instance0 instance0 = "hello swift 2.0"
+     * class0 class0 = "hello swift 2.0"
      * output: 1
      * ret0 ret0 = "hello swift 2.0"
      */
     static func init0() {
         print(">>>>>>>>>>>>>>")
-        let instance0 = "hello swift 2.0"
-        let ret0 = String(instance0)
-        assert (instance0 == "hello swift 2.0")
+        let class0 = "hello swift 2.0"
+        let ret0 = String(class0)
+        assert (class0 == "hello swift 2.0")
         assert (ret0 == "hello swift 2.0")
         print(ret0)
     }
 
     /*
      * input: 1
-     * point point = (x: 20, y: 30)
+     * class0 class0 = (x: 20, y: 30)
      * output: 1
      * ret0 ret0 = "Point(x: 20, y: 30)"
      */
@@ -35,10 +35,10 @@ class String_init_Instance {
         struct Point {
             let x: Int, y: Int
         }
-        let point = Point(x: 20, y: 30)
-        let ret0 = String(describing: point)
-        assert (point.x == 20)
-        assert (point.y == 30)
+        let class0 = Point(x: 20, y: 30)
+        let ret0 = String(describing: class0)
+        assert (class0.x == 20)
+        assert (class0.y == 30)
         assert (ret0 == "Point(x: 20, y: 30)")
         print(ret0)
     }

@@ -11,17 +11,17 @@ class String_init_Utf16 {
     
     /*
      * input: 1
-     * str0 str0 = "H&LLO @ swift"
+     * class0 class0 = "H&LLO @ swift"
      * output: 1
      * ret0 ret0 = "H&LLO @ swift"
      */
     static func init0() {
         print(">>>>>>>>>>>>>>")
-        let str0 = "H&LLO @ swift"
-        let str1 = Array(str0.utf16)
+        let class0 = "H&LLO @ swift"
+        let str1 = Array(class0.utf16)
         // print(str1)
         let ret0 = String(utf16CodeUnits: str1, count: str1.count)
-        assert (str0 == "H&LLO @ swift")
+        assert (class0 == "H&LLO @ swift")
         assert (ret0 == "H&LLO @ swift")
         print(ret0)
     }

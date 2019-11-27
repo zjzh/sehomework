@@ -10,31 +10,31 @@ import Foundation
 class NSArray_init_Des {
     /*
      * input: 1
-     * arr0 arr0$NSArray
+     * class0 class0 = ["hello", "world"]
      * output: 1
      * ret0 ret0 = (hello, world)
      */
     static func init0() {
         print(">>>>>>>>>>>>>>")
-        let arr0: NSArray = ["hello", "world"]
-        let ret0 = arr0.description
-        assert (arr0.contains("hello") == true)
-        assert (arr0.contains("world") == true)
+        let class0: NSArray = ["hello", "world"]
+        let ret0 = class0.description
+        assert (class0.contains("hello") == true)
+        assert (class0.contains("world") == true)
         print(ret0)
     }
 
     /*
      * input: 1
-     * arr0 arr0$Array
+     * class0 class0 = [""]
      * output: 1
      * ret0 ret0 = ("")
      */
     static func init1() {
         print(">>>>>>>>>>>>>>")
-        let arr0: NSArray = [""]
-        let ret0 = arr0.description
-        assert (arr0.contains("hello") == false)
-        assert (arr0.contains("world") == false)
+        let class0: NSArray = [""]
+        let ret0 = class0.description
+        assert (class0.contains("hello") == false)
+        assert (class0.contains("world") == false)
         print(ret0)
     }
 }

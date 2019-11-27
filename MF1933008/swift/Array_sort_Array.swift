@@ -10,23 +10,23 @@ import Foundation
 class Array_sort_Array {
     /*
      * input: 1
-     * arr0 arr0 = [2, 1, 3]
+     * class0 class0 = [2, 1, 3]
      * output: 1
-     * ret0 ret0 = [1, 2, 3]
+     * class0 class0 = [1, 2, 3]
      */
     static func sort0() {
         print(">>>>>>>>>>>>>>")
-        var arr0: Array<Int> = [2, 1, 3]
-        assert (arr0.contains(1) == true)
-        assert (arr0.contains(2) == true)
-        assert (arr0.contains(3) == true)
-        print(arr0)
+        var class0: Array<Int> = [2, 1, 3]
+        assert (class0.contains(1) == true)
+        assert (class0.contains(2) == true)
+        assert (class0.contains(3) == true)
+        print(class0)
 
-        assert (arr0.contains(1) == true)
-        assert (arr0.contains(2) == true)
-        assert (arr0.contains(3) == true)
-        arr0.sort()
-        print(arr0)
+        assert (class0.contains(1) == true)
+        assert (class0.contains(2) == true)
+        assert (class0.contains(3) == true)
+        class0.sort()
+        print(class0)
     }
 }
 

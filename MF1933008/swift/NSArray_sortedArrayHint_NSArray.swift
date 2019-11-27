@@ -12,7 +12,7 @@ import Foundation
 class NSArray_sortedArrayHint_NSArray {
     /*
      * input: 4
-     * arr0 arr0 = [2, 1, 3]
+     * class0 class0 = [2, 1, 3]
      * function function = sortFunc
      * context context = []
      * hint hint = []
@@ -21,16 +21,16 @@ class NSArray_sortedArrayHint_NSArray {
      */
     static func sort0() {
         print(">>>>>>>>>>>>>>")
-        let arr0: NSArray = [2, 1, 3]
+        let class0: NSArray = [2, 1, 3]
         var context: UnsafeMutableRawPointer = []
         var hint: Data = []
-        assert (arr0 == [2, 1, 3])
+        assert (class0 == [2, 1, 3])
         func sortFunc(s1: Any, s2: Any) -> Bool {
             var n1 = s1 as! Int
             var n2 = s2 as! Int
             return n1 < n2
         }
-        var ret0 = arr0.sortedArray(function: sortFunc, Pointer: context, Data: hint) as! [Int]
+        var ret0 = class0.sortedArray(function: sortFunc, Pointer: context, Data: hint) as! [Int]
         assert (ret0 = [1, 2, 3])
         print(ret0)
     }
