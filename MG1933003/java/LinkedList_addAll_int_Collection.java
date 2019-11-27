@@ -14,12 +14,12 @@ public class LinkedList_addAll_int_Collection {
     /**
      * input: 3
      * class0 LinkedList$class0
-     * c LinkedList$collection0
+     * c LinkedList$c
      * index index = 1
      * output: 1
      * ret0 ret0 = true
      * LinkedList$class0-LinkedList$LinkedList() &  class0 = Arrays.asList(new Integer[]{1, 2, 1} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * LinkedList$collection0-LinkedList$LinkedList() &  c = Arrays.asList(new Integer[]{4, 5, 4} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * LinkedList$c-LinkedList$LinkedList() &  c = Arrays.asList(new Integer[]{4, 5, 4} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
 
     public  static void addAll0() {
@@ -42,12 +42,12 @@ public class LinkedList_addAll_int_Collection {
 	/**
      * input: 3
      * class0 LinkedList$class0
-     * c LinkedList$collection0
+     * c LinkedList$c
      * index index = 3
      * output: 1 
      * ret0 ret0 = true
      * LinkedList$class0-LinkedList$LinkedList()LinkedList() &  class0 = Arrays.asList(new Integer[]{7, 8, 9} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * LinkedList$collection0-LinkedList$LinkedList()LinkedList() &  c = Arrays.asList(new Integer[]{1, 2, 3} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * LinkedList$c-LinkedList$LinkedList()LinkedList() &  c = Arrays.asList(new Integer[]{1, 2, 3} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public  static void addAll1() {
         LinkedList<Integer> class0 = new LinkedList<>(Arrays.asList(new Integer[]{7, 8, 9}));
