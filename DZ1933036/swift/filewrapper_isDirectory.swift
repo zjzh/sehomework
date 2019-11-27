@@ -1,12 +1,12 @@
 /**
  *@author: DZ1933036_支原
- *@classname: filewrapper_is_Directoryy
+ *@classname: Filewrapper_is_Directoryy
  *@apiSignature:  FileWrapper$ var isDirectory ->Bool?;
  *@description: This property contains a boolean value indicating whether the file wrapper is a directory file wrapper;True for directories.
  *Map:java.io.fileFile$ public boolean isDirectory()
  */
 import Foundation
-class filewrapper_isDirectory{
+class Filewrapper_isDirectory{
     /**
      * input: 1
      * class0:URL$class0

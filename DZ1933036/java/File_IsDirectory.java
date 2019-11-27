@@ -1,6 +1,3 @@
-import java.io.File;
-import java.io.IOException;
-
 /**
  * @author: DZ1933036_支原
  * @classname: File_IsDirectory
@@ -9,6 +6,8 @@ import java.io.IOException;
  * @Map: FileWrapper$var isDirectory ->Bool?;
  * @Map:URLResourceValues$var isDirectory ->Bool?
  */
+import java.io.File;
+import java.io.IOException;
 public class File_IsDirectory {
     /**
      * input:1
