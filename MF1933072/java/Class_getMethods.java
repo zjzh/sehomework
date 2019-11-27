@@ -14,7 +14,7 @@ public class Class_getMethods {
      * input: 1
      * class0 Class$class0=Class_getMethods.class
      * output: 1
-     * ret0 Method$ret0 ="UNKNOWN" //不同时间运行出的方法顺序不同
+     * ret0 Method$ret0 =UNKNOWN
      */
     public  static void getMethods0(){
         System.out.println(">>>>>>>>>>>>");
