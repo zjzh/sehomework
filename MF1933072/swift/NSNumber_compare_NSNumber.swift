@@ -10,8 +10,8 @@ import Foundation
 class NSNumber_compare_NSNumber{
     /**
      * input: 2
-     * class0 class0 = 1
-     * int2 int2 = 2
+     * class0 NSNumber$class0 = 1
+     * int2 NSNumber$int2 = 2
      * output: 1
      * ret0  ret0= "orderedAscending"
      */
@@ -27,8 +27,8 @@ class NSNumber_compare_NSNumber{
     }
     /**
      * input: 2
-     * class0 class0 = 2
-     * int2 int2 = 1
+     * class0 NSNumber$class0 = 2
+     * int2 NSNumber$int2 = 1
      * output: 1
      * ret0  ret0= "orderedDescending"
      */
@@ -44,8 +44,8 @@ class NSNumber_compare_NSNumber{
     }
     /**
      * input: 2
-     * class0  class0 = 1
-     * int2 int2 = 1
+     * class0  NSNumberclass0 = 1
+     * int2 NSNumber$int2 = 1
      * output: 1
      * ret0  ret0= "orderedSame"
      */
