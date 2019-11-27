@@ -14,7 +14,7 @@
      * class0 Throwable$class0
      * output: 1
      * ret0  ret0= "invalid value of a or b"
-     * Throwable$class0-Throwable()&https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html
+     * Throwable$class0-Throwable$Throwable class0 &  &https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html
      */
     public static void getLocalizedMessage0() {
         try {
