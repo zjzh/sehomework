@@ -18,7 +18,7 @@ public class PrintStream_print_Object {
      *  class0 PrintStream$class0
      *  obj obj="hello"
      *  output: 0
-     *  PrintStream$class0 - PrintStream$PrintStream(OutputStream out) & out=System.out & https://blog.csdn.net/qq_34374664/article/details/78659166
+     *  PrintStream$class0 - PrintStream$PrintStream(OutputStream out);System$out & out=System.out & https://blog.csdn.net/qq_34374664/article/details/78659166
      */
     public static void print0(){
         PrintStream class0 = new PrintStream(System.out);
@@ -33,7 +33,7 @@ public class PrintStream_print_Object {
      *  class0 PrintStream$class0
      *  obj obj=0
      *  output: 0
-     *  PrintStream$class0 - PrintStream$PrintStream(OutputStream out) & out=System.out & https://blog.csdn.net/qq_34374664/article/details/78659166
+     *  PrintStream$class0 - PrintStream$PrintStream(OutputStream out);System$out & out=System.out & https://blog.csdn.net/qq_34374664/article/details/78659166
      */
     public static void print1(){
         PrintStream class0 = new PrintStream(System.out);

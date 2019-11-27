@@ -14,8 +14,9 @@ public class InputStream_close {
 
     /**
      *  input: 1
-     *  class0 class0=System.in
+     *  class0 InputStream$class0
      *  output: 0
+     *  InputStream$class0 - System$in & & https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/System.html
      */
     public static void close0(){
         InputStream class0 = System.in;
