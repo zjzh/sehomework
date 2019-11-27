@@ -9,9 +9,10 @@ import Foundation
 
 class Dictionary_removeValue_object{
     /**
-     * input: 0
-     * class0 Dictionary$class0
-     * output 1
+     * input: 2
+     * class0 class0=["123": "a", "456": "b", "789": "c"]
+     * forKey forKey="123"
+     * output: 1
      * ret0 ret0=a
      */
     static func removeValue0(){
@@ -24,9 +25,10 @@ class Dictionary_removeValue_object{
         print(ret0!)
     }
     /**
-     * input: 0
-     * class0 Dictionary$class0
-     * output 1
+     * input: 2
+     * class0 class0=["123": "a", "456": "b", "789": "c"]
+     * forKey forKey="12"
+     * output: 1
      * ret0 ret0=a
      */
     static func removeValue1(){

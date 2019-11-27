@@ -15,10 +15,11 @@ public class ArrayList_isEmpty {
         isEmpty1();
     }
     /**
-     * input: 0
+     * input: 1
      * class0 ArrayList$class0
-     * output 1
+     * output: 1
      * ret0 ret0=false
+     * ArrayList$class0-ArrayList$ArrayLish()&&https://docs.oracle.com/javase/8/docs/api/
      */
     public static void isEmpty0(){
         ArrayList class0 = new ArrayList<>();
@@ -30,10 +31,11 @@ public class ArrayList_isEmpty {
         System.out.println(ret0);
     }
     /**
-     * input: 0
+     * input: 1
      * class0 ArrayList$class0
-     * output 1
+     * output: 1
      * ret0 ret0=true
+     * ArrayList$class0-ArrayList$ArrayLish()&&https://docs.oracle.com/javase/8/docs/api/
      */
     public static void isEmpty1(){
         ArrayList class0 = new ArrayList<>();

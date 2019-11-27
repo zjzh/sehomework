@@ -7,7 +7,7 @@
  */
 public class Class_toString{
     /**
-     * input: 0
+     * input: 1
      * class0 class0="hello"
      * output: 1
      * ret0 ret0="hello"
@@ -21,7 +21,7 @@ public class Class_toString{
     }
 
     /**
-     * input: 0
+     * input: 1
      * class0 class0=1
      * output: 1
      * ret0 ret0="1"

@@ -20,29 +20,31 @@ struct ASCIILogger: TextOutputStream {
 
 class String_write_inoutTarget{
     /**
-     * input: 1
-     * class0 TextOutputStream$class0
-     * str str="a"
-     * output 0
+     * input: 2
+     * class0 class0="a"
+     * logger ASCIILogger$logger
+     * output: 0
+     * TextOutputStream$logger-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write0(){
-        var class0 = ASCIILogger()
-        let str = "a"
+        var logger = ASCIILogger()
+        let class0 = "a"
         print("the following is output")
-        str.write(to: &class0)
+        class0.write(to: &logger)
     }
 
     /**
-     * input: 1
-     * class0 TextOutputStream$class0
-     * str str=" "
-     * output 0
+     * input: 2
+     * class0 class0=" "
+     * logger ASCIILogger$logger
+     * output: 0
+     * TextOutputStream$logger-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write1(){
-        var class0 = ASCIILogger()
-        let str = " "
+        var logger = ASCIILogger()
+        let class0 = " "
         print("the following is output")
-        str.write(to: &class0)
+        class0.write(to: &logger)
     }
 }
 

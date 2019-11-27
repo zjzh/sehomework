@@ -22,10 +22,11 @@ struct ASCIILogger: TextOutputStream {
 
 class TextOutputStream_write_String{
     /**
-     * input: 1
+     * input: 2
      * class0 TextOutputStream$class0
      * ch Character$ch
-     * output 0
+     * output: 0
+     * TextOutputStream$class0-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write0(){
         var class0 = ASCIILogger()
@@ -34,10 +35,11 @@ class TextOutputStream_write_String{
     }
 
    /**
-     * input: 1
+     * input: 2
      * class0 TextOutputStream$class0
      * ch Character$ch
-     * output 0
+     * output: 0
+     * TextOutputStream$class0-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write1(){
         var class0 = ASCIILogger()

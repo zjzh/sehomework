@@ -22,6 +22,7 @@ public class PrintStream_println_char {
      * class0 class0='a'
      * outputStream OutputStream$outputStream
      * output 0
+     * OutputStream$outputStream-System$out&&https://docs.oracle.com/javase/8/docs/api/
      */
 
     public static void println0(){
@@ -35,6 +36,7 @@ public class PrintStream_println_char {
      * class0 class0=' '
      * outputStream OutputStream$outputStream
      * output 0
+     * OutputStream$outputStream-System$out&&https://docs.oracle.com/javase/8/docs/api/
      */
     public static void println1() {
         char array1 = ' ';

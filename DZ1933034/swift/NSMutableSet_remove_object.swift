@@ -9,10 +9,11 @@ import Foundation
 
 class NSMutableSet_remove_object{
     /**
-     * input: 1
-     * class0: NSMutableset$class0
-     * output: 0
+     * input: 2
+     * class0 NSMutableset$class0
      * removeElement removeElement="123"
+     * output: 0
+     * NSMutableset$class0-NSMutableset$NSMutableset()&&https://developer.apple.com/documentation/foundation/nsmutableset
      */
     static func remove0(){
         let class0: NSMutableSet = NSMutableSet()
@@ -32,10 +33,11 @@ class NSMutableSet_remove_object{
         }
     }
     /**
-     * input: 1
-     * class0: NSMutableset$class0
+     * input: 2
+     * class0 NSMutableset$class0
+     * removeElement removeElement=9
      * output: 0
-     * removeElement removeElement=1
+     * NSMutableset$class0-NSMutableset$NSMutableset()&&https://developer.apple.com/documentation/foundation/nsmutableset
      */
     static func remove1(){
         let class0: NSMutableSet = NSMutableSet()
@@ -56,5 +58,5 @@ class NSMutableSet_remove_object{
     }
 }
 
-NSMutableSet_remove.remove0()
-NSMutableSet_remove.remove1()
+NSMutableSet_remove_object.remove0()
+NSMutableSet_remove_object.remove1()

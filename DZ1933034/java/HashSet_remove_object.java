@@ -12,7 +12,7 @@ import java.util.HashSet;
 
 public class HashSet_remove_object{
     /**
-     * input: 1
+     * input: 2
      * class0 HashSet$class0
      * key key="13"
      * output 1
@@ -30,7 +30,7 @@ public class HashSet_remove_object{
         System.out.println(ret0);
     }
     /**
-     * input: 1
+     * input: 2
      * class0 HashSet$class0
      * key key=9
      * output 1

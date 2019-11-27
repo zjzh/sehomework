@@ -9,10 +9,11 @@ import Foundation
 
 class NSCountedSet_remove_object{
     /**
-     * input: 1
-     * class0: NSCountedSet$class0
-     * output: 0
+     * input: 2
+     * class0 NSCountedSet$class0
      * removeElement removeElement="123"
+     * output: 0
+     * NSCountedSet$class0-NSCountedSet$NSCountedSet()&&https://developer.apple.com/documentation/foundation/nscountedset
      */
     static func remove0(){
         let class0: NSCountedSet = NSCountedSet()
@@ -32,10 +33,11 @@ class NSCountedSet_remove_object{
         }
     }
     /**
-     * input: 1
-     * class0: NSCountedSet$class0
+     * input: 2
+     * class0 NSCountedSet$class0
+     * removeElement removeElement=9
+     * NSCountedSet$class0-NSCountedSet$NSCountedSet()&&https://developer.apple.com/documentation/foundation/nscountedset
      * output: 0
-     * removeElement removeElement=1
      */
     static func remove1(){
         let class0: NSCountedSet = NSCountedSet()
