@@ -21,7 +21,7 @@ class String_write_inOutTarget{
      * class0 String$class0="123"
      * String str="a"
      * output:0
-     *TextOutputStream$class0-TextOutputStream$TextOutputStream() & https://developer.apple.com/documentation/swift/textoutputstream
+     *TextOutputStream$class0-TextOutputStream$TextOutputStream() & & https://developer.apple.com/documentation/swift/textoutputstream
      */
     
     static func write0(){
