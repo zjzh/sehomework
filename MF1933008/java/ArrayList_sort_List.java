@@ -19,7 +19,7 @@ public class Array_sort_List {
 	 * input: 1
 	 * class0 class0 = (3, 1, 2)
 	 * output: 1
-	 * class0 class0 = (1, 2, 3)
+	 * ret0 ret0 = (1, 2, 3)
 	 */
 	public static void sort1() {
 		System.out.println(">>>>>>>>>>>>");
@@ -43,7 +43,8 @@ public class Array_sort_List {
 		for(int i = 0; i < class0.size(); i++) {
 			int temp = (int)class0.get(i);
 			System.out.println(temp + " ");
-		}
+		};
+		ret0 = class0;
 	}
 
 	public static void main(String[] args) {

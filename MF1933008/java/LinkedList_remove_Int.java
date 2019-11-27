@@ -18,7 +18,7 @@ public class LinkedList_remove_Int {
 	 * class0 class0 = (1, 2, 3 ,4, 5)
      * index index = 2
 	 * output: 1
-	 * class0 class0 = (1, 2, 4, 5)
+	 * ret0 ret0 = (1, 2, 4, 5)
 	 */
 	public static void remove1() {
 		System.out.println(">>>>>>>>>>>>");
@@ -48,6 +48,7 @@ public class LinkedList_remove_Int {
 			int temp = (int)class0.get(i);
 			System.out.println(temp + " ");
 		}
+		ret0 = class0;
 	}
 
 	public static void main(String[] args) {

@@ -14,7 +14,7 @@ class NSArray_sortedArray_NSArray {
      * input: 3
      * class0 class0 = [2, 1, 3]
      * funtion function = sortFunc
-     * Pointer context = []
+     * context context = []
      * output: 1
      * ret0 ret0 = [1, 2, 3]
      */

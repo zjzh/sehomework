@@ -13,7 +13,7 @@ class ContiguousArray_remove_At {
      * class0 class0 = [1, 2, 3, 4, 5]
      * rmeoved removed = 2
      * output: 1
-     * class0 class0 = [1, 2, 4, 5]
+     * ret0 ret0 = [1, 2, 4, 5]
      */
     static func remove1() {
         print(">>>>>>>>>>>>>>")
@@ -24,6 +24,7 @@ class ContiguousArray_remove_At {
         assert (class0 == [1, 2, 4, 5])
         // print(removed)
         print(class0)
+        ret0 = class0
     }
 }
 

@@ -12,7 +12,7 @@ class Array_sort_Array {
      * input: 1
      * class0 class0 = [2, 1, 3]
      * output: 1
-     * class0 class0 = [1, 2, 3]
+     * ret0 ret0 = [1, 2, 3]
      */
     static func sort0() {
         print(">>>>>>>>>>>>>>")
@@ -27,6 +27,7 @@ class Array_sort_Array {
         assert (class0.contains(3) == true)
         class0.sort()
         print(class0)
+        ret0 = class0
     }
 }
 
