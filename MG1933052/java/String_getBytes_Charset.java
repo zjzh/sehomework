@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: String_getBytes_Charset
  *  @apiSignature: java.lang.String$public byte[] getBytes (Charset charset)
- *  @discription:test java api java.lang.String$public byte[] getBytes (Charset charset)
+ *  @description:test java api java.lang.String$public byte[] getBytes (Charset charset)
  *  @Map:NSString$func getBytes(_ buffer: UnsafeMutableRawPointer?, 
 	maxLength maxBufferCount: Int, 
 	usedLength usedBufferCount: UnsafeMutablePointer<Int>?, 
