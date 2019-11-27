@@ -14,16 +14,16 @@ public class LinkedList_offerLast_Object{
 	public static void offerLast0(){
 	/**
 	*input:2
-	*lkdlist LinkedList<Integer>$linkedList=[1,2,3,4]
+	*class0 LinkedList<Integer>$linkedList=[1,2,3,4]
 	*e = 5
 	*
 	*output:1
 	*ret0 LinkedList<Integer>$ret0=[1,2,3,4,5]
 	*/  
 	    Integer[] ary={1,2,3,4};
-		LinkedList<Integer> lkdlist=new LinkedList<>(Arrays.asList(ary));
-        lkdlist.offerLast(5);
-		LinkedList<Integer> ret0=lkdlist;
+		LinkedList<Integer> class0=new LinkedList<>(Arrays.asList(ary));
+        class0.offerLast(5);
+		LinkedList<Integer> ret0=class0;
 		
 		Integer[] temp={1,2,3,4,5};
 		LinkedList<Integer> examine=new LinkedList<>(Arrays.asList(temp));
