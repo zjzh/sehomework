@@ -18,7 +18,7 @@ public class Class_getDeclaringClass{
     public static void getDeclaringClass0() {
          
         Method class0=String.class.getMethods()[0];
-        Class ret0=m.getDeclaringClass();
+        Class ret0=class0.getDeclaringClass();
         assert(ret0==String.class);
         System.out.println(ret0);
         
