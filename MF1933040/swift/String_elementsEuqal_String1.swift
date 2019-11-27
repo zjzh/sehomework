@@ -11,30 +11,30 @@ class String_elementsEuqal_String1{
      /**
      * input: 2
      * class0 class0="hello world"
-     * ELement sq = "hello world"
+     * element element = "hello world"
      * output: 1
      * ret0  ret0=true
      */
     static func elementsEqual0(){
         let class0 = "hello world"
-        let sq = "hello world"
-        let ret0 = class0.elementsEqual(sq)
+        let element = "hello world"
+        let ret0 = class0.elementsEqual(element)
         assert(ret0 == true)
-        print(class0.elementsEqual(sq))
+        print(class0.elementsEqual(element))
     }
     /**
     * input: 2
     * class0 class0="hello world"
-    * ELement sq = "hello"
+    * element element = "hello"
     * output: 1
     * ret0  ret0=false
     */
    static func elementsEqual1(){
        let class0 = "hello world"
-       let sq = "hello"
-       let ret0 = class0.elementsEqual(sq)
+       let element = "hello"
+       let ret0 = class0.elementsEqual(element)
        assert(ret0 == false)
-       print(class0.elementsEqual(sq))
+       print(class0.elementsEqual(element))
    }
 }
 String_elementsEuqal_String1.elementsEqual0()
