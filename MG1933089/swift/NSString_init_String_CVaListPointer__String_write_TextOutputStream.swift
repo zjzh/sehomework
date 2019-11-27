@@ -13,7 +13,7 @@ class NSString_init_String_CVaListPointer__String_write_TextOutputStream{
      *class1 String$class1
      *format format="%.2f"
      *arguments CVaListPointer$arguments
-     *target target=""
+     *target TextOutputStream$target
      *ouput : 1
      *ret0 ret0="0.12"
      *NSString$class0-NSString$init(format: String, arguments argList: CVaListPointer) & format="%.2f";arguments:[CVarArg] = [0.123 as CVarArg] & https://developer.apple.com/documentation/foundation/nsstring/1408503-init
