@@ -16,7 +16,7 @@ public class LinkedList_element {
      * class0 LinkedList<String>$class0
      * output: 1
      * ret0  ret0= "A"
-     * LinkedList<E>$class0-LinkedList<String>& &link-https:https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/
+     * LinkedList<E>$class0-LinkedList<String>$LinkedList<String>() & &link-https:https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/
      */
     public  static void element0() {
         System.out.println(">>>>>>>>>>>>");
