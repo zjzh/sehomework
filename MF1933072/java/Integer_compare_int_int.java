@@ -12,17 +12,19 @@
 
     /**
      * input: 2
-     * class0 class0 = 1
+     * class0 Integer$class0    //静态方法，直接类调用
+     * int1 int1 = 1
      * int2 int2 = 2
      * output: 1
      * ret0  ret0= -1
+     * Integer$class0 & &link:  https://www.geeksforgeeks.org/java-integer-compare-method/
      */
     public  static void compare0(){
         System.out.println(">>>>>>>>>>>>");
-        int class0 = 1;
+        int int1 = 1;
         int int2 = 2;
-        int ret0 = Integer.compare(class0,int2);
-        assert (class0 == 1);
+        int ret0 = Integer.compare(int1,int2);
+        assert (int1 == 1);
         assert (int2 == 2);
         assert (ret0 == -1);
         System.out.println(ret0);
@@ -30,17 +32,18 @@
     }
     /**
      * input: 2
-     * class0 class0 = 1
+     * int1 int1 = 1
      * int2 int2 = 1
      * output: 1
      * ret0  ret0= 0
+     * Integer$class0 & &link:  https://www.geeksforgeeks.org/java-integer-compare-method/
      */
     public  static void compare1(){
         System.out.println(">>>>>>>>>>>>");
-        int class0 = 1;
+        int int1 = 1;
         int int2 = 1;
-        int ret0 = Integer.compare(class0,int2);
-        assert (class0 == 1);
+        int ret0 = Integer.compare(int1,int2);
+        assert (int1 == 1);
         assert (int2 == 1);
         assert (ret0 == 0);
         System.out.println(ret0);
@@ -49,17 +52,18 @@
 
     /**
      * input: 2
-     * class0 class0 = 2
+     * int1 int1 = 2
      * int2 int2 = 1
      * output: 1
      * ret0  ret0= 1
+     * Integer$class0 & &link:  https://www.geeksforgeeks.org/java-integer-compare-method/
      */
     public  static void compare2(){
         System.out.println(">>>>>>>>>>>>");
-        int class0 = 2;
+        int int1 = 2;
         int int2 = 1;
-        int ret0 = Integer.compare(class0,int2);
-        assert (class0 == 1);
+        int ret0 = Integer.compare(int1,int2);
+        assert (int1 == 1);
         assert (int2 == 1);
         assert (ret0 == 1);
         System.out.println(ret0);
@@ -69,7 +73,5 @@
         Integer_compare_int_int.compare0();
         Integer_compare_int_int.compare1();
         Integer_compare_int_int.compare2();
-        
-
     }
 }
