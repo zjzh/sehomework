@@ -14,7 +14,7 @@ public class Calendar_setMinimalDaysInFirstWeek_int {
      * value value=2
      * output: 1
      * ret0 ret0=2
-     * Calendar$class0-Calendar$getInstance() & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
+     * Calendar$class0-Calendar$getInstance() & & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
      */
     public static void setMinimalDaysInFirstWeek0(){
         System.out.println(">>>>>>>>>>>>");
@@ -32,7 +32,7 @@ public class Calendar_setMinimalDaysInFirstWeek_int {
      * value value=8
      * output: 1
      * ret0 ret0=8
-     * Calendar$class0-Calendar$getInstance() & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
+     * Calendar$class0-Calendar$getInstance() & & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
      */
     public static void setMinimalDaysInFirstWeek1(){
         System.out.println(">>>>>>>>>>>>");
@@ -50,7 +50,7 @@ public class Calendar_setMinimalDaysInFirstWeek_int {
      * value value=0
      * output: 1
      * ret0 ret0=0
-     * Calendar$class0-Calendar$getInstance() & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
+     * Calendar$class0-Calendar$getInstance() & & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
      */
     public static void setMinimalDaysInFirstWeek2(){
         System.out.println(">>>>>>>>>>>>");
@@ -68,7 +68,7 @@ public class Calendar_setMinimalDaysInFirstWeek_int {
      * value value=-3
      * output: 1
      * ret0 ret0=-3
-     * Calendar$class0-Calendar$getInstance() & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
+     * Calendar$class0-Calendar$getInstance() & & https://www.yiibai.com/java/util/calendar_setminimaldaysinfirstweek.html
      */
     public static void setMinimalDaysInFirstWeek3(){
         System.out.println(">>>>>>>>>>>>");

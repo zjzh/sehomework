@@ -13,7 +13,7 @@ class Calendar_minimumDaysInFirstWeek{
 	 * class0 Calendar$class0
      * output: 1
      * ret0 ret0=2
-	 * Calendar$class0-Calendar$current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+	 * Calendar$class0-Calendar$current & & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
 	static func minimumDaysInFirstWeek0(){
 		print(">>>>>>>>>>>>");
@@ -28,7 +28,7 @@ class Calendar_minimumDaysInFirstWeek{
 	 * class0 Calendar$class0
      * output: 1
      * ret0 ret0=8
-	 * Calendar$class0-Calendar$current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+	 * Calendar$class0-Calendar$current & & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
 	static func minimumDaysInFirstWeek1(){
 		print(">>>>>>>>>>>>");
@@ -43,7 +43,7 @@ class Calendar_minimumDaysInFirstWeek{
 	 * class0 Calendar$class0
      * output: 1
      * ret0 ret0=0
-	 * Calendar$class0-Calendar$current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+	 * Calendar$class0-Calendar$current & & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
 	static func minimumDaysInFirstWeek2(){
 		print(">>>>>>>>>>>>");
@@ -58,7 +58,7 @@ class Calendar_minimumDaysInFirstWeek{
 	 * class0 Calendar$class0
      * output: 1
      * ret0 ret0=-3
-	 * Calendar$class0-Calendar$current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+	 * Calendar$class0-Calendar$current & & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
 	static func minimumDaysInFirstWeek3(){
 		print(">>>>>>>>>>>>");

@@ -10,7 +10,7 @@ public class Thread_getStackTrace {
      * input: 0
      * output: 1
      * ret0 StackTraceElement[]$ret0
-     * StackTraceElement[]$ret0-Thread$getStackTrace() & https://docs.oracle.com/javase/9/docs/api/java/lang/Thread.html#getStackTrace--
+     * StackTraceElement[]$ret0-Thread$getStackTrace() & & https://docs.oracle.com/javase/9/docs/api/java/lang/Thread.html#getStackTrace--
      */
     public static void getStackTrace0(){
         System.out.println(">>>>>>>>>>>>");
