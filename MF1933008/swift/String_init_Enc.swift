@@ -11,7 +11,7 @@ class String_init_Enc {
     
     /*
      * input: 1
-     * class0 class0 = Data(bytes: [65, 66, 67, 0, 0, 0, 0, 0, 0]) & https://stackoverflow.com/questions/44570363/why-does-strings-bytes-and-cstring-initializers-give-different-results-here/44570513#44570513
+     * class0-String$init?(cString: UnsafePointer<CChar>, encoding enc: String.Encoding) &  class0 = Data(bytes: [65, 66, 67, 0, 0, 0, 0, 0, 0]) & https://stackoverflow.com/questions/44570363/why-does-strings-bytes-and-cstring-initializers-give-different-results-here/44570513#44570513
      * output: 1
      * ret0 ret0 = "ABC"
      */
