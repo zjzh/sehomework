@@ -13,14 +13,14 @@ public class Calendar_set_int_int_int_int_int_int {
 	/**
      * input: 6
      * class0 Calendar$class0
-     * int year = 2019
-     * int month = 11
-     * int date = 12
-     * int hourOfDay = 14
-     * int minute = 52
-     * int second = 43
+     * year year = 2019
+     * month month = 11
+     * date date = 12
+     * hourOfDay hourOfDay = 14
+     * minute minute = 52
+     * second second = 43
      * output: 0
-     * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+     * Calendar$class0-Calendar & class0=Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/
      **/
 	public static void setting0() {
 		Calendar class0 = Calendar.getInstance();
