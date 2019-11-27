@@ -2,7 +2,7 @@
  *  @author: MG1933052唐华骜
  * @className: Thread_getPriority
  * @apiSignature: java.lang.Thread$public final int getPriority()
- * @discription: test java api java.lang.Thread$public final int getPriority()
+ * @description: test java api java.lang.Thread$public final int getPriority()
  * @Map:Thread$func threadPriority() -> Double
  */
 public class Thread_getPriority{
@@ -11,7 +11,7 @@ public class Thread_getPriority{
  * class0 Thread$class0
  * output: 1
  * ret0  ret0=3
- * Thread$class0 = Thread$Thread() & & https://developer.android.com/reference/java/lang/Thread.html#Thread()
+ * Thread$class0 - Thread$Thread() & & https://developer.android.com/reference/java/lang/Thread.html#Thread()
  */
 public static void getPriority0(){
 	System.out.println(">>>>>>>>>>>>");
