@@ -2,7 +2,7 @@
  *  @author: MG1933052唐华骜
  * @className: File_createNewFile
  * @apiSignature: java.io.File$public boolean createNewFile()
- * @discription: test java api java.io.File$public boolean createNewFile()
+ * @description: test java api java.io.File$public boolean createNewFile()
  * @Map:FileManager$func createFile(atPath path: String, 
 	contents data: Data?, 
 	attributes attr: [FileAttributeKey : Any]? = nil) -> Bool
