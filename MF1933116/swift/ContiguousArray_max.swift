@@ -13,6 +13,7 @@ class ContiguousArray_max{
      * class0 ContiguousArray$class0
      * output: 1
      * ret0  ret0 = 9
+	 * ContiguousArray$class0-ContiguousArray$ContiguousArray<Int>() & & https://swiftdoc.org/v3.0/type/contiguousarray/#func-max-by_
      */
     static func max0(){
         let class0 = ContiguousArray<Int> ([8, 2, 7, 1, 4, 9, 5]);
@@ -25,6 +26,7 @@ class ContiguousArray_max{
      * class0 ContiguousArray$class0
      * output: 1
      * ret0  ret0 = "e"
+	 * ContiguousArray$class0-ContiguousArray$ContiguousArray<String>() & & https://swiftdoc.org/v3.0/type/contiguousarray/#func-max-by_
      */
     static func max1(){
         let class0 = ContiguousArray<String>(["a","b","c","d","1687","e"]);

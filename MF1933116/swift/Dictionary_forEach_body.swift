@@ -12,7 +12,7 @@ class Dictionary_forEach_body{
     
      /**
      * input: 1
-     * class0 Dictionary$class0
+     * class0 class0 = [10:"Geeks", 15:"4", 20:"Geeks", 25:"Welcomes", 30:"You" ]
      * output: 1
      * ret0 ret0 = 5
      */
@@ -31,7 +31,7 @@ class Dictionary_forEach_body{
 
      /**
      * input: 1
-     * class0 Dictionary$class0
+     * class0 class0 = [:]
      * output: 1
      * ret0 ret0 = 0
      */

@@ -9,7 +9,7 @@
 class Dictionary_count{
     /**
      * input: 1
-     * class0 Dictionary$class0
+     * class0 class0 = ["1":"name", "2":"age", "3":"weight"]
      * output: 1
      * ret0  ret0 = 3
      */
@@ -22,7 +22,7 @@ class Dictionary_count{
 	
     /**
      * input: 1
-     * class0 Dictionary$class0
+     * class0 class0 = [:]
      * output: 1
      * ret0  ret0 = 0
      */

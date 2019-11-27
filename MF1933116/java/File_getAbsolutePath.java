@@ -16,7 +16,7 @@ public class File_getAbsolutePath {
 	     * class0 File$class0
 	     * output: 1
 	     * String File$ret0
-	     * File$class0-File(String pathname) & pathname="D:/software/jdk/java_workspace/notepad/hw1.pdf" & https://blog.csdn.net/ASN_forever/article/details/80651322
+		 * File$class0-File$File(String pathname) & pathname="D:/software/jdk/java_workspace/notepad/hw1.pdf" & https://blog.csdn.net/ASN_forever/article/details/80651322
 	     */
 	    public  static void getAbsolutePath0(){
 	        System.out.println(">>>>>>>>>>>>");
@@ -31,7 +31,7 @@ public class File_getAbsolutePath {
 	     * class0 File$class0
 	     * output: 1
 	     * String  ret0 = null
-	     * File$class0-File(String pathname) & pathname="**&&%%гд#" & https://blog.csdn.net/ASN_forever/article/details/80651322
+	     * File$class0-File$File(String pathname) & pathname="**&&%%гд#" & https://blog.csdn.net/ASN_forever/article/details/80651322
 	     */
 	    public  static void getAbsolutePath1(){
 	        System.out.println(">>>>>>>>>>>>");
