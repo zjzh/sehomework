@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: ArraySlice_removeLast
  *  @apiSignature: ArraySlice$ func removeLast() -> Element
- *  @discription:test swift api ArraySlice$ func removeLast() -> Element
+ *  @description:test swift api ArraySlice$ func removeLast() -> Element
  *  @Map:java.util.LinkedList$public E removeLast()
  */
 import Foundation
