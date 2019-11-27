@@ -1,5 +1,6 @@
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileInputStream;
 import java.io.File;
 import java.io.IOException;
 
@@ -13,13 +14,14 @@ import java.io.IOException;
  * @Map: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
  */
 
-public class FileOutputStream_string_bool{
+public class FileOutputStream_string_boolean{
 /**
      * input: 2
      * name name = "helloworld.txt"
      * append append = true
      * output: 1
      * ret0 FileOutputStream$ret0
+     * File$file-File$File(String fileName)& String$fileName="wgx_test.txt" & https://www.geeksforgeeks.org/file-class-in-java/
      */
 public static void init0(){
 String name = "helloworld.txt"
@@ -29,12 +31,18 @@ File file = new File(name);
 	 Boolean append = true;
          FileOutputStream ret0 = new FileOutputStream(name,append);
 	 ret0.write(str.getBytes());
+	 FileInputStream input = new FileInputStream(file);
+         int iAvail = input.available();
+         byte[] bytes = new byte[iAvail];
+         input.read(bytes);
+         str =  new String(bytes);
+         assert (str.equals("helloworld"));
+         System.out.println(str);
      }catch (FileNotFoundException e){
-
- e.printStackTrace();
-}catch (IOException e) {
-            e.printStackTrace();
-        }
+         e.printStackTrace();
+     }catch (IOException e) {
+         e.printStackTrace();
+     }
 }
 /**
      * input: 2
@@ -42,6 +50,7 @@ File file = new File(name);
      * append append = true
      * output: 1
      * ret0 FileOutputStream$ret0
+     * File$file-File$File(String fileName)& String$fileName="wgx_test.txt" & https://www.geeksforgeeks.org/file-class-in-java/
      */
 
 public static void init1(){
@@ -52,15 +61,21 @@ File file = new File(name);
 	 Boolean append = true;
          FileOutputStream ret0 = new FileOutputStream(name,append);
 	 ret0.write(str.getBytes());
+	 FileInputStream input = new FileInputStream(file);
+         int iAvail = input.available();
+         byte[] bytes = new byte[iAvail];
+         input.read(bytes);
+         str =  new String(bytes);
+         assert (str.equals("helloearth"));
+         System.out.println(str);
      }catch (FileNotFoundException e){
-
- e.printStackTrace();
-}catch (IOException e) {
-            e.printStackTrace();
-        }
+         e.printStackTrace();
+     }catch (IOException e) {
+         e.printStackTrace();
+     }
 }
 public static void main(String[] args){
-        FileOutputStream_string_bool.init0();
-        FileOutputStream_string_bool.init1();
+        FileOutputStream_string_boolean.init0();
+        FileOutputStream_string_boolean.init1();
     }
 }
