@@ -24,7 +24,14 @@ class OutputStream_init_String_Bool{
         class0!.write(str, maxLength: 11)
         class0!.close()
         let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)     
-      }
+        let input=InputStream(fileAtPath:toFileAtPath)
+        var data=[UInt8](repeating: 0, count: 11)
+        input?.open()
+        input?.read(&data, maxLength: 11)
+        let str = String(bytes: data, encoding: String.Encoding.utf8)
+        assert(str! == "helloworld")
+        print(str!)
+     }
 /**
      * input: 2
      * toFileAtPath toFileAtPath="helloearth.txt"
@@ -42,6 +49,13 @@ class OutputStream_init_String_Bool{
         class0!.write(str, maxLength: 11)
         class0!.close()
         let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)     
+        let input=InputStream(fileAtPath:toFileAtPath)
+        var data=[UInt8](repeating: 0, count: 11)
+        input?.open()
+        input?.read(&data, maxLength: 11)
+        let str = String(bytes: data, encoding: String.Encoding.utf8)
+        assert(str! == "helloearth")
+        print(str!)
       }
 }
 OutputStream_init_String_Bool.init0()
