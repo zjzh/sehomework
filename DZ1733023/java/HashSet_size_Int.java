@@ -12,7 +12,7 @@ import java.util.HashSet;
 public class HashSet_size_Int {
     /*
     * input: 1
-    * class0 class0 = HashSet$class0
+    * class0 HashSet$class0
     * output: 1
     * ret0 ret0 = 5
     * HashSet$class0-HashSet$HashSet() & class0 = [1,2,3,4,5] & https://developer.android.com/reference/java/util/HashSet.html?hl=en#size()
@@ -30,7 +30,7 @@ public class HashSet_size_Int {
     }
     /*
      * input: 1
-     * class0 class0 = HashSet()
+     * class0 HashSet$class0
      * output: 1
      * ret0 ret0 = true
      * */
