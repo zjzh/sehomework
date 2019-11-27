@@ -20,7 +20,7 @@ public class ArrayList_add_Object {
      * output 2
      * class0 ArrayList$class0
      * ret0 = true
-     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {0，1，2} & https://developer.android.com/reference/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {0,1,2} & https://developer.android.com/reference/java/util/ArrayList.html
      */
 
     public  static void add0() {
