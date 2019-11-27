@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: ContiguousArray_removeLast
  *  @apiSignature: ContiguousArray$ func removeLast() -> Element
- *  @discription:test swift api ContiguousArray$ func removeLast() -> Element
+ *  @description:test swift api ContiguousArray$ func removeLast() -> Element
  *  @Map:java.util.LinkedList$public E removeLast()
  */
 import Foundation
