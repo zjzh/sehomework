@@ -11,7 +11,6 @@ public class Calendar_toString_String{
     /**
      * input: 4
      * class0 Calendar$class0
-     * class0 class0=Calendar.getInstance()
      * year year=2019
      * month month=11
      * date date=13
