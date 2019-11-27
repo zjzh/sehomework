@@ -14,16 +14,17 @@ class NSString_compare_String_options_range{
      * class0 class0="a"
      * str str="D"
      * output:1
-     * ret0 ret0=-1
+     * ret0 ret0=NSComparisonResult
      */
     static func compare0(){
         var class0:NSString="a";
         var str="D";
         //NSRange xrange={17,4};
         let nsRange:NSRange=NSRange(location:7,length: 2)
-        let ret0=class0.compare(str, options: NSString.CompareOptions(rawValue: 1), range:nsRange).rawValue;
-        assert(ret0<0)
+        let ret0=class0.compare(str, options: NSString.CompareOptions(rawValue: 1), range:nsRange);
         print(ret0)
+        assert(ret0.rawValue<0)
+        print(ret0.rawValue)
     }
 }
 NSString_compare_String_options_range.compare0()
