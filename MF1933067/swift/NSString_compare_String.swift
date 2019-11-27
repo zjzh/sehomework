@@ -1,14 +1,14 @@
 /**类名_方法名(_形参类型)*
  *  @author: LongKun
- *  @className: NSString_compare_String_options_range
- *  @apiSignature: NSString$func compare(_ string:String,options mask:NSString.CompareOptions=[],range rangeOfReceiverToCompare:NSRange)->ComparisonResult
- *  @description: Test swift api NSString.compare(_ string:String,options mask:NSString.CompareOptions=[],range rangeOfReceiverToCompare:NSRange)->ComparisonResult
+ *  @className: NSString_compare_String
+ *  @apiSignature: NSString$func compare(_string: String)->ComparisonResult
+ *  @description: Test swift api NSString.compare(_string: String)->ComparisonResult
  *  @Map: java.lang.String$public int compareTo(String anotherString)
  */
 
 import Foundation
 
-class NSString_compare_String_options_range{
+class NSString_compare_String{
     /**
      * input:2
      * class0 class0="a"
@@ -19,12 +19,12 @@ class NSString_compare_String_options_range{
     static func compare0(){
         var class0:NSString="a";
         var str="D";
-        //NSRange xrange={17,4};
-        let nsRange:NSRange=NSRange(location:7,length: 2)
-        let ret0=class0.compare(str, options: NSString.CompareOptions(rawValue: 1), range:nsRange);
+        var ret0=class0.compare(str);
         print(ret0)
-        assert(ret0.rawValue<0)
+        assert(ret0.rawValue>0)
         print(ret0.rawValue)
+        
     }
 }
-NSString_compare_String_options_range.compare0()
+
+NSString_compare_String.compare0()
