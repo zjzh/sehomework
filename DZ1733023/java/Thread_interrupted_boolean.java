@@ -35,7 +35,7 @@ public class Thread_interrupted_boolean {
      * class0 class0=Thread$class0
      * output: 1
      * ret0 ret0 = false
-     * Thread$class0-Thread$new Thread()$https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
+     *Thread$class0 - Thread$Thread() &  & https://developer.android.com/reference/java/lang/Thread.html#Thread()
      **/
     public static void interrupted1() throws InterruptedException{
         Thread class1 = new Thread(){
