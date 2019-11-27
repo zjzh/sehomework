@@ -11,7 +11,7 @@ import Foundation
 class Array_subscript_Int{
     /**
      * input: 2
-	   * class0 class0=[-1,2,3,5,7]
+     * class0 class0=[-1,2,3,5,7]
      * index index=0
      * output: 1
      * ret0 ret0=-1

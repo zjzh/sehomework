@@ -14,7 +14,7 @@ public class String_toLowerCase_Locale {
      * loc Locale$loc
      * output: 1
      * ret0 ret0="\u0069\u0069"
-     * Locale$loc-Locale$Locale(String language) & String$language="tr" & https://docs.oracle.com/javase/tutorial/i18n/locale/create.html
+     * Locale$loc-Locale$Locale(String language) & language="tr" & https://docs.oracle.com/javase/tutorial/i18n/locale/create.html
      */
     public  static void toLowerCase0(){
     	System.out.println(">>>>>>>>>>>>");
@@ -36,7 +36,7 @@ public class String_toLowerCase_Locale {
      * loc Locale$loc
      * output: 1
      * ret0 ret0="hello"
-     * Locale$loc-Locale$Locale(String language) & String$language="en" & https://docs.oracle.com/javase/tutorial/i18n/locale/create.html
+     * Locale$loc-Locale$Locale(String language) & language="en" & https://docs.oracle.com/javase/tutorial/i18n/locale/create.html
      */
     public  static void toLowerCase1(){
         System.out.println(">>>>>>>>>>>>");

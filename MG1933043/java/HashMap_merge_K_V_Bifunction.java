@@ -15,7 +15,7 @@ public class HashMap_merge_K_V_Bifunction {
     * newvalue newvalue=2
     * remappingFunction BiFunction$remappingFunction= {((oldVal, newVal) -> oldVal}
     * output: 0
-    * HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String key, Integer value) & String$key="a";Integer$value=1 &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
+    * HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String key, Integer value) & key="a";value=1 &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
     */
 	public static void merge0() {
 		System.out.println(">>>>>>>>>>>>");
@@ -50,7 +50,7 @@ public class HashMap_merge_K_V_Bifunction {
 	* newvalue newvalue=2
 	* remappingFunction BiFunction$remappingFunction= {(oldVal, newVal) -> oldVal}
 	* output: 0
-	* HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String key, Integer value) & String$key="key";Integer$value=1 &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
+	* HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String key, Integer value) & key="key";value=1 &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
     */
 	public static void merge1() {
 		System.out.println(">>>>>>>>>>>>");
@@ -81,7 +81,7 @@ public class HashMap_merge_K_V_Bifunction {
 	* newvalue newvalue="world"
 	* remappingFunction BiFunction$remappingFunction= {(oldVal, newVal) -> newVal}
 	* output: 0
-	* HashMap$class0-HashMap$HashMap<String, String>();HashMap$put(String key, String value) & String$key="key";String$value="hello" &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
+	* HashMap$class0-HashMap$HashMap<String, String>();HashMap$put(String key, String value) & key="key";value="hello" &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
     */
 	public static void merge2() {
 		System.out.println(">>>>>>>>>>>>");
