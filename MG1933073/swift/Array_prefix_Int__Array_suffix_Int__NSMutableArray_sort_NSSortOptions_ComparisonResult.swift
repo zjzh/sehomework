@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)*
- * @author:MG1933073 ÐÜ¿¡
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)*
+ * @author:MG1933073 ç†Šä¿Š
  * @className:Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_ComparisonResult
  * @apiSignature:Array$func prefix(upTo end: Int) -> ArraySlice<Element>;Array$func suffix(from start: Int) -> ArraySlice<Element>;NSMutateArray$func sort(options opts: NSSortOptions=[],usingComparator cmptr:(Any,Any)->ComparisonResult)
  * @description:Test swift api Array$prefix(upTo end: Int);Array$suffix(from start: Int);NSMutableArray$sort(options opts: NSSortOptions=[],usingComparator cmptr:(Any,Any)->ComparisonResult)
@@ -17,7 +17,7 @@
       *output:2
       *ret0 ret0=[5,4,3,2,1]
       *ret1 ret1=[5,4,3,2,1]
-      *NSSortOptions$options- struct NSSortOptions&NSSortOptions=[]&https://developer.apple.com/documentation/foundation/nssortoptions
+      *NSSortOptions$options-struct NSSortOptions&NSSortOptions=[]&https://developer.apple.com/documentation/foundation/nssortoptions
       */
      static func prefix_suffix_sort0(){
          print(">>>>>>>>>>>>>>>>>");
