@@ -21,7 +21,7 @@ class TextOutputStream_write_String{
      * input:1
      * class0 TextOutputStream$class0
      * output:0
-     *TextOutputStream$class0-TextOutputStream$TextOutputStream() & https://developer.apple.com/documentation/swift/textoutputstream
+     *TextOutputStream$class0-TextOutputStream$TextOutputStream() & &https://developer.apple.com/documentation/swift/textoutputstream
      */
     
     static func write0(){
