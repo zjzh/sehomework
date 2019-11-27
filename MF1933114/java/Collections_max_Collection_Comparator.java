@@ -14,7 +14,7 @@ public class Collections_max_Collection_Comparator{
 	public static void max0(){
 	/**
 	*input:2
-	*class0 List<Integer>$coll
+	*coll List<Integer>$coll
 	*comp Comparator$comp={(Integer a,Integer b)->a-b}
 	*output:1
 	*ret0 ret0 = 12
