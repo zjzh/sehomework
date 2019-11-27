@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: ContiguousArray_popLast
  *  @apiSignature: ContiguousArray$ func popLast() -> Element
- *  @discription:test swift api ContiguousArray$ func popLast() -> Element
+ *  @description:test swift api ContiguousArray$ func popLast() -> Element
  *  @Map:java.util.LinkedList$public E popLast()
  */
 import Foundation
