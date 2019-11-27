@@ -15,7 +15,7 @@ class ObjectiveCRuntime_classcopyProtocolList_AnyClass_UnsafeMutablePointer {
     * ouput : 1
     * ret0 AutoreleasingUnsafeMutablePointer?$ret0
     * AnyClass?$cls-ObjectiveCRuntime$object_getClass(_ obj: Any?);NSObject$init() & _=NSObject() & http://www.voidcn.com/article/p-zpyzswgn-bvg.html
-    * UnsafeMutablePointer?$ret0-UnsafeMutablePointer$allocate(capacity count: int) & capacity=0 & https://onevcat.com/2015/01/swift-pointer
+    * UnsafeMutablePointer?$outCount-UnsafeMutablePointer$allocate(capacity count: int) & capacity=0 & https://onevcat.com/2015/01/swift-pointer
     */
     static func classcopyProtocolList0() {
         print(">>>>>>>>")

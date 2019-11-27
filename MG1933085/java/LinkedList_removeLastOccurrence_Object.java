@@ -16,7 +16,7 @@ public class LinkedList_removeLastOccurrence_Object {
      * o o="interesting"
      * output: 1
      * ret0 ret0=true
-     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a);a="interesting", "happy", "funny", "interesting", "exciting" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * LinkedList$class0-Arrays$asList(T... a);LinkedList$LinkedList(Collection c) & a="interesting", "happy", "funny", "interesting", "exciting";c=Arrays.asList(a) & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void removeLastOccurrence0() {
         System.out.println(">>>>>>>>>>>>");
@@ -37,7 +37,7 @@ public class LinkedList_removeLastOccurrence_Object {
      * o o="interesting"
      * output: 1
      * ret0 ret0=false
-     * LinkedList$class0-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a);a="happy", "funny", "exciting" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * LinkedList$class0-Arrays$asList(T... a);LinkedList$LinkedList(Collection c) & a="happy", "funny", "exciting";c=Arrays.asList(a) & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void removeLastOccurrence1() {
         System.out.println(">>>>>>>>>>>>");
