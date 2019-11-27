@@ -3,7 +3,7 @@
  *  @className: Thread_interrupted_boolean
  *  @apiSignature: java.lang.Thread$public static boolean interrupted ()
  *  @description: Test java api java.lang.Thread$public static boolean interrupted ()
- *  @Map: 
+ *  @Map: Thread$var isCancelled: Bool { get }
  */
 import java.lang.Thread;
 public class Thread_interrupted_boolean {
@@ -12,7 +12,7 @@ public class Thread_interrupted_boolean {
      * class0 class0=Thread$class0
      * output: 1
      * ret0 ret0 = true
-     * Thread$class0-Thread$new Thread()$https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
+     *Thread$class0 - Thread$Thread() &  & https://developer.android.com/reference/java/lang/Thread.html#Thread()
      **/
     public static void interrupted0() throws InterruptedException{
         Thread class0 = new Thread(){
