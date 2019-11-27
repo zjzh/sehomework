@@ -12,13 +12,13 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
      /**
      * input: 8
      * class0 Canlendar$class0
-     * int year = 2019
-     * int month = 11
-     * int day = 12
-     * int hour = 16
-     * int minute = 21
-     * int second = 43
-     * int nanosecond = 23
+     * year year = 2019
+     * month month = 11
+     * day day = 12
+     * hour hour = 16
+     * minute minute = 21
+     * second second = 43
+     * nanosecond nanosecond = 23
      * output: 1
      * ret0 DateComponents$ret0
      * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
