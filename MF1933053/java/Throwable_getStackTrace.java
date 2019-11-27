@@ -8,7 +8,7 @@
 class Throwable_getStackTrace {
     /**
      * input: 1
-     * class0 Thread$class0
+     * class0 Throwable$class0
      * output: 1
      * ret0 StackTraceElement$ret0
      * Throwable$class0-Throwable$Throwable() & & https://docs.oracle.com/javase/8/docs/api/
