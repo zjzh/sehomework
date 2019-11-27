@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: Tread_threadPriority
  *  @apiSignature: Thread$func threadPriority() -> Double
- *  @discription:test swift api Thread$func threadPriority() -> Double
+ *  @description:test swift api Thread$func threadPriority() -> Double
  *  @Map:java.lang.Thread$public final int getPriority()
  */
 import Foundation
