@@ -12,18 +12,18 @@ class NSDateComponents_setValue_Int_NSCalendar$Unit{
      * input: 2
      * class0 NSDateComponents$class0
      * value value=2019
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit=NSCalendar.Unit.year
      * output: 1
      * ret0  ret0=2019
-     * NSDateComponents$class0-NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
-     * NSCalendar.Unit$unit-NSCalendar$Unit$year & https://stackoverflow.com/questions/36278943/nsdatecomponents-setvalue-not-working-with-ios-7-and-lower-version
+     * NSDateComponents$class0-NSDateComponents$NSDateComponents() & class0=NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
      */
      static func setValue0(){
          print(">>>>>>>>>>>>")         
-         let components = NSDateComponents();
+         let class0 = NSDateComponents();
          let value = 2019
-         components.setValue(value, forComponent: NSCalendar.Unit.year);
-         let ret0 = components.year
+         let unit = NSCalendar.Unit.year
+         class0.setValue(value, forComponent: unit);
+         let ret0 = class0.year
          assert(ret0 == value)
          print(ret0)
      }
@@ -32,18 +32,18 @@ class NSDateComponents_setValue_Int_NSCalendar$Unit{
      * input: 2
      * class0 NSDateComponents$class0
      * value value=11
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit = NSCalendar.Unit.month
      * output: 1
      * ret0  ret0=11
-     * NSDateComponents$class0-NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
-     * NSCalendar.Unit$unit-NSCalendar$Unit$month & https://stackoverflow.com/questions/36278943/nsdatecomponents-setvalue-not-working-with-ios-7-and-lower-version
+     * NSDateComponents$class0-NSDateComponents$NSDateComponents() & class0=NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
      */
      static func setValue1(){
          print(">>>>>>>>>>>>")
-         let components = NSDateComponents();
+         let class0 = NSDateComponents();
          let value = 11
-         components.setValue(value, forComponent: NSCalendar.Unit.month);
-         let ret0 = components.month
+         let unit = NSCalendar.Unit.month
+         class0.setValue(value, forComponent: unit);
+         let ret0 = class0.month
          assert(ret0 == value)
          print(ret0)
      }
@@ -52,18 +52,18 @@ class NSDateComponents_setValue_Int_NSCalendar$Unit{
      * input: 2
      * class0 NSDateComponents$class0
      * value value=12
-     * unit NSCalendar.Unit$unit
+     * unit NSCalendar.Unit$unit = NSCalendar.Unit.month
      * output: 1
      * ret0  ret0=1
-     * NSDateComponents$class0-NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
-     * NSCalendar.Unit$unit-NSCalendar$Unit$day & https://stackoverflow.com/questions/36278943/nsdatecomponents-setvalue-not-working-with-ios-7-and-lower-version
+     * NSDateComponents$class0-NSDateComponents$NSDateComponents() & class0=NSDateComponents() & https://developer.apple.com/documentation/foundation/nsdatecomponents
      */
      static func setValue2(){
          print(">>>>>>>>>>>>")
-         let components = NSDateComponents();
+         let class0 = NSDateComponents();
          let value = 12
-         components.setValue(value, forComponent: NSCalendar.Unit.day);
-         let ret0 = components.day
+         let unit = NSCalendar.Unit.day
+         class0.setValue(value, forComponent: unit);
+         let ret0 = class0.day
          assert(ret0 == value)
          print(ret0)
      }

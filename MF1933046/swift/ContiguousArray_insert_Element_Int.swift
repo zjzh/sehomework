@@ -15,11 +15,11 @@
      * newElement newElement=100
      * at at=3
      * output: 0
-     * ContiguousArrary$class0-ContiguousArrary() & https://developer.apple.com/documentation/swift/contiguousarray
+     * ContiguousArray$class0-ContiguousArray$init(arrayLiteral elements: Element...) & arrayLiteral = 1,2,3,4,5 & https://developer.apple.com/documentation/swift/contiguousarray/2963727-init
      */
      static func insert0(){
          print(">>>>>>>>>>>>")
-         var class0 = ContiguousArray<Int>([1,2,3,4,5])
+         var class0=ContiguousArray.init(arrayLiteral: 1,2,3,4,5)
          let newElement = 100
          let at = 3
          class0.insert(newElement, at: at)

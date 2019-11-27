@@ -17,8 +17,8 @@ public class Collections_min_Collection_Comparator{
          * comp: Comparator$comp
          *output:1
          *ret0 ret0=1
-         * ArrayList<Integer>$coll-ArrayList<Integer>() & https://www.geeksforgeeks.org/collections-min-method-in-java-with-examples/
-         * Comparator$comp-Collections$reverseOrder() & https://www.geeksforgeeks.org/collections-min-method-in-java-with-examples/
+         * ArrayList<Integer>$coll-ArrayList<Integer>() & & https://www.geeksforgeeks.org/collections-min-method-in-java-with-examples/
+         * Comparator$comp-Collections$reverseOrder() & & https://www.geeksforgeeks.org/collections-min-method-in-java-with-examples/
          */
         List<Integer> coll = new ArrayList<Integer>();
         coll.add(5);

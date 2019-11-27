@@ -11,15 +11,14 @@
  class Array_insert_Element_Int{
      /**
      * input: 3
-     * class0 Array$class0
+     * class0 Array$class0=[1,2,3,4,5]
      * newElement newElement=100
      * at at=3
      * output: 0
-     * Arrary$class0-Arrary() & https://developer.apple.com/documentation/swift/array
      */
      static func insert0(){
          print(">>>>>>>>>>>>")
-         var class0 = Array<Int>([1,2,3,4,5])
+         var class0:Array=[1,2,3,4,5]
          let newElement = 100
          let at = 3
          class0.insert(newElement, at: at)

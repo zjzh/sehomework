@@ -15,11 +15,11 @@
      * newElement newElement=100
      * at at=3
      * output: 0
-     * ArrarySlice$class0-ArrarySlice() & https://developer.apple.com/documentation/swift/arrayslice
+     * ArraySlice$class0-ArraySlice$init(arrayLiteral elements: Element...) & arrayLiteral=1,2,3,4,5 & https://developer.apple.com/documentation/swift/arrayslice/1541070-init
      */
      static func insert0(){
          print(">>>>>>>>>>>>")
-         var class0 = ArraySlice<Int>([1, 2, 3, 4, 5])
+         var class0=ArraySlice.init(arrayLiteral: 1,2,3,4,5)
          let newElement = 100
          let at = 3
          class0.insert(newElement, at: at)

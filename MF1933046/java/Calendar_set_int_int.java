@@ -14,7 +14,7 @@ public class Calendar_set_int_int {
      * value value=2019
      * output: 1
      * ret0 ret0=2019
-     * Calendar$class0-Calendar$getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance
+     * Calendar$class0-Calendar$getInstance() & class0=Calendar.getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance
      */
     public static void set0(){
         System.out.println(">>>>>>>>>>>>");
@@ -34,7 +34,7 @@ public class Calendar_set_int_int {
      * value value=11
      * output: 1
      * ret0 ret0=11
-     * Calendar$class0-Calendar$getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance
+     * Calendar$class0-Calendar$getInstance() & class0=Calendar.getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance
      */
     public static void set1(){
         System.out.println(">>>>>>>>>>>>");
@@ -54,7 +54,7 @@ public class Calendar_set_int_int {
      * value value=12
      * output: 1
      * ret0 ret0=12
-     * Calendar$class0-Calendar$getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance
+     * Calendar$class0-Calendar$getInstance() & class0=Calendar.getInstance() & https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html#getInstance
      */
     public static void set2(){
         System.out.println(">>>>>>>>>>>>");

@@ -9,13 +9,13 @@ import java.lang.Integer;
 public class Integer_toOctalString_int {
     /**
      * input: 1
-     * i i=48
+     * class0 class0=48
      * output: 1
      * ret0 ret0="60"
      */
     public static void toOctalString0(){
-        int i = 48;
-        String ret0 = Integer.toOctalString(i);
+        Integer class0 = 48;
+        String ret0 = Integer.toOctalString(class0);
         assert (ret0 == "60");
         System.out.println(ret0);
     }
