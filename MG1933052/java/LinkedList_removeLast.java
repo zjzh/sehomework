@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: LinkedList_removeLast
  *  @apiSignature: java.util.LinkedList$public E removeLast()
- *  @discription:test java api java.util.LinkedList$public E removeLast()
+ *  @description:test java api java.util.LinkedList$public E removeLast()
  *  @Map:ContiguousArray$ func removeLast() -> Element
  *  @Map:Array$ func removeLast() -> Element
  *  @Map:ArraySlice$ func removeLast() -> Element
