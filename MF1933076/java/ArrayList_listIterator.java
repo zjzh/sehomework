@@ -16,7 +16,7 @@ public class ArrayList_listIterator {
      * class0 ArrayList$class0
      * output: 1
      * ret0 ListIterator$ret0
-     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {0，1，2} & https://developer.android.com/reference/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(Integer... a) & c=Arrays.asList(a); a=new Integer[] {0,1,2} & https://developer.android.com/reference/java/util/ArrayList.html
      */
 
     public  static void listIterator0() {
