@@ -21,7 +21,7 @@ public class ArrayList_contains_Object {
      *  o o="apple"
      *  output: 1
      *  ret0 ret0=true
-     *  ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays$asList&https://www.cnblogs.com/pcheng/p/9897596.html
+     *  ArrayList$class0 - ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(T... a) & c=Arrays.asList(a);a=("apple", "banana", "orange") & https://www.cnblogs.com/pcheng/p/9897596.html
      */
     public static void contains0(){
         ArrayList class0 = new ArrayList(Arrays.asList("apple", "banana", "orange"));
@@ -37,7 +37,7 @@ public class ArrayList_contains_Object {
      *  o o="peach"
      *  output: 1
      *  ret0 ret0=false
-     *  ArrayList$class0-ArrayList$ArrayList(Collection<? extends E> c)&c=Arrays$asList&https://www.cnblogs.com/pcheng/p/9897596.html
+     *  ArrayList$class0 - ArrayList$ArrayList(Collection<? extends E> c);Arrays$asList(T... a) & c=Arrays.asList(a);a=("apple", "banana", "orange") & https://www.cnblogs.com/pcheng/p/9897596.html
      */
     public static void contains1(){
         ArrayList class0 = new ArrayList(Arrays.asList("apple", "banana", "orange"));

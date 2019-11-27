@@ -17,7 +17,7 @@ public class Calendar_getCalendarType {
      *  class0 Calendar$class0
      *  output: 1
      *  ret0 ret0="gregory"
-     *  Calendar$class0-Calendar$getInstance&https://blog.csdn.net/joyous/article/details/9630893
+     *  Calendar$class0 - Calendar$getInstance & & https://blog.csdn.net/joyous/article/details/9630893
      */
     public static void getCalendarType0(){
         Calendar class0 = Calendar.getInstance();

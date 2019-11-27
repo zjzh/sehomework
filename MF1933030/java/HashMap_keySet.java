@@ -20,8 +20,8 @@ public class HashMap_keySet {
      *  class0 HashMap$class0
      *  output: 1
      *  ret0 HashSet$ret0
-     *  HashMap$class0-HashMap$HashMap&https://blog.csdn.net/zxl2016/article/details/78870738
-     *  HashSet$ret0-HashSet$HashSet&https://blog.csdn.net/hebeiqiaozhonghui/article/details/87694587
+     *  HashMap$class0 - HashMap$HashMap() & & https://blog.csdn.net/zxl2016/article/details/78870738
+     *  HashSet$ret0 - HashSet$HashSet() & & https://blog.csdn.net/hebeiqiaozhonghui/article/details/87694587
      */
     public static void keySet0(){
         HashMap class0 = new HashMap();
@@ -36,8 +36,8 @@ public class HashMap_keySet {
      *  class0 HashMap$class0
      *  output: 1
      *  ret0 HashSet$ret0
-     *  HashMap$class0-HashMap$HashMap&https://blog.csdn.net/zxl2016/article/details/78870738
-     *  HashSet$ret0-HashSet$HashSet&https://blog.csdn.net/hebeiqiaozhonghui/article/details/87694587
+     *  HashMap$class0 - HashMap$HashMap() & & https://blog.csdn.net/zxl2016/article/details/78870738
+     *  HashSet$ret0 - HashSet$HashSet() & & https://blog.csdn.net/hebeiqiaozhonghui/article/details/87694587
      */
     public static void keySet1(){
         HashMap class0 = new HashMap();

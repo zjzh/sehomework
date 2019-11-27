@@ -13,7 +13,7 @@ class Stream_close{
      *  input: 1
      *  class0 Stream$class0
      *  output: 0
-     *  Stream$class0-InputStream$InputStream(data: Data)&Data=Data$Data&http://www.ojit.com/article/450615
+     *  Stream$class0 - InputStream$InputStream(data: Data);Data$Data() & data=Data() & http://www.ojit.com/article/450615
      */ 
     static func close0(){
         let class0 = InputStream(data:Data())

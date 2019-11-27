@@ -14,9 +14,8 @@ public class InputStream_close {
 
     /**
      *  input: 1
-     *  class0 InputStream$class0
+     *  class0 class0=System.in
      *  output: 0
-     *  InputStream$class0-System$in&https://blog.csdn.net/wangbaochu/article/details/53484042
      */
     public static void close0(){
         InputStream class0 = System.in;

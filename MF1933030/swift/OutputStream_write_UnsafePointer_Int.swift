@@ -14,8 +14,8 @@ class OutputStream_write_UnsafePointer_Int{
      *  buffer UnsafePointer$buffer
      *  maxLength maxLength=4
      *  output: 0
-     *  OutputStream$class0-OutputStream$toMemory&https://www.jianshu.com/p/e90393ba2aea
-     *  UnsafePointer$buffer-UnsafeMutablePointer<UInt8>$allocate(capacity: Int)&Int=4&https://www.jianshu.com/p/e90393ba2aea
+     *  OutputStream$class0 - OutputStream$toMemory & & https://www.jianshu.com/p/e90393ba2aea
+     *  UnsafePointer$buffer - UnsafeMutablePointer<UInt8>$allocate(capacity: Int) & capacity=4 & https://www.jianshu.com/p/e90393ba2aea
      */
     static func write0(){
         let class0 = OutputStream.toMemory()
