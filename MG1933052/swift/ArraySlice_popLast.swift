@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: ArraySlice_popLast
  *  @apiSignature: ArraySlice$ func popLast() -> Element
- *  @discription:test swift api ArraySlice$ func popLast() -> Element
+ *  @description:test swift api ArraySlice$ func popLast() -> Element
  *  @Map:java.util.LinkedList$public E popLast()
  */
 import Foundation
