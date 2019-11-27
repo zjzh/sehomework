@@ -13,7 +13,7 @@ public class File_lastModified {
      * output:1
      * ret0 ret0=millsec  //不确定的，因为与时间有关
      * File$class0-File$File(String pathname) & String$pathname="file.txt" & https://developer.android.com/reference/java/io/File.html?hl=en#File(java.lang.String)
-     * File$class0-File$exists() & https://developer.android.com/reference/java/io/File.html?hl=en#exists()
+     * File$class0-File$exists() & & https://developer.android.com/reference/java/io/File.html?hl=en#exists()
      */
     public static void lastmodifiled0(){
         System.out.println(">>>>>>>>>>>>");
