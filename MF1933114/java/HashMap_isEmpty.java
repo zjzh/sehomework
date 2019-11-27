@@ -11,13 +11,13 @@ public class HashMap_isEmpty{
 	public static void isEmpty0(){
 	/**
 	*input:1
-	*class0 HashMap<Integer,Integer>$hashmap
+	*class0 HashMap<Integer,Integer>$class0
 	*output:1
 	*ret0=true
-	*HashMap$hashmap-HashMap$isEmpty() & HashMap<Integer,Integer>hashmap=new HashMap<>(); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+	*HashMap$class0-HashMap$isEmpty() & HashMap<Integer,Integer>hashmap=new HashMap<>(); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
 	*
 	*/  
-	    HashMap<Integer,Integer>hashmap=new HashMap<>();
+	    HashMap<Integer,Integer>class0=new HashMap<>();
 	    boolean ret0=hashmap.isEmpty();
 		assert (ret0==true);
 		System.out.println(ret0);
@@ -25,14 +25,14 @@ public class HashMap_isEmpty{
 	public static void isEmpty1(){
 	/**
 	*input:1
-	*hashmap HashMap<Integer,Integer>$hashmap={(0,0)}
+	*class1 HashMap<Integer,Integer>$class1
 	*output:1
 	*ret1=false
-	*HashMap$hashmap-HashMap$isEmpty() & HashMap<Integer,Integer>hashmap=new HashMap<>(); hashmap.put(0,0); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+	*HashMap$class1-HashMap$isEmpty() & HashMap<Integer,Integer>class1=new HashMap<>(); hashmap.put(0,0); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
 	*/  
-	    HashMap<Integer,Integer>hashmap=new HashMap<>();
-	    hashmap.put(0,0);
-	    boolean ret1=hashmap.isEmpty();
+	    HashMap<Integer,Integer>class1=new HashMap<>();
+	    class1.put(0,0);
+	    boolean ret1=class1.isEmpty();
 		assert (ret1==false);
 		System.out.println(ret1);
 	}
