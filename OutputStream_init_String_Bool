@@ -4,7 +4,7 @@ import Foundation
  *  @className: OutputStream_init_String_Bool
  *  @apiSignature: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
  *  @description: Test swift api OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
- *  @Map:java api FileOutputStream$FileOutputStream(String name, boolean append)
+ *  @Map: FileOutputStream$FileOutputStream(String name, boolean append)
  */
 class OutputStream_init_String_Bool{
      /**
