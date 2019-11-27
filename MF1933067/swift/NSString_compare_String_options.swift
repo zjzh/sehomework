@@ -27,4 +27,4 @@ class NSString_compare_String_options{
     }
 }
 
-//NSString_compare_String_options.compare0()
+NSString_compare_String_options.compare0()
