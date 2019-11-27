@@ -16,8 +16,8 @@ public class Array_sort_Array_int_int_Comparator {
      * comparator Comparator$comparator
      * output: 1
      * ret0 Integer[]$ret0
-     * Integer[]$class0-dataType arrayRefVar[]={data}& _=Integer class0[]={0,6,5,4,3,0,0} &https://blog.csdn.net/df0128/article/details/80435773
-     * Comparator$public abstract int compare (T o1, T o2)&Comparator comparator = new TestComparator()&https://www.tutorialspoint.com/java/java_using_comparator.htm
+     * Integer[]$class0-dataType arrayRefVar[]={data}& data=0,6,5,4,3,0,0 &https://blog.csdn.net/df0128/article/details/80435773
+     * Comparator$comparator-TestComparator()&https://www.tutorialspoint.com/java/java_using_comparator.htm
      */
     public static void sort0(){
         System.out.println(">>>>>>>>>>>>");
