@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 public class Class_getDeclaringClass{
     /**
 	*input:1
-	*m Method$m
+	*class0 Method$m
 	*output:1
 	*ret0 Class$ret0=java.lang.String
 	*Method$m-Class$getDeclaringClass & Method m=String.class.getMethods()[0]; & https://docs.oracle.com/javase/8/docs/api/java/beans/MethodDescriptor.html#getMethod--
