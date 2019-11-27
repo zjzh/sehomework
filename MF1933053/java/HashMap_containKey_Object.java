@@ -30,7 +30,7 @@ class HashMap_containKey_Object {
      * class1 HashMap$class1
      * output: 1
      * ret1 ret1=false
-     * HashMa$class0-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
+     * HashMa$class1-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void containsKey1(){
         HashMap<Integer,Integer> class1 = new HashMap<Integer,Integer>();

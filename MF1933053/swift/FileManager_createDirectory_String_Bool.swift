@@ -1,4 +1,4 @@
-import Foundation
+impo*rt Foundation
 /**
 * @author: MF1933053李志成
 * @className: FileManager_createDirectory_String_Bool
@@ -8,15 +8,17 @@ import Foundation
 */
 class FileManager_createDirectory_String_Bool{
     /**
-    * input: 2
+    * input: 3
 	* path path = "./test"
     * createIntermediates createIntermedaites = true
+	* attributes attributes?=nil
     * output:1
     * ret0 ret0=true
     */
     static func createDirectory0(){
         let path="./test"
         let createIntermediates = true
+		var attributes? = nil
         let ret0 = FileManager.createDirectory(path:path, createIntermediates:createIntermediates, attributes:nil)
         assert(ret0 == true)
         print(ret0)
