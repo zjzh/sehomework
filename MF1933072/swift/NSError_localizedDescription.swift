@@ -9,8 +9,6 @@ import Foundation
 
 enum RegistrationError: Error { // the custom error type
     case invalidValue
-    case invalidPassword
-    case invalidPhoneNumber
 }
 
 extension RegistrationError: LocalizedError {   //an extention of error description about erery error type
@@ -19,10 +17,6 @@ extension RegistrationError: LocalizedError {   //an extention of error descript
         switch self {
         case .invalidValue:
             return NSLocalizedString("invalid value of a or b", comment: "Invalid value")
-        case .invalidPassword:
-            return NSLocalizedString("Description of invalid password", comment: "Invalid Password")
-        case .invalidPhoneNumber:
-            return NSLocalizedString("Description of invalid phoneNumber", comment: "Invalid Phone Number")
         }
     }
 }
@@ -35,6 +29,7 @@ class NSError_localizedDescription{
      * class0 class0 = RegistrationError.invalidValue
      * output: 1
      * ret0  ret0= "invalid value of a or b"
+     * 代码参考连接，全网未找到更加简单的:https://riptutorial.com/swift/example/28601/create-custom-error-with-localized-description
      */
 
     static func localizedDescription0(){
@@ -53,5 +48,3 @@ class NSError_localizedDescription{
 }
 
 NSError_localizedDescription.localizedDescription0()
-
-
