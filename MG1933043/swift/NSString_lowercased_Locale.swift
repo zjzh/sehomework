@@ -14,8 +14,8 @@ class NSString_lowercased_Locale{
      * loc Locale$loc
      * output: 1
      * ret0 ret0="\u{0069}\u{0069}"
-     * NSString$class0-NSString$init(string: String) & String$string="\u{0130}\u{0069}" & https://developer.apple.com/documentation/foundation/nsstring
-     * Locale$loc-Locale$init(identifier: String) & String$identifier="tr_TR" & https://developer.apple.com/documentation/foundation/locale
+     * NSString$class0-NSString$init(string: String) & string="\u{0130}\u{0069}" & https://developer.apple.com/documentation/foundation/nsstring
+     * Locale$loc-Locale$init(identifier: String) & identifier="tr_TR" & https://developer.apple.com/documentation/foundation/locale
      */
     static func lowercased0(){
       print(">>>>>>>>")
@@ -36,8 +36,8 @@ class NSString_lowercased_Locale{
      * loc Locale$loc
      * output: 1
      * ret0 ret0="hello"
-     * NSString$class0-NSString$init(string: String) & String$string="HeLLo" & https://developer.apple.com/documentation/foundation/nsstring
-     * Locale$loc-Locale$init(identifier: String) & String$identifier="EN" & https://developer.apple.com/documentation/foundation/locale
+     * NSString$class0-NSString$init(string: String) & string="HeLLo" & https://developer.apple.com/documentation/foundation/nsstring
+     * Locale$loc-Locale$init(identifier: String) & identifier="EN" & https://developer.apple.com/documentation/foundation/locale
      */
     static func lowercased1(){
       print(">>>>>>>>")
@@ -51,9 +51,6 @@ class NSString_lowercased_Locale{
       
       print(ret0);
 
-      //for e in Locale.availableIdentifiers{
-      //  print(e);
-      //}
 
     }
 

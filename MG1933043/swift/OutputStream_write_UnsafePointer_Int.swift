@@ -14,7 +14,7 @@ class OutputStream_write_UnsafePointer_Int{
      * maxLength maxLength=3
      * output: 1
      * ret0 ret0=3
-     * OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="file.txt";Bool$shouldAppend=false &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
+     * OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & path="file.txt";shouldAppend=false &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
      */
     static func write0(){
         let toFileAtPath="file.txt"
@@ -41,7 +41,7 @@ class OutputStream_write_UnsafePointer_Int{
      * maxLength maxLength=3
      * output: 1
      * ret0 ret0=3
-     * OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="file.txt";Bool$shouldAppend=false &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
+     * OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & path="file.txt";shouldAppend=false &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
      */
     static func write1(){
         let toFileAtPath="file.txt"
