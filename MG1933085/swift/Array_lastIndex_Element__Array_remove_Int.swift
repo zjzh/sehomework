@@ -1,4 +1,4 @@
-/**类名_方法名(_形参类型)
+/*
  *  @author: MG1933085 余博涛
  *  @className: Array_lastIndex_Element__Array_remove_Int
  *  @apiSignature: Array$func lastIndex(of element: Element) -> Int?;Array$@discardableResult mutating func remove(at index: Int) -> Element

@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 
-/**类名_方法名(_形参类型)
+/*
  *  @author: MG1933085 余博涛
  *  @className: LinkedList_removeLastOccurrence_Object
  *  @apiSignature: java.util.LinkedList$public boolean removeLastOccurrence(Object o)

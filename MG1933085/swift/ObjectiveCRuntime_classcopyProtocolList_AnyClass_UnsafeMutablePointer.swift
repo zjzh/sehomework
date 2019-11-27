@@ -1,4 +1,4 @@
-/**类名_方法名(_形参类型)
+/*
  *  @author: MG1933085 余博涛
  *  @className: ObjectiveCRuntime_classcopyProtocolList_AnyClass_UnsafeMutablePointer
  *  @apiSignature: ObjectiveCRuntime$func class_copyProtocolList(_ cls: AnyClass?, _ outCount: UnsafeMutablePointer<UInt32>?) -> AutoreleasingUnsafeMutablePointer<Protocol>?

@@ -2,7 +2,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 
-/**类名_方法名(_形参类型)
+/*
  *  @author: MG1933085 余博涛
  *  @className: PrintStream_append_CharSequence_int_int
  *  @apiSignature: java.io.PrintStream$public PrintStream append(CharSequence csq, int start, int end)
