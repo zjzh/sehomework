@@ -10,8 +10,8 @@ class String_init_BinaryInteger_Int_Bool {
     /**
     * input: 3
     * class class0=10
-    * let Radix=2;
-    * let Uppercase=false;
+    * Radix Radix=2;
+    * Uppercase Uppercase=false
     * output: 1
     * ret0 ret0="1010"
     */
@@ -29,8 +29,8 @@ class String_init_BinaryInteger_Int_Bool {
     /**
     * input: 3
     * class0 class0=0
-    * let Radix=2;
-    * let Uppercase=false;
+    * Radix Radix=2
+    * Uppercase Uppercase=false
     * output: 1
     * ret0 ret0="0"
     */
@@ -48,8 +48,8 @@ class String_init_BinaryInteger_Int_Bool {
     /**
     * input: 3
     * class0 class0=-10
-    * let Radix=2;
-    * let Uppercase=false;
+    * Radix Radix=2;
+    * Uppercase Uppercase=false
     * output: 1
     * ret0 ret0="-1010"
     */

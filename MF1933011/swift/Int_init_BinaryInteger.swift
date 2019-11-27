@@ -13,7 +13,7 @@ class Int_init_BinaryInteger{
      * input: 1
      * class0 class0=10
      * output: 1
-     * ret0  ret0=10
+     * ret0 ret0=10
      */
     public static func init0(){
         let class0=10
@@ -26,7 +26,7 @@ class Int_init_BinaryInteger{
      * input: 1
      * class0 class0 = -10
      * output: 1
-     * ret0  ret0 = -10
+     * ret0 ret0 = -10
      */
     public static func init1(){
         let class0 = -10

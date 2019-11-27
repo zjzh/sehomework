@@ -10,7 +10,7 @@ import Foundation
 class URLResourceValues_name{
     /**
      * input: 1
-     * class URLResourceValues$class0
+     * class0 URLResourceValues$class0
      * output: 1
      * ret0 ret0="Java"
      * URLResourceValues$class0-URLResourceValues$var name: String? { get set }& fileURLWithPath="/Users/chenyinghao/Desktop/Java" & https://developer.apple.com/documentation/foundation/url

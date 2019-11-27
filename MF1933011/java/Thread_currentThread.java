@@ -11,7 +11,7 @@ public class Thread_currentThread {
     /**
      * input: 0
      * output: 1
-     * ret0  ret0=="main"
+     * ret0  ret0="main"
      */
     public  static void currentThread0(){
         System.out.println(">>>>>>>>>>>>");

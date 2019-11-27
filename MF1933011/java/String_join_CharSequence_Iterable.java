@@ -10,7 +10,7 @@ public class String_join_CharSequence_Iterable {
     /**
      * input: 2
      * class0 class0="-"
-     * String[] elements={"hello","world"}
+     * elements elements={"hello","world"}
      * output: 1
      * ret0  ret0="hello-world"
      */
@@ -26,7 +26,7 @@ public class String_join_CharSequence_Iterable {
     /**
      * input: 2
      * class0 class0="-"
-     * String[] elements={""}
+     * elements elements={""}
      * output: 1
      * ret0  ret0=""
      */

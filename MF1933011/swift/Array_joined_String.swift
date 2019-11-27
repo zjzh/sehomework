@@ -10,9 +10,9 @@ class Array_joined_String {
     /**
     * input: 2
     * class0 class0=["hello","world“]
-    * let Sperater="-"
+    * Separator Separator="-"
     * output: 1
-    * ret0  ret0="hello-world"
+    * ret0 ret0="hello-world"
     */
     public static func joined0(){
         let class0 = ["hello","world"]
@@ -26,9 +26,9 @@ class Array_joined_String {
     /**
     * input: 2
     * class0 class0=[""]
-    * let Sperater="-"
+    * Separator Separator="-"
     * output: 1
-    * ret0  ret0=""
+    * ret0 ret0=""
     */
     public static func joined1(){
         let class0 = [""]
