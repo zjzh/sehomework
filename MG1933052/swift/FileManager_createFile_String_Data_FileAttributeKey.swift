@@ -4,7 +4,7 @@
  *  @apiSignature: FileManager$func createFile(atPath path: String, 
 	contents data: Data?, 
 	attributes attr: [FileAttributeKey : Any]? = nil) -> Bool
- *  @discription:test swift api FileManager$func createFile(atPath path: String, 
+ *  @description:test swift api FileManager$func createFile(atPath path: String, 
 	contents data: Data?, 
 	attributes attr: [FileAttributeKey : Any]? = nil) -> Bool
  *  @Map:java.io.File$public boolean createNewFile()
