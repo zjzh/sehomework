@@ -2,7 +2,7 @@
  * @author: MG1933052唐华骜
  *  @className: String_valueOf_float
  *  @apiSignature: java.lang.String$public static String valueOf (float f)
- *  @discription:test java api java.lang.String$public static String valueOf (float f)
+ *  @description:test java api java.lang.String$public static String valueOf (float f)
  *  @Map:String$init<Subject>(describing instance: Subject)
  */
 public class String_valueOf_float{
