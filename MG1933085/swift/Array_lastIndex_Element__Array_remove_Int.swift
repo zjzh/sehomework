@@ -12,7 +12,7 @@ class Array_lastIndex_Element__Array_remove_Int {
     * input : 2
     * class0 Array$class0=["interesting", "happy", "funny", "interesting", "exciting"]
     * of of="interesting"
-    * ouput : 2
+    * output : 2
     * ret0 ret0=3
     * ret1 ret1="interesting"
     */
