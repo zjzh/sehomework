@@ -8,8 +8,8 @@ import Foundation
 */
 class FileManager_createDirectory_String_Bool{
     /**
-    * input: 3
-    * url url = "./test"
+    * input: 2
+	* path path = "./test"
     * createIntermediates createIntermedaites = true
     * output:1
     * ret0 ret0=true
