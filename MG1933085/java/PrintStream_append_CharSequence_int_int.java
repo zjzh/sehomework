@@ -16,7 +16,8 @@ public class PrintStream_append_CharSequence_int_int {
      * csq CharSequence$csq="interesting"
      * start start=4
      * end end=8
-     * output: 0
+     * output: 1
+     * ret0 PrintStream$ret0
      * PrintStream$class0-ByteArrayOutputStream$ByteArrayOutputStream();PrintStream$PrintStream(OutputStream out) & OutputStream$out=new ByteArrayOutputStream() & https://docs.oracle.com/javase/8/docs/api//java/io/PrintStream.html#PrintStream-java.io.OutputStream-
      */
     public static void append0() {
@@ -26,10 +27,11 @@ public class PrintStream_append_CharSequence_int_int {
         CharSequence csq = "interesting";
         int start = 4;
         int end = 8;
-        class0.append(csq, start, end);
+        PrintStream ret0 = class0.append(csq, start, end);
         class0.close();
+        ret0.close();
 
-        String content = new String(out.toByteArray(), StandardCharsets.UTF_8);
+        String content = new String(out.toByteArray());
 
         assert(content.equals("rest"));
         System.out.println(content);
