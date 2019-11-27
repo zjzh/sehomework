@@ -10,7 +10,7 @@ import java.lang.*;
 public class String_isEmpty {
 	/**
      * input: 1
-     * class0 class0 = "Hello";
+     * class0 class0 = "Hello"
      * output: 1
      * ret0  ret0=false
      */

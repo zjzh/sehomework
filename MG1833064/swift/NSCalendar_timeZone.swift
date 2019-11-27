@@ -8,12 +8,14 @@
 
 
 import Foundation
-class Calendar_timeZone{
+class NSCalendar_timeZone{
  	/**
      * input: 1
-     * class0: NSCalendar.current
+     * class0: NSCalendar$class0
      * output: 1
      * ret0  ret0="GMT(current)"
+     * NSCalendar$class0-NSCalendar$current & NSCalendar$class0 = NSCalendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+     */
      */
      static func timeZone0(){
      	let class0 = NSCalendar.current
@@ -22,4 +24,4 @@ class Calendar_timeZone{
      	print(ret0);
      }
  }
- Calendar_timeZone.timeZone0()
+ NSCalendar_timeZone.timeZone0()

@@ -11,10 +11,11 @@ import Foundation
 class UserDefaults_object_forKey{
  	/**
      * input: 2
-     * class0 class0 = 1:"Hello";
-     * key0 key0 = 1;
+     * class0 UserDefaults$class0
+     * key0 key0 = 1
      * output: 1
      * ret0  ret0="Hello"
+     * UserDefault$class0-UserDefaults.init() & https://developer.apple.com/documentation/foundation/userdefaults/1414356-init
      */
     static func object0(){
      	var class0 = UserDefaults.init()
@@ -27,10 +28,11 @@ class UserDefaults_object_forKey{
      }
      /**
      * input: 2
-     * class1 class1 = null;
-     * key1 key1 = 1;
+     * class1 UserDefaults$class1
+     * key1 key1 = 1
      * output: 1
      * ret0  ret0=null
+     * UserDefault$class1-UserDefaults.init() & https://developer.apple.com/documentation/foundation/userdefaults/1414356-init
      */
     static func object1(){
      	let class1 = UserDefaults.init()

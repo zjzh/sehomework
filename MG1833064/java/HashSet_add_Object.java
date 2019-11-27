@@ -10,10 +10,11 @@ import java.util.*;
 public class HashSet_add_Object {
 	/**
      * input: 2
-     * class0 class0 = [];
-     * s = "Hello"
+     * class0$HashSet
+     * s0 = "Hello"
      * output: 1
      * ret0  ret0=true
+     * HashSet$class0-Hashset() & http://gitbook.net/java/util/java_util_hashset.html
      */
 	public static void add0(){
 		HashSet <String> class0 = new HashSet <String>();
@@ -26,14 +27,16 @@ public class HashSet_add_Object {
 	}
 	/**
      * input: 2
-     * class1 class1 = ["Hello"]
+     * class1 class1$HashSet
      * s1 = "Hello"
      * output: 1
      * ret1  ret1 = false
+     * HashSet$class0-Hashset.add(String s) & s="Hello" & http://gitbook.net/java/util/java_util_hashset.html
      */
 	public static void add1(){
 		HashSet <String> class1 = new HashSet <String>();
-		class1.add("Hello");
+		String s = "Hello";
+		class1.add(s);
 		String s1 = "Hello";
 		boolean ret1 = class1.add(s1);
 		assert(s1 == "Hello");

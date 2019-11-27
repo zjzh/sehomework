@@ -10,10 +10,11 @@ import java.util.*;
 public class HashMap_get_Object {
 	/**
      * input: 2
-     * class0 class0 = 1:"Hello";
-     * key0 key0 = 1;
+     * class0 class0$HashMap
+     * key0 key0 = 1
      * output: 1
      * ret0  ret0="Hello"
+     * HashMap$class0-HashMap$put(int key,String s) & key=1 & s="Hello" & http://gitbook.net/java/util/hashmap_put.html--
      */
 	public static void get0(){
 		HashMap class0 = new HashMap();
@@ -26,10 +27,11 @@ public class HashMap_get_Object {
 	}
 	/**
      * input: 2
-     * class1 class1 = null
+     * class1 class1$HashMap
      * key1 key1 = 1;
      * output: 1
      * ret1  ret1 = null
+     * HashMap$class0-HashMap() & http://gitbook.net/java/util/java_util_hashmap.html
      */
 	public static void get1(){
 		HashMap class1 = new HashMap();

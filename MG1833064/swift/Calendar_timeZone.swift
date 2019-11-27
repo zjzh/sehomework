@@ -11,9 +11,10 @@ import Foundation
 class Calendar_timeZone{
  	/**
      * input: 1
-     * class0: Calendar.current
+     * class0: Calendar$class0
      * output: 1
      * ret0  ret0="GMT(current)"
+     * Calendar$class0-Calendar$current & Calendar$class0 = Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
      */
      static func timeZone0(){
      	let class0 = Calendar.current

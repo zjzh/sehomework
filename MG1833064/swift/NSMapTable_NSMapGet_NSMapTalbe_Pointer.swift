@@ -11,14 +11,15 @@ import Foundation
 class NSMapTable_NSMapGet_NSMapTable_Pointer{
  	/**
      * input: 3
-     * class0 class0 = 1:"Hello";
-     * table0 table0 
-     * key0 key0 = 1;
+     * class0 NSMapTable$class0
+     * s0 s0="Hello" 
+     * key0 key0 = 1
      * output: 1
      * ret0  ret0="Hello"
+     NSMapTable$class0-NSMapTable$(keyOptions:, valueOptions:) & NSMapTable$class0 = NSMapTable.init(keyOptions:strongMemory, valueOptions: weakMemory) & https://stackoverflow.com/questions/40702339/how-can-i-use-nsmaptable-with-string-keys-in-swift-3
      */
      static func NSMapGet0(){
-     	var class0 = NSMapTable.init(keyOptions:strongMemory, valueOptions: weakMemory)
+     	var class0 = NSMapTable.init(keyOptions:.strongMemory, valueOptions: .weakMemory)
      	let key0 = 1
           let s = "Hello"
      	NSMapInsert(&class0,&key0,&s)
@@ -29,13 +30,14 @@ class NSMapTable_NSMapGet_NSMapTable_Pointer{
      }
      /**
      * input: 3
-     * class1 class1 = null;
+     * class1 NSMapTable$class0
      * key1 key1 = 1;
      * output: 1
      * ret0  ret0 = null
+     NSMapTable$class1-NSMapTable$(keyOptions:, valueOptions:) & NSMapTable$class1 = NSMapTable.init(keyOptions:.strongMemory, valueOptions: .weakMemory) & https://stackoverflow.com/questions/40702339/how-can-i-use-nsmaptable-with-string-keys-in-swift-3
      */
     static func NSMapGet1(){
-     	let class1 = NSMapTable.init(keyOptions:strongMemory, valueOptions: weakMemory)
+     	let class1 = NSMapTable.init(keyOptions:.strongMemory, valueOptions: .weakMemory)
      	let key1 = 1
 		let ret1 = NSMapGet(&class1,&key1)
 		assert(key1 == 1)

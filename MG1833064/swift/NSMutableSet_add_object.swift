@@ -11,9 +11,10 @@ import Foundation
 class NSMutableSet_add_object{
  	/**
      * input: 2
-     * class0 class0 = []; 
-     * s0 = "Hello";
+     * class0 NSMutableSet$class0
+     * s0 = "Hello"
      * output: 0
+     NSMutableSet$class0-NSMutableSet.init() & NSMutableSet$class0=NSMutableSet.init() & https://developer.apple.com/documentation/foundation/nsmutableset/1414518-init
      */
      static func add0(){
      	var class0 = NSMutableSet.init()
@@ -24,9 +25,10 @@ class NSMutableSet_add_object{
      }
      /**
      * input: 2
-     * class1 class1 = ["Hello"];
+     * class1 NSMutableSet$class0
      * s1 s1 = "Hello";
      * output: 0
+     NSMutableSet$class1-NSMutableSet.init() & NSMutableSet$class1=NSMutableSet.init() & https://developer.apple.com/documentation/foundation/nsmutableset/1414518-init
      */
     static func NSMapGet1(){
      	let class1 = NSMutableSet.init()

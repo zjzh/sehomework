@@ -11,9 +11,10 @@ import Foundation
 class DateComponents_timeZone{
  	/**
      * input: 1
-     * class0: current Calendar
+     * class0: DateComponents$class0
      * output: 1
      * ret0  ret0="GMT(current)"
+     * DateComponents$class0-DateComponents$init(timeZone:tz) & DateComponents$class0=DateComponents.init(timeZone:tz) & TimeZone&tz-TimeZone$current & TimeZone$tz = TimeZone.current & https://developer.apple.com/documentation/foundation/datecomponents/1948879-init
      */
      static func timeZone0(){
           let tz = TimeZone.current

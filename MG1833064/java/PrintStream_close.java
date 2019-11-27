@@ -11,11 +11,13 @@ import java.io.*;
 public class PrintStream_close {
    /**
      * input: 1
-     * class0 class0="test.txt"
+     * class0 class0$PrintStream
      * output: 0
+     * PrintStream$class0-PrintStream(String fileName) & String$fileName="test.txt" & link-https://github.com/rajesh-rak/DLPScanner/blob/a93ae30a4e480f1ace5cd64302d62a36083c48ee/ScanOut/RUN_2017_12_10_225821/Test29/RandoopTest0.java
      */
    public static void close0(){
-      PrintStream class0 = new PrintStream("test.txt");
+      String fileName = "test.txt" ;
+      PrintStream class0 = new PrintStream(fileName);
       String s = "Hello, World!";
       assert(s=="Hello, World");
       class0.print(s);

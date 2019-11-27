@@ -10,14 +10,15 @@ import java.util.*;
 public class Calendar_getTimeZone {
 	/**
      * input: 1
-     * class0 class0=current calendar
+     * class0 class0$Calendar
      * output: 1
-     * ret0  ret0="GMT+8"
+     * ret0  ret0="Greenwich Mean Time"
+     * Calendar$class0-Calendar$getInstance() & Calendar$class0 = Calendar.getInstance() & https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html#getInstance--
      */
 	public static void getTimeZone0(){
 		Calendar class0 = Calendar.getInstance();
 		TimeZone ret0 = class0.getTimeZone();
-		assert(ret0.getDisplayName() == "GMT+08:00");
+		assert(ret0.getDisplayName() == "GMT+08.00");
 		System.out.println(ret0.getDisplayName());
 	}
 
