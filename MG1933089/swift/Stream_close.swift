@@ -10,8 +10,6 @@ class Stream_close{
      /**
      * input: 1
      * class0 Stream$class0
-     * output: 1
-     * ret0 ret0=-1
      * Stream$class0-InputStream$init(data: Data);Data$init() & data=Data() & https://developer.apple.com/documentation/foundation/inputstream
      */
     static func close0(){
@@ -19,8 +17,8 @@ class Stream_close{
         let class0 = InputStream(data:Data())
         class0.close()
         var data=[UInt8](repeating: 0, count: 1)
-        let ret0=class0?.read(&data, maxLength: 1)
-        assert(ret0 == -1)
+        let len=class0?.read(&data, maxLength: 1)
+        assert(len == -1)
         print("success")
     }
 }

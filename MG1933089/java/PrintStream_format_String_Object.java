@@ -2,13 +2,13 @@ import java.io.*;
 
 /***
  * @author: MG1933089 袁新雨
- *  @className: PrintStream_format_String_Object$PrintStream
+ *  @className: PrintStream_format_String_Object
  *  @apiSignature: java.io.PrintStream$public PrintStream format​(String format, Object... args)
  *  @description: Test java api java.io.PrintStream$format​(String format, Object... args)
  */
 public class PrintStream_format_String_Object {
     /**
-     * input: 2
+     * input: 3
      * class0 PrintStream$class0
      * format format="%.2f"
      * args args=0.123

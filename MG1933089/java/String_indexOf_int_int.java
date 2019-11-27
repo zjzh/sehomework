@@ -4,15 +4,14 @@
  *  @apiSignature: java.lang.String$public int indexOf(int ch, int fromIndex)
  *  @description: Test java api java.lang.String$indexOf(int ch, int fromIndex)
  *  @Map: String$func suffix(through position: String.Index) -> Substring;String$func firstIndex(of element: Character) -> String.Index?
- *  @Map: String$func suffix(through position: String.Index) -> String;String$func index(of element: Character) -> String.Index?
  */
 public class String_indexOf_int_int {
     /**
-     * input: 2
+     * input: 3
      * class0 class0="hello"
      * ch ch=108
      * fromIndex fromIndex=0
-     * output: 2
+     * output: 1
      * ret0  ret0=2
      */
     public  static void indexOf0(){
@@ -23,7 +22,7 @@ public class String_indexOf_int_int {
         System.out.println(ret0);
     }
     /**
-     * input: 2
+     * input: 3
      * class0 class0="hello"
      * ch ch=101
      * fromIndex fromIndex=0
