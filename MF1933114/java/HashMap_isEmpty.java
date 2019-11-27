@@ -11,7 +11,7 @@ public class HashMap_isEmpty{
 	public static void isEmpty0(){
 	/**
 	*input:1
-	*hashmap HashMap<Integer,Integer>$hashmap
+	*class0 HashMap<Integer,Integer>$hashmap
 	*output:1
 	*ret0=true
 	*HashMap$hashmap-HashMap$isEmpty() & HashMap<Integer,Integer>hashmap=new HashMap<>(); & https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
