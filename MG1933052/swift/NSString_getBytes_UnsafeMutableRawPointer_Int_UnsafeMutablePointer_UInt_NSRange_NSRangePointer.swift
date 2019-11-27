@@ -8,7 +8,7 @@
 	options: NSString.EncodingConversionOptions = [], 
         range: NSRange, 
 	remaining leftover: NSRangePointer?) -> Bool
- *  @discription:test swift api NSString$func getBytes(_ buffer: UnsafeMutableRawPointer?, 
+ *  @description:test swift api NSString$func getBytes(_ buffer: UnsafeMutableRawPointer?, 
 	maxLength maxBufferCount: Int, 
 	usedLength usedBufferCount: UnsafeMutablePointer<Int>?, 
 	encoding: UInt, 
