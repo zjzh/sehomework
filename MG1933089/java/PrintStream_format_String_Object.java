@@ -18,7 +18,7 @@ public class PrintStream_format_String_Object {
      * args args=0.123
      * output: 1
      * ret0 PrintStream$ret0
-     * PrintStream$class0-OutputStream$OutputStream();PrintStream$PrintStream(OutputStream out) & ByteArrayOutputStream$ByteArrayOutputStream() & https://stackoverflow.com/questions/1760654/java-printstream-to-string
+     * PrintStream$class0-ByteArrayOutputStream$ByteArrayOutputStream();PrintStream$PrintStream(OutputStream out) & out=new ByteArrayOutputStream() & https://stackoverflow.com/questions/1760654/java-printstream-to-string
      */
     public static void format0() {
         System.out.println(">>>>>>>>>>>>");
@@ -29,7 +29,7 @@ public class PrintStream_format_String_Object {
         PrintStream ret0 = class0.format(format, args);
         String data = new String(out.toByteArray());
         System.out.println(data);
-        assert (data == "0.12");
+        assert (data.equals("0.12"));
         class0.close();
         ret0.close();
     }

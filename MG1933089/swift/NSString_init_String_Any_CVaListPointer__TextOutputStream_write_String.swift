@@ -1,19 +1,19 @@
 /***
  * @author: MG1933089 袁新雨
- *  @className: NSString_init_String_Any_CVaListPointer$NSString__TextOutputStream_write_String
+ *  @className: NSString_init_String_Any_CVaListPointer__TextOutputStream_write_String
  *  @apiSignature: NSString$convenience init(format: String, locale: Any?, arguments argList: CVaListPointer) -> NSString;TextOutputStream$mutating func write(_ string: String)
  *  @description: Test swift api SString$init(format: String, locale: Any?, arguments argList: CVaListPointer);TextOutputStream$write(_ string: String)
  *  @Map: java.io.PrintStream$public PrintStream format​(String format, Object... args)
  */
 import Foundation
-class NSString_init_String_Any_CVaListPointer$NSString__TextOutputStream_write_String{
+class NSString_init_String_Any_CVaListPointer__TextOutputStream_write_String{
     /**
      *input : 4
      *class0 NSString$class0
      *class1 TextOutputStream$class1
      *format format="init_write0: %.2f"
      *locale Any$locale
-     *arguments arguments=[0.123]
+     *arguments CVaListPointer$arguments
      *string String$string
      *ouput : 1
      *ret0 ret0="0.12"
@@ -35,4 +35,4 @@ class NSString_init_String_Any_CVaListPointer$NSString__TextOutputStream_write_S
         print(class1) 
     }
 }
-NSString_init_String_Any_CVaListPointer$NSString__TextOutputStream_write_String.init_write0()
+NSString_init_String_Any_CVaListPointer__TextOutputStream_write_String.init_write0()

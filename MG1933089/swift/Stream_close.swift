@@ -12,19 +12,17 @@ class Stream_close{
      * class0 Stream$class0
      * output: 1
      * ret0 ret0=-1
-     * Stream$class0-InputStream$init?(fileAtPath path: String) & String$path="file.txt";Bool$shouldAppend=false & https://developer.apple.com/documentation/foundation/inputstream
+     * Stream$class0-InputStream$init(data: Data);Data$init() & data=Data() & https://developer.apple.com/documentation/foundation/inputstream
      */
     static func close0(){
         print(">>>>>>>>")
-        let path="file.txt"
-        let class0 = InputStream(fileAtPath: path)
-        class0!.open()
-        class0!.close()
+        let class0 = InputStream(data:Data())
+        class0.close()
         var data=[UInt8](repeating: 0, count: 1)
         let ret0=class0?.read(&data, maxLength: 1)
         assert(ret0 == -1)
+        print("success")
     }
-   
 }
 
 Stream_close.close0()

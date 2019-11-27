@@ -1,18 +1,18 @@
 /***
  * @author: MG1933089 袁新雨
- *  @className: NSString_init_format_CVaListPointer$NSString__String_write_TextOutputStream
+ *  @className: NSString_init_String_CVaListPointer__String_write_TextOutputStream
  *  @apiSignature: NSString$convenience init(format: String, arguments argList: CVaListPointer) -> NSString;String$func write<Target>(to target: inout Target) where Target : TextOutputStream
  *  @description: Test swift api SString$init(format: String, arguments argList: CVaListPointer);String$write<Target>(to target: inout Target) where Target : TextOutputStream
  *  @Map: java.io.PrintStream$public PrintStream format​(String format, Object... args)
  */
 import Foundation
-class NSString_init_format_CVaListPointer$NSString__String_write_TextOutputStream{
+class NSString_init_String_CVaListPointer__String_write_TextOutputStream{
     /**
      *input : 3
-     *class0 class0$NSString
-     *class1 class1$String
+     *class0 NSString$class0
+     *class1 String$class1
      *format format="%.2f"
-     *arguments arguments=[0.123]
+     *arguments CVaListPointer$arguments
      *target target=""
      *ouput : 1
      *ret0 ret0="0.12"
@@ -33,4 +33,4 @@ class NSString_init_format_CVaListPointer$NSString__String_write_TextOutputStrea
         print(target) 
     }
 }
-NSString_init_format_CVaListPointer$NSString__String_write_TextOutputStream.init_write0()
+NSString_init_String_CVaListPointer__String_write_TextOutputStream.init_write0()

@@ -27,7 +27,7 @@ public class String_indexOf_int_int {
      * class0 class0="hello"
      * ch ch=101
      * fromIndex fromIndex=0
-     * output: -1
+     * output: 1
      * ret0 ret0=-1
      */
     public  static void indexOf1(){
