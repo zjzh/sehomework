@@ -11,30 +11,21 @@ class InputStream_read{
      /**
      * input: 3
      * class0 InputStream$class0
-     * buffer0  buffer0 = UnsafeMutablePointer<UInt8>.allocate(capacity：4)
-     * buffer_len0  buffer_len0 = 4
+     * buffer UnsafeMutablePointer<UInt8>$buffer = [UInt8](repeating: 0, count: 1)
+     * maxLength maxLength = 1
      * output: 1
-     * ret0  ret0 = 4
-     * InputStream$class0-InputStream(String: fileAtPath) & String$fileAtPath = "/Users/HZH/Swift/SEhomework/test.txt"
+     * ret0  ret0 = -1
+     * InputStream$class0-InputStream$init(data: Data);Data$init() & data=Data() & https://developer.apple.com/documentation/foundation/inputstream
+     * UnsafeMutablePointer<UInt8>$buffer- UnsafeMutablePointer<UInt8>$buffer = [UInt8](repeating: 0, count: 1) & https://developer.apple.com/documentation/swift/unsafemutablepointer
      */
     static func stream_read0(){
         print(">>>>>>>>>>>>>>>>")
-        let fileAtPath = "/Users/HZH/Swift/SEhomework/test.txt";
-        guard let class0 = InputStream(fileAtPath: fileAtPath) else{print("create input_stream failed."); return}
-        let buffer0 = UnsafeMutablePointer<UInt8>.allocate(capacity:4)
-        let buffer_len = 4
-
-        let ret0 = class0.read(buffer0, maxLength: buffer_len)
-        assert(ret0 == true)
-        if (ret0 > 0) {
-            print("read successed!")
-        }
-        if (ret0 == 0 ){
-            print("end of the buffer was reached!")
-        }
-        if (ret0 < 0) {
-            print("read failed!")
-        }
+        let class0 = InputStream(data:Data())
+         
+        var buffer = [UInt8](repeating: 0, count: 1)
+        let ret0=class0.read(&buffer, maxLength: 1)
+        assert(ret0 == -1)
+        print("success")
     }
    
 }
