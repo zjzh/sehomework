@@ -11,28 +11,28 @@ class Array_lastIndex_Element{
      /**
      * input: 2
      * class0 class0=["hello", "world"]
-     * var Element = "hello"
+     * element element = "hello"
      * output: 1
      * ret0  ret0=0
      */
     static func lastIndex0(){
         var class0 = ["hello", "world"]
-        var Element = "hello"
-        let ret0=class0.lastIndex(of: Element);
+        var element = "hello"
+        let ret0=class0.lastIndex(of: element);
         assert (ret0==0);
         print(ret0);
     }
     /**
      * input: 2
      * class0 class0=["hello", "world"]
-     * var Element = "who"
+     * element element= "who"
      * output: 1
      * ret0 ret0=nil
      */
     static func lastIndex1(){
         var class0=["hello", "world"];
-        var Element="who";
-        let ret0=class0.lastIndex(of: Element);
+        var element="who";
+        let ret0=class0.lastIndex(of: element);
         assert (ret0==nil);
         print(ret0);
     }
