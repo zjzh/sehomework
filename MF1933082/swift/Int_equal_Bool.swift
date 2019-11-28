@@ -8,33 +8,33 @@
 class Int_equal_Bool{
 	/**
      * input: 2
-     * class0 class0=0x00000001
-     * int0 int0=0x00000001
+     * x x=0x00000001
+     * y y=0x00000001
      * output: 1
      * ret0  ret0=true
      */
     static func equal0(){
-	   	let class0: Int = 0x00000001;
-		let int0: Int = 0x00000001;
-        let ret0=(class0==int0);
-	    assert(class0==0x00000001);
-	    assert(int0==0x00000001);
+	   	let x: Int = 0x00000001;
+		let y: Int = 0x00000001;
+        let ret0=(x==y);
+	    assert(x==0x00000001);
+	    assert(y==0x00000001);
         assert(ret0==true);
         print(ret0);
     }
 	/**
      * input: 2
-     * class0 class0=0x00000001
-     * int0 int0=0x00000000
+     * x x=0x00000001
+     * y y=0x00000000
      * output: 1
      * ret0  ret0=false
      */
     static func equal1(){
-	   	let class0: Int = 0x00000001;
-		let int0: Int = 0x00000000;
-        let ret0=(class0==int0);
-	    assert(class0==0x00000001);
-	    assert(int0==0x00000000);
+	   	let x: Int = 0x00000001;
+		let y: Int = 0x00000000;
+        let ret0=(x==y);
+	    assert(x==0x00000001);
+	    assert(y==0x00000000);
         assert(ret0==false);
         print(ret0);
     }

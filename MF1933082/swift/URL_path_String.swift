@@ -12,7 +12,7 @@ class URL_path_String{
      * class0 URL$class0
      * output: 1
 	 * ret0 ret0="/Users/text.txt"
-	 * URL$class0-URL$URL(fileURLWithPath: String) & let class0 = URL(fileURLWithPath: "/Users/text.txt")& https://developer.apple.com/documentation/foundation/url
+	 * URL$class0-URL$URL(fileURLWithPath: String) & fileURLWithPath="/Users/text.txt" & https://developer.apple.com/documentation/foundation/url
      */
     static func path0(){
         let class0=URL(fileURLWithPath: "/Users/text.txt");
@@ -25,7 +25,7 @@ class URL_path_String{
      * class0 URL$class0
      * output: 1
 	 * ret0 ret0="/Users"
-	 * URL$class0-URL$URL(fileURLWithPath: String) & let class0 = URL(fileURLWithPath: "/Users")& https://developer.apple.com/documentation/foundation/url
+	 * URL$class0-URL$URL(fileURLWithPath: String) & fileURLWithPath="/Users" & https://developer.apple.com/documentation/foundation/url
      */
     static func path1(){
         let class0=URL(fileURLWithPath: "/Users");

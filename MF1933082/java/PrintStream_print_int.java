@@ -12,34 +12,20 @@ import java.nio.ByteBuffer;
  * @description: Test java api java.io.PrintStream.print(int i)
  */
 public class PrintStream_print_int {
-	/**
-     * input: 2
-     * class0 PrintStream$class0
-     * int0 int0 =3
-     * output: 0
-     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) &OutputStream out=System.out & https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html#PrintStream-java.io.OutputStream-
-     */
-    public  static void print0(){
-        PrintStream class0 = new PrintStream(System.out);
-        int int0=3;
-        assert(int0==3);
-        class0.print(int0);
-    }
     /**
      * input: 2
      * class0 PrintStream$class0
-     * int0 int0 =3
+     * i i =3
      * output: 0
      * PrintStream$class0-PrintStream$PrintStream(String fileName) & String$fileName="d:\file.txt" & https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html#PrintStream-java.io.OutputStream-
      */
-    public static void print1(){
+    public static void print0(){
         try {
                 String fileName="d:\\file.txt";
                 PrintStream class0 = new PrintStream(fileName);
-                int int0=3;
-                class0.print(int0);
-                class0.close();
-                
+                int i=3;
+                class0.print(i);
+                class0.close();                
                 FileInputStream in = new FileInputStream(fileName);
                 byte[] buffer = new byte[1024];
                 in.read(buffer,0,buffer.length);
@@ -51,6 +37,5 @@ public class PrintStream_print_int {
      }
 	public static void main(String[] a) {
 		PrintStream_print_int.print0();
-		PrintStream_print_int.print1();
 	 }
 }

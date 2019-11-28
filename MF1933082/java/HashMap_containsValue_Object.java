@@ -11,7 +11,7 @@ public class HashMap_containsValue_Object {
 	 /**
      * input: 2
      * class0 HashMap$class0
-     * str0 str0="value1"
+     * obj0 obj0="value1"
      * output: 1
      * ret0  ret0=true
      * HashMap$class0-HashMap$HashMap<String, String>() &  & https://docs.oracle.com/javase/8/docs/api/
@@ -21,16 +21,16 @@ public class HashMap_containsValue_Object {
 	    class0.put("key1", "value1");
 	    class0.put("key2", "value2");
 	    class0.put("key3", "value3");
-	    String str0="value1";
-	    boolean ret0=class0.containsValue(str0);
-	    assert(str0=="value1");
+	    Object obj0="value1";
+	    boolean ret0=class0.containsValue(obj0);
+	    assert(obj0=="value1");
         assert(ret0==true);
         System.out.println(ret0);
 	}
 	 /**
      * input: 2
      * class0 HashMap$class0
-     * str0 str0="value4"
+     * obj0 obj0="value4"
      * output: 1
      * ret0  ret0=false
      * HashMap$class0-HashMap$HashMap<String, String>() &  & https://docs.oracle.com/javase/8/docs/api/
@@ -40,9 +40,9 @@ public class HashMap_containsValue_Object {
 	    class0.put("key1", "value1");
 	    class0.put("key2", "value2");
 	    class0.put("key3", "value3");
-	    String str0="value4";
-	    boolean ret0=class0.containsValue(str0);
-	    assert(str0=="value4");
+	    Object obj0="value4";
+	    boolean ret0=class0.containsValue(obj0);
+	    assert(obj0=="value4");
         assert(ret0==false);
         System.out.println(ret0);
 	}

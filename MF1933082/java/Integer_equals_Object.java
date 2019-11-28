@@ -11,32 +11,30 @@ public class Integer_equals_Object {
 	/**
      * input: 2
      * class0 class0=0x00000001
-     * int0 int0=0x00000001
+     * obj obj=0x00000001
      * output: 1
      * ret0  ret0=true
      */
 	public  static void equals0(){
 		Integer class0=0x00000001;
-		Integer int0=0x00000001;
-		boolean ret0=class0.equals(int0);
+		Object obj=0x00000001;
+		boolean ret0=class0.equals(obj);
 	    assert(class0==0x00000001);
-	    assert(int0==0x00000001);
         assert(ret0==true);
         System.out.println(ret0);
 	}
 	/**
      * input: 2
      * class0 class0=0x00000001
-     * int0 int0=0x00000000
+     * obj obj=0x00000000
      * output: 1
      * ret0  ret0=false
      */
 	public  static void equals1(){
 		Integer class0=0x00000001;
-		Integer int0=0x00000000;
-		boolean ret0=class0.equals(int0);
+		Object obj=0x00000000;
+		boolean ret0=class0.equals(obj);
 	    assert(class0==0x00000001);
-	    assert(int0==0x00000000);
         assert(ret0==false);
         System.out.println(ret0);
 	}
