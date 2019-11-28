@@ -11,11 +11,10 @@ public class File_lastModified {
      * input:1
      * class0 File$class0
      * output:1
-     * ret0 ret0=millsec  //不确定的，因为与时间有关
-     * File$class0-File$File(String pathname) & String$pathname="file.txt" & https://developer.android.com/reference/java/io/File.html?hl=en#File(java.lang.String)
-     * File$class0-File$exists() & & https://developer.android.com/reference/java/io/File.html?hl=en#exists()
+     * ret0 ret0=UNKNOWN
+     * File$class0-File$File(String pathname);File$exists() & String$pathname="file.txt" & https://developer.android.com/reference/java/io/File.html
      */
-    public static void lastmodifiled0(){
+        public static void lastmodifiled0(){
         System.out.println(">>>>>>>>>>>>");
         String pathname="file.txt";
         File file=new File(pathname);
