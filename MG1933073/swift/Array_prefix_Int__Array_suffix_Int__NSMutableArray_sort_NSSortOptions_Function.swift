@@ -61,9 +61,7 @@
 			 }
             return ComparisonResult.orderedSame
 		 }
-         let options:NSSortOptions
-         options=[]
-         ret2.sort(options:options,usingComparator:usingComparator)
+         ret2.sort(options:[],usingComparator:usingComparator)
          assert(ret2[0] as? Int==1)
          assert(ret2[1] as? Int==2)
          assert(ret2[2] as? Int==3)
@@ -124,9 +122,7 @@
 			 }
             return ComparisonResult.orderedSame
 		 }
-         let options:NSSortOptions
-         options=[]
-         ret2.sort(options:options,usingComparator:usingComparator);
+         ret2.sort(options:[],usingComparator:usingComparator);
          assert(ret2[0] as? Character=="A")
          assert(ret2[1] as? Character=="B")
          assert(ret2[2] as? Character=="C")
