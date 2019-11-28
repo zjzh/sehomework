@@ -8,26 +8,17 @@
 
  import java.lang.*;
 
- public class Thread_start implements Runnable{
-    Thread class0;
-    Thread_start(){
-        // create a thread
-        class0 = new Thread(this, "Admin Thread");
-        // thread is create
-        System.out.println("Thread = " + class0);
-        // ready to call run() function
-        System.out.println("Calling Thread to run...");
-        class0.start();
-    }
+ public class Thread_start extends Thread{
     /**
      * input: 1
-     * class0 Thread$class0
-     * output: NA
-     * Thread$class0-Thread(Runable target, String name) & Runable$target = this & String$name = "Admin Thread" & https://developer.android.google.cn/reference/java/lang/Thread.html?hl=en#Thread(java.lang.Runnable,%20java.lang.String)
+     * class0 Thread_start$class0
+     * output: 0
+     * Thread_start$class0-Thread_start() & https://developer.android.google.cn/reference/java/lang/Thread.html?hl=en#Thread(java.lang.Runnable,%20java.lang.String)
      */
     public static void test_start(){
         System.out.println(">>>>>>>>>>>>>>>");
-        new Thread_start();
+        Thread_start class0 = new Thread_start();
+        class0.start();
     }
 
     public void run(){
