@@ -17,8 +17,7 @@ public class PrintStream_print_double {
      * class0 PrintStream$class0
      * d d=1.22
      * output:0
-     *PrintStream$class0-PrintStream$PrintStream(String fileName) & String$fileName="file.txt" & https://developer.android.com/reference/java/io/PrintStream.html?hl=en#PrintStream(java.lang.String)
-     *PrintStream$class0-PrintStream$close() & & https://developer.android.com/reference/java/io/PrintStream.html?hl=en#close()
+     *PrintStream$class0-PrintStream$PrintStream(String fileName);PrintStream$close() & String$fileName="file.txt" & https://developer.android.com/reference/java/io/PrintStream.html
      */
     public static void print0(){
         System.out.println(">>>>>>>>>>>>");
