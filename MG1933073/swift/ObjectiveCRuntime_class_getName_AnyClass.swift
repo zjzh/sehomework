@@ -12,15 +12,14 @@
       *cls cls="NSString"
       *output:1
       *ret0 UnsafePointer$ret0
-      *UnsafePointer$ret0-UnsafePointer$UnsafePointer<Pointee>&ret0=UnsafePointer<Int8>("NSString")&https://developer.apple.com/documentation/swift/unsafepointer
       */
      static func class_getName0(){
          print(">>>>>>>>>>>>>>>>>")
          var cls:NSString="String"
          assert(cls=="NSString")
-         var ret0:NSString
-         ret0=String(class_getName(cls:cls));
-         assert(ret0=="NSString")
+         var ret0:UnsafePointer<Int8>
+         ret0=class_getName(cls:cls);
+         assert(string(ret0)=="NSString")
          print(ret0);
      }
  }
