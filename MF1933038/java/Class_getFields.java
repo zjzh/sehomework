@@ -14,7 +14,7 @@ import java.lang.reflect.*;
      * class0  Class$class0
      * output: 1
      * ret0  Field[]$ret0
-     * Class$class0-Class.forName(String className) & String$className = "Test_Man" & https://developer.android.google.cn/reference/java/lang/Class?hl=en
+     * Class$class0-Class$forName(String className) & String$className = "Test_Man" & https://developer.android.google.cn/reference/java/lang/Class?hl=en
      */ 
     public static void Fields_of_Class(){
         System.out.println(">>>>>>>>>>>>>>>");
