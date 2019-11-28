@@ -10,7 +10,7 @@
  import UIKit
 
 
-class ObjectiveCRuntime_class_copyPropertyList: NSObject{
+class test_class: NSObject{
     var name: String?
     var age: Int = 0
     
@@ -39,16 +39,16 @@ class ObjectiveCRuntime_class_copyPropertyList: NSObject{
 
     /**
      * input: 2
-     * class0 ObjectiveCRuntime_class_copyPropertyList$class0
-     * outCount &outCount
+     * class0 test_class$class0
+     * outCount UnsafeMutablePointer<UInt32>$outCount
      * output: 1
      * ret0 UnsafeMutablePointer<objc_property_t>$ret0
-     * Test_Class$class0-Test_Class() & https://www.jianshu.com/p/aa60d6377434 & https://developer.apple.com/documentation/objectivec/1418553-class_copypropertylist?language=occ
+     * test_class$class0-test_class$class0 = test_class(age: Int, name: String) & Int$age=22 & String%name="myname" & https://www.jianshu.com/p/aa60d6377434 & https://developer.apple.com/documentation/objectivec/1418553-class_copypropertylist?language=occ
+     * UnsafeMutablePointer<UInt32>$outCount-UnsafeMutablePointer<UInt32>$outCount: UInt32 = 0 & https://developer.apple.com/documentation/swift/unsafemutablepointer
      */
     static func classCopyPropertyList(){
         print(">>>>>>>>>>>>>>>")
-        let class0_pointer = ObjectiveCRuntime_class_copyPropertyList("myname", 22)
-        let class0 = object_getClass(class0_pointer)
+        let class0 = test_class(22, "myname")
         var outCount: UInt32 = 0
         let ret0 = class_copyPropertyList(class0, &outCount)
         var propertyNames: [String] = []
