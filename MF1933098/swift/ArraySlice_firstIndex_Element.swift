@@ -12,7 +12,7 @@
      * class0 ArraySlice$class0=["hello","world","hello"]
      * of of="hello"
      * output: 1
-     * ret0 0
+     * ret0 ret0=0
      */
      static func firstIndex0()
      {
@@ -27,7 +27,7 @@
      * class0 ArraySlice$class0=["hello","world","hello"]
      * of of="wow"
      * output: 1
-     * ret0 0
+     * ret0 ret0=nil
      */
      static func firstIndex1()
      {
