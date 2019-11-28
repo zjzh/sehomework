@@ -1,7 +1,7 @@
 ﻿/**类名_方法名(_形参类型_形参类型)
  *@author: MF1933016+dingzhu
  *@className: String_substring_int_int
- *@apiSignature: java.lang. String$public String substring (int beginIndex, int endIndex)
+ *@apiSignature: java.lang.String$public String substring (int beginIndex, int endIndex)
  *@description: Test java api java.lang.String substring (int beginIndex, int endIndex)
  *@Map: NSString$ func substring(from: Int) -> String;func substring(to: Int) -> String
  *@Map: String$func prefix(through position: String.Index) -> Substring;String$func substring(from: Int) -> String
