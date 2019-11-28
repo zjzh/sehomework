@@ -12,11 +12,10 @@ import java.lang.*;
 
 public class String_join_CharSequence_CharSequence {
     /**
-     * input: 3
+     * input: 2
      * class0 String$class0 
      * delimiter delimiter = "-"
-     * elements1 elements1 = "hello" 
-     * elements2 elements2 = "world"
+     * elements elements[] = {"hello", "world"}
      * output: 1
      * ret0 ret0 = "hello-world"
      * String$class0-String$tring() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
@@ -25,22 +24,19 @@ public class String_join_CharSequence_CharSequence {
         System.out.println(">>>>>>>>>>>>");
         String  class0 = new String();
         String delimiter = "-";
-        String elements1 = "hello";
-        String elements2 = "world";
-        String ret0 = class0.join(delimiter,elements1, elements2);
+        String elements[] = {"hello", "world"};
+        String ret0 = class0.join(delimiter,elements);
         assert (delimiter == "-");
-        assert (elements1 == "hello");
-        assert (elements2 == "world");
+        assert (elements[0] == "hello");
+        assert (elements[1] == "world");
         assert (ret0 == "hello-world");
         System.out.println(ret0);
     }
     /**
-     * input: 4
+     * input: 2
      * class0 String$class0 
      * delimiter delimiter = " "
-     * elements1 elements1 = "Hello" 
-     * elements2 elements2 = "Nanjing"
-     * elements3 elements3 = "University"
+     * elements elements[] = {"Hello",  "Nanjing", "University"}
      * output: 1
      * ret0 ret0 = "Hello Nanjing University"
      * String$class0-String$tring() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
@@ -49,14 +45,12 @@ public class String_join_CharSequence_CharSequence {
         System.out.println(">>>>>>>>>>>>");
         String  class0 = new String();
         String delimiter = " ";
-        String elements1 = "Hello";
-        String elements2 = "Nanjing";
-        String elements3 = "University";
-        String ret0 = class0.join(delimiter,elements1, elements2, elements3);
+        String elements[] = {"Hello",  "Nanjing", "University"};
+        String ret0 = class0.join(delimiter,elements);
         assert (delimiter == " ");
-        assert (elements1 == "Hello");
-        assert (elements2 == "Nanjing");
-        assert (elements3 == "University");
+        assert (elements[0] == "Hello");
+        assert (elements[1] == "Nanjing");
+        assert (elements[2] == "University");
         assert (ret0 == "Hello Nanjing University");
         System.out.println(ret0);
     }

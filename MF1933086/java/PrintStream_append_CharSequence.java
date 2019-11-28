@@ -12,7 +12,7 @@ public class PrintStream_append_CharSequence{
     /**
      * input: 2
      * class0 PrintStream$class0 
-     * CharSequence csq = "Hello World";
+     * csq csq = "Hello World";
      * output: 0
      * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html
      */

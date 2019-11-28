@@ -11,7 +11,7 @@ public class Class_getName {
      * input: 1
      * class0 String$class0 
      * output: 1
-     * ret0 ret0 == "java.lang.String"
+     * ret0 ret0 = "java.lang.String"
      * String$class0-String$tring() & & https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
      */
     public static void getName1() {

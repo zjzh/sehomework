@@ -14,7 +14,7 @@ class Array_joined_Sequence{
      * class0 class0 = ["Vivien", "Marlon", "Kim", "Karl"]
      * separator separator =  ", "
      * output:1
-     * ret0 = ["V", "i", "v", "i", "e", "n", ",", " ", "M", "a", "r", "l", "o", "n", ",", " ", "K", "i", "m", ",", " ", "K", "a", "r", "l"]
+     * ret0 ret0 = "Vivien, Marlon, Kim, Karl"
      */
     
     static func joined0(){
@@ -23,8 +23,8 @@ class Array_joined_Sequence{
         let ret0 = class0.joined(separator: separator)
         assert (class0 == ["Vivien", "Marlon", "Kim", "Karl"])
         assert (separator ==  ", ")
-        assert (Array(ret0) == ["V", "i", "v", "i", "e", "n", ",", " ", "M", "a", "r", "l", "o", "n", ",", " ", "K", "i", "m", ",", " ", "K", "a", "r", "l"])
-        print(Array(ret0))
+        assert (ret0 == "Vivien, Marlon, Kim, Karl")
+        print(ret0)
     }
 }
 

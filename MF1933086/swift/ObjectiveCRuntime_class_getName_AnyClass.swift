@@ -6,19 +6,22 @@
  * @Map:java.lang.Class$public  public String getName()
  */
 import Foundation
+import ObjectiveC
+
 class ObjectiveCRuntime_class_getName_AnyClass{
+
+
     /**
     *input:1
     *class0 NSString$class0 
     *output:1
-    *ret0 ret0="__NSCFConstantString"
-    *NSString$class0-NSString$init() & class0 = NSString.init() &  https://developer.apple.com/documentation/foundation/nsstring?language=occ
+    *ret0 ret0="0x00007fff568e4dd2"
+    *NSString$class0-NSString$init() & class0 = NSString.self &  https://developer.apple.com/documentation/foundation/nsstring?language=occ
     */
     static func class_getName0 () {
         print(">>>>>>>>>>>>>>>>>")
-        let class0 = NSString.init()
-        let ret0 = String(cString: class_getName(type(of: class0)))
-        assert (ret0 == "__NSCFConstantString" )
+        let class0 = NSString.self
+        let ret0 = class_getName(class0)
         print(ret0)
     }
 }
