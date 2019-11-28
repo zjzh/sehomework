@@ -12,6 +12,7 @@ class NSMapTable_NSMapMember_NSMapTable_Pointer_Pointer_Pointer{
      * class0 NSMapTable$class0
      * output:1
      * ret0: ret0 = true
+	 * NSMapMember$class0-NSMapMember<keyType,valueType> & & https://developer.apple.com/documentation/foundation/nsmaptable?language=objc
      */
     static func NSMapMember0(){
         print(">>>>>>>>>>>>>>>>")

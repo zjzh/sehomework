@@ -8,10 +8,12 @@
 import Foundation
 class FileManager_FileManager$SearchPathDirectory_FileManager$SearchPathDomainMask_URL_Bool{
     /**
-     * input: 3
+     * input: 5
 	 * class0 FileManager$class0
      * shouldCreate shouldCreate = true
 	 * url URL$url
+	 * documentDirectory FileManager.SearchPathDirectory$documentDirectory
+	 * userDomainMask FileManager.SearchPathDomainMask$userDomainMask
      * output: 1
      * ret0 URL$ret0
 	 * FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url;
@@ -21,7 +23,7 @@ class FileManager_FileManager$SearchPathDirectory_FileManager$SearchPathDomainMa
 		let url = URL(string:".")
         let shouldCreate = true
 		let class0 = FileManager.default
-        let ret0 = try?class0.url(for:FileManager.SearchPathDirectory.documentDirectory, in:FileManager.SearchPathDomainMask.userDomainMask, appropriateFor:url, create:shouldCreate)
+        let ret0 = try?class0.url(for:documentDirectory, in:userDomainMask, appropriateFor:url, create:shouldCreate)
         assert(ret0 != nil)
         print(ret0)
     }
