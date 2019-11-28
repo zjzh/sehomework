@@ -14,7 +14,7 @@ public class PrintStream_println_String {
     /**
      * input: 2
      * class0 PrinfStream$class0
-     * s s="123"
+     * x x="123"
      * output: 0
      * PrintStream$class0-PrintStream$PrintStream(String pathname) & pathname="file.txt" & https://github.com/a1027739669/IndividualProject2/blob/cf07a91e28b92ed3942db92f43d009be455b3357/src/main/java/zyx/func/Main.java
      */
@@ -23,8 +23,8 @@ public class PrintStream_println_String {
         try {
             String pathname="file.txt";
             PrintStream class0 = new PrintStream(pathname);
-            String s="123";
-            class0.print(s);
+            String x="123";
+            class0.print(x);
             class0.close();
             FileInputStream in = new FileInputStream(pathname);
             int content = in.read();
@@ -37,7 +37,7 @@ public class PrintStream_println_String {
    /**
     * input: 2
     * class0 PrinfStream$class0
-    * s s="嗨"
+    * x x="嗨"
     * output: 0
     * PrintStream$class0-PrintStream$PrintStream(String pathname) & pathname="file.txt" & https://github.com/a1027739669/IndividualProject2/blob/cf07a91e28b92ed3942db92f43d009be455b3357/src/main/java/zyx/func/Main.java
     */
@@ -46,8 +46,8 @@ public class PrintStream_println_String {
        try {
            String pathname="file.txt";
            PrintStream class0 = new PrintStream(pathname);
-           String s="嗨";
-           class0.print(s);
+           String x="嗨";
+           class0.print(x);
            class0.close();
            FileInputStream in = new FileInputStream(pathname);
            int content = in.read();

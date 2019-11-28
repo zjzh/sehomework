@@ -11,8 +11,8 @@ public class HashMap_merge_K_V_Bifunction {
    /**
     * input: 4
     * class0 HashMap$class0
-    * newkey newkey="b"
-    * newvalue newvalue=2
+    * key key="b"
+    * value value=2
     * remappingFunction BiFunction$remappingFunction= {((oldVal, newVal) -> oldVal}
     * output: 0
     * HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String key, Integer value) & key="a";value=1 &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
@@ -26,9 +26,9 @@ public class HashMap_merge_K_V_Bifunction {
 			}
 		};
         
-        String newkey = "b";
-        Integer newvalue = 2;
-        class0.merge(newkey, newvalue, (oldVal, newVal) -> oldVal);
+        String key = "b";
+        Integer value = 2;
+        class0.merge(key, value, (oldVal, newVal) -> oldVal);
 
 		int val0 = class0.get("a");
 		int val1 = class0.get("b");
@@ -46,8 +46,8 @@ public class HashMap_merge_K_V_Bifunction {
    /**
 	* input: 4
 	* class0 HashMap$class0
-	* newkey newkey="key"
-	* newvalue newvalue=2
+	* key key="key"
+	* value value=2
 	* remappingFunction BiFunction$remappingFunction= {(oldVal, newVal) -> oldVal}
 	* output: 0
 	* HashMap$class0-HashMap$HashMap<String, Integer>();HashMap$put(String key, Integer value) & key="key";value=1 &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
@@ -60,10 +60,10 @@ public class HashMap_merge_K_V_Bifunction {
 				put("key", 1);
 			}
 		};
-        String newkey = "key";
-        Integer newvalue = 2;
+        String key = "key";
+        Integer value = 2;
 		
-        class0.merge(newkey, newvalue, (oldVal, newVal) -> oldVal);
+        class0.merge(key, value, (oldVal, newVal) -> oldVal);
 
 		int val0 = class0.get("key");
 		
@@ -77,8 +77,8 @@ public class HashMap_merge_K_V_Bifunction {
    /**
 	* input: 4
 	* class0 HashMap$class0
-	* newkey newkey="key"
-	* newvalue newvalue="world"
+	* key key="key"
+	* value value="world"
 	* remappingFunction BiFunction$remappingFunction= {(oldVal, newVal) -> newVal}
 	* output: 0
 	* HashMap$class0-HashMap$HashMap<String, String>();HashMap$put(String key, String value) & key="key";value="hello" &https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
@@ -92,8 +92,8 @@ public class HashMap_merge_K_V_Bifunction {
 			}
 		};
 		
-		String newkey = "key";
-        String newvalue = "world";
+		String key = "key";
+        String value = "world";
 		
         class0.merge("key", "world", (oldVal, newVal) -> newVal);
 
