@@ -1,13 +1,13 @@
 ﻿/**类名_方法名(_形参类型)__*类名_方法名(_形参类型)
    *@author: MF1933016+dingzhu
-   *@className: Arrays_prefix_int__Arrays_suffix_int__NSArray_init
+   *@className: Arrays_prefix_int__Arrays_suffix_int
    *@apiSignature: Arrays$func prefix(upTo end: Int) -> ArraySlice<Element>;Arrays$func suffix(from start: Int) -> ArraySlice<Element>
    *@description: Test swift api Arrays$func prefix(upTo end: Int);func suffix(_ maxLength: Int);convenience init(array: [Any], copyItems flag: Bool)
    *@Map: Arrays$public static int[] copyOfRange (int[] original, int from, int to)
 */
 import Foundation
 
-class Arrays_prefix_int__Arrays_suffix_int__NSArray_init{
+class Arrays_prefix_int__Arrays_suffix_int{
      /**
      * input: 3
      * class0 class0=[1,2,3,4,5]
@@ -17,7 +17,7 @@ class Arrays_prefix_int__Arrays_suffix_int__NSArray_init{
      * ret0  ret0=[1,2,3]
      * ret1  ret1=[1,2,3]
      */
-     static func prefix_suffix_init0(){
+     static func prefix_suffix0(){
         print(">>>>>>>>>>>>>>>>>");
 	let class0=[1,2,3,4,5];
         let upTo=3;
@@ -38,7 +38,7 @@ class Arrays_prefix_int__Arrays_suffix_int__NSArray_init{
      * ret0  ret0=[1,2,3]
      * ret1  ret1=[2,3]
      */
-     static func prefix_suffix_init1(){
+     static func prefix_suffix1(){
         print(">>>>>>>>>>>>>>>>>");
 	let class0=[1,2,3,4,5];
         let upTo=3;
@@ -52,6 +52,6 @@ class Arrays_prefix_int__Arrays_suffix_int__NSArray_init{
         for i in 1..<3  {
            print(ret1[i]);}}
 }
-Arrays_prefix_int__Arrays_suffix_int__NSArray_init.prefix_suffix_init0()
-Arrays_prefix_int__Arrays_suffix_int__NSArray_init.prefix_suffix_init1()
+Arrays_prefix_int__Arrays_suffix_int.prefix_suffix0()
+Arrays_prefix_int__Arrays_suffix_int.prefix_suffix1()
 
