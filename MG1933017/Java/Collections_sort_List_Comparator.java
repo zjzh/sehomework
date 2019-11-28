@@ -29,7 +29,12 @@ public class Collections_sort_List_Comparator {
     /**
      * input: 2
      * class0 LinkedList$class0
-     * Comparator new Comparator<Integer>()
+     * Comparator new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 - o2;
+            }
+        }
      * output: 0
      * LinkedList$class0-LinkedList$LinkedList() & class0 = new LinkedList<Integer>() & https://blog.csdn.net/i_lovefish/article/details/8042883
      */
