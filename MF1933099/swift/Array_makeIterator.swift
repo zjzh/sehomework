@@ -10,7 +10,7 @@ import Foundation
 class Array_makeIterator{
     /**
     * input: 1
-    * class0 Array$cclass0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 Array$class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 Iterator$ret0
     */
