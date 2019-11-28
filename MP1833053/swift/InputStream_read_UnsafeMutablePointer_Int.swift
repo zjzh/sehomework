@@ -2,7 +2,7 @@
  *  @author: 周壮壮_MP1833053
  *  @className: InputStream_read_UnsafeMutablePointer_Int
  *  @apiSignature: InputStream$func read(_ buffer: UnsafeMutablePointer<UInt8>, maxLength len: Int) -> Int
- *  @description: Test swift api InputStream$func read(_ buffer: UnsafeMutablePointer<UInt8>, maxLength len: Int) -> Int
+ *  @description: Test swift api InputStream$func read(_ buffer: UnsafeMutablePointer<UInt8>, maxLength len: Int)
  *  @Map: java.io.FileInputStream$public int read ()
  */
 import Foundation

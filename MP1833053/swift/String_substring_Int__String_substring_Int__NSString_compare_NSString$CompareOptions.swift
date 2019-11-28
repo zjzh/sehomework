@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)
  * @author:  周壮壮_MP1833053
  *  @className: String_substring_Int__String_substring_Int__NSString_compare_NSString$CompareOptions
- *  @apiSignature: String$func substring(to: Int) -> String;String$func substring(from: Int) -> String;NSString$ ompare(_ string: String, options mask: NSString.CompareOptions = []) -> ComparisonResult
- *  @description: Test swift api String$prefix(through position: String.Index);String$lastIndex(of element: Character)
+ *  @apiSignature: String$func substring(to: Int) -> String;String$func substring(from: Int) -> String;NSString$Compare(_ string: String, options mask: NSString.CompareOptions = []) -> ComparisonResult
+ *  @description: Test swift api String$psubstring(to: Int);String$substring(from: Int);NSString$Compare(_ string: String, options mask: NSString.CompareOptions = [])
  *  @Map: java.lang.String$public int lastIndexOf(int ch, int fromIndex)
  */
 
@@ -17,7 +17,7 @@ class String_substring_Int__String_substring_Int__NSString_compare_NSString$Comp
      *ouput : 3
      *ret0 ret0="Hello"
      *ret1 ret1="hello"
-	 *ret3 ret2=0
+	 *ret2 ret2=0
      */
     static func substring_substring_compare(){
         print(">>>>>>>>")
@@ -30,7 +30,7 @@ class String_substring_Int__String_substring_Int__NSString_compare_NSString$Comp
 		let ret1 = class1.substring(from: 2) // hello
 		assert(ret1=="hello")
 		
-        var ret3 = ret0.compare(ret1, options: NSString.CompareOptions.caseInsensitive).rawValue
+        var ret2 = ret0.compare(ret1, options: NSString.CompareOptions.caseInsensitive).rawValue
         assert(ret2==0)
 		print(ret2)
     }

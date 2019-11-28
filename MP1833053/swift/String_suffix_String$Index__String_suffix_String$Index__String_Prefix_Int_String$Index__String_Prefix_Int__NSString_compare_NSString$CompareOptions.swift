@@ -1,8 +1,8 @@
 /**类名_方法名(_形参类型)
  * @author:  周壮壮_MP1833053
  *  @className: String_suffix_String$Index__String_suffix_String$Index__String_Prefix_Int_String$Index__String_Prefix_Int__NSString_compare_NSString$CompareOptions
- *  @apiSignature: String$func prefix(through position: String.Index) -> Substring;String$func lastIndex(of element: Character) -> String.Index?
- *  @description: Test swift api String$prefix(through position: String.Index);String$lastIndex(of element: Character)
+ *  @apiSignature: String$func suffix(from start: String.Index) -> Substring;String$func prefix(through position: String.Index) -> Substring;NSString$func compare(_ string: String, options mask: NSString.CompareOptions = []) -> ComparisonResult
+ *  @description: Test swift api String$func suffix(from start: String.Index);String$prefix(through position: String.Index);NSString$func compare(_ string: String, options mask: NSString.CompareOptions = [])
  *  @Map: java.lang.String$public int lastIndexOf(int ch, int fromIndex)
  */
 
