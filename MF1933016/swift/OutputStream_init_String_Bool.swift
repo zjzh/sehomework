@@ -28,7 +28,8 @@ class OutputStream_init_String_Bool{
         inp?.open()
         inp?.read(&data, maxLength: 10)
         let str = String(bytes: data, encoding: String.Encoding.utf8)
-        print(str!)
+        assert(str!=="helloworld")
+	print(str!)
      }
     /**
      * input: 2
@@ -42,7 +43,7 @@ class OutputStream_init_String_Bool{
         let toFileAtPath="helloearth.txt"
         let shouldAppend = true
         let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
-        let buffer = "helloworld"
+        let buffer = "helloearth"
         ret0!.open()
         ret0!.write(buffer, maxLength: 10)
         ret0!.close()
@@ -51,7 +52,8 @@ class OutputStream_init_String_Bool{
         inp?.open()
         inp?.read(&data, maxLength: 10)
         let str = String(bytes: data, encoding: String.Encoding.utf8)
-        print(str!)
+        assert(str!=="helloearth")
+	print(str!)
       }
 }
 OutputStream_init_String_Bool.init0()
