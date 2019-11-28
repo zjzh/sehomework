@@ -1,13 +1,13 @@
 /**类名_方法名(_形参类型)*
  *  @author: MF1933040贾晓玉
- *  @className: String_elementsEuqal_String1
+ *  @className: String_elementsEuqal_String
  *  @apiSignature:String$func elementsEqual<OtherSequence>(_ other: OtherSequence) -> Bool
  *  @description: Test swift api :String$func elementsEqual<OtherSequence>(_ other: OtherSequence) -> Bool
  *  @Map:java.lang.String$public boolean contentEquals(CharSequence cs)
  */
 import Foundation
 
-class String_elementsEuqal_String1{
+class String_elementsEuqal_String{
      /**
      * input: 2
      * class0 class0="hello world"
@@ -37,5 +37,5 @@ class String_elementsEuqal_String1{
        print(class0.elementsEqual(element))
    }
 }
-String_elementsEuqal_String1.elementsEqual0()
-String_elementsEuqal_String1.elementsEqual1()
+String_elementsEuqal_String.elementsEqual0()
+String_elementsEuqal_String.elementsEqual1()
