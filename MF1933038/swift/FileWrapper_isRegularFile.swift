@@ -13,7 +13,7 @@ class FileWrapper_isRegularFile{
      * class0 FileWrapper$class0
      * output: 1
      * ret0 ret0 = true
-     * FileWrapper$class0-FileWrapper(url: url) & url = URL.init(name: String) & String$name = "/Users/HZH/Swift/SEhomework/test0.txt" & https://developer.apple.com/documentation/foundation/filewrapper
+     * FileWrapper$class0-FileWrapper$init(url: URL) & URL$url = URL.init(name: String) & String$name = "/Users/HZH/Swift/SEhomework/test0.txt" & https://developer.apple.com/documentation/foundation/filewrapper
      */
     static func is_regularFile0(){
         print(">>>>>>>>>>>>>>>>")
@@ -34,7 +34,7 @@ class FileWrapper_isRegularFile{
      * class0 FileWrapper$class0
      * output: 1
      * ret0  ret0 = false
-     * FileWrapper$class0-FileWrapper(url: url) & url = URL.init(name: String) & String$name = "/Users/HZH/Swift/SEhomework/test1.txt" & https://developer.apple.com/documentation/foundation/filewrapper
+     * FileWrapper$class0-FileWrapper$init(url: URL) & URL$url = URL.init(name: String) & String$name = "/Users/HZH/Swift/SEhomework/test1.txt" & https://developer.apple.com/documentation/foundation/filewrapper
      */
     static func is_regularFile1(){
         print(">>>>>>>>>>>>>>>>")
