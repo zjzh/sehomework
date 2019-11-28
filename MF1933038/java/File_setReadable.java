@@ -16,7 +16,7 @@
      * readable0  readable0 = true
      * output: 1
      * ret0  ret0 = true
-     * File$class0-File(String pathname) & pathname = "F:/test.txt" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File(String pathname) & String$pathname = "F:/test.txt" & https://developer.android.google.cn/reference/java/io/File.html
      */
     public static void set_readable(){
         System.out.println(">>>>>>>>>>>>>>>");
