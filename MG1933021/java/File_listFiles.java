@@ -11,10 +11,8 @@ import java.io.File;
 /**
  * input : 1
  * class0 File$class0 
- * output : 3 
- * ret0 ret0 = "F:\F\MyDirectory1"
- * ret1 ret1 = "F:\F\MyDirectory2"
- * ret2 ret2 = "F:\F\SEG"
+ * output : 1
+ * ret0 ret0 = {"F:\F\MyDirectory1","F:\F\MyDirectory2","F:\F\SEG"}
  * File$class0-File$File()&class0 = new File("F\\F")&https://blog.csdn.net/brushli/article/details/12356695
  */
 public class File_listFiles {
@@ -23,18 +21,15 @@ public class File_listFiles {
 		System.out.println(">>>>>>>>>");
 		String path = "F:\\F";
 		File class0 = new File(path);
-		File[] file = class0.listFiles();
+		File[] ret0 = class0.listFiles();
 		
-		String ret0 = file[0].toString();
-		String ret1 = file[1].toString();
-		String ret2 = file[2].toString();
 		
-		assert(ret0.equals("F:\\F\\MyDirectory1"));
-		assert(ret1.equals("F:\\F\\MyDirectory2"));
-		assert(ret2.equals("F:\\F\\SEG"));
+		assert(ret0[0].toString().equals("F:\\F\\MyDirectory1"));
+		assert(ret0[1].toString().equals("F:\\F\\MyDirectory2"));
+		assert(ret0[2].toString().equals("F:\\F\\SEG"));
 
-		for(int i = 0;i < file.length;i++) {
-			System.out.println(file[i].toString());
+		for(int i = 0;i < ret0.length;i++) {
+			System.out.println(ret0[i].toString());
 		}
 	}
 	
@@ -42,4 +37,4 @@ public class File_listFiles {
 	public static void main(String []args) {
 		File_listFiles.listFiles0();
 	}
-}
+} 

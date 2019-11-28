@@ -16,9 +16,7 @@ import java.util.LinkedList;
  * class0 LinkedList$class0 
  * output : 1
  * ret0 ret0 = 0
- * LinkedList$class0-LinkedList$LinkeList<>()
- * &class0 = new LinkedList<Integer>()
- * &https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
+ * LinkedList$class0-LinkedList$LinkeList<>()&class0 = new LinkedList<Integer>() &https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
  */
 public class LinkedList_removeFirst {
 	static void removeFirst0() {

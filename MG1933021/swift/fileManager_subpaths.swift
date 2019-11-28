@@ -13,7 +13,7 @@ class FileManager_subPaths{
      *input:1
      *class0 fileManager$class0
      *output:1
-     *ret0 ret0:Optional([".DS_Store", "MyDirectory2", "MyDirectory1", "SEG", "SEG/test.txt"])
+     *ret0 ret0 = Optional([".DS_Store", "MyDirectory2", "MyDirectory1", "SEG", "SEG/test.txt"])
      *fileManger&class0-fileManager$default
      *&class0 = FileManager.default
      *&https://developer.apple.com/documentation/foundation/
