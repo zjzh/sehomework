@@ -17,7 +17,7 @@
      * b0  b0 = byte[3]
      * output: 1
      * ret0  ret0 = 3
-     * InputStream$class0-ByteArrayInputStream(byte buf[]) & byte$buf={(byte)100, (byte)101, (byte)102} & https://developer.android.google.cn/reference/java/io/InputStream.html
+     * InputStream$class0-ByteArrayInputStream$ByteArrayInputStream(byte buf[]) & byte$buf={(byte)100, (byte)101, (byte)102} & https://developer.android.google.cn/reference/java/io/InputStream.html
      */
      public static void stream_read(){
          System.out.println(">>>>>>>>>>>>>>>");
