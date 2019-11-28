@@ -11,13 +11,13 @@ class Array_append_Element{
      /**
      * input: 2
      * class0 class0 = ["1","2","3"]
-     * Element Element="4"
+     * newElement newElement="4"
      * output: 0
      */
     static func append0(){
         var class0 : Array<String> = ["1","2","3"];
-        let Element = "4";
-        class0.append(Element);
+        let newElement = "4";
+        class0.append(newElement);
         assert(class0.last=="4");
         print(class0);
     }
@@ -25,13 +25,13 @@ class Array_append_Element{
      /**
      * input: 2
      * class0 class0 = ["1","2","3"]
-     * Element Element=""
+     * newElement newElement=""
      * output: 0
      */
     static func append1(){
          var class0 : Array<String> = ["1","2","3"];
-         let Element = "" ;
-         class0.append(Element);
+         let newElement = "" ;
+         class0.append(newElement);
          assert(class0.last=="");
          print(class0);
     }
