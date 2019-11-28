@@ -15,69 +15,69 @@ public class Collection_disjoint_Collection_Collection {
 
     /**
      * input: 2
-     * collection0 Collection$collection0
-     * collection1 Collection$collection1
+     * c1 Collection$c1
+     * c2 Collection$c2
      * output: 1
      * ret0  ret0=true
-     * Collection$collection0-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
-     * Collection$collection1-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$c1-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$c2-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
      */
 
     public  static void lastIndexOf0(){
         System.out.println(">>>>>>>>>>>>");
-        Collection collection0 = new ArrayList();
-        Collection collection1 = new ArrayList();
+        Collection c1 = new ArrayList();
+        Collection c2 = new ArrayList();
 
-        collection0.add(6);
-        collection0.add(7);
-        collection0.add(8);
-        collection0.add(9);
-        collection0.add(10);
+        c1.add(6);
+        c1.add(7);
+        c1.add(8);
+        c1.add(9);
+        c1.add(10);
 
-        collection1.add(1);
-        collection1.add(2);
-        collection1.add(3);
-        collection1.add(4);
-        collection1.add(5);
+        c2.add(1);
+        c2.add(2);
+        c2.add(3);
+        c2.add(4);
+        c2.add(5);
 
-        boolean ret0= Collections.disjoint(collection0,collection1);
+        boolean ret0= Collections.disjoint(c1,c2);
         assert (ret0==true);
         System.out.println(ret0);
     }
 
     /**
      * input: 2
-     * collection0 Collection$collection0
-     * collection1 Collection$collection1
+     * c1 Collection$c1
+     * c2 Collection$c2
      * output: 1
      * ret0  ret0=false
-     * Collection$collection0-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
-     * Collection$collection1-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$c1-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
+     * Collection$c2-ArrayList$ArrayList() &  & https://developer.android.google.cn/reference/java/util/Collections
      */
 
     public  static void lastIndexOf1(){
         System.out.println(">>>>>>>>>>>>");
-        Collection collection0 = new ArrayList();
-        Collection collection1 = new ArrayList();
+        Collection c1 = new ArrayList();
+        Collection c2 = new ArrayList();
 
-        collection0.add(6);
-        collection0.add(7);
-        collection0.add(8);
-        collection0.add(9);
-        collection0.add(10);
+        c1.add(6);
+        c1.add(7);
+        c1.add(8);
+        c1.add(9);
+        c1.add(10);
 
-        collection1.add(1);
-        collection1.add(2);
-        collection1.add(3);
-        collection1.add(4);
-        collection1.add(5);
-        collection1.add(6);
-        collection1.add(7);
-        collection1.add(8);
-        collection1.add(9);
-        collection1.add(10);
+        c2.add(1);
+        c2.add(2);
+        c2.add(3);
+        c2.add(4);
+        c2.add(5);
+        c2.add(6);
+        c2.add(7);
+        c2.add(8);
+        c2.add(9);
+        c2.add(10);
 
-        boolean ret0= Collections.disjoint(collection0,collection1);
+        boolean ret0= Collections.disjoint(c1,c2);
         assert (ret0==false);
         System.out.println(ret0);
     }

@@ -14,7 +14,7 @@ public class File_setWritable_Boolean {
     /**
      * input: 1
      * class0 File$class0
-     * writable0 writable0=true
+     * writable writable=true
      * output: 1
      * ret0  ret0=true
      * File$class0-File$File(String pathname) & pathname="test.txt" & https://developer.android.google.cn/reference/java/io/File.html
@@ -23,23 +23,23 @@ public class File_setWritable_Boolean {
     public  static void setWritable0() throws IOException {
         System.out.println(">>>>>>>>>>>>");
 
-        boolean readonly = false;
         File class0 = new File("test.txt");
         if (class0.exists()) {
             class0.delete();
         }
         class0.createNewFile();
-        class0.setWritable(true);
+        boolean writable = true;
+        class0.setWritable(writable);
 
         boolean ret0= class0.canWrite();
-        assert (ret0==false);
+        assert (ret0==true);
         System.out.println(ret0);
     }
 
     /**
      * input: 1
      * class0 File$class0
-     * writable0 writable0=false
+     * writable writable=false
      * output: 1
      * ret0  ret0=false
      * File$class0-File$File(String pathname) & pathname="test.txt" & https://developer.android.google.cn/reference/java/io/File.html
@@ -48,13 +48,13 @@ public class File_setWritable_Boolean {
     public  static void setWritable1() throws IOException {
         System.out.println(">>>>>>>>>>>>");
 
-        boolean readonly = false;
         File class0 = new File("test.txt");
         if (class0.exists()) {
             class0.delete();
         }
         class0.createNewFile();
-        class0.setWritable(false);
+        boolean writable = false;
+        class0.setWritable(writable);
 
         boolean ret0= class0.canWrite();
         assert (ret0==false);
