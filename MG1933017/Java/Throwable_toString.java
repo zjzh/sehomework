@@ -4,11 +4,9 @@ package Java;
  * 方法名(_形参类型)*
  * 
  * @author: MG1933017_GongYuhang
- * @className: Collections_sort_List_Comparator
- * @apiSignature: Collections$public static <T> void sort(List<T> list,
- *                Comparator<? super T> c)
- * @description: Test java api Collections$public static <T> void sort(List<T>
- *               list, Comparator<? super T> c)
+ * @className: Throwable_toString
+ * @apiSignature: Throwable$public String toString()
+ * @description: Test java api Throwable$public String toString()
  * @Map: NSError$var localizedDescription: String { get }
  */
 public class Throwable_toString {
