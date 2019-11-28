@@ -13,7 +13,7 @@ class FileManager_FileManager$SearchPathDirectory_FileManager$SearchPathDomainMa
      * shouldCreate shouldCreate = true
 	 * url URL$url
      * output: 1
-     * ret0 ret0 = URL
+     * ret0 URL$ret0
 	 * FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url;
 	 * URL$url-URL(string) & string = "." & https://developer.apple.com/documentation/foundation/filemanager/1407693-url
     */

@@ -11,7 +11,7 @@ public class String_contentEquals_StringBuffer{
     /**
      * input: 2
      * class0 class0="NJU"
-     * sb StringBuffer$class0
+     * sb StringBuffer$sb
      * output: 1
      * ret0 ret0 = true
      * StringBuffer$sb-StringBuffer$StringBuffer(String str) & str="NJU" & https://docs.oracle.com/javase/8/docs/api/

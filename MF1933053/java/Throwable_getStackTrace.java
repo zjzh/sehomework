@@ -7,18 +7,22 @@
  */
 class Throwable_getStackTrace {
     /**
-     * input: 1
-     * class0 Throwable$class0
+     * input: 2
+     * temp temp = 1/0
+     * class0 Throwable$class0 
      * output: 1
      * ret0 StackTraceElement$ret0
      * Throwable$class0-Throwable$Throwable() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void getStackTrace0(){
-		Throwable class0 = new Throwable();
-        StackTraceElement[] ret0 = class0.getStackTrace();
-        assert(ret0 !=null);
-        for(StackTraceElement item: ret0){
-            System.out.println(item);
+	    try{
+		    int cnt = 1/0;
+	    }catch(Throwable class0){
+            StackTraceElement[] ret0 = class0.getStackTrace();
+		    assert(ret0 !=null);
+            for(StackTraceElement item: ret0){
+                System.out.println(item);
+            }
         }
     }
 

@@ -9,14 +9,15 @@ import Foundation
 class NSString_compare_String_NSString$CompareOptions{
     /**
     * input: 2
-    * class0 class0:NSString="NJU"
+    * class0 NSString$class0
     * str str="NJU"
     * output: 1
-    * ret0 ret0=ComparisonResult(rawValue: -1)
+    * ret0 ComparisonResult$ret0
+	* NSString$class0-NSString$NSString(string: String) & string = "NJU" & https://developer.apple.com/documentation/foundation/nsstring
     */
     static func compare0(){
         print(">>>>>>>>>>>>>>")
-        let class0:NSString = "NJU"
+        let class0 = NSString(string:"NJU")
         var str = "NJU"
         var ret0 = class0.compare(str,options:NSString.CompareOptions(rawValue: 1))
         assert(ret0 != ComparisonResult(rawValue: -1))
@@ -25,14 +26,15 @@ class NSString_compare_String_NSString$CompareOptions{
 
     /**
     * input: 2
-    * class1 class1:NSString="NJU"
+    * class1 NSString$class1
     * str str="nju"
     * output: 1
-    * ret1 ret1=ComparisonResult(rawValue: -1)
+    * ret1 ComparisonResult$ret1
+	* NSString$class1-NSString$NSString(string: String) & string = "NJU" & https://developer.apple.com/documentation/foundation/nsstring
     */
     static func compare1(){
         print(">>>>>>>>>>>>>>>")
-        let class1:NSString = "NJU"
+        let class1 = NSString(string:"NJU")
         var str = "nju"
         var ret1 = class1.compare(str,options:NSString.CompareOptions(rawValue: 1))
         assert(ret1 != ComparisonResult(rawValue: -1))
