@@ -1,4 +1,5 @@
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
@@ -18,12 +19,12 @@ public class InputStream_read_Array {
      * output: 1
      * ret0 ret0=7
      * ByteArrayInputStream$class0-ByteArrayInputStream$ByteArrayInputStream(byte[] bytes) & bytes="example".getBytes() & https://stackoverflow.com/questions/5720524/how-does-one-create-an-inputstream-from-a-string
-     * Array$b-new byte[256]
+     * Array$b-Array$newInstance(Class class, int length) & class=byte.class & length=256 & https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Array.html
      */
     public static void read0() {
         System.out.println(">>>>>>>>>>>>");
         InputStream class0 = new ByteArrayInputStream("example".getBytes());
-        byte[] b = new byte[256];
+        byte[] b = (byte[]) Array.newInstance(byte.class, 256);
         try {
             int ret0 = class0.read(b);
             assert ret0 == 7;
