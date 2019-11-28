@@ -11,10 +11,9 @@ class FileManager_setAttributes{
     /**
      * input: 2
      * path0 path0 = "/Users/HZH/Swift/SEhomework/test.txt"
-     * attributes FileAttributeKey$attributes
+     * attributes attributes = [FileAttributeKey.ownerAccountName:"read"]
      * output: 1
      * ret0  ret0= true
-     *FileAttributeKey$attributes-FileAttributeKey.ownerAccountName:"read" & https://developer.apple.com/documentation/foundation/filemanager/1413667-setattributes & https://www.jianshu.com/p/c366b4368415
      */
     static func set_Attributes0(){
         print(">>>>>>>>>>>>>>>>")
@@ -32,10 +31,9 @@ class FileManager_setAttributes{
     /**
      * input: 2
      * path0 path0 = "/Users/HZH/Swift/SEhomework/test1.txt"
-     * attributes FileAttributeKey$attributes
+     * attributes attributes = [FileAttributeKey.ownerAccountName:"read"]
      * output: 1
      * ret0  ret0= false
-     * FileAttributeKey$attributes-FileAttributeKey.ownerAccountName:"read" & https://developer.apple.com/documentation/foundation/filemanager/1413667-setattributes & https://www.jianshu.com/p/c366b4368415
      */
     static func set_Attributes1(){
         print(">>>>>>>>>>>>>>>>")
