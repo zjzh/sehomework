@@ -14,7 +14,7 @@ public class ArrayList_lastIndexOf_Object {
      * object object="hello"
      * output: 1
      * ret0  ret0=0
-     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList&ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */
     public  static void lastIndexOf0(){
         System.out.println(">>>>>>>>>>>>");
@@ -32,7 +32,7 @@ public class ArrayList_lastIndexOf_Object {
      * object object="who"
      * output: 1
      * ret0  ret0=0
-     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList&ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */
     public  static void lastIndexOf1(){
     	System.out.println(">>>>>>>>>>>>");
