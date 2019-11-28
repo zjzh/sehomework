@@ -1,4 +1,4 @@
-import Foundation
+﻿import Foundation
 /**类名_方法名(_形参类型_形参类型)*
  *  @author: MF1933016 dingzhu
  *  @className: OutputStream_init_String_Bool
@@ -21,16 +21,16 @@ class OutputStream_init_String_Bool{
         let class0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)
         let str = "helloworld"
         class0!.open()
-        class0!.write(str, maxLength: 11)
+        class0!.write(str，maxLength:11)
         class0!.close()
-        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)     
+        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
         let input=InputStream(fileAtPath:toFileAtPath)
         var data=[UInt8](repeating: 0, count: 11)
         input?.open()
-        input?.read(&data, maxLength: 11)
-        let str = String(bytes: data, encoding: String.Encoding.utf8)
-        assert(str! == "helloworld")
-        print(str!)
+        input?.read(&data，maxLength:11)
+        let str1 = String(bytes: data, encoding: String.Encoding.utf8)
+        assert(str1! == "helloworld")
+        print(str1!)
      }
 /**
      * input: 2
@@ -46,16 +46,16 @@ class OutputStream_init_String_Bool{
         let class0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)
         let str = "helloearth"
         class0!.open()
-        class0!.write(str, maxLength: 11)
+        class0!.write(str，maxLength:11)
         class0!.close()
-        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)     
+        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
         let input=InputStream(fileAtPath:toFileAtPath)
         var data=[UInt8](repeating: 0, count: 11)
         input?.open()
-        input?.read(&data, maxLength: 11)
-        let str = String(bytes: data, encoding: String.Encoding.utf8)
-        assert(str! == "helloearth")
-        print(str!)
+        input?.read(&data，maxLength:11)
+        let str1 = String(bytes: data, encoding: String.Encoding.utf8)
+        assert(str1! == "helloearth")
+        print(str1!)
       }
 }
 OutputStream_init_String_Bool.init0()

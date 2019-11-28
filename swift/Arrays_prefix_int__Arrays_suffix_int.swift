@@ -1,7 +1,7 @@
-/**类名_方法名(_形参类型)__*类名_方法名(_形参类型)__*类名_方法名
+﻿/**类名_方法名(_形参类型)__*类名_方法名(_形参类型)
    *@author: MF1933016+dingzhu
    *@className: Arrays_prefix_int__Arrays_suffix_int__NSArray_init
-   *@apiSignature: Arrays$func prefix(upTo end: Int) -> ArraySlice<Element>;Arrays$func suffix(from start: Int) -> ArraySlice<Element>;NSArray$convenience init(array: [Any], copyItems flag: Bool)
+   *@apiSignature: Arrays$func prefix(upTo end: Int) -> ArraySlice<Element>;Arrays$func suffix(from start: Int) -> ArraySlice<Element>
    *@description: Test swift api Arrays$func prefix(upTo end: Int);func suffix(_ maxLength: Int);convenience init(array: [Any], copyItems flag: Bool)
    *@Map: java.lang.Arrays$public static int[] copyOfRange (int[] original, int from, int to)
 */
@@ -23,14 +23,13 @@ class Arrays_prefix_int__Arrays_suffix_int__NSArray_init{
         let upTo=3;
         let from=0;
         let ret0=class0.prefix(upTo:upTo);
-        let class1=ret0.suffix(from:from);
-	let ret1 = NSArray.init(array:class1,copyItems flag:true)
-        for (int i = 0; i <3; i++) {
+        let ret1=ret0.suffix(from:from);
+        for i in 0..<3 {
            assert(ret0[i]==i+1);
-           assert(ret1[i]==i+1}
-        for (int i = 0; i <3; i++) {
+           assert(ret1[i]==i+1);}
+        for i in 0..<3 {
            print(ret1[i]);}}
-  /**
+     /**
      * input: 3
      * class0 class0=[1,2,3,4,5]
      * upTo upTo=3
@@ -39,19 +38,18 @@ class Arrays_prefix_int__Arrays_suffix_int__NSArray_init{
      * ret0  ret0=[1,2,3]
      * ret1  ret1=[2,3]
      */
-     static func prefix_suffix_init0(){
+     static func prefix_suffix_init1(){
         print(">>>>>>>>>>>>>>>>>");
 	let class0=[1,2,3,4,5];
         let upTo=3;
         let from=1;
-        let ret0=class0.prefix(upTo:uoTo);
-        let class1=ret0.suffix(from:from);
-	let ret1 = NSArray.init(array:class1,copyItems flag:true);
-        for (int i = 0; i <3; i++) {
-           assert(ret0[i]==i+1);
-           }
-        for (int i = 0; i <2; i++) {
-           assert(ret1[i]==i+2;
+        let ret0=class0.prefix(upTo:upTo);
+        let ret1=ret0.suffix(from:from);
+         for i in 0..<3 {
+           assert(ret0[i]==i+1);}
+	assert(ret1[1]==2);
+	assert(ret1[2]==3);
+        for i in 1..<3  {
            print(ret1[i]);}}
 }
 Arrays_prefix_int__Arrays_suffix_int__NSArray_init.prefix_suffix_init0()
