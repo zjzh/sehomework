@@ -36,7 +36,7 @@ public class LinkedList_indexOf_Object {
      * class0 LinkedList$class0
      * o o="wow"
      * output: 1
-     * ret0 ret0=0
+     * ret0 ret0=-1
      * LinkedList$class0-LinkedList$LinkedList(Collection c) & c={"hello", "world", "hello"} & https://developer.android.google.cn/reference/java/util/LinkedList
      */
      public  static void indexOf1(){
