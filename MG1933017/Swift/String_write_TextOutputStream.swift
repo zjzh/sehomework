@@ -10,7 +10,7 @@ class String_write_TextOutputStream{
      /**
      * input: 2
      * class0 class0=false
-     * target toFile: toFileAtPath, atomically: false, encoding: .utf8
+     * target TextOutputStream$target
      * output: 0
      * toFile: toFileAtPath, atomically: false, encoding: .utf8 & toFile: toFileAtPath, atomically: false, encoding: .utf8 &http://swiftdeveloperblog.com/code-examples/write-string-value-into-a-file/
      */
