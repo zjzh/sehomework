@@ -1,23 +1,22 @@
 /**类名_方法名(_形参类型)*
  * @author:MG1933073 熊俊
- * @className:Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_ComparisonResult
- * @apiSignature:Array$func prefix(upTo end: Int) -> ArraySlice<Element>;Array$func suffix(from start: Int) -> ArraySlice<Element>;NSMutateArray$func sort(options opts: NSSortOptions=[],usingComparator cmptr:(Any,Any)->ComparisonResult)
+ * @className:Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_Function
+ * @apiSignature:Array$func prefix(upTo end: Int) -> ArraySlice<Element>;Array$func suffix(from start: Int) -> ArraySlice<Element>;NSMutableArray$func sort(options opts: NSSortOptions=[],usingComparator cmptr:(Any,Any)->ComparisonResult)
  * @description:Test swift api Array$prefix(upTo end: Int);Array$suffix(from start: Int);NSMutableArray$sort(options opts: NSSortOptions=[],usingComparator cmptr:(Any,Any)->ComparisonResult)
  * @Map:java.util.Arrays$public static void sort(Object[] a,int fromIndex,int toIndex)
  */
  import Foundation
- class Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_ComparisonResult{
+ class Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_Function{
      /**
       *input:5
       *class0 class0=[5,4,3,2,1]
       *upTo upTo=class0.count
       *from from=0
-      *options NSSortOptions$options
+      *options NSSortOptions$options=[]
       *usngComparator Function$Comparator={(Any,Any)->ComparisonResult}
       *output:2
       *ret0 ret0=[5,4,3,2,1]
       *ret1 ret1=[5,4,3,2,1]
-      *NSSortOptions$options-struct NSSortOptions&NSSortOptions=[]&https://developer.apple.com/documentation/foundation/nssortoptions
       */
      static func prefix_suffix_sort0(){
          print(">>>>>>>>>>>>>>>>>");
@@ -77,12 +76,11 @@
       *class0 class0=["E","D","C","B","A"]
       *upTO class0.count$upTo
       *from from=0
-      *options NSSortOptions$options
+      *options NSSortOptions$options=[]
       *usngComparator Comparator=(Any,Any)->ComparisonResult
       *output:2
       *ret0 ret0=["E","D","C","B","A"]
       *ret1 ret1=["E","D","C","B","A"]
-      *NSSortOptions$options- struct NSSortOptions&NSSortOptions=[]&https://developer.apple.com/documentation/foundation/nssortoptions
       */
      static func prefix_suffix_sort1(){
          print("\n>>>>>>>>>>>>>>>>>")
@@ -137,5 +135,5 @@
 		 print(ret2)
      }
  }
-Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_ComparisonResult.prefix_suffix_sort0();
-Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_ComparisonResult.prefix_suffix_sort1();
+Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_Function.prefix_suffix_sort0();
+Array_prefix_Int__Array_suffix_Int__NSMutableArray_sort_NSSortOptions_Function.prefix_suffix_sort1();
