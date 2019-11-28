@@ -12,7 +12,7 @@ class Array_last{
      * input: 1
 	 * class0 class0=[0, 1, 2]
 	 * output: 1
-	 * ret0 ret0="2"	 
+	 * ret0 ret0=2	 
      */
     static func last0(){
         let class0 = [0, 1, 2]

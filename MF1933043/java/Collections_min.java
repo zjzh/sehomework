@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -18,15 +19,11 @@ public class Collections_min{
      * coll LinkedList$coll=[1, 2, 3]
      * output: 1
      * ret0 ret0=1
-     * LinkedList$coll-LinkedList$add(Integer x) & Integer x=2 & https://blog.csdn.net/gongchuangsu/article/details/51527042
+     * LinkedList$coll-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a);a="interesting", "happy", "funny", "interesting", "exciting" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void min0(){
         System.out.println(">>>>>>>>>>>>");
-        LinkedList<Integer> coll = new LinkedList<>();
-
-        coll.add(1);
-        coll.add(2);
-        coll.add(3);
+        LinkedList<Integer> coll = new LinkedList<>(Arrays.asList(0, 1, 2));
         Integer ret0 = Collections.min(coll);
         assert (ret0 == 1);
         System.out.println(ret0);

@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**类名_方法名(_形参类型)*
  * @author: jiangxianjie
@@ -17,14 +15,11 @@ public class Collections_reserve{
      * list List$list=[1, 2, 3]
      * output: 1
      * ret0 ret0=[3, 2, 1]
-     * List$list-List$add(Integer x) & Integer x=2 & https://blog.csdn.net/vaniice/article/details/6102015
+     * LinkedList$list-LinkedList$LinkedList(Collection c);Arrays$asList(T... a) & c=Arrays.asList(a);a="interesting", "happy", "funny", "interesting", "exciting" & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public static void reserve0(){
         System.out.println(">>>>>>>>>>>>");
-        List<Integer> list = new ArrayList();
-        list.add(1);
-        list.add(2);
-        list.add(3);
+        LinkedList<Integer> list = new LinkedList<>(Arrays.asList(0, 1, 2));
         Collections.reverse(list);
         List ret0 =list;
         assert (ret0.indexOf(0) == 3);
