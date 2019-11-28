@@ -2,8 +2,8 @@ import java.util.Arrays;
 /**类名_方法名(_形参类型_形参类型)
    *@author: MF1933016+dingzhu
    *@className: Arrays_copyOfRange_int_int
-   *@apiSignature: java.lang. Arrays$public static int[] copyOfRange (int[] original, int from, int to)
-   *@description: Test java api java.lang.int[] copyOfRange (int[] original, int from, int to)
+   *@apiSignature: java.lang.Arrays$public static int[] copyOfRange (int[] original, int from, int to)
+   *@description: Test java api Arrays$public static int[] copyOfRange (int[] original, int from, int to)
    *@Map: swift api Arrays$func prefix(upTo end: Int);func suffix(_ maxLength: Int);convenience init(array: [Any], copyItems flag: Bool)
    *@Map: swift api Arrays$func prefix(upTo end: Int);Arrays$func suffix(from start: Int)
 */
