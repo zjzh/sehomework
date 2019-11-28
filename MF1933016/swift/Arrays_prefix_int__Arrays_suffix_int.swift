@@ -3,7 +3,7 @@
    *@className: Arrays_prefix_int__Arrays_suffix_int__NSArray_init
    *@apiSignature: Arrays$func prefix(upTo end: Int) -> ArraySlice<Element>;Arrays$func suffix(from start: Int) -> ArraySlice<Element>
    *@description: Test swift api Arrays$func prefix(upTo end: Int);func suffix(_ maxLength: Int);convenience init(array: [Any], copyItems flag: Bool)
-   *@Map: java.lang.Arrays$public static int[] copyOfRange (int[] original, int from, int to)
+   *@Map: Arrays$public static int[] copyOfRange (int[] original, int from, int to)
 */
 import Foundation
 

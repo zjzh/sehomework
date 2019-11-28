@@ -16,18 +16,17 @@ class OutputStream_init_String_Bool{
      * OutputStream$ret0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="test.txt";Bool$shouldAppend=true &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
      */
     static func init0(){
-        let toFileAtPath="helloworld.txt"
+        let toFileAtPath = "helloworld.txt"
         let shouldAppend = true
-        let class0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)
+        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)
         let str = "helloworld"
-        class0!.open()
-        class0!.write(str，maxLength:11)
-        class0!.close()
-        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
+        ret0!.open()
+        ret0!.write(str，maxLength:10)
+        ret0!.close()
         let input=InputStream(fileAtPath:toFileAtPath)
-        var data=[UInt8](repeating: 0, count: 11)
+        var data=[UInt8](repeating: 0, count: 10)
         input?.open()
-        input?.read(&data，maxLength:11)
+        input?.read(&data，maxLength:10)
         let str1 = String(bytes: data, encoding: String.Encoding.utf8)
         assert(str1! == "helloworld")
         print(str1!)
@@ -43,16 +42,15 @@ class OutputStream_init_String_Bool{
     static func init1(){
         let toFileAtPath="hellowearth.txt"
         let shouldAppend = true
-        let class0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)
+        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend)
         let str = "helloearth"
-        class0!.open()
-        class0!.write(str，maxLength:11)
-        class0!.close()
-        let ret0 = OutputStream(toFileAtPath: toFileAtPath, append: shouldAppend);
+        ret0!.open()
+        ret0!.write(str，maxLength:10)
+        ret0!.close()
         let input=InputStream(fileAtPath:toFileAtPath)
-        var data=[UInt8](repeating: 0, count: 11)
+        var data=[UInt8](repeating: 0, count: 10)
         input?.open()
-        input?.read(&data，maxLength:11)
+        input?.read(&data，maxLength:10)
         let str1 = String(bytes: data, encoding: String.Encoding.utf8)
         assert(str1! == "helloearth")
         print(str1!)

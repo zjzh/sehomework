@@ -1,4 +1,4 @@
-import java.io.FileNotFoundException;
+﻿import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileInputStream;
 import java.io.File;
@@ -7,9 +7,9 @@ import java.io.IOException;
 /**类名_方法名(_形参类型_形参类型)
  * @author: MG1933016 dingzhu
  * @className: FileOutputStream_init_string_boolean
- * @apiSignature: java.io.FileOutputStream$public FileOutputStream (String name, 
+ * @apiSignature: java.io.FileOutputStream$FileOutputStream(String name, 
                 boolean append)
- * @description: Test java api java.io.FileOutputStream$public FileOutputStream (String name, 
+ * @description: Test java api java.io.FileOutputStream$FileOutputStream(String name, 
                 boolean append)
  * @Map: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
  */
