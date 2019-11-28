@@ -15,7 +15,6 @@ class Array_suffix_int__Array_makeIterator{
      * output: 2
      # ret0 ret0= [4,5]
      * ret1 IndexingIterator$ret1
-     * IndexingIterator$ret1-Array$makeIterator() & https://developer.apple.com/documentation/swift/array
      */
 	static func suffix_makeIterator0(){
 		print(">>>>>>>>")
@@ -40,7 +39,6 @@ class Array_suffix_int__Array_makeIterator{
      * output: 2
      # ret0 ret0= ["N","J","U"]
      * ret1 IndexingIterator$ret1
-     * IndexingIterator$ret1-Array$makeIterator() & https://developer.apple.com/documentation/swift/array
      */
 	static func suffix_makeIterator1(){
 		print(">>>>>>>>")
