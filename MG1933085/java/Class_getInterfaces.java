@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-/**类名_方法名(_形参类型)
+/*
  *  @author: MG1933085 余博涛
  *  @className: Class_getInterfaces
  *  @apiSignature: java.lang.Class$public Class<?>[] getInterfaces()
