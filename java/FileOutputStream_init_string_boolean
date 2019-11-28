@@ -14,7 +14,7 @@ import java.io.IOException;
  * @Map: OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool)
  */
 
-public class FileOutputStream_string_boolean{
+public class FileOutputStream_init_string_boolean{
 /**
      * input: 2
      * name name = "helloworld.txt"
@@ -24,7 +24,7 @@ public class FileOutputStream_string_boolean{
      * File$file-File$File(String fileName)& String$fileName="wgx_test.txt" & https://www.geeksforgeeks.org/file-class-in-java/
      */
 public static void init0(){
-String name = "helloworld.txt"
+String name = "helloworld.txt";
 File file = new File(name);
      try {
 	 String str = "helloworld";
@@ -54,7 +54,7 @@ File file = new File(name);
      */
 
 public static void init1(){
-String name = "helloearth.txt"
+String name = "helloearth.txt";
 File file = new File(name);
      try {
 	 String str = "helloearth";
@@ -75,7 +75,7 @@ File file = new File(name);
      }
 }
 public static void main(String[] args){
-        FileOutputStream_string_boolean.init0();
-        FileOutputStream_string_boolean.init1();
+	FileOutputStream_init_string_boolean.init0();
+	FileOutputStream_init_string_boolean.init1();
     }
 }
