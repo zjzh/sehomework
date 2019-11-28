@@ -15,13 +15,14 @@ class ObjectiveCRuntime_class_getName_AnyClass{
     *input:1
     *class0 NSString$class0 
     *output:1
-    *ret0 ret0="0x00007fff568e4dd2"
+    *ret0 UnsafePointer<Int8>$ret0
     *NSString$class0-NSString$init() & class0 = NSString.self &  https://developer.apple.com/documentation/foundation/nsstring?language=occ
     */
     static func class_getName0 () {
         print(">>>>>>>>>>>>>>>>>")
         let class0 = NSString.self
         let ret0 = class_getName(class0)
+        assert(String(cString:ret0) ==  "NSString")
         print(ret0)
     }
 }
