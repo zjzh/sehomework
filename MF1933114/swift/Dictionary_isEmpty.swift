@@ -9,25 +9,27 @@ import Foundation
 class Dictionary_isEmpty{
     /**
 	*input:1
-	*dic Dictonary$dic=[:]
+	*class0 Dictonary$class0
 	*output:1
 	*ret0=true
+	*Dictonary$class0-Dictonary$isEmpty() & 	let class0:[Int:Int]=[:]& https://developer.apple.com/documentation/swift/dictionary
 	*/
 	static func isEmpty0(){
-	let dic:[Int:Int]=[:]
-    let ret0=dic.isEmpty
+	let class0:[Int:Int]=[:]
+    let ret0=class0.isEmpty
 	assert(ret0==true)
 	print (ret0)
     }
     /**
 	*input:1
-	*dic Dictonary$dic=[0:0]
+	*class1 Dictonary$class1=[0:0]
 	*output:1
 	*ret1=fasle
+	*Dictonary$class0-Dictonary$isEmpty() & 	let class0:[Int:Int]=[0:0]& https://developer.apple.com/documentation/swift/dictionary
 	*/
 	static func isEmpty1(){
-	let dic:[Int:Int]=[0:0]
-    let ret1=dic.isEmpty
+	let class1:[Int:Int]=[0:0]
+    let ret1=class1.isEmpty
 	assert(ret1==false)
 	print (ret1)
     }

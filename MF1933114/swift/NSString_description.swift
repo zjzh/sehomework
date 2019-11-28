@@ -9,13 +9,13 @@ import Foundation
 class NSString_description{
     /**
 	*input:1
-	*str NSString$str="This is a string"
+	*class0 NSString$class0="This is a string"
 	*output:1
 	*ret0 NSString$ret0="This is a string"
 	*/
 	static func description0(){
-	let str="This is a string"
-	let ret0=str.description
+	let class0="This is a string"
+	let ret0=class0.description
 	assert(ret0=="This is a string")
 	print(ret0)
     }
