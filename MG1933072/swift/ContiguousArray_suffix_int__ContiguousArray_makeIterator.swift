@@ -15,7 +15,6 @@ class ContiguousArray_suffix_int__ContiguousArray_makeIterator{
      * output: 2
      # ret0 ret0= [4,5]
      * ret1 IndexingIterator$ret1
-     * IndexingIterator$ret1-ContiguousArray$makeIterator() & https://developer.apple.com/documentation/swift/contiguousarray
      */
 	static func suffix_makeIterator0(){
 		print(">>>>>>>>")
@@ -40,7 +39,6 @@ class ContiguousArray_suffix_int__ContiguousArray_makeIterator{
      * output: 2
      # ret0 ret0= ["N","J","U"]
      * ret1 IndexingIterator$ret1
-     * IndexingIterator$ret1-ContiguousArray$makeIterator() & https://developer.apple.com/documentation/swift/contiguousarray
      */
 	static func suffix_makeIterator1(){
 		print(">>>>>>>>")
