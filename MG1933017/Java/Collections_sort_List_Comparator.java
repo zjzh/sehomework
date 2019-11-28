@@ -29,7 +29,7 @@ public class Collections_sort_List_Comparator {
     /**
      * input: 2
      * class0 LinkedList$class0
-     * Comparator new Comparator<Integer>() {
+     * comp Comparator$comp=new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
                 return o1 - o2;
