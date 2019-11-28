@@ -14,12 +14,7 @@ import java.util.*;
      * when Calendar$when
      * output: 1
      * ret0  ret0=true
-     * Calendar$class0-Calendar$set​(int year,
-                      int month,
-                      int date,
-                      int hourOfDay,
-                      int minute,
-                      int second) & int$year=2019;int$month=11;int$date=11;int$hourOfDay=11;int$minute=11;int$second=11 & link-https://docs.oracle.com/javase/9/docs/api/java/util/Calendar.html#set-int-int-int-int-int-int-
+     * Calendar$class0-Calendar$set​(int year, int month, int date, int hourOfDay, int minute, int second) & int$year=2019;int$month=11;int$date=11;int$hourOfDay=11;int$minute=11;int$second=11 & link-https://docs.oracle.com/javase/9/docs/api/java/util/Calendar.html#set-int-int-int-int-int-int-
      */
     public static void after0(){
         System.out.println(">>>>>>>>>>>>");
@@ -37,12 +32,7 @@ import java.util.*;
      * when Calendar$when
      * output: 1
      * ret0  ret0=true
-     * Calendar$class0-Calendar$set​(int year,
-                      int month,
-                      int date,
-                      int hourOfDay,
-                      int minute,
-                      int second) & int$year=2012;int$month=11;int$date=11;int$hourOfDay=11;int$minute=11;int$second=11 & link-https://docs.oracle.com/javase/9/docs/api/java/util/Calendar.html#set-int-int-int-int-int-int-
+     * Calendar$class0-Calendar$set​(int year, int month, int date, int hourOfDay, int minute, int second) & int$year=2012;int$month=11;int$date=11;int$hourOfDay=11;int$minute=11;int$second=11 & link-https://docs.oracle.com/javase/9/docs/api/java/util/Calendar.html#set-int-int-int-int-int-int-
      */
     public static void after1(){
         System.out.println(">>>>>>>>>>>>");

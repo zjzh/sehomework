@@ -10,10 +10,9 @@ import Foundation
 class InputStream_hasBytesAvailable{
     /**
      * input: 1
-     * class0 InputStream$class0=InputStream("file.txt")
+     * InputStream$class0-InputStream$init?(toFileAtPath path: String) & String$toFileAtPath="file.txt" & https://developer.apple.com/documentation/foundation/inputstream/1408976-init
      * output: 1
      * ret0 ret0=true
-     * InputStream$class0-InputStream$init?(toFileAtPath path: String) & String$toFileAtPath="file.txt" & https://developer.apple.com/documentation/foundation/inputstream/1408976-init
      */
     static func hasBytesAvailable0(){
         print(">>>>>>>>")
@@ -33,10 +32,9 @@ class InputStream_hasBytesAvailable{
     }
     /**
      * input: 1
-     * class0 InputStream$class0=InputStream("file.txt")
+     * InputStream$class0-InputStream$init?(toFileAtPath path: String) & String$toFileAtPath="file.txt" & https://developer.apple.com/documentation/foundation/inputstream/1408976-init
      * output: 1
      * ret0 ret0=false
-     * InputStream$class0-InputStream$init?(toFileAtPath path: String) & String$toFileAtPath="file.txt" & https://developer.apple.com/documentation/foundation/inputstream/1408976-init
      */
     static func hasBytesAvailable1(){
         print(">>>>>>>>")
