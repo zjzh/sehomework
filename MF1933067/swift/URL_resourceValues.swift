@@ -10,20 +10,20 @@ import Foundation
 class URL_resourceValues{
     /**
      * input:1
-     * class0 resourceValues$class0
+     * class0 URLResourceValues$class0
      * output:1
-     * URLResourceValues$class0-URL$URLResourceValues() & & https://developer.apple.com/documentation/foundation/url/1780058-resourcevalues
+     * ret0 ret0=UNKNOWN
+     * URLResourceValues$class0-URL$URL(fileURLWithPath: String) & fileURLWithPath="file.txt" &https://developer.apple.com/documentation/foundation/url
      */
     
     static func contentModificationDate0(){
         let path="file.txt";
-        var urlToExclude=URL(fileURLWithPath: path)
+        var class0=URL(fileURLWithPath: path)
 
         do{
             var resourceValues=URLResourceValues()
-            resourceValues.isExcludedFromBackup=true
-            print(resourceValues.contentModificationDate)
-        try urlToExclude.setResourceValues(resourceValues)
+            let ret0=try?class0.resourceValues(forKeys: [.isVolumeKey])
+            print(ret0)
         }
         catch{print("failed to set resource value")}
     }
