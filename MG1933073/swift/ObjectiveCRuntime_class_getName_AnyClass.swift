@@ -1,5 +1,5 @@
-/**ÀàÃû_·½·¨Ãû(_ÐÎ²ÎÀàÐÍ)*
- * @author:MG1933073 ÐÜ¿¡
+/**ç±»å_æ–¹æ³•å(_å½¢å‚ç±»åž‹)*
+ * @author:MG1933073 ç†Šä¿Š
  * @className:ObjectiveCRuntime_classgetName_AnyClass
  * @apiSignature:Objective-CRuntime$func class_getName(_ cls: AnyClass?) -> UnsafePointer<Int8>
  * @description:Test swift api Objective-C Runtime$func class_getName(_ cls: AnyClass?)
@@ -11,15 +11,16 @@
       *input:1
       *cls cls="NSString"
       *output:1
-      *ret0 ret0="NSString"
+      *ret0 UnsafePointer$ret0
+      *UnsafePointer$ret0-UnsafePointer$UnsafePointer<Pointee>&ret0=UnsafePointer<Int8>("NSString")&https://developer.apple.com/documentation/swift/unsafepointer
       */
      static func class_getName0(){
          print(">>>>>>>>>>>>>>>>>")
          var cls:NSString="String"
          assert(cls=="NSString")
-		 var ret0:NSString
+         var ret0:NSString
          ret0=String(class_getName(cls:cls));
-		 assert(ret0=="NSString")
+         assert(ret0=="NSString")
          print(ret0);
      }
  }
