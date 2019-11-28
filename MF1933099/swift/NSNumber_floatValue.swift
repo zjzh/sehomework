@@ -10,7 +10,7 @@ import Foundation
 class NSNumber_floatValue{
     /**
     * input: 1
-    * class0 NSNumber$class0: NSNumber = 6324
+    * class0 NSNumber$class0 = 6324
     * output: 1
     * ret0 ret0=6324.0
     */

@@ -10,7 +10,7 @@ import Foundation
 class ArraySlice_popFirst{
     /**
     * input: 1
-    * class0 ArraySlice$class0: ArraySlice = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 ArraySlice$class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 ret0="Nanjing"
     */
@@ -26,7 +26,7 @@ class ArraySlice_popFirst{
     
     /**
     * input: 1
-    * class0 ArraySlice$class0: ArraySlice<Int> = []
+    * class0 ArraySlice$class0<Int> = []
     * output: 1
     * ret0 ret0=nil
     */

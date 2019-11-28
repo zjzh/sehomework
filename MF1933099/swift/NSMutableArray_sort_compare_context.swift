@@ -10,7 +10,7 @@ import Foundation
 class NSMutableArray_sort_compare_context{
     /**
     * input: 3
-    * class0 NSMutableArray$class0: NSMutableArray = [6,3,2,4]
+    * class0 NSMutableArray$class0 = [6,3,2,4]
     * compare compare = { (a, b, nil) -> Int in return (a as! Int) - (b as! Int) }
     * context context = nil
     * output: 0

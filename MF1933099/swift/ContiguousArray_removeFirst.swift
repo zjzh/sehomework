@@ -10,7 +10,7 @@ import Foundation
 class ContiguousArray_removeFirst{
     /**
     * input: 1
-    * class0 ContiguousArray$class0: ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 ContiguousArray$class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 ret0="Nanjing"
     */
