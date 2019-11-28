@@ -14,7 +14,7 @@
      * class0  File$class0
      * output: 1
      * ret  ret0 = false
-     * File$class0-File(String pathname) & pathname = "F:/" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File(String pathname) & String$pathname = "F:/" & https://developer.android.google.cn/reference/java/io/File.html
      */
     public static void is_file0(){
         System.out.println(">>>>>>>>>>>>>>>");
@@ -29,7 +29,7 @@
      * class0  File$class0
      * output: 1
      * ret0  ret0 = true
-     * File$class0-File(String pathname) & pathname = "F:/test.txt" & https://developer.android.google.cn/reference/java/io/File.html
+     * File$class0-File(String pathname) & String$pathname = "F:/test.txt" & https://developer.android.google.cn/reference/java/io/File.html
      */
     public static void is_file1(){
         System.out.println(">>>>>>>>>>>>>>>");
