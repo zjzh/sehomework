@@ -11,7 +11,7 @@ class NSString_isEqual_String{
      /**
      * input: 2
      * class0 class0="hello world"
-     * astring = "hello world"
+     * astring astring= "hello world"
      * output: 1
      * ret0  ret0=true
      */
