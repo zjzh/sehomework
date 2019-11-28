@@ -14,7 +14,7 @@ class NSString_compare_String_options_range{
      * class0 class0="a"
      * str str="D"
      * output:1
-     * ret0 ret0=NSComparisonResult
+     * ret0 NSComparisonResult$ret0
      */
     static func compare0(){
         var class0:NSString="a";
