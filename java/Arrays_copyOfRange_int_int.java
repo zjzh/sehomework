@@ -5,7 +5,7 @@ import java.util.Arrays;
    *@apiSignature: java.lang. Arrays$public static int[] copyOfRange (int[] original, int from, int to)
    *@description: Test java api java.lang.int[] copyOfRange (int[] original, int from, int to)
    *@Map: swift api Arrays$func prefix(upTo end: Int);func suffix(_ maxLength: Int);convenience init(array: [Any], copyItems flag: Bool)
-   *@Map: swift api Arrays$func prefix(upTo end: Int);Arrays$func suffix(from start: Int);NSArray$convenience init(array: [Any], copyItems flag: Bool)
+   *@Map: swift api Arrays$func prefix(upTo end: Int);Arrays$func suffix(from start: Int)
 */
 public class Arrays_copyOfRange_int_int{
   /**
