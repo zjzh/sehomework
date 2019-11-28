@@ -7,7 +7,7 @@
  */
 import Foundation
 
-class String_elementsEuqal_String2{
+class String_elementsEuqal_String_equals{
      /**
      * input: 2
      * class0 class0="hello world"
@@ -29,7 +29,7 @@ class String_elementsEuqal_String2{
     * output: 1
     * ret0  ret0=false
     */
-   static func elementsEqual2(){
+   static func elementsEqual1(){
        let class0 = "hello world"
        let sq = "hello"
        let ret0 = class0.elementsEqual(sq, by:==)
@@ -37,5 +37,5 @@ class String_elementsEuqal_String2{
        print(class0.elementsEqual(sq))
    }
 }
-String_elementsEuqal_String2.elementsEqual0()
-String_elementsEuqal_String2.elementsEqual1()
+String_elementsEuqal_String_equals.elementsEqual0()
+String_elementsEuqal_String_equals.elementsEqual1()
