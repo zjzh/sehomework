@@ -9,22 +9,18 @@ struct Point {
   let x:Int, y:Int
 }
 
-extension Point: CustomStringConvertible {
-  var description: String {
-    return "(\(x), \(y))"
-  }
-}
 
  class String_init{
      /**
      * input: 1
-     * class0 class0=Point(x:21, y:30)
+     * class0 class0=30
      * output: 
      */
 
     static func init0(){
         print(">>>>>>>>");
-        let class0 = Point(x:21, y:30)
+        let class0 = 30
+        assert(String(describing: class0) == "30")
         print(String(describing: class0))
     }
 }

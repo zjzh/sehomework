@@ -10,7 +10,7 @@ import Foundation
  class NSNumber_int16Value {
    /**
      * input: 1
-     * class0 class0:NSNumber = 100
+     * class0 class0 = 100
      * output: 1
      * ret0 ret0=100
    */

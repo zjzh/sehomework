@@ -9,16 +9,14 @@
  class ArraySlice_append_Element {
    /**
      * input: 2
-     * class0 ArraySlice$class0
+     * class0 class0=["hello","and"]
      * newElement newElement="world"
      * output: 0
-     * ArraySlice$class0-Array$array.dropLast() & array = ["hello","and","world"] & https://developer.apple.com/documentation/swift/arrayslice/3126964-append
      */
 
      static func append0() {
        print(">>>>>>>>>>>>>>"); 
-       let array = ["hello","and","world"];
-       var class0 = array.dropLast();
+       var class0: ArraySlice = ["hello","and"];
 
        print(class0);
 
@@ -30,16 +28,14 @@
 
        /**
      * input: 2
-     * class0 ArraySlice$class0
+     * class0 class0=["hello","and"]
      * newElement newElement=""
      * output: 0
-     * ArraySlice$class0-Array$array.dropLast() & array = ["hello","and","world"] & https://developer.apple.com/documentation/swift/arrayslice/3126964-append
      */
 
      static func append1() {
        print(">>>>>>>>>>>>>>"); 
-       let array = ["hello","and","world"];
-       var class0 = array.dropLast();
+       var class0: ArraySlice = ["hello","and"];
 
        print(class0);
 
