@@ -14,9 +14,10 @@ public class FileOutputStream_close {
     /**
      * input: 2
      * class0 FileOutputStream$class0
-     * class1 File$class1
+     * file File$file
      * output: 0
-     * FileOutputStream$class0-FileOutputStream$FileOutputStream(File file);File$File(String pathname) & pathname="test.txt" & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
+     * FileOutputStream$class0-FileOutputStream$FileOutputStream(File file) & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
+     * File$file-File$File(String pathname) & pathname = "test.txt" & https://docs.oracle.com/javase/8/docs/api/
      */
     public static void close0(){
         System.out.println(">>>>>>>>");
@@ -49,7 +50,8 @@ public class FileOutputStream_close {
      * class0 FileOutputStream$class0
      * class1 File$class1
      * output: 0
-     * FileOutputStream$class0-FileOutputStream$FileOutputStream(File file);File$File(String pathname) & pathname="test2.txt" & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
+     * FileOutputStream$class0-FileOutputStream$FileOutputStream(File file) & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
+     * File$file-File$File(String pathname) & pathname = "test2.txt" & https://docs.oracle.com/javase/8/docs/api/
      */
     public static void close1(){
         System.out.println(">>>>>>>>");
