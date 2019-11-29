@@ -21,7 +21,7 @@ class Dictionary_removeValue_object{
                          "789": "c"
                         ]
         let forKey = "123"
-        let ret0 = class0.removeValue(forKey: forkey)
+        let ret0 = class0.removeValue(forKey: forKey)
         assert (ret0 != nil)
         print(ret0!)
     }
