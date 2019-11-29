@@ -22,7 +22,7 @@ public class write_Array_int_int {
 	 * class5 class5 = 3
 	 * class6 class6 = new byte[6]
 	 * output:1
-	 * rt rt = "CDE"
+	 * ret0 ret0 = "CDE"
 	 */
 	public static void write0() throws IOException{
 		String class0 = ".\\test2.txt";
@@ -38,8 +38,8 @@ public class write_Array_int_int {
 	       class1.close();
 	       class2 = new FileInputStream(class0);
 	       class2.read(class6);
-	       String rt = new String(class6);
-	       assert(rt == "CDE");
+	       String ret0 = new String(class6);
+	       assert(ret0 == "CDE");
 	       System.out.println(rt);
 	       class2.close();
 	    }catch(Exception ex){
