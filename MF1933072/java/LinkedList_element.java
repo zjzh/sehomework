@@ -13,10 +13,10 @@ public class LinkedList_element {
 
     /**
      * input: 1
-     * class0 LinkedList<String>$class0
+     * class0 LinkedList$class0
      * output: 1
      * ret0  ret0= "A"
-     * LinkedList<E>$class0-LinkedList<String>$LinkedList<String>() & &link-https:https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/
+     * LinkedList$class0-LinkedList$LinkedList<String>() & &link-https:https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/
      */
     public  static void element0() {
         System.out.println(">>>>>>>>>>>>");
