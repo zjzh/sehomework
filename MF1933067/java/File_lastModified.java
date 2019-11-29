@@ -17,10 +17,10 @@ public class File_lastModified {
         public static void lastmodifiled0(){
         System.out.println(">>>>>>>>>>>>");
         String pathname="file.txt";
-        File file=new File(pathname);
-        boolean flag=file.exists();
+        File class0=new File(pathname);
+        boolean flag=class0.exists();
         if(flag){
-            long millisec=file.lastModified();
+            long millisec=class0.lastModified();
             assert (millisec>0);
             System.out.println(millisec);
         }
