@@ -1,5 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
-import java.util.Arrays;
 
 /**类名_方法名(_形参类型)
  * @author: MF1933116_zhangmiao
@@ -16,7 +17,7 @@ import java.util.Arrays;
      * class0 Collection$class0
      * output: 1
      * ret0  ret0=9
-     * Collection$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
+     * Collection$class0-ArrayList$ArrayList() & & https://blog.csdn.net/itlwc/article/details/10148321
      */
     public static void max0(){
             System.out.println(">>>>>>>>>>>>");
@@ -38,7 +39,7 @@ import java.util.Arrays;
      * class0 Collection$class0
      * output: 1
      * ret0 ret0="e"
-     * Collection$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
+     * Collection$class0-ArrayList$ArrayList() () & & https://blog.csdn.net/itlwc/article/details/10148321
      */
     public static void max1(){
         System.out.println(">>>>>>>>>>>>");
