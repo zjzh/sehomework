@@ -12,31 +12,31 @@ class String_elementsEuqal_String_function{
      * input: 2
      * class0 class0="hello world"
      * by by = ==
-     * element element = "hello world"
+     * other other = "hello world"
      * output: 1
      * ret0  ret0=true
      */
     static func elementsEqual0(){
         let class0 = "hello world"
-        let element = "hello world"
-        let ret0 = class0.elementsEqual(element,by:==)
+        let other = "hello world"
+        let ret0 = class0.elementsEqual(other,by:==)
         assert(ret0 == true)
-        print(class0.elementsEqual(element))
+        print(class0.elementsEqual(other))
     }
     /**
     * input: 2
     * class0 class0="hello world"
     * by by = ==
-    * element element = "hello"
+    * other other = "hello"
     * output: 1
     * ret0  ret0=false
     */
    static func elementsEqual1(){
        let class0 = "hello world"
-       let element = "hello"
-       let ret0 = class0.elementsEqual(element, by:==)
+       let other = "hello"
+       let ret0 = class0.elementsEqual(other, by:==)
        assert(ret0 == false)
-       print(class0.elementsEqual(element))
+       print(class0.elementsEqual(other))
    }
 }
 String_elementsEuqal_String_function.elementsEqual0()
