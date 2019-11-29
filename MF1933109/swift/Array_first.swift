@@ -10,10 +10,12 @@ class Array_first{
   /**
      * input: 1
      * class0 Array class0 = [10, 20, 30, 40, 50]
+    *output:0
+    *ret0 ret0=10
      */
     let class0 = [10, 20, 30, 40, 50]
-    let firstNumber = class0.first
-    assert(firstNumber==10)
+    let ret0 = class0.first
+    assert(ret0==10)
   }
 }
 Array_first.first0()
