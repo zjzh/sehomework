@@ -11,11 +11,11 @@ import java.io.IOException;
 public class FileOutputStream_write_int {
   public static void write0() throws IOException {
 	 /**
-     * input: 1
+     * input: 2
      * class0 FileOutputStream$class0
 	 * b b = 65
-	 *
      * output: 0
+     *FileOutputStream$class0-FileOutputStream$FileOutputStream(File file) & & https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html
      */
     int i=0;
     byte b = 65;
