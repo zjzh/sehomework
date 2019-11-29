@@ -20,8 +20,8 @@ class FileWrapper_isRegularFile{
         let name = "/Users/HZH/Swift/SEhomework/test0.txt";
         guard let url = URL.init(string: name) else {return}
         do {
-            let File_wrapper = try FileWrapper.init(url: url)
-            let ret0 = File_wrapper.isRegularFile()
+            let class0 = try FileWrapper.init(url: url)
+            let ret0 = class0.isRegularFile()
             assert(ret0 == true)
             print("true")
         }catch{
@@ -41,8 +41,8 @@ class FileWrapper_isRegularFile{
         let name = "/Users/HZH/Swift/SEhomework/test1.txt";
         guard let url = URL.init(string: name) else {return}
         do {
-            let File_wrapper = try FileWrapper.init(url: url)
-            let ret0 = File_wrapper.isRegularFile()
+            let class0 = try FileWrapper.init(url: url)
+            let ret0 = class0.isRegularFile()
             assert(ret0 == false)
             print("flase")
         }catch{
