@@ -10,9 +10,10 @@ import Foundation
 class Data_max{
     /**
      * input: 1
-     * class0 class0 = [8, 2, 7, 1, 4, 9, 5]
+     * class0 Data$class0
      * output: 1
      * ret0  ret0 = 9
+	 * Data$class0-Data$Data<Int>() & & https://github.com/itouchx/SimpleProtobuf/blob/2adc6bf318f27466483218865bd9b53f325fd2a0/Tan_ProtocolBuffer-master/Tan_ProtocolBuffer/Protobuf.swift
      */
     static func max0(){
         let class0 = [8, 2, 7, 1, 4, 9, 5]
@@ -22,9 +23,10 @@ class Data_max{
     }
     /**
      * input: 1
-     * class0 class0 = ["a","b","c","d","1687","e"]
+     * class0 Data$class0
      * output: 1
      * ret0  ret0 = "e"
+	 * Data$class0-Data$Data<String>() & & https://github.com/itouchx/SimpleProtobuf/blob/2adc6bf318f27466483218865bd9b53f325fd2a0/Tan_ProtocolBuffer-master/Tan_ProtocolBuffer/Protobuf.swift
      */
     static func max1(){
         let class0 = ["a","b","c","d","1687","e"]
