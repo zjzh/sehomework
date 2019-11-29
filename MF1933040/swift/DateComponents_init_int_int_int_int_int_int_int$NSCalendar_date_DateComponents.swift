@@ -22,7 +22,7 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
      * output: 1
      * ret0 DateComponents$ret0
      * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
-     * DateComponents$ret0-DateComponents&class0.date(from: dateComponents)!&https://developer.apple.com/documentation/foundation/nscalendar/1407609-date
+     * DateComponents$ret0-DateComponents&class0.date(from: dateComponents)!&dateComponents = DateComponents.init(calendar: .current,timeZone: nil,era: nil,year: year,month: month,day: day,hour: hour,minute: minute,second: second,nanosecond: nil,weekday: nil,weekdayOrdinal: nil,quarter: nil,weekOfMonth: nil,weekOfYear: nil,yearForWeekOfYear: nil)&https://developer.apple.com/documentation/foundation/nscalendar/1407609-date
      */
     static func date0(){
 	let class0 = NSCalendar.current
