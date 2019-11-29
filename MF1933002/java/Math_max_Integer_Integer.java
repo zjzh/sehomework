@@ -8,9 +8,9 @@
 public class Math_max_Integer_Integer {
     /**
      * input: 2
-     * output: 1
      * class0 class0=1
      * class1 class1=2
+     * output: 1
      * ret0 ret0=2
      */
     public static void max0(){
