@@ -18,10 +18,9 @@ import java.lang.reflect.*;
      */ 
     public static void Fields_of_Class(){
         System.out.println(">>>>>>>>>>>>>>>");
-        Class class0;
 
         try {
-            class0 = Class.forName("Test_Man");
+            Class class0 = Class.forName("Test_Man");
             Field[] ret0 = class0.getFields();
             String[] true_result = {"public java.lang.String Test_Man.name",
                                     "public java.lang.String Test_Man.address",
