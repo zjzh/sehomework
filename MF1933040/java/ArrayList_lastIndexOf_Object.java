@@ -11,17 +11,17 @@ public class ArrayList_lastIndexOf_Object {
     /**
      * input: 2
      * class0 class0 = ArrayList$class0
-     * object object="hello"
+     * o o="hello"
      * output: 1
      * ret0  ret0=0
-     * ArrayList$class0-ArrayList&ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */
     public  static void lastIndexOf0(){
         System.out.println(">>>>>>>>>>>>");
         ArrayList<String> class0 = new ArrayList<>(Arrays.asList(new String[] {"hello", "world"}));
         System.out.println(class0);
-        String object = "hello";
-        int ret0 = class0.lastIndexOf(object);
+        String o = "hello";
+        int ret0 = class0.lastIndexOf(o);
         assert (ret0 == 1);
         System.out.println(ret0);
 
@@ -29,17 +29,17 @@ public class ArrayList_lastIndexOf_Object {
     /**
      * input: 2
      * class0 class0 = ArrayList$class0
-     * object object="who"
+     * o o="who"
      * output: 1
      * ret0  ret0=0
-     * ArrayList$class0-ArrayList&ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c = Arrays.asList(new String[] {"hello", "world"}) &https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
      */
     public  static void lastIndexOf1(){
     	System.out.println(">>>>>>>>>>>>");
         ArrayList<String> class0 = new ArrayList<>(Arrays.asList(new String[] {"hello", "world"}));
         System.out.println(class0);
-        String object = "who";
-        int ret0 = class0.lastIndexOf(object);
+        String o = "who";
+        int ret0 = class0.lastIndexOf(o);
         assert (ret0 == -1);
         System.out.println(ret0);
     }
