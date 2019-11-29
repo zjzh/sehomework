@@ -12,7 +12,7 @@ class FileHandle_closeFile{
      * input: 1
      * class0 FileHandle$class0
      * output: 0
-     * FileHandle$class0-FileHandle$FileHandle(forReadingAtPath path: String)&path="C:\\Users\\Bobing\\Desktop\\test.txt"&https://developer.apple.com/documentation/foundation/filehandle
+     * FileHandle$class0-FileHandle$ FileHandle(forReadingAtPath: filepath0)&path="C:\\Users\\Bobing\\Desktop\\test.txt"&https://developer.apple.com/documentation/foundation/filehandle
      */
 
     static func closeFile0(){
