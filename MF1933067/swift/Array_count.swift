@@ -15,10 +15,10 @@ class Array_count{
      * ret ret0=3
      */
     static func count0(){
-        var array1:[String]=["1","2","3"]
-        var count=array1.count
+        var class0:[String]=["1","2","3"]
+        var count=class0.count
         assert(count==3)
-        print(array1)
+        print(class0)
         print(count)
         
     }
