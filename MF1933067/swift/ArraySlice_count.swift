@@ -16,8 +16,8 @@ class ArraySlice_count{
      */
     static func count0(){
         let array1:[String]=["1","2","3","4"]
-        let slice=array1[1...3]
-        var count=slice.count
+        let class0=array1[1...3]
+        var count=class0.count
         assert(count==3)
         print(slice)
         print(count)
