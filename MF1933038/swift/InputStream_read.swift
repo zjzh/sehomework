@@ -21,7 +21,7 @@ class InputStream_read{
     static func stream_read0(){
         print(">>>>>>>>>>>>>>>>")
         let data = Data()
-        let class0 = InputStream(data: data)
+        let class0 = InputStream.init(data: data)
          
         var buffer: UInt8 = 0
         let ret0=class0.read(&buffer, maxLength: 1)
