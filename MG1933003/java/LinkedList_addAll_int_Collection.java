@@ -46,8 +46,8 @@ public class LinkedList_addAll_int_Collection {
      * index index = 3
      * output: 1 
      * ret0 ret0 = true
-     * LinkedList$class0-LinkedList$LinkedList()LinkedList() &  class0 = Arrays.asList(new Integer[]{7, 8, 9} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
-     * LinkedList$c-LinkedList$LinkedList()LinkedList() &  c = Arrays.asList(new Integer[]{1, 2, 3} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * LinkedList$class0-LinkedList$LinkedList() &  class0 = Arrays.asList(new Integer[]{7, 8, 9} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+     * LinkedList$c-LinkedList$LinkedList() &  c = Arrays.asList(new Integer[]{1, 2, 3} & https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
      */
     public  static void addAll1() {
         LinkedList<Integer> class0 = new LinkedList<>(Arrays.asList(new Integer[]{7, 8, 9}));
