@@ -1,4 +1,3 @@
-package test;
 /**类名_方法名(_形参类型)*
  * @author: MF1933040 贾晓玉
  *  @className: Calendar_set_int_int_int_int_int_int
@@ -20,7 +19,7 @@ public class Calendar_set_int_int_int_int_int_int {
      * minute minute = 52
      * second second = 43
      * output: 0
-     * Calendar$class0-Calendar&getInstance()& https://docs.oracle.com/javase/8/docs/api/
+     * Calendar$class0-Calendar$getInstance()& https://docs.oracle.com/javase/8/docs/api/
      **/
 	public static void setting0() {
 		Calendar class0 = Calendar.getInstance();
