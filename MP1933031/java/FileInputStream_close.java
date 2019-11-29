@@ -37,8 +37,8 @@ public class FileInputStream_close {
 		finally {
 			assert(ret0 == 104);
 			assert(ret1 == 1);
-			System.out.println(s1);
-			System.out.println(s2);
+			System.out.println(ret0);
+			System.out.println(ret1);
 		}
 	}
 	public static void main(String[] args) throws IOException {
