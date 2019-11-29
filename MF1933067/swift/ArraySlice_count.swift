@@ -19,7 +19,7 @@ class ArraySlice_count{
         let class0=array1[1...3]
         var count=class0.count
         assert(count==3)
-        print(slice)
+        print(class0)
         print(count)
     }
 }
