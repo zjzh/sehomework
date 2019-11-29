@@ -10,7 +10,7 @@ class ArraySlice_insert_Collection_Int {
     /**
     * input: 3
     * class0 class0=[1, 2, 1]
-	* c c = [4,5,4]
+    * C C = [4,5,4]
     * i i = 1
     * output: 1
 	* class0 class0 = [1,4,5,4,2,1] 
@@ -26,7 +26,7 @@ class ArraySlice_insert_Collection_Int {
 	/**
     * input: 3
     * class0 class0=[7, 8, 9]
-	* c c = [1,2,3]
+    * C C = [1,2,3]
     * i i = 3
     * output: 1
 	* class0 class0 = [7,8,9,1,2,3]
