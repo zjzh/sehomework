@@ -13,7 +13,7 @@ class ArraySlice_insert_Collection_Int {
     * C C = [4,5,4]
     * i i = 1
     * output: 1
-	* class0 class0 = [1,4,5,4,2,1] 
+    * class0 class0 = [1,4,5,4,2,1] 
     */
     static func insert0() {
         var class0 : ArraySlice = [1, 2, 1]
@@ -29,7 +29,7 @@ class ArraySlice_insert_Collection_Int {
     * C C = [1,2,3]
     * i i = 3
     * output: 1
-	* class0 class0 = [7,8,9,1,2,3]
+    * class0 class0 = [7,8,9,1,2,3]
     */
     static func insert1() {
         var class0 : ArraySlice = [7, 8, 9]
