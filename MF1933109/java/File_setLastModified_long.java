@@ -8,12 +8,12 @@ import java.util.Date;
  */
 public class File_setLastModified_long{
   /**
-     * input: 1
+     * input: 2
      * class0  File$class0
-	 *File$class0-File(String pathname) & pathname = "F:/" & https://developer.android.google.cn/reference/java/io/File.html
      * time  long time = new Date().getTime();
      * output: 1
-	 * ret0 ret0=true
+     * ret0 ret0=true
+      *File$class0-File(String pathname) & pathname = "F:/" & https://developer.android.google.cn/reference/java/io/File.html
      */
   public static void setLastModified0() {
     File class0 = new File("test.txt");
