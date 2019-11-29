@@ -6,21 +6,21 @@
  *  @Map: java.lang.Class$public Method[] getMethods() throws SecurityException
  */
 import Foundation
+#import <objc/runtime.h>
 
-class Objective-C Runtime_class_copyMethodList_Class_int{
+class ObjectiveC_Runtime_class_copyMethodList_Class_int{
     /**
      * input: 2
      * class0 class0 = type(of:self.app)
      * count count = 0
      * output: 1
-     * ret0 Method$ret0 = UNKNOWN   //无法在Windows上运行，且无法确定输出方法序列是否确定，故为UNKNOWN 
+     * ret0 Method$ret0 = UNKNOWN
       */
 
     static func class_copyMethodList0(){
         var count:UInt32 = 0;
         let methods = class_copyMethodList(type(of:self.app), &count)
-        print(count)
-
+        // print(count)
         for index in 0...count-1 {  //print every method
         // get method
         let sel = method_getName(methods[Int(index)])
@@ -31,10 +31,9 @@ class Objective-C Runtime_class_copyMethodList_Class_int{
 
         print(methodName!)
         }
-        
     }
 }
 
-Objective-C Runtime_class_copyMethodList_Class_int.class_copyMethodList0()
+ObjectiveC_Runtime_class_copyMethodList_Class_int.class_copyMethodList0()
 
 
