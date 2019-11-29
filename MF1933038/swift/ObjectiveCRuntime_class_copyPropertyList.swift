@@ -10,7 +10,7 @@
  import UIKit
 
 
-class test_class: NSObject{
+class ObjectiveCRuntime_class_copyPropertyList: NSObject{
     var name: String?
     var age: Int = 0
     
@@ -39,21 +39,21 @@ class test_class: NSObject{
 
     /**
      * input: 2
-     * class0 test_class$class0
+     * class0 ObjectiveCRuntime_class_copyPropertyList$class0
      * outCount UnsafeMutablePointer<UInt32>$outCount
      * output: 1
      * ret0 UnsafeMutablePointer<objc_property_t>$ret0
-     * test_class$class0-test_class$class0 = test_class(age: Int, name: String) & Int$age=22 & String%name="myname" & https://www.jianshu.com/p/aa60d6377434 & https://developer.apple.com/documentation/objectivec/1418553-class_copypropertylist?language=occ
-     * UnsafeMutablePointer<UInt32>$outCount-UnsafeMutablePointer<UInt32>$outCount: UInt32 = 0 & https://developer.apple.com/documentation/swift/unsafemutablepointer
+     * ObjectiveCRuntime_class_copyPropertyList$class0-test_class$class0 = ObjectiveCRuntime_class_copyPropertyList(age: Int, name: String) & Int$age=22 & String%name="myname" & https://www.jianshu.com/p/aa60d6377434 & https://developer.apple.com/documentation/objectivec/1418553-class_copypropertylist?language=occ
+     * UnsafeMutablePointer<UInt32>$outCount-UnsafeMutablePointer<UInt32>$allocate(capacity: Int) & Int$capacity = 1 & https://developer.apple.com/documentation/swift/unsafemutablepointer
      */
     static func classCopyPropertyList(){
         print(">>>>>>>>>>>>>>>")
-        let class0 = test_class(22, "myname")
-        var outCount: UInt32 = 0
-        let ret0 = class_copyPropertyList(class0, &outCount)
+        let class0 = ObjectiveCRuntime_class_copyPropertyList(22, "myname")
+        var outCount = UnsafeMutablePointer<UInt32>.allocate(capacity: 1)
+        let ret0 = class_copyPropertyList(class0, outCount)
         var propertyNames: [String] = []
         
-        for i in 0..<Int(outCount) {
+        for i in 0..<Int(outCount.pointee) {
 
             let property = ret0![i]
             let name = property_getName(property)
@@ -63,6 +63,7 @@ class test_class: NSObject{
         }
 
         free(ret0)
+        free(outCount)
         print(propertyNames)
 
     }
