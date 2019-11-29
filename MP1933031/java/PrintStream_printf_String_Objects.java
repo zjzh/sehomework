@@ -30,9 +30,9 @@ public class PrintStream_printf_String_Objects {
 	 * class2 class2 = FileOutputStream$class2
 	 * class3 class3 = PrintStream$class3
 	 * class4 class4 = FileInputStream$class4
-	 * rt rt = [104, 101, 108, 108, 111, 44, 119, 119, 119, 0]
+	 * class5 class5 = [104, 101, 108, 108, 111, 44, 119, 119, 119, 0]
 	 * output:1
-	 * str str = "hello,www"
+	 * ret0 ret0 = "hello,www"
 	 */
 	public static void printf1() throws IOException {
 		try {
@@ -44,11 +44,11 @@ public class PrintStream_printf_String_Objects {
 			class3.printf(class0, class1);
 			class2.close();
 			FileInputStream class4 = new FileInputStream(path);
-			byte[] rt = new byte [10];
-			class4.read(rt);
-			String str = new String(rt);
-			assert(str == "hello,www");
-			System.out.println(str);
+			byte[] class5 = new byte [10];
+			class4.read(class5);
+			String ret0 = new String(class5);
+			assert(ret0 == "hello,www");
+			System.out.println(ret0);
 			class4.close();
 		}catch (IOException e) {
 			System.out.println("Could not find file!");
