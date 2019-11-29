@@ -16,7 +16,6 @@ public class Integer_compare_int_int {
      * int2 int2 = 2
      * output: 1
      * ret0  ret0= -1
-     * Integer$class0 & &link:  https://www.geeksforgeeks.org/java-integer-compare-method/
      */
     public  static void compare0(){
         System.out.println(">>>>>>>>>>>>");
@@ -35,7 +34,7 @@ public class Integer_compare_int_int {
      * int2 int2 = 1
      * output: 1
      * ret0  ret0= 0
-     * Integer$class0 & &link:  https://www.geeksforgeeks.org/java-integer-compare-method/
+
      */
     public  static void compare1(){
         System.out.println(">>>>>>>>>>>>");
@@ -55,7 +54,7 @@ public class Integer_compare_int_int {
      * int2 int2 = 1
      * output: 1
      * ret0  ret0= 1
-     * Integer$class0 & &link:  https://www.geeksforgeeks.org/java-integer-compare-method/
+
      */
     public  static void compare2(){
         System.out.println(">>>>>>>>>>>>");
