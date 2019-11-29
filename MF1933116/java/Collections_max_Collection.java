@@ -13,10 +13,11 @@ import java.util.Arrays;
     public class Collections_max_Collection {
     /**
      * input: 1
-     * class0 class0 = {8, 2, 7, 1, 4, 9, 5}
+     * class0 Array$class0
      * output: 1
      * ret0  ret0=9
-	 */
+     * Array$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
+     */
     public static void max0(){
         System.out.println(">>>>>>>>>>>>");
         Integer[] class0 = {8, 2, 7, 1, 4, 9, 5};
@@ -27,10 +28,11 @@ import java.util.Arrays;
     
     /**
      * input: 1
-     * class0 class0 = {"a","b","c","d","1687","e"}
+     * class0 Array$class0
      * output: 1
      * ret0 ret0="e"
-	 */
+     * Array$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
+     */
     public static void max1(){
         System.out.println(">>>>>>>>>>>>");
         String[] class0 = {"a","b","c","d","1687","e"};
