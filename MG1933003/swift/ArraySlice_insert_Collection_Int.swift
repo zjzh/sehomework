@@ -17,11 +17,11 @@ class ArraySlice_insert_Collection_Int {
     */
     static func insert0() {
         var class0 : ArraySlice = [1, 2, 1]
-        var c = [4,5,4]
-		var i = 1
-		class0.insert(contentsOf: c, at: i)
-		assert(class0 == [1,4,5,4,2,1])
-		print(class0)
+        var C = [4,5,4]
+	var i = 1
+	class0.insert(contentsOf: c, at: i)
+	assert(class0 == [1,4,5,4,2,1])
+	print(class0)
     }
 	/**
     * input: 3
@@ -33,11 +33,11 @@ class ArraySlice_insert_Collection_Int {
     */
     static func insert1() {
         var class0 : ArraySlice = [7, 8, 9]
-        var c = [1,2,3]
-		var i = 3
-		class0.insert(contentsOf: c, at: i)
-		assert(class0 == [7,8,9,1,2,3])
-		print(class0)
+        var C = [1,2,3]
+	var i = 3
+	class0.insert(contentsOf: c, at: i)
+	assert(class0 == [7,8,9,1,2,3])
+	print(class0)
     }
 
 }
