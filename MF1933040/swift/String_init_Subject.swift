@@ -10,13 +10,13 @@ import Foundation
 class String_init_Subject{
      /**
      * input: 1
-     * sub sub = 123
+     * instance instance = 123
      * output: 1
      * ret0  ret0="123"
      */
     static func init0(){
-        let sub = 123
-        let ret0 = String(describing: sub)
+        let instance = 123
+        let ret0 = String(describing: instance)
         assert(ret0 == "123")
         print(ret0)
     }
