@@ -16,11 +16,11 @@ class ContiguousArray_count{
      * ContiguousArray<T>$ class0-ContiguousArray<T>ContiguousArray(ArrayList<T> e) & T=String; e=["1","2","3"] & https://developer.apple.com/documentation/swift/contiguousarray
      */
     static func count0(){
-        let array1:ContiguousArray<String>=ContiguousArray(["1","2","3"]);
+        let class0:ContiguousArray<String>=ContiguousArray(["1","2","3"]);
         //let slice=array1[1...3]；
-        var count=array1.count;
+        var count=class0.count;
         assert(count==3);
-        print(array1);
+        print(class0);
         print(count);
     }
 }
