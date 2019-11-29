@@ -11,10 +11,10 @@ import Foundation
 class Array_first{
     /**
      * input: 1
-     * class0 Array<String>$class0
+     * class0 Array$class0
      * output: 1
      * ret0  ret0= "A"
-     * Array$class0-Array$Array<String>()& &https://developer.apple.com/documentation/swift/array
+     * Array$class0-Array$class0 = Array<String>()& &https://developer.apple.com/documentation/swift/array
      */
 
     static func first0(){
