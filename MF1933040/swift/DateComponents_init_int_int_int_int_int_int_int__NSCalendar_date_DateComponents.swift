@@ -1,6 +1,6 @@
 /**类名_方法名(_形参类型)*  
  *  @author: MF1933040贾晓玉
- *  @className: DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateComponents
+ *  @className: DateComponents_init_int_int_int_int_int_int_int__NSCalendar_date_DateComponents
  *  @apiSignature:DateComponents$init(calendar: Calendar? = nil, timeZone: TimeZone? = nil, era: Int? = nil, year: Int? = nil, month: Int? = nil, day: Int? = nil, hour: Int? = nil, minute: Int? = nil, second: Int? = nil, nanosecond: Int? = nil, weekday: Int? = nil, weekdayOrdinal: Int? = nil, quarter: Int? = nil, weekOfMonth: Int? = nil, weekOfYear: Int? = nil, yearForWeekOfYear: Int? = nil);
  *  NSCalendar$func date(from comps: DateComponents) -> Date?
  *  @description: Test swift api DateComponents$init(calendar: Calendar? = nil, timeZone: TimeZone? = nil, era: Int? = nil, year: Int? = nil, month: Int? = nil, day: Int? = nil, hour: Int? = nil, minute: Int? = nil, second: Int? = nil, nanosecond: Int? = nil, weekday: Int? = nil, weekdayOrdinal: Int? = nil, quarter: Int? = nil, weekOfMonth: Int? = nil, weekOfYear: Int? = nil, yearForWeekOfYear: Int? = nil);
@@ -11,7 +11,7 @@ import Foundation
 class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateComponents{
      /**
      * input: 8
-     * class0 Canlendar$class0
+     * class0 NSCalendar$class0
      * year year = 2019
      * month month = 11
      * day day = 12
@@ -19,10 +19,12 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
      * minute minute = 21
      * second second = 43
      * nanosecond nanosecond = 23
-     * output: 1
+     * output: 2
      * ret0 DateComponents$ret0
-     * Calendar$class0-Calendar$current & Calendar=Calendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
-     * DateComponents$ret0-DateComponents&class0.date(from: dateComponents)!&dateComponents = DateComponents.init(calendar: .current,timeZone: nil,era: nil,year: year,month: month,day: day,hour: hour,minute: minute,second: second,nanosecond: nil,weekday: nil,weekdayOrdinal: nil,quarter: nil,weekOfMonth: nil,weekOfYear: nil,yearForWeekOfYear: nil)&https://developer.apple.com/documentation/foundation/nscalendar/1407609-date
+     * ret1 Date$ret1
+     * NSCalendar$class0-NSCalendar$current &class0=NSCalendar.current & https://developer.apple.com/documentation/foundation/calendar/2293438-current
+     * DateComponents$ret0-DateComponents&ret0 = DateComponents.init(calendar: .current,timeZone: nil,era: nil,year: year,month: month,day: day,hour: hour,minute: minute,second: second,nanosecond: nil,weekday: nil,weekdayOrdinal: nil,quarter: nil,weekOfMonth: nil,weekOfYear: nil,yearForWeekOfYear: nil)&https://developer.apple.com/documentation/foundation/datecomponents/1948879-init
+     * Date$ret1-NSCalendar$date(from comps: DateComponents) -> Date?&ret1 = class0.date(from: ret0)!&https://developer.apple.com/documentation/foundation/nscalendar/1407609-date
      */
     static func date0(){
 	let class0 = NSCalendar.current
@@ -32,7 +34,7 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
         let hour = 16
         let minute = 21
         let second = 43
-        let dateComponents = DateComponents.init(
+        let ret0 = DateComponents.init(
             calendar: .current,
             timeZone: nil,
             era: nil,
@@ -49,13 +51,13 @@ class DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateCompon
             weekOfMonth: nil,
             weekOfYear: nil,
             yearForWeekOfYear: nil)
-        let ret0 = class0.date(from: dateComponents)!
+        let ret1 = class0.date(from: ret0)!
 	let formatter = DateFormatter()
 	formatter.locale = Locale.init(identifier: "zh_CN")
 	formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-	let date = formatter.string(from: ret0)
+	let date = formatter.string(from: ret1)
 	assert(date=="2019-11-12 16:21:43")
 	print(date)
     }
 }
-DateComponents_init_int_int_int_int_int_int_int$NSCalendar_date_DateComponents.date0();
+DateComponents_init_int_int_int_int_int_int_int__NSCalendar_date_DateComponents.date0();
