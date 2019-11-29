@@ -4,8 +4,8 @@ package com.softwareMethodology.jiangbiao;
  * @author: MF1933041_江彪
  * @className: Integer_getInteger_String
  * @apiSignature: java.lang.Integer$ public static Integer getInteger(String key)
- * @description: Test java api java.lang.Integer$getInteger(String nm)
- * @Map: Process$processInfo;ProcessInfo$environment;Dictionary$dictionary[key]
+ * @description: Test java api java.lang.Integer$getInteger(String key)
+ * @Map: ProcessInfo$ProcessInfo.processInfo.environment;Dictionary$dictionary[key]
  */
 public class Integer_getInteger_String {
 
