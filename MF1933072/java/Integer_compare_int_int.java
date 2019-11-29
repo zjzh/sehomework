@@ -8,11 +8,10 @@
 */
 
 
-    public class Integer_compare_int_int {
+public class Integer_compare_int_int {
 
     /**
      * input: 2
-     * class0 Integer$class0    //静态方法，直接类调用
      * int1 int1 = 1
      * int2 int2 = 2
      * output: 1
