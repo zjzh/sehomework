@@ -14,7 +14,7 @@
      * c c='M'
      * output: 1
      * class0 PrintStream$class0
-     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream out=System.out & https://www.yiibai.com/java/io/printstream_append.html
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream$out=System.out & https://www.yiibai.com/java/io/printstream_append.html
      */
     public  static void append0 (){
         System.out.println(">>>>>>>>>>>>");
@@ -32,7 +32,7 @@
      * c c=' '
      * output: 1
      * class0 PrintStream$class0
-     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream out=System.out  & https://www.yiibai.com/java/io/printstream_append.html
+     * PrintStream$class0-PrintStream$PrintStream(OutputStream out) & OutputStream$out=System.out  & https://www.yiibai.com/java/io/printstream_append.html
      */
     public  static void append1 (){
         System.out.println(">>>>>>>>>>>>");
