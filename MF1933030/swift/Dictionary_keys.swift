@@ -13,7 +13,6 @@
      *  output: 1
      *  ret0 Dictionary<String, String>.Keys$ret0
      *  Dictionary$class0 - Dictionary<String, String>$Dictionary<String, String> & & https://www.jianshu.com/p/67a0cf4dad2d
-     *  Dictionary<String, String>.Keys$ret0 - $Dictionary<String, String>$keys & & https://www.jianshu.com/p/67a0cf4dad2d
      */
     static func keys0(){
         let class0 = Dictionary<String, String>()
@@ -28,7 +27,6 @@
      *  class0 class0=["name":"Bob"]
      *  output: 1
      *  ret0 Dictionary<String, String>.Keys$ret0
-     *  Dictionary<String, String>.Keys$ret0 - $Dictionary<String, String>$keys & & https://www.jianshu.com/p/67a0cf4dad2d
      */
     static func keys1(){
         let class0 = ["name":"Bob"]

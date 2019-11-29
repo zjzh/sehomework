@@ -12,9 +12,8 @@ class Calendar_identifier{
      *  input: 1
      *  class0 Calendar$class0
      *  output: 1
-     *  ret0 Calendar$ret0
+     *  ret0 Calendar.Identifier$ret0
      *  Calendar$class0 - Calendar$current & & https://blog.csdn.net/shenjie_xsj/article/details/79033861
-     *  Calendar$ret0 - Calendar$identifier & & https://blog.csdn.net/shenjie_xsj/article/details/79033861
      */
     static func identifier0(){
         let class0 = Calendar.current
