@@ -9,12 +9,11 @@ import java.util.*;
 public class Collections_copy_List_List {
 	/**
      * input: 2
-     * src List$src
-	 * List$src-List$List<String> src = new ArrayList<String>(5); & https://docs.oracle.com/javase/8/docs/api/
+     * src List$src 
      * dest List$dest
-	 *List$dest-List$List<String> dest = new ArrayList<String>(5); & https://docs.oracle.com/javase/8/docs/api/
-	 * List$dest-List$
      * output: 0
+     * List$src-List$List<String> src = new ArrayList<String>(5); & https://docs.oracle.com/javase/8/docs/api/
+     *List$dest-List$List<String> dest = new ArrayList<String>(5); & https://docs.oracle.com/javase/8/docs/api/
      */
    public static void copy0() {
       // create two lists    
