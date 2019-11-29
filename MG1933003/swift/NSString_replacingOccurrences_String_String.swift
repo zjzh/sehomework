@@ -11,8 +11,8 @@ class NSString_replaceOccurrences_String_String{
 	/**
 	 * input : 3
 	 * class0 class0 = "hello"
-	 * oldstring oldstring = "l"
-	 * newstring newstring = "2"
+	 * target target = "l"
+	 * replacement replacement = "2"
 	 * output : 1
 	 * ret0 ret0 = "he22o"
 	 */
@@ -20,13 +20,13 @@ class NSString_replaceOccurrences_String_String{
 		
 		print(">>>>>>>>>>>>")
 		var class0 = "hello" as NSString
-		var oldstring = "l"
-		var newstring = "2"
-		var ret0 = class0.replacingOccurrences(of: oldstring, with: newstring)
+		var target = "l"
+		var replacement = "2"
+		var ret0 = class0.replacingOccurrences(of: target, with: replacement)
 		
 		assert(class0 == "hello")
-		assert(oldstring == "l")
-		assert(newstring == "2")
+		assert(target == "l")
+		assert(replacement == "2")
 		assert(ret0 == "he22o")
 		
 		print(ret0)
@@ -35,8 +35,8 @@ class NSString_replaceOccurrences_String_String{
 	/**
 	 * input : 3
 	 * class0 class0 = "hello"
-	 * oldstring oldstring = "l"
-	 * newstring newstring = " "
+	 * target target = "l"
+	 * replacement replacement = " "
 	 * output : 1
 	 * ret0 ret0 = "he  o"
 	 */
@@ -44,13 +44,13 @@ class NSString_replaceOccurrences_String_String{
 		
 		print(">>>>>>>>>>>>")
 		var class0 = "hello" as NSString
-		var oldstring = "l"
-		var newstring = " "
-		var ret0 = class0.replacingOccurrences(of: oldstring, with: newstring)
+		var target = "l"
+		var replacement = " "
+		var ret0 = class0.replacingOccurrences(of: target, with: replacement)
 		
 		assert(class0 == "hello")
-		assert(oldstring == "l")
-		assert(newstring == " ")
+		assert(target == "l")
+		assert(replacement == " ")
 		assert(ret0 == "he  o")
 		
 		print(ret0)
