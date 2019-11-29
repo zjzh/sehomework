@@ -10,20 +10,20 @@ InputStream$func read(_ buffer: UnsafeMutablePointer<UInt8>, maxLength len: Int)
 import Foundation
 class Array_suffix_int_InputStream_read_Point_int{
      /**
-     * input: 2
-     * buffer1  buffer1 = UnsafeMutablePointer<UInt8>.allocate(capacity£∫4)
-     * buffer_len0  buffer_len0 = 3
-     * output: 1
-     * ret0  ret0 = 1
-     * ret1  ret1 = 1
+      input: 2
+      class0  class0 = UnsafeMutablePointer<UInt8>.allocate(capacity£∫4)
+      class1  class1 = 3
+      output: 1
+      ret0  ret0 = 1
+      ret1  ret1 = 1
      */
     static func suffix0_read1(){
         let filepath = "D:/tt.txt";
         guard let in_str = InputStream(fileAtPath: filepath) else{print("create input_stream failed."); return}
-        let buffer1 = UnsafeMutablePointer<UInt8>.allocate(capacity:4)
-        let buffer_len = 3
-        let buffer0=buffer1.suffix(1)
-        let ret0 = in_str.read(buffer0, maxLength: buffer_len)
+        let class0 = UnsafeMutablePointer<UInt8>.allocate(capacity:4)
+        let class1 = 3
+        let class2=class0.suffix(1)
+        let ret0 = in_str.read(class2, maxLength: class1)
         if (ret0 == 1) {
             print("∂¡»°≥…π¶")
         }

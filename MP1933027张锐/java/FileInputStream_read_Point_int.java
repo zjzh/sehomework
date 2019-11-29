@@ -14,23 +14,23 @@ public class FileInputStream_read_Point_int {
 	public static void read0() throws IOException {
 		/*
 		 input:1
-		 Class0 Class0={'1','2','3'}
+		 class0 class0="123"
 		 b b=[(int)'1']
 		 
 		 output 1
 		 ret0 re0=1 
 		 */
 		FileInputStream fis = new FileInputStream("D:\\test.txt");	
-		char[] Class0= {'1','2','3'};
+		char[] class0= {'1','2','3'};
 			for(int i=0;i<=3;i++) {
 				byte[] b=new  byte[1];
 				int number=fis.read(b);
 				if(i==3)
 				assert(number==-1);	
 				else {
-					assert((char)b[0]==Class0[i]);
+					assert((char)b[0]==class0[i]);
 					assert(number==1);
-					System.out.println(Class0[i]);
+					System.out.println(class0[i]);
 		}
 	}}
 	public static void main(String[] args) throws IOException  {

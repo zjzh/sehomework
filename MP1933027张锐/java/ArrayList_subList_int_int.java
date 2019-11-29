@@ -12,20 +12,20 @@ public class ArrayList_subList_int_int {
 public static void subList0() {
 	/*
 	 input:2
-	 Class0 Class0={'1','2','3'}
-	 Class1 Class1={'1','2','3'}
+	 class0 class0="123"
+	 class1 class1="123"
 	 fromIndex fromIndex=0
 	 toIndex toIndex=3	 
 	 output:1
 	 ret0 re0=1 
 	 */
-	List<String> Class0=new ArrayList<String>();
+	List<String> class0=new ArrayList<String>();
 	for(int i=0;i<3;i++) {
-		Class0.add(String.valueOf(i));
-		System.out.println(Class0);		
+		class0.add(String.valueOf(i));
+		System.out.println(class0);		
 	}
-	List<String> Class1=Class0.subList(0, 3);
-	assert(Class1==Class0);
+	List<String> class1=class0.subList(0, 3);
+	assert(class1==class0);
 	System.out.println("ПаµИ");
 }
 	public static void main(String[] args) {

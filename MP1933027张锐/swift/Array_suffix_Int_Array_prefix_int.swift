@@ -10,9 +10,9 @@ Array$func prefix(upTo end: Int) -> ArraySlice<Element>
 class Array_suffix_int_Array_prefix_int{
   /*
       input: 1
-      class0  Class0=["0","1","2"]
-      Class1 Class1=["0","1","2"]
-      Class2 Class2=["0","1","2"]
+      class0  class0=["0","1","2"]
+      class1 class1=["0","1","2"]
+      class2 class2=["0","1","2"]
       start    start=0
       end     end=3
      output: 1
@@ -20,11 +20,11 @@ class Array_suffix_int_Array_prefix_int{
      ret1  ret1= ["0","1","2"]
      */
 static func suffix0_prefix1(){
-let Class0 = ["0","1","2"]
-let Class1 = Class0.suffix(0)
-let Class2 = Class1.prefix(3)
-for i in Class2{
- assert(Class0.contains(i))
+let class0 = ["0","1","2"]
+let class1 = class0.suffix(0)
+let class2 = class1.prefix(3)
+for i in class2{
+ assert(class0.contains(i))
 }
 }
 }

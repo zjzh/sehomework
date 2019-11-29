@@ -16,20 +16,20 @@ public class InputSteam_read_Array_int_int {
 public static void read0() throws IOException {
 	/*
 	 input:3
-	 Class0 Class0={'1','2','3'}
+	 class0 class0="123"
 	 off off=0
 	 len len=1	 
 	 output:1
 	 ret0 re0=1 
 	 */
 	File a=new File("D:\\tt.txt");
-	InputStream Class1 = new FileInputStream(a);
+	InputStream class1 = new FileInputStream(a);
 	byte[] str=new byte[1];
-	char[] Class0= {'1','2','3'};
+	char[] class0= {'1','2','3'};
 	for(int i=0;i<3;i++) {
-		int c=Class1.read(str,0,1);
+		int c=class1.read(str,0,1);
 		System.out.println((char)str[0]);
-		assert((char)str[0]==Class0[i]);
+		assert((char)str[0]==class0[i]);
 	}
 	
 }
