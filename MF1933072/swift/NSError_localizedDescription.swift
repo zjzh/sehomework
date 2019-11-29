@@ -7,11 +7,11 @@
  */
 import Foundation
 
-enum RegistrationError: Error { // the custom error type
+enum ErrorTest: Error { // the custom error type
     case invalidValue
 }
 
-extension RegistrationError: LocalizedError {   //an extention of error description about erery error type
+extension ErrorTest: LocalizedError {   //an extention of error description about erery error type
     public var errorDescription: String? {
         print("caught error")
         switch self {
@@ -26,7 +26,7 @@ class NSError_localizedDescription{
 
     /**
      * input: 1
-     * class0 class0 = RegistrationError.invalidValue
+     * class0 ErrorTest$class0 = ErrorTest.invalidValue
      * output: 1
      * ret0  ret0= "invalid value of a or b"
      * 代码参考连接，全网未找到更加简单的:https://riptutorial.com/swift/example/28601/create-custom-error-with-localized-description
@@ -38,12 +38,11 @@ class NSError_localizedDescription{
         if a==1 && b==1 {
             print("2")
         }else {
-        let class0 = RegistrationError.invalidValue
+        let class0 = ErrorTest.invalidValue
         let ret0 = class0.localizedDescription
         assert(ret0 == "invalid value of a or b")
         print(ret0)
-        }
-        
+        }   
     }
 }
 
