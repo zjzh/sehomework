@@ -26,15 +26,17 @@ class HashMap_containKey_Object {
         System.out.println(ret0);
     }
     /**
-     * input: 1
+     * input: 2
      * class1 HashMap$class1
+	 * key Integer$key
      * output: 1
      * ret1 ret1=false
-     * HashMa$class1-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
+     * Integer$key-Integer$Integer(int value) & value=1 &https://docs.oracle.com/javase/8/docs/api/ ;HashMa$class1-HashMap$HashMap<K,V>() & & https://docs.oracle.com/javase/8/docs/api/
     */
     static void containsKey1(){
         HashMap<Integer,Integer> class1 = new HashMap<Integer,Integer>();
-        boolean ret1 = class1.containsKey(1);
+		Integer key=new Integer(1);
+        boolean ret1 = class1.containsKey(key);
         assert(ret1 == false);
         System.out.println(ret1);
     }

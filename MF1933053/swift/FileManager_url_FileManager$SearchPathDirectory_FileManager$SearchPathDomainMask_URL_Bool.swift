@@ -7,25 +7,27 @@
 */
 import Foundation
 class FileManager_FileManager$SearchPathDirectory_FileManager$SearchPathDomainMask_URL_Bool{
-    /**
-     * input: 5
-	 * class0 FileManager$class0
-     * shouldCreate shouldCreate = true
-	 * url URL$url
-	 * documentDirectory FileManager.SearchPathDirectory$documentDirectory
-	 * userDomainMask FileManager.SearchPathDomainMask$userDomainMask
-     * output: 1
-     * ret0 URL$ret0
-	 * FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url;
-	 * URL$url-URL(string) & string = "." & https://developer.apple.com/documentation/foundation/filemanager/1407693-url
+	/**
+    * input: 5
+	* class0 FileManager$class0 = FileManager.default
+	* directory FileManager.SearchPathDirectory$directory = FileManager.SearchPathDirectory.userDirectory
+	* domain FileManager.SearchPathDomainMask$domain = FileManager.SearchPathDomainMask.userDomainMask
+	* url URL$url
+	* shouldCreate shouldCreate = true
+    * output:1
+    * ret0 ret0=true
+    * FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url;
+	* URL$url-URL(name:string) & string = "test/" & https://developer.apple.com/documentation/foundation/filemanager/1407693-url
     */
     static func url0(){
-		let url = URL(string:".")
-        let shouldCreate = true
-		let class0 = FileManager.default
-        let ret0 = try?class0.url(for:documentDirectory, in:userDomainMask, appropriateFor:url, create:shouldCreate)
+	    let class0 = FileManager.default
+        let directory = FileManager.SearchPathDirectory.userDirectory
+		let domain = FileManager.SearchPathDomainMask.userDomainMask
+		let url = URL(string:"test/")
+		let shouldCreate = true
+        let ret0 = try?class0.url(for:directory,in:domain,appropriateFor:url,create:shouldCreate)
         assert(ret0 != nil)
-        print(ret0)
+        print(ret0 as Any)
     }
 }
 FileManager_FileManager$SearchPathDirectory_FileManager$SearchPathDomainMask_URL_Bool.url0()

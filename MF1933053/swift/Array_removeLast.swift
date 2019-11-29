@@ -8,7 +8,7 @@
 class Array_removeLast{
     /**
      * input: 1
-     * class0 class0=[0,1,2]
+     * class0 Array$class0=[0,1,2]
      * output: 1
      * ret0 ret0=2
     */
@@ -22,7 +22,7 @@ class Array_removeLast{
 
     /**
      * input: 1
-     * class1 class1=[Int]()
+     * class1 Array$class1=[Int]()
      * output: 1
      * ret1 ret1=nil
     */

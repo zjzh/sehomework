@@ -9,7 +9,7 @@ import Foundation
 class NSString_isEqual_String{
     /**
     * input: 2
-    * class0 class0:NSString="NJU"
+    * class0 NSString$class0 = "NJU"
     * str str="NJU"
     * output: 1
     * ret0 ret0=true
@@ -25,7 +25,7 @@ class NSString_isEqual_String{
 
     /**
     * input: 2
-    * class1 class1:NSString="NJU"
+    * class1 NSString$class1 ="NJU"
     * str str="nju"
     * output: 1
     * ret1 ret1=false

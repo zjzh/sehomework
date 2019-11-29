@@ -1,4 +1,4 @@
-impo*rt Foundation
+import Foundation
 /**
 * @author: MF1933053李志成
 * @className: FileManager_createDirectory_String_Bool
@@ -9,18 +9,21 @@ impo*rt Foundation
 class FileManager_createDirectory_String_Bool{
     /**
     * input: 3
-	* path path = "./test"
+	* class0 FileManager$class0
+	* path path = "/User/test/"
     * createIntermediates createIntermedaites = true
-	* attributes attributes?=nil
+	* attributes attributes = [FileAttributeKey.appendOnly: "appendOnly"]
     * output:1
-    * ret0 ret0=true
+    * ret0 ret0
+	* FileManager$class0- FileManager.default & & https://developer.apple.com/documentation/foundation/filemanager/1407693-url;
     */
     static func createDirectory0(){
-        let path="./test"
+	    let class0 = FileManager.default
+        let path="/User/test/"
         let createIntermediates = true
-		var attributes? = nil
-        let ret0 = FileManager.createDirectory(path:path, createIntermediates:createIntermediates, attributes:nil)
-        assert(ret0 == true)
+		let attributes = [FileAttributeKey.appendOnly: "appendOnly"]
+        let ret0 = try?class0.createDirectory(atPath:path, withIntermediateDirectories:createIntermediates, attributes:attributes)
+        assert(ret0 == nil)
         print(ret0)
     }
 }

@@ -11,16 +11,17 @@ class NSString_compare_String_NSString$CompareOptions{
     * input: 2
     * class0 NSString$class0
     * str str="NJU"
+	* options NSString.CompareOptions$options = []
     * output: 1
     * ret0 ComparisonResult$ret0
-	* NSString$class0-NSString$NSString(string: String) & string = "NJU" & https://developer.apple.com/documentation/foundation/nsstring
     */
     static func compare0(){
         print(">>>>>>>>>>>>>>")
-        let class0 = NSString(string:"NJU")
-        var str = "NJU"
-        var ret0 = class0.compare(str,options:NSString.CompareOptions(rawValue: 1))
-        assert(ret0 != ComparisonResult(rawValue: -1))
+        let class0:NSString = "NJU"
+        let str = "NJU"
+		let options:NSString.CompareOptions = []
+        let ret0 = class0.compare(str,options:options)
+        assert(ret0 == ComparisonResult.orderedSame)
         print(ret0)
     }
 
@@ -28,16 +29,17 @@ class NSString_compare_String_NSString$CompareOptions{
     * input: 2
     * class1 NSString$class1
     * str str="nju"
+	* options NSString.CompareOptions$options = []
     * output: 1
     * ret1 ComparisonResult$ret1
-	* NSString$class1-NSString$NSString(string: String) & string = "NJU" & https://developer.apple.com/documentation/foundation/nsstring
     */
     static func compare1(){
-        print(">>>>>>>>>>>>>>>")
-        let class1 = NSString(string:"NJU")
-        var str = "nju"
-        var ret1 = class1.compare(str,options:NSString.CompareOptions(rawValue: 1))
-        assert(ret1 != ComparisonResult(rawValue: -1))
+        print(">>>>>>>>>>>>>>")
+        let class1:NSString = "NJU"
+        let str = "nju"
+		let options:NSString.CompareOptions = []
+        let ret1 = class1.compare(str,options:options)
+        assert(ret1 != ComparisonResult.orderedSame)
         print(ret1)
     }
 }

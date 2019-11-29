@@ -16,9 +16,16 @@ class NSException_callStackSymbols{
         * NSException$class0- NSException.init(name,reason,userInfo) & name="name";reason="reason for class0";userInfo=["key":"value"] & https://developer.apple.com/documentation/foundation/thread/1414836-callstacksymbols
         */
         print(">>>>>>>>>>>>>")
-        let class0 = NSException.init(name:"name", reason:"reason for class0", userInfo:["key":"value"])
-        let ret0 = class0.callStackSymbols()
-		print(ret0)
+        //let class0 = NSException.init(name:NSExceptionName.decimalNumberDivideByZeroException, reason:"reason for class0", userInfo:["key":"value"])
+        //let ret0 = class0.callStackSymbols()
+		//print(ret0)
+		do {
+		    let x = try (10/0)
+		}catch let class0 as NSException{
+		    let ret0 = class0.callStackSymbols()
+			asset(ret0 != nil)
+			print(ret0)
+		}
     }
 }
 NSException_callStackSymbols.callStackSymbols0()

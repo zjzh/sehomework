@@ -18,7 +18,7 @@ class NSMapTable_NSMapMember_NSMapTable_Pointer_Pointer_Pointer{
         print(">>>>>>>>>>>>>>>>")
         let class0 = NSMapTable<NSString,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)
         class0.setObject(1,forKey:1)
-        let ret0 = NSMapMember(class0, 1, nil, nil)
+        let ret0 = class0.NSMapMember(class0, 1)
         assert(ret0 == true)
         print(ret0)
     }
@@ -32,7 +32,7 @@ class NSMapTable_NSMapMember_NSMapTable_Pointer_Pointer_Pointer{
     static func NSMapMember1(){
         print(">>>>>>>>>>>>>>>>")
         let class1 = NSMapTable<NSString,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)
-        let ret1 = NSMapMember(class1, 1, nil, nil)
+        let ret1 = class1.NSMapMember(class1, 1)
         assert(ret1 == false)
         print(ret1)
     }

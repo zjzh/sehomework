@@ -7,7 +7,6 @@ import Foundation
 * Map: java.lang.String$public boolean contentEquals(StringBuffer sb)
 */
 class String_elementsEqual_Sequence{
-    static func elementsEqual0(){
     /**
     * input: 2
     * class0 class0=["N","J","U"]
@@ -15,9 +14,10 @@ class String_elementsEqual_Sequence{
     * output: 1
     * ret0 ret0=true
     */
-        var class0 = ["N","J","U"]
-        var str = ["N","J","U"]
-        var ret0 = class0.elementsEqual(str)
+    static func elementsEqual0(){
+        let class0 = ["N","J","U"]
+        let seq = ["N","J","U"]
+        let ret0 = class0.elementsEqual(seq)
         assert(ret0 == true)
         print(ret0)
     }
@@ -30,9 +30,9 @@ class String_elementsEqual_Sequence{
     * ret0 ret0=false
     */
     static func elementsEqual1(){
-        var class1 = ["N","J","U"]
-        var str = ["n","j","u"]
-        var ret1 = class1.elementsEqual(str)
+        let class1 = ["N","J","U"]
+        let str = ["n","j","u"]
+        let ret1 = class1.elementsEqual(str)
         assert(ret1 == false)
         print(ret1)
     }

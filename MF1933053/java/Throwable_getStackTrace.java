@@ -7,8 +7,10 @@
  */
 class Throwable_getStackTrace {
     /**
-     * input: 2
-     * temp temp = 1/0
+     * input: 4
+     * x x = 1
+	 * y y = 0
+	 * z z = x / y
      * class0 Throwable$class0 
      * output: 1
      * ret0 StackTraceElement$ret0
@@ -16,7 +18,9 @@ class Throwable_getStackTrace {
     */
     static void getStackTrace0(){
 	    try{
-		    int cnt = 1/0;
+		    int x = 1;
+			int y = 0;
+			int z = x / y;
 	    }catch(Throwable class0){
             StackTraceElement[] ret0 = class0.getStackTrace();
 		    assert(ret0 !=null);
