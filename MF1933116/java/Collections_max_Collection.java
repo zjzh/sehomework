@@ -13,30 +13,43 @@ import java.util.Arrays;
     public class Collections_max_Collection {
     /**
      * input: 1
-     * class0 Array$class0
+     * class0 Collection$class0
      * output: 1
      * ret0  ret0=9
-     * Array$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
+     * Collection$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
      */
     public static void max0(){
-        System.out.println(">>>>>>>>>>>>");
-        Integer[] class0 = {8, 2, 7, 1, 4, 9, 5};
-        Integer ret0 = (Integer) Collections.max(Arrays.asList(class0));
-        assert (ret0.equals(9));
-        System.out.println(ret0);
+            System.out.println(">>>>>>>>>>>>");
+    		Collection class0 = new ArrayList();
+            class0.add(8);
+            class0.add(2);
+            class0.add(7);
+            class0.add(1);
+            class0.add(4);
+            class0.add(9);
+            class0.add(5);
+            Integer ret0 = (Integer) Collections.max(class0);
+            assert (ret0.equals(9));
+            System.out.println(ret0);
     }
     
     /**
      * input: 1
-     * class0 Array$class0
+     * class0 Collection$class0
      * output: 1
      * ret0 ret0="e"
-     * Array$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
+     * Collection$class0-Array$Array<Integer>() & & https://blog.csdn.net/itlwc/article/details/10148321
      */
     public static void max1(){
         System.out.println(">>>>>>>>>>>>");
-        String[] class0 = {"a","b","c","d","1687","e"};
-        String ret0 = (String) Collections.max(Arrays.asList(class0));
+		Collection class0 = new ArrayList();
+        class0.add("a");
+        class0.add("b");
+        class0.add("c");
+        class0.add("d");
+        class0.add("1687");
+        class0.add("e");
+        String ret0 = (String) Collections.max(class0);
         assert (ret0.equals("e"));
         System.out.println(ret0);
     }
