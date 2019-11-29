@@ -20,6 +20,7 @@ public class Class_getMethods {
         System.out.println(">>>>>>>>>>>>");
         Class<Class_getMethods> class0 = Class_getMethods.class;
         Method ret0[] = class0.getMethods();
+        assert(ret0.length==11);
 
         for(int i = 0; i < ret0.length; i++) {  
             System.out.println(ret0[i]);  
