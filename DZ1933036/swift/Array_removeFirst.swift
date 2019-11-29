@@ -11,9 +11,9 @@ class Array_removeFirst{
     {
         /**
          *input:1
-         *class0:class0 = [1,2,3]
+         *class0 class0 = [1,2,3]
          *output:1
-         *ret0:ret0 =1
+         *ret0 ret0 =1
          */
       
         var class0:Array = [1,2,3]

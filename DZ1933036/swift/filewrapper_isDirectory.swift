@@ -9,9 +9,9 @@ import Foundation
 class Filewrapper_isDirectory{
     /**
      * input: 1
-     * class0:URL$class0
+     * class0 URL$class0
      * output: 1
-     * ret0: ret0 = true
+     * ret0 ret0 = true
      *   URL$class0-URL$init(fileReferenceLiteralResourceName name: String)&fileReferenceLiteralResourceName="file:///Users/castle/Documents"&"https://developer.apple.com/documentation/foundation/url/2142903-init"
          
      */
@@ -30,9 +30,9 @@ class Filewrapper_isDirectory{
     }
     /**
       * input: 1
-      * class0:URL$class0
+      * class0 URL$class0
       * output: 1
-      * ret0: ret0 = true
+      * ret0 ret0 = true
       * URL$class0-URL$init(fileReferenceLiteralResourceName name: String)&fileReferenceLiteralResourceName="file:///Users/castle/Documents"&"https://developer.apple.com/documentation/foundation/url/2142903-init"
          
       */

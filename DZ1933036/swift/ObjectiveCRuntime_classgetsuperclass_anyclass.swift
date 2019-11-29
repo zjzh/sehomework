@@ -24,9 +24,9 @@ class ObjectiveCRuntime_classgetsuperclass_anyclass{
     {
         /**
          *input: 1
-         *class0:D$class0
+         *class0 D$class0
          *output:1
-         *ret0: C$ret0
+         *ret0 C$ret0
          */
         let class0=D()
         let ret0:AnyClass = class_getSuperclass(type(of:class0))!
@@ -37,9 +37,9 @@ class ObjectiveCRuntime_classgetsuperclass_anyclass{
        {
         /**
          *input: 1
-         *class0:C$class0
+         *class0 C$class0
          *output:1
-         *ret0: Swift._SwiftObject$ret0
+         *ret0  Swift._SwiftObject$ret0
          */
            let class0=C()
            let ret0:AnyClass = class_getSuperclass(type(of:class0))!

@@ -11,10 +11,10 @@ public class Arrays_copyOf_array_int {
     {
         /**
          * input: 2
-         * class0: class0 = [1,2,3]
-         * newLength: newLength = 3
+         * class0 class0 = [1,2,3]
+         * newLength  newLength = 3
          * output:1
-         * ret0:ret0 = [1,2,3]
+         * ret0 ret0 = [1,2,3]
          */
         int[] class0 = new int[]{1,2,3};
         int newLength =3;
@@ -28,10 +28,10 @@ public class Arrays_copyOf_array_int {
     {
         /**
          * input: 2
-         * class0: class0 = [1,2,3]
-         * newLength: newLength=5;
+         * class0 class0 = [1,2,3]
+         * newLength newLength=5;
          * output:1
-         * ret0:ret0 = [1,2,3,0,0]
+         * ret0 ret0 = [1,2,3,0,0]
          */
         int[] class0 = new int[]{1,2,3};
         int newLength = 5;
@@ -47,10 +47,10 @@ public class Arrays_copyOf_array_int {
     {
         /**
          * input: 2
-         * class0: class0 = [1,2,3]
-         * newLength: newLength=5;
+         * class0 class0 = [1,2,3]
+         * newLength newLength=5;
          * output:1
-         * ret0:ret0 = [1,2,3,4,5]
+         * ret0 ret0 = [1,2,3,4,5]
          */
         int[] class0 = new int[]{1,2,3};
         int[] ret0 = Arrays.copyOf(class0,5);

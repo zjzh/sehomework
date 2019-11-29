@@ -9,11 +9,11 @@ import Foundation
 class Set_insert_URLResourceKey__URL_resourceValues_Set__URLResourceValues_isDirectory{
     /**
      * input: 3
-     * class0:URL$class0
-     * isDirectoryKey: URLResourceKey$ResourceKey.isDirectoryKey
-     * set:Set$set
+     * class0 URL$class0
+     * isDirectoryKey  URLResourceKey$ResourceKey.isDirectoryKey
+     * set Set$set
      * output: 1
-     * ret0: ret0 = true
+     * ret0 ret0 = true
      * URL$class0-URL$init(fileReferenceLiteralResourceName name: String)&fileReferenceLiteralResourceName="file:///Users/castle/Documents"&"https://developer.apple.com/documentation/foundation/url/2142903-init"
      */
     static func isDirectory0(){
@@ -34,11 +34,11 @@ class Set_insert_URLResourceKey__URL_resourceValues_Set__URLResourceValues_isDir
     }
      /**
        * input: 3
-       * set:Set$set
-       * class0:URL$class0
-       * isDirectoryKey: URLResourceKey$ResourceKey.isDirectoryKey
+       * set Set$set
+       * class0 URL$class0
+       * isDirectoryKey URLResourceKey$ResourceKey.isDirectoryKey
        * output: 1
-       * ret0: ret0 = true
+       * ret0 ret0 = true
        * URL$class0-URL$init(fileReferenceLiteralResourceName name: String)&fileReferenceLiteralResourceName="file:///Users/castle/Documents/1.jpeg"&"https://developer.apple.com/documentation/foundation/url/2142903-init"
        *
        */

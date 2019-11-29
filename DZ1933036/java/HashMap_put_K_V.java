@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class HashMap_put_K_V {
     /**
      * input:3
-     * class0:HashMap$class0
+     * class0 HashMap$class0
      * K String key = "first"
      * V String value = "100"
      * output:1
@@ -27,7 +27,7 @@ public class HashMap_put_K_V {
     }
     /**
      * input:3
-     * class0:HashMap$class0
+     * class0 HashMap$class0
      * K String key = "first"
      * V String value = "100"
      * output:1

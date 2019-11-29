@@ -11,9 +11,9 @@ class ArraySlice_popFirst{
     {
         /**
          *input:1
-         *class0:class0 = [1,2,3]
+         *class0 class0 = [1,2,3]
          *output:1
-         *ret0:ret0 =1
+         *ret0 ret0 =1
          */
         var class0:ArraySlice = [1,2,3]
         let ret0 = class0.popFirst()

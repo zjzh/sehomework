@@ -9,9 +9,9 @@ import Foundation
 class NSMapTable_setObject_ObjectType_KeyType{
     /**
      * input:3
-     * class0:NSMapTable$class0
-     * Object Object = "100"
-     * Key Key =  "first"
+     * class0 NSMapTable$class0
+     * anObject anObject = "100"
+     * aKey aKey =  "first"
      * output:0
      * NSMapTable$class0-NSMapTable$NSMapTable<NSString,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)&"https://developer.apple.com/documentation/foundation/nsmaptable"
      */
@@ -19,18 +19,18 @@ class NSMapTable_setObject_ObjectType_KeyType{
     {
         print(">>>>>>>>")
         let class0 = NSMapTable<NSString,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)
-        let Object:NSString = "100"
-        let Key:NSString = "first"
-        class0.setObject(Object, forKey: Key)
-        let tmp = class0.object(forKey: Key)
+        let anObject:NSString = "100"
+        let aKey:NSString = "first"
+        class0.setObject(anObject, forKey: aKey)
+        let tmp = class0.object(forKey: aKey)
         assert(tmp == "100")
     }
     /**
         * input:4
-        * class0:NSMapTable$class0
-        * Object Object = "100"
-        * Object1 Object1 = "200"
-        * Key Key =  "first"
+        * class0 NSMapTable$class0
+        * anObject anObject = "100"
+        * anObject1 anObject1 = "200"
+        * aKey aKey =  "first"
         * output:0
         * NSMapTable$class0-NSMapTable$NSMapTable<NSString,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)&"https://developer.apple.com/documentation/foundation/nsmaptable"
      
@@ -41,12 +41,12 @@ class NSMapTable_setObject_ObjectType_KeyType{
            print(">>>>>>>>>")
            let class0 = NSMapTable<NSString,NSString>(keyOptions: .strongMemory, valueOptions: .weakMemory)
         
-           let Object:NSString = "100"
-           let Object1:NSString = "200"
-           let Key:NSString = "first"
-           class0.setObject(Object, forKey: Key)
-           class0.setObject(Object1, forKey: Key)
-           let tmp = class0.object(forKey:Key)
+           let anObject:NSString = "100"
+           let anObject1:NSString = "200"
+           let aKey:NSString = "first"
+           class0.setObject(anObject, forKey: aKey)
+           class0.setObject(anObject1, forKey: aKey)
+           let tmp = class0.object(forKey:aKey)
            assert(tmp == "200")
        }
     

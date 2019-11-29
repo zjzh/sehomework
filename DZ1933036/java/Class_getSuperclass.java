@@ -13,9 +13,9 @@ public class Class_getSuperclass {
     {
         /**
          * input:1
-         * class0:D$class0
+         * class0 D$class0
          * output:1
-         * ret0:C$ret0
+         * ret0 C$ret0
          */
 
         D class0 = new D();
@@ -29,9 +29,9 @@ public class Class_getSuperclass {
     {
         /**
          * input:1
-         * class0:C$class0
+         * class0 C$class0
          * output:1
-         * ret0:java.lang.Object$ret0
+         * ret0 java.lang.Object$ret0
          */
 
         C class0 = new C();

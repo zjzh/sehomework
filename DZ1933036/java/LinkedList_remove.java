@@ -15,9 +15,9 @@ public class LinkedList_remove {
     {
         /**
          * input:1
-         * class0:LinkedList$class0
+         * class0 LinkedList$class0
          * output:1
-         * ret0: ret0 = 1
+         * ret0  ret0 = 1
          * LinkedList$class0-LinkedList$LinkedList()&&"https://developer.android.com/reference/java/util/LinkedList.html"
          */
         LinkedList<Integer>class0 = new LinkedList<>();
