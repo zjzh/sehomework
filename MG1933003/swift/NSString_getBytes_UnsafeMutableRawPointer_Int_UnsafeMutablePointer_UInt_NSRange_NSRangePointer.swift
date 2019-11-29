@@ -14,10 +14,11 @@ class NSString_getBytes_UnsafeMutableRawPointer_Int_UnsafeMutablePointer_UInt_NS
 	 * maxLength maxLength = 10
 	 * usedLength usedLength = nil
 	 * encoding encoding = 4
-	 * range range = NSRange(location: 0, length: 5)
+	 * range NSRange$range
 	 * remaining remaining = nil
 	 * output : 1
 	 * ret0 ret0 = true
+	 * NSRange$range-NSRange$NSRange(location: int, length: int) & NSRange = NSRange(location: 0, length: 5) & https://developer.apple.com/documentation/foundation/nsrange
 	 */
 	static func getBytes0(){
 	
@@ -50,10 +51,11 @@ class NSString_getBytes_UnsafeMutableRawPointer_Int_UnsafeMutablePointer_UInt_NS
 	 * maxLength maxLength = 10
 	 * usedLength usedLength = nil
 	 * encoding encoding = 4
-	 * range range = NSRange(location: 0, length: 5)
+	 * range NSRange$range
 	 * remaining remaining = nil
 	 * output : 1
 	 * ret0 ret0 = true
+	 * NSRange$range-NSRange$NSRange(location: int, length: int) & NSRange = NSRange(location: 0, length: 5) & https://developer.apple.com/documentation/foundation/nsrange
 	 */
 	static func getBytes1(){
 	
