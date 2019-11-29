@@ -25,3 +25,5 @@ class Thread_start{
         print("ok !")
     }
 }
+
+Thread_start.thread_run()
