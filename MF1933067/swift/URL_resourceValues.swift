@@ -17,8 +17,8 @@ class URL_resourceValues{
      */
     
     static func contentModificationDate0(){
-        let path="file.txt";
-        var class0=URL(fileURLWithPath: path)
+        let fileURLWithPath="file.txt";
+        var class0=URL(fileURLWithPath: fileURLWithPath)
 
         do{
             var resourceValues=URLResourceValues()
