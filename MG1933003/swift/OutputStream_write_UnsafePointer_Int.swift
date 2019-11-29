@@ -11,7 +11,7 @@ class OutputStream_write_UnsafePointer_Int{
      * input: 3
      * class0 OutputStream$class0
      * buffer buffer= [1,2,3,4,5]
-     * maxLength maxLength=3
+     * maxLength maxLength= 5
      * output: 1
      * ret0 ret0= 5
      * OutputStream$class0-OutputStream$init?(toFileAtPath path: String, append shouldAppend: Bool) & String$path="file.txt";Bool$shouldAppend=false &https://stackoverflow.com/questions/26989493/how-to-open-file-and-append-a-string-in-it-swift;https://stackoverflow.com/questions/26331636/writing-a-string-to-an-nsoutputstream-in-swift
