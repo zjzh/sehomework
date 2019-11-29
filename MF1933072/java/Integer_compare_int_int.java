@@ -12,37 +12,37 @@ public class Integer_compare_int_int {
 
     /**
      * input: 2
-     * int1 int1 = 1
-     * int2 int2 = 2
+     * x x = 1
+     * y y = 2
      * output: 1
      * ret0  ret0= -1
      */
     public  static void compare0(){
         System.out.println(">>>>>>>>>>>>");
-        int int1 = 1;
-        int int2 = 2;
-        int ret0 = Integer.compare(int1,int2);
-        assert (int1 == 1);
-        assert (int2 == 2);
+        int x = 1;
+        int y = 2;
+        int ret0 = Integer.compare(x,y);
+        assert (x == 1);
+        assert (y == 2);
         assert (ret0 == -1);
         System.out.println(ret0);
 
     }
     /**
      * input: 2
-     * int1 int1 = 1
-     * int2 int2 = 1
+     * x x = 1
+     * y y = 1
      * output: 1
      * ret0  ret0= 0
 
      */
     public  static void compare1(){
         System.out.println(">>>>>>>>>>>>");
-        int int1 = 1;
-        int int2 = 1;
-        int ret0 = Integer.compare(int1,int2);
-        assert (int1 == 1);
-        assert (int2 == 1);
+        int x = 1;
+        int y = 1;
+        int ret0 = Integer.compare(x,y);
+        assert (x == 1);
+        assert (y == 1);
         assert (ret0 == 0);
         System.out.println(ret0);
 
@@ -50,19 +50,19 @@ public class Integer_compare_int_int {
 
     /**
      * input: 2
-     * int1 int1 = 2
-     * int2 int2 = 1
+     * x x = 2
+     * y y = 1
      * output: 1
      * ret0  ret0= 1
 
      */
     public  static void compare2(){
         System.out.println(">>>>>>>>>>>>");
-        int int1 = 2;
-        int int2 = 1;
-        int ret0 = Integer.compare(int1,int2);
-        assert (int1 == 1);
-        assert (int2 == 1);
+        int x = 2;
+        int y = 1;
+        int ret0 = Integer.compare(x,y);
+        assert (x == 1);
+        assert (y == 1);
         assert (ret0 == 1);
         System.out.println(ret0);
 
