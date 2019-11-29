@@ -25,8 +25,8 @@ class TextOutputStream_write_String{
      */
     
     static func write0(){
-        var standardError=StderrOutputStream()
-        print(1.22,to:&standardError)
+        var class0=StderrOutputStream()
+        print(1.22,to:&class0)
     }
 }
 TextOutputStream_write_String.write0();
