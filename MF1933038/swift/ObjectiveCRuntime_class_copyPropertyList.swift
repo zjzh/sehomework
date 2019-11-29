@@ -7,8 +7,6 @@
  */
 
  import Foundation
- import UIKit
-
 
 class ObjectiveCRuntime_class_copyPropertyList: NSObject{
     var name: String?
@@ -43,7 +41,7 @@ class ObjectiveCRuntime_class_copyPropertyList: NSObject{
      * outCount UnsafeMutablePointer<UInt32>$outCount
      * output: 1
      * ret0 UnsafeMutablePointer<objc_property_t>$ret0
-     * ObjectiveCRuntime_class_copyPropertyList$class0-test_class$class0 = ObjectiveCRuntime_class_copyPropertyList(age: Int, name: String) & Int$age=22 & String%name="myname" & https://www.jianshu.com/p/aa60d6377434 & https://developer.apple.com/documentation/objectivec/1418553-class_copypropertylist?language=occ
+     * ObjectiveCRuntime_class_copyPropertyList$class0-ObjectiveCRuntime_class_copyPropertyList$class0 = ObjectiveCRuntime_class_copyPropertyList(age: Int, name: String) & Int$age=22 & String$name="myname" & https://www.jianshu.com/p/aa60d6377434 & https://developer.apple.com/documentation/objectivec/1418553-class_copypropertylist?language=occ
      * UnsafeMutablePointer<UInt32>$outCount-UnsafeMutablePointer<UInt32>$allocate(capacity: Int) & Int$capacity = 1 & https://developer.apple.com/documentation/swift/unsafemutablepointer
      */
     static func classCopyPropertyList(){
