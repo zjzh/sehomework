@@ -12,6 +12,8 @@ class Array_insert_Element_int {
     /**
      * input: 2
      * class0 class0=[1, 2, 3, 4, 5]
+     *newElement newElement=4
+    * i i=4
      * output: 0
      */
     static func insert0() {
