@@ -22,31 +22,31 @@ class Character_write_inoutTarget{
     /**
      * input: 2
      * class0 Character$class0
-     * ch TextOutputStream$ch
+     * to TextOutputStream$to
      * output: 0
      * Character$class0-Character$Character("a")&&https://developer.apple.com/documentation/swift/character
-     * TextOutputStream$ch-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
+     * TextOutputStream$to-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write0(){
-        var ch = ASCIILogger()
+        var to = ASCIILogger()
         let class0 = Character("a")
         print("the following is output")
-        class0.write(to: &ch)
+        class0.write(to: &to)
     }
 
    /**
      * input: 2
      * class0 Character$class0
-     * ch TextOutputStream$ch
+     * to TextOutputStream$to
      * output 0
      * Character$class0-Character$Character(" ")&&https://developer.apple.com/documentation/swift/character
-     * TextOutputStream$ch-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
+     * TextOutputStream$to-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write1(){
-        var ch = ASCIILogger()
+        var to = ASCIILogger()
         let class0 = Character(" ")
         print("the following is output")
-        class0.write(to: &ch)
+        class0.write(to: &to)
     }
 }
 

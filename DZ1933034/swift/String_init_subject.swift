@@ -1,4 +1,3 @@
-
 /**
  *  @author: zhaoxin+DZ1933034
  *  @className: String_init_subject
@@ -9,25 +8,25 @@
 class String_init_subject{
      /**
      * input: 1
-     * class0 String$class0
+     * describing String$describing
      * output: 1
      * ret0 ret0="hello"
-     * String$class0-String$String("hello")&&https://developer.apple.com/documentation/swift/string
+     * String$describing-String$String("hello")&&https://developer.apple.com/documentation/swift/string
      */
     static func init0(){
-        let class0 = String("hello")
-        let ret0 = String.init(class0)
+        let describing = String("hello")
+        let ret0 = String.init(describing)
         print(ret0)
     }
      /**
      * input: 1
-     * class0 class0=1
+     * describing describing=1
      * output: 1
      * ret0 ret0=1
      */
     static func init1(){
-        let class0 = 1
-        let ret0 = String.init(class0)
+        let describing = 1
+        let ret0 = String.init(describing)
         print(ret0)
     }
 }

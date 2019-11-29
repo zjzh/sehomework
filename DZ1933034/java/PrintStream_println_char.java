@@ -1,11 +1,11 @@
 /**
  *  @author: zhaoxin+DZ1933034
  *  @className: PrintStream_println_char
- *  @apiSignature: PrintStream$public void print(char c)
+ *  @apiSignature: PrintStream$public void println(char c)
  *  @description: Test java api PrintStream$public void print(char c)
  *  @Map: Character$func write<Target>(to: inout Target)
  *  @Map: String$func write<Target>(to: inout Target)
- *  @Map: TextOutStream$func write(String)
+ *  @Map: TextOutStream$func write(_ string: String)
  */
 
 import java.io.OutputStream;
@@ -18,29 +18,34 @@ public class PrintStream_println_char {
     }
 
     /**
-     * input 1
-     * class0 class0='a'
+     * input 2
+     * c c='a'
+     * class0 PrintStream$class0
      * outputStream OutputStream$outputStream
      * output 0
      * OutputStream$outputStream-System$out&&https://docs.oracle.com/javase/8/docs/api/
+     * PrintSream$class0-PrintStream$PrintStream(outputStream)&&https://docs.oracle.com/javase/8/docs/api/
      */
-
     public static void println0(){
-        char array0 = 'a';
+        char c = 'a';
         OutputStream outputStream = System.out;
-        new PrintStream(outputStream).println(array0);
+        PrintStream class0 = new PrintStream(outputStream);
+        class0.println(c);
     }
 
     /**
-     * input 1
-     * class0 class0=' '
+     * input 2
+     * c c=' '
+     * class0 PrintStream$class0
      * outputStream OutputStream$outputStream
      * output 0
      * OutputStream$outputStream-System$out&&https://docs.oracle.com/javase/8/docs/api/
+     * PrintSream$class0-PrintStream$PrintStream(outputStream)&&https://docs.oracle.com/javase/8/docs/api/
      */
     public static void println1() {
-        char array1 = ' ';
+        char c = ' ';
         OutputStream outputStream = System.out;
-        new PrintStream(outputStream).println(array1);
+        PrintStream class0 = new PrintStream(outputStream);
+        class0.println(c);
     }
 }

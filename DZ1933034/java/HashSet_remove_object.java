@@ -22,10 +22,11 @@ public class HashSet_remove_object{
         System.out.println(">>>>>>>>>>>>>>>>>>");
         HashSet<String> class0 = new HashSet<String>();
         String[] stringPool = {"123", "456", "789"};
+        String key = "13";
         for(int i = 0; i < 3; i++){
             class0.add(stringPool[i]);
         }
-        boolean ret0 = class0.remove("13");
+        boolean ret0 = class0.remove(key);
         assert (!ret0);
         System.out.println(ret0);
     }
@@ -40,10 +41,11 @@ public class HashSet_remove_object{
         System.out.println(">>>>>>>>>>>>>>>>>>");
         HashSet class0 = new HashSet<>();
         int[] intPool = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int key = 9;
         for(int i = 0; i < 9; i++){
             class0.add(intPool[i]);
         }
-        boolean ret0 = class0.remove(9);
+        boolean ret0 = class0.remove(key);
         assert (ret0);
         System.out.println(ret0);
     }

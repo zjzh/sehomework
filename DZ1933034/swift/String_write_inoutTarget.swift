@@ -22,29 +22,29 @@ class String_write_inoutTarget{
     /**
      * input: 2
      * class0 class0="a"
-     * logger ASCIILogger$logger
+     * to ASCIILogger$to
      * output: 0
-     * TextOutputStream$logger-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
+     * TextOutputStream$to-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write0(){
-        var logger = ASCIILogger()
+        var to = ASCIILogger()
         let class0 = "a"
         print("the following is output")
-        class0.write(to: &logger)
+        class0.write(to: &to)
     }
 
     /**
      * input: 2
      * class0 class0=" "
-     * logger ASCIILogger$logger
+     * to ASCIILogger$to
      * output: 0
-     * TextOutputStream$logger-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
+     * TextOutputStream$to-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write1(){
-        var logger = ASCIILogger()
+        var to = ASCIILogger()
         let class0 = " "
         print("the following is output")
-        class0.write(to: &logger)
+        class0.write(to: &to)
     }
 }
 

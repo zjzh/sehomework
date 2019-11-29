@@ -20,7 +20,8 @@ class Dictionary_removeValue_object{
                          "456": "b",
                          "789": "c"
                         ]
-        let ret0 = class0.removeValue(forKey: "123")
+        let forKey = "123"
+        let ret0 = class0.removeValue(forKey: forkey)
         assert (ret0 != nil)
         print(ret0!)
     }
@@ -36,7 +37,8 @@ class Dictionary_removeValue_object{
                          "456": "b",
                          "789": "c"
                         ]
-        let ret0 = class0.removeValue(forKey: "12")
+        let forKey = "12"
+        let ret0 = class0.removeValue(forKey: forKey)
         assert (ret0 == nil)
         print(ret0)
     }

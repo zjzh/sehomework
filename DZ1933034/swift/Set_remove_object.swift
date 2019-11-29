@@ -11,28 +11,28 @@ class Set_remove_object{
      /**
      * input: 2
      * class0 class0=["123", "456", "789"]
-     * removeElement removeElement="123"
+     * member member="123"
      * output: 1
      * ret0 ret0="123"
      */
     static func remove0(){
         var class0 : Set = ["123", "456", "789"]
-        let removeElement = "123"
-        let ret0 = class0.remove(removeElement)
+        let member = "123"
+        let ret0 = class0.remove(member)
         assert (ret0 != nil)
         print(ret0!)
     }
      /**
      * input: 2
      * class0 class0=[1, 2, 3, 4, 5, 6, 7, 8, 9]
-     * removeElement removeElement=9
+     * member member=9
      * output: 1
      * ret0 ret0=9
      */
     static func remove1(){
         var class0 : Set = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        let removeElement = 9
-        let ret0 = class0.remove(removeElement)
+        let member = 9
+        let ret0 = class0.remove(member)
         assert (ret0 != nil)
         print(ret0!)
     }

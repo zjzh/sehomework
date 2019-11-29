@@ -1,11 +1,9 @@
 /**
  *  @author: zhaoxin+DZ1933034
  *  @className: TextOutputStream_write_String
- *  @apiSignature: TextOutStream$func write(String)
- *  @description: Test swift api TextOutStream$func write(String)
- *  @Map: Character$func write<Target>(to: inout Target)
- *  @Map: String$func write<Target>(to: inout Target)
- *  @Map: PrintStream$public void print(char c)
+ *  @apiSignature: TextOutStream$func write(_ string: String)
+ *  @description: Test swift api TextOutStream$func write(_ string: String)
+ *  @Map: PrintStream$public void println(char c)
  */
 import Foundation
 
@@ -24,26 +22,26 @@ class TextOutputStream_write_String{
     /**
      * input: 2
      * class0 TextOutputStream$class0
-     * ch Character$ch
+     * string = "a"
      * output: 0
      * TextOutputStream$class0-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write0(){
         var class0 = ASCIILogger()
-        let str = "a"
-        class0.write(str)
+        let string = "a"
+        class0.write(string)
     }
 
    /**
      * input: 2
      * class0 TextOutputStream$class0
-     * ch Character$ch
+     * string = " "
      * output: 0
      * TextOutputStream$class0-ASCIILogger$ASCIILogger()&&https://developer.apple.com/documentation/swift/textoutputstream
      */
     static func write1(){
         var class0 = ASCIILogger()
-        let str = ""
+        let str = " "
         class0.write(str)
     }
 }

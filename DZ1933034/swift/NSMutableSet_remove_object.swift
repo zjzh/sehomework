@@ -11,14 +11,14 @@ class NSMutableSet_remove_object{
     /**
      * input: 2
      * class0 NSMutableset$class0
-     * removeElement removeElement="123"
+     * object object="123"
      * output: 0
      * NSMutableset$class0-NSMutableset$NSMutableset()&&https://developer.apple.com/documentation/foundation/nsmutableset
      */
     static func remove0(){
         let class0: NSMutableSet = NSMutableSet()
         let stringPool = ["123", "456", "789"]
-        let removeElement = "123"
+        let object = "123"
         for str in stringPool{
             class0.add(str)
         }
@@ -26,7 +26,7 @@ class NSMutableSet_remove_object{
         for temp in class0{
             print(temp)
         }
-        class0.remove(removeElement)
+        class0.remove(object)
         print("after remove")
         for temp in class0{
             print(temp)
@@ -35,14 +35,14 @@ class NSMutableSet_remove_object{
     /**
      * input: 2
      * class0 NSMutableset$class0
-     * removeElement removeElement=9
+     * object object=9
      * output: 0
      * NSMutableset$class0-NSMutableset$NSMutableset()&&https://developer.apple.com/documentation/foundation/nsmutableset
      */
     static func remove1(){
         let class0: NSMutableSet = NSMutableSet()
         let intPool = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        let removeElement = 9
+        let object = 9
         for temp in intPool{
             class0.add(temp)
         }
@@ -50,7 +50,7 @@ class NSMutableSet_remove_object{
         for temp in class0{
             print(temp)
         }
-        class0.remove(removeElement)
+        class0.remove(object)
         print("after remove")
         for temp in class0{
             print(temp)
