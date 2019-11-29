@@ -20,7 +20,7 @@
   class Character_write_TextOutputStream{
     /**
      * input: 2
-     * class0 class0: Character = "M"
+     * class0 class0 = "M"
      * target TextOutputStream$target
      * output: 1
      * target TextOutputStream$target
@@ -29,7 +29,7 @@
     static func write0(){
         print(">>>>>>>>")
         var target = TextOutputStream_out()
-        let class0:Character = "M"
+        let class0 = "M"
         class0.write(to: &target)
         assert(class0=="M")
         print("\n")
@@ -37,7 +37,7 @@
     }
     /**
      * input: 2
-     * class0 class0: Character = "MN"
+     * class0 class0 = " "
      * target TextOutputStream$target
      * output: 1
      * target TextOutputStream$target
@@ -46,7 +46,7 @@
     static func write1(){
         print(">>>>>>>>")
         var target = TextOutputStream_out()
-        let class0:Character = " "
+        let class0 = " "
         class0.write(to: &target)
         assert(class0==" ")
         
