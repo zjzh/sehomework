@@ -7,9 +7,11 @@
  */
 public class Thread_getStackTrace {
     /**
-     * input: 0
+     * input: 1
+     * class0 class0=Thread$class0
      * output: 1
      * ret0 StackTraceElement[]$ret0
+     * Thread$class0-Thread$Thread() & & https://developer.android.com/reference/java/lang/Thread.html#Thread()
      * StackTraceElement[]$ret0-Thread$getStackTrace() & & https://docs.oracle.com/javase/9/docs/api/java/lang/Thread.html#getStackTrace--
      */
     public static void getStackTrace0(){

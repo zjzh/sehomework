@@ -9,15 +9,20 @@ import Foundation
 
 class Thread_callStackSymbols{
 	/**
-     * input: 0
+     * input: 1
+	 * class0 class0=Thread$class0
      * output: 1
      * ret0 ret0=["","",""]
-	 * 
+	 * Thread$class0-Thread$Thread() & & https://swift.gg/2017/09/04/all-about-concurrency-in-swift-1-the-present/
      */
 	static func callStackSymbols0(){
 		print(">>>>>>>>>>>>");
-		let ret0 = Thread.callStackSymbols;
-		print(ret0);
+		let class0 : Thread = Thread(){
+			let ret0 = Thread.callStackSymbols;
+			print(ret0);
+			Thread.exit();
+		}
+		class0.start();
 	}
 }
 Thread_callStackSymbols.callStackSymbols0();
