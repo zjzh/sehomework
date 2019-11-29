@@ -10,7 +10,7 @@ import Foundation
 class Array_insert_Element_int {
 
     /**
-     * input: 2
+     * input: 3
      * class0 class0=[1, 2, 3, 4, 5]
      *newElement newElement=4
     * i i=4
