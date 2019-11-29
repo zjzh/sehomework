@@ -7,10 +7,11 @@ import java.util.LinkedList;
  */
 public class LinkedList_peek {
  /**
-     * input: 0
+     * input: 1
      * class0 LinkedList$class0
      * output: 1
-	 * ret0 ret0=="hello"
+     * ret0 ret0=="hello"
+      *LinkedList$class0-File(String pathname) & class0 = new LinkedList() & https://developer.android.google.cn/reference/java/io/File.html
      */
   public static void peek0() {
       LinkedList class0 = new LinkedList();
