@@ -13,32 +13,30 @@ public class FileInputStream_close {
 	 * Input:4
 	 * class0 class0 = ".\\test.txt"
 	 * class1 class1 = FileInputStream(class0)
-	 * s1 s1 = 0
-	 * s2 s2 = 0
 	 * Output:2
-	 * s1 s1 = 1
-	 * s2 s2 = 1
+	 * ret0 ret0 = 1
+	 * ret1 ret1 = 1
 	 */
 	public static void close0() throws IOException{
 		String class0 = ".\\test.txt";
-		int s1 = 0;
-		int s2 = 0;
+		int ret0 = 104;
+		int ret1 = 0;
 		try {
 			FileInputStream class1 = new FileInputStream(class0);
-			s1 = (int)class1.read();
+			ret0 = (int)class1.read();
 			class1.close();
 			if(s1 != 0)
 			{
-				s1 = 1;
-				s2 = 1;
+				ret0 = 1;
+				ret1 = 1;
 			}
 		}catch(IOException e) {
-			s1 = 0;
-			s2 = 0;
+			ret0 = 0;
+			ret1 = 0;
 		}
 		finally {
-			assert(s1 == 104);
-			assert(s2 == 1);
+			assert(ret0 == 104);
+			assert(ret1 == 1);
 			System.out.println(s1);
 			System.out.println(s2);
 		}
