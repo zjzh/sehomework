@@ -10,15 +10,18 @@ import Foundation
 class NSNumber_compare_NSNumber{
     /**
      * input: 2
-     * class0 NSNumber$class0 = 1
-     * int2 NSNumber$int2 = 2
+     * class0 NSNumber$class0
+     * int2 NSNumber$int2
      * output: 1
      * ret0  ret0= "orderedAscending"
+     * NSNUmber$class0-NSNumber$class0 = NSNumber.init(value:Int8);& Int8 = 1& https://developer.apple.com/documentation/foundation/nsnumber/1409777-init
+     * NSNUmber$int1-NSNumber$int1 = NSNumber.init(value:Int8);& Int8 = 2& https://developer.apple.com/documentation/foundation/nsnumber/1409777-init
+
      */
 
     static func compare0(){
-        let class0 = 1 as NSNumber;
-        let int2 = 2 as NSNumber;
+        let class0 = NSNumber.init(value:1);
+        let int2 = NSNumber.init(value:2);
         let ret0 = class0.compare(int2);
         assert (class0==1);
         assert (int2==2);
@@ -27,15 +30,18 @@ class NSNumber_compare_NSNumber{
     }
     /**
      * input: 2
-     * class0 NSNumber$class0 = 2
-     * int2 NSNumber$int2 = 1
+     * class0 NSNumber$class0
+     * int2 NSNumber$int2
      * output: 1
      * ret0  ret0= "orderedDescending"
+     * NSNUmber$class0-NSNumber$class0 = NSNumber.init(value:Int8);& Int8 = 2& https://developer.apple.com/documentation/foundation/nsnumber/1409777-init
+     * NSNUmber$int1-NSNumber$int1 = NSNumber.init(value:Int8);& Int8 = 1& https://developer.apple.com/documentation/foundation/nsnumber/1409777-init
+
      */
 
     static func compare1(){
-        let class0 = 2 as NSNumber;
-        let int2 = 1 as NSNumber;
+        let class0 = NSNumber.init(value:2);
+        let int2 = NSNumber.init(value:1);
         let ret0 = class0.compare(int2);
         assert (class0==2);
         assert (int2==1);
@@ -44,15 +50,18 @@ class NSNumber_compare_NSNumber{
     }
     /**
      * input: 2
-     * class0  NSNumberclass0 = 1
-     * int2 NSNumber$int2 = 1
+     * class0  NSNumberclass0
+     * int2 NSNumber$int2
      * output: 1
      * ret0  ret0= "orderedSame"
+     * NSNUmber$class0-NSNumber$class0 = NSNumber.init(value:Int8);& Int8 = 1& https://developer.apple.com/documentation/foundation/nsnumber/1409777-init
+     * NSNUmber$int1-NSNumber$int1 = NSNumber.init(value:Int8);& Int8 = 1& https://developer.apple.com/documentation/foundation/nsnumber/1409777-init
+
      */
 
     static func compare2(){
-        let class0 = 1 as NSNumber;
-        let int2 = 1 as NSNumber;
+        let class0 = NSNumber.init(value:1);
+        let int2 = NSNumber.init(value:1);
         let ret0 = class0.compare(int2);
         assert (class0==1);
         assert (int2==1);
