@@ -16,15 +16,15 @@ class InputStream_read{
      * output: 1
      * ret0  ret0 = -1
      * InputStream$class0-InputStream$init(data: Data) & Data$data=Data() & https://developer.apple.com/documentation/foundation/inputstream
-     * UnsafeMutablePointer<UInt8>$buffer-UnsafeMutablePointer<UInt8>$buffer: UInt8 = 0 & https://developer.apple.com/documentation/swift/unsafemutablepointer
+     * UnsafeMutablePointer<UInt8>$buffer-UnsafeMutablePointer<UInt8>$allocate(capacity: Int) & Int$capacity = 1 & https://developer.apple.com/documentation/swift/unsafemutablepointer
      */
     static func stream_read0(){
         print(">>>>>>>>>>>>>>>>")
         let data = Data()
         let class0 = InputStream.init(data: data)
          
-        var buffer: UInt8 = 0
-        let ret0=class0.read(&buffer, maxLength: 1)
+        let buffer = UnsafeMutablePointer<UInt8>.allocate(capacity: 1)
+        let ret0=class0.read(buffer, maxLength: 1)
         assert(ret0 == -1)
         print("success")
     }
