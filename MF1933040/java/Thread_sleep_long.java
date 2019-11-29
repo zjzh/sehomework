@@ -12,7 +12,7 @@ public class Thread_sleep_long {
      * class0 class0=Thread$class0
      * millis millis = 3000
      * output: 0
-     * Thread$class0-Thread&Thread()&https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
+     * Thread$class0-Thread$Thread()&https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
      **/
 	public static void sleep0() throws InterruptedException {
 		Thread class0 = new Thread();
