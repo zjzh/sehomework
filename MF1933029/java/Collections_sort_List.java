@@ -13,7 +13,7 @@
     public class Collections_sort_List {
     /**
      * input: 1
-     * list list =  = ["Kofi","Abena","Peter","Kweku","Akosua"]
+     * list list = ["Kofi","Abena","Peter","Kweku","Akosua"]
      * output: 0
      */
     public  static void sort0(){
