@@ -13,9 +13,8 @@
     public class Collections_sort_List {
     /**
      * input: 1
-     * list List<String>$list
+     * list list =  = ["Kofi","Abena","Peter","Kweku","Akosua"]
      * output: 0
-     * List<String>$list-List<String>$ArrayList<String>()& &https://www.yiibai.com/java_generics/java_generics_list.html
      */
     public  static void sort0(){
         System.out.println(">>>>>>>>>>>>");
@@ -33,9 +32,8 @@
     }
     /**
      * input: 1
-     * list List<Integer>$list
+     * list list = [2,3,3,1,4]
      * output: 0
-     * List<Integer>$list-List<Integer>$ArrayList<Integer>()& &https://www.yiibai.com/java_generics/java_generics_list.html
      */
     public  static void sort1(){
         System.out.println(">>>>>>>>>>>>");
