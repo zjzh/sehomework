@@ -6,31 +6,32 @@
  *  @Map: java.lang.Class$public Method[] getMethods() throws SecurityException
  */
 import Foundation
-#import <objc/runtime.h>
+import Cocoa
+import ObjectiveC.objc_runtime
 
 class ObjectiveC_Runtime_class_copyMethodList_Class_int{
     /**
      * input: 2
-     * class0 class0 = type(of:self.app)
+     * cls Class$cls = NSError.self
      * count count = 0
      * output: 1
      * ret0 Method$ret0 = UNKNOWN
-      */
-
+     */
+    
     static func class_copyMethodList0(){
         var count:UInt32 = 0;
-        let methods = class_copyMethodList(type(of:self.app), &count)
-        // print(count)
+        let cls = NSError.self
+        let methods = class_copyMethodList(cls, &count)
+        //        print(type(of:methods))
+        //        print(count)
+        assert(count==60)
         for index in 0...count-1 {  //print every method
-        // get method
-        let sel = method_getName(methods[Int(index)])
-        //get method name 
-        let methodNameC = sel_getName(sel)
-        // transfer C name to swift name
-        let methodName = String.fromCString(methodNameC)
-
-        print(methodName!)
+            // get method
+            let sel = method_getName((methods?[Int(index)])!)
+            //get method name
+            print("Method:",index+1,sel)
         }
+        
     }
 }
 
