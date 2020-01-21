@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintStream_print_boolean",
+            "request": "launch",
+            "mainClass": "Java.PrintStream_print_boolean",
+            "projectName": "sehomework_218dd4c5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedList_lastIndexOf_Object",
+            "request": "launch",
+            "mainClass": "Java.LinkedList_lastIndexOf_Object",
+            "projectName": "sehomework_218dd4c5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Integer_longValue",
+            "request": "launch",
+            "mainClass": "Java.Integer_longValue",
+            "projectName": "sehomework_218dd4c5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Collections_sort_List_Comparator",
+            "request": "launch",
+            "mainClass": "Java.Collections_sort_List_Comparator",
+            "projectName": "sehomework_218dd4c5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Throwable_toString",
+            "request": "launch",
+            "mainClass": "Java.Throwable_toString",
+            "projectName": "sehomework_218dd4c5"
+        }
+    ]
+}
