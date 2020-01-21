@@ -2,7 +2,7 @@
  * @author: MF1933020 高凤宁
  * @className: Integer_parseInt_String
  * @apiSignature: java.lang.Integer$public static int parseInt​(String s)
- * @description: Test java api java.lang.Integer.parseInt​(String s)
+ * @description: Test java api java.lang.Integer$parseInt​(String s)
  * @Map: Int$init?<S>(_ text: S, radix: Int = 10) where S : StringProtocol
  * @Map: Int64$init?<S>(_ text: S, radix: Int = 10) where S : StringProtocol
  */
@@ -32,7 +32,7 @@ public class Integer_parseInt_String {
         String s = "-123";
         Integer ret0 = Integer.parseInt(s);
         assert (s=="-123");
-        assert (ret0==-123);
+        assert (ret0==(-123));
         System.out.println(ret0);
     }
     /**
@@ -45,7 +45,7 @@ public class Integer_parseInt_String {
         System.out.println(">>>>>>>>>>>>");
         String s = "+123";
         Integer ret0 = Integer.parseInt(s);
-        assert (s=="123");
+        assert (s=="+123");
         assert (ret0==123);
         System.out.println(ret0);
     }
