@@ -22,7 +22,6 @@
         assert (str=="world");
         assert (ret0.equals("helloworld"));
         System.out.println(ret0);
-
     }
     /**
      * input: 2

@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintStream_println_Object",
+            "request": "launch",
+            "mainClass": "PrintStream_println_Object"
+        }
+    ]
+}
